@@ -1,0 +1,50 @@
+{ 		 	 
+	"LittleRedSchoolHouse": "@ Russel elementry. Home of the Soaring Pelicans.",
+	
+		 "School.1": "Abgeschlossen.",
+	  	 "School.2": "Klassenpflanze. Nicht übergießen.",
+	  	 "School.3": "Das Lernkumpel-Kabuff.",
+	  	 "School.4": "Tick...Tack. Tick...Tack.",
+	  	 "School.5": "Russel der Klassenhamster",
+	  	 "School.6": "Da ist ein Zettel mit der Aufschrift 'Nur zum Lernen'",
+	  	 "Desk.1": "Dieser Platz ist frei.",
+	  	 "Desk2": "Dieser Platz ist frei.",
+	  	 "Desk.3": "Dieser Platz ist frei.",
+	  	 "Desk.4": "Dieser Platz ist frei.",
+	  	 "Desk.5": "Dies ist der Platz von Jas",
+	  	 "Desk.6": "Dieser Platz ist frei.",
+	  	 "Desk.7": "Dieser Platz ist frei.",
+	  	 "Desk.8": "Dieser Platz ist frei.",
+	  	 "Desk.9": "Dieser Platz ist frei.",
+	  	 "Desk.10": "Dieser Platz ist frei.",
+	  	 "Desk.11": "Dieser Platz ist frei.",
+	  	 "Desk.12": "Dieser Platz ist frei.",
+	  	 "Desk.13": "Dieser Platz ist frei.",
+	  	 "Desk.14": "Dieser Platz ist frei.",
+	  	 "Desk.15": "Dieser Platz ist frei.",
+	  	 "Desk.16": "Dies ist der Platz von Vincent",
+	  	 "Desk.17": "Dieser Platz ist frei.",
+	  	 "Desk.18": "Dieser Platz ist frei.",	
+	
+	  	 "Deskrsv.4": "Dies ist der Platz von Keahi.",
+	  	 "Deskrsv.12": "Dies ist der Platz von Trinnie.",
+	
+	"HigherEducation" : "Höhere Bildung",
+	
+	"SchoolRepaired": "Hey @.^^ Ich habe die in der Schule gelassenen Materialien bekommen. Ich werde später vorbeikommen und dir Bescheid geben, wenn ich fertig bin. ^^~Robin",
+	
+	"Text1": "Es wird Zeit, dass wir das alte Schulhaus in Ordnung bringen. Robin braucht allerdings noch weitere Materialien, um die Arbeit zu vollenden.",
+	"Text2": "Hartholz",
+	"Text3": "Holz",
+	"Text4": "Stoff",
+	"Text5": "Goldbarren",
+	
+	
+	"Event1": "Hey @.#$b#Die Schule ist jetzt hergerichtet.#$b#Ich hoffe, wir sehen uns später bei der großen Eröffnung.",
+	"Event2.1": "Das ist ... großartig.",
+	"Event2.2": "Die Kinder haben wieder eine richtige Schule.",
+	"Event2.3": "Das hast du toll gemacht, Robin",
+	"Event2.4": "Ohne @s Hilfe hätte ich es nicht geschafft",
+	"Event2.5": "Du hast Recht.#$b#@, du bist noch nicht so lange im Tal wie der Rest von uns, aber du hast so viel für Pelican Town getan.#$b#Danke @!",
+
+}

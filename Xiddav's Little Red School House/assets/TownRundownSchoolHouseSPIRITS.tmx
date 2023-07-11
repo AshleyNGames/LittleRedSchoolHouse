@@ -1613,7 +1613,7 @@
  <objectgroup id="6" name="Paths"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJztljlOw0AUhl8oQLJDE7YDQIOSwCUIIJYjsLUBJDqWGyBooIE7QEEJNIQroLAcACgI4Qx8I9viKZokM06CKPilT8/LzPtG9siyiD2bochW2OQm2YW95re9coTnuIUrTWqByCfUg59rZRwXcAnbXfSF9MrCYJueExmeGew3cACncAJXjDuTqBrO1bEhj6MARYf1615JNf0m8VThUdUbi3sRxxIsx66y6n2dYw7c5qJz3etO9d6BOnyp+tDgNjXZb7b38oTjGV5i1yvj3+Bd9azAIfT3iQzAfSaqNeWuxPUvZ3ws/VzzeIZgGEZgtM34WQfXQtY+L08tQBGmYNprpX6ZgZLxwhzM99C1AquwBuuw0UOXic931OV9+cxLrney5zrNb7pL/y7npN1rrfp0q6drPgL7f4BvXNb9DUALTFo=
+   eJxjYMAOsrkZGHK4cUgCQTkQV+CWJgl0A+3pwWMXOeA1FwPDGyB+y4UQywLasRqI1wBxLhXt4waaxQPEvATMVGEEhhkQV6LhKiCeBMQTgXgDUN10BggNwjOQ2CCsDbRDB4h1iXA/slkwGmSeJtCeK0B8FYneicVub6AdPkDsC7UrC8nsHUKodiGbtR/J7AIgfgvE75DoS2h2g2hYesMWL9fQ7HoCVP8UiJ8hmXkAiDuBmI2JgYEdiA8yQujXSHYfgNKDGSiLk68XFEzCQCwCxKJALEZAvRsRdnnxYNenDaR1gFgXiPWAWJ8kl5IGXIDYFWQvELsDsQcN7YoF4jggjgfiBCBOpKFdIEBKOUpMfJGiDyZOSZqjFNDTbtdRu4gG5KY1fOZQy0xiwSsu7O0AUgEx7gYA+89I8A==
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

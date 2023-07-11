@@ -2,7 +2,7 @@
 	
  "CustomLocations": [  
 {    "Name": "Custom_SchoolHouse",
-    "FromMapFile": "assets/RundownSchoolHouse.tmx",
+    "FromMapFile": "assets/SchoolHouse.tmx",
     "MigrateLegacyNames": [ "SchoolHouse" ]},], 
   
   "Changes": [  	

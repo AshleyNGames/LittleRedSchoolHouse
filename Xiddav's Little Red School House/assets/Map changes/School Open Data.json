@@ -1,0 +1,51 @@
+{    "Changes": [  
+  
+{   "Action": "EditMap",
+     "Target": "Maps/Custom_SchoolHouse",	 
+     "FromFile": "assets/SchoolHouse.tmx",
+	"PatchMode": "Replace",},
+
+{   "Action": "EditMap",
+    "Target": "Maps/Custom_SchoolHouse",
+    "MapProperties": { 
+		"DayTiles": "Front 3 1 256 Front 10 1 256 Front 17 1 256 Front 22 1 256 Front 3 2 288 Front 10 2 288 Front 17 2 288 Front 22 2 288 Front 6 1 827 Front 2 10 827 Front 19 1 827 Front 4 8 809 Front 1 15 809",
+		"NightTiles": "Front 3 1 1253 Front 10 1 1253 Front 17 1 1253 Front 22 1 1253 Front 3 2 1285 Front 10 2 1285 Front 17 2 1285 Front 22 2 1285 Front 6 1 826 Front 2 10 826 Front 19 1 826 Front 4 8 480 Front 1 15 480" ,
+		"AmbientLight" : "95 95 95",
+		"WindowLight": "3 2 6 10 2 6 17 2 6 22 2 6 6 1 4 2 10 4 4 8 1 1 15 1 19 1 4",	},},
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 
+		 "LittleRedSchoolHouse": "{{i18n:LittleRedSchoolHouse}}",
+		 "School.1":  "{{i18n:School.1}}",
+	  	 "School.2":  "{{i18n:School.2}}",
+	  	 "School.3":  "{{i18n:School.3}}",
+	  	 "School.4":  "{{i18n:School.4}}",
+	  	 "School.5":  "{{i18n:School.5}}",
+	  	 "School.6":  "{{i18n:School.6}}",
+	  	 "Desk.1":  "{{i18n:Desk.1}}",
+	  	 "Desk.2":  "{{i18n:Desk.2}}",
+	  	 "Desk.3":  "{{i18n:Desk.3}}",
+	  	 "Desk.4":  "{{i18n:Desk.4}}",
+	  	 "Desk.5":  "{{i18n:Desk.5}}",
+	  	 "Desk.6":  "{{i18n:Desk.6}}",
+	  	 "Desk.7":  "{{i18n:Desk.7}}",
+	  	 "Desk.8":  "{{i18n:Desk.8}}",
+	  	 "Desk.9":  "{{i18n:Desk.9}}",
+	  	 "Desk.10": "{{i18n:Desk.10}}",
+	  	 "Desk.11": "{{i18n:Desk.11}}",
+	  	 "Desk.12": "{{i18n:Desk.12}}",
+	  	 "Desk.13": "{{i18n:Desk.13}}",
+	  	 "Desk.14": "{{i18n:Desk.14}}",
+	  	 "Desk.15": "{{i18n:Desk.15}}",
+	  	 "Desk.16": "{{i18n:Desk.16}}",
+	  	 "Desk.17": "{{i18n:Desk.17}}",
+	  	 "Desk.18": "{{i18n:Desk.18}}"},},
+
+{"Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 	 
+		 "Desk.4": "{{i18n:Deskrsv.4}}",
+	  	 "Desk.12": "{{i18n:Deskrsv.12}}"},       	
+	 		"When": {"HasMod": "Rafseazz.RSVCP"},},  
+  ]}

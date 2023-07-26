@@ -1,0 +1,37 @@
+{    "Changes": [  
+ //SVE
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+	"When": {"HasMod": "FlashShifter.StardewValleyExpandedCP", "HasFile:{{FromFile}}": true },
+     "FromFile": "assets/TownSchoolHouseSVE.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},	 
+ 
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+     "FromFile": "assets/TownSchoolHouseSPIRITSSVE.tmx",
+	"When": { "IsOddYear": "false", "DayEvent": "spirit's eve", "HasMod": "FlashShifter.StardewValleyExpandedCP", "HasFile:{{FromFile}}": true },
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+ 
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+     "FromFile": "assets/TownSchoolHouseSPIRITSSVEodd.tmx",
+	"When": { "IsOddYear":"true", "DayEvent": "spirit's eve", "HasMod": "FlashShifter.StardewValleyExpandedCP", "HasFile:{{FromFile}}": true },
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Fair",
+     "FromFile": "assets/TownSchoolHouseFAIRSVE.tmx",
+	"When": {"DayEvent": "stardew valley fair", "HasMod": "FlashShifter.StardewValleyExpandedCP", "HasFile:{{FromFile}}": true },
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "FromFile": "assets/TownSchoolHouseEGGSSVE.tmx",
+	"When": {"DayEvent": "egg festival", "HasMod": "FlashShifter.StardewValleyExpandedCP", "HasFile:{{FromFile}}": true },
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+  ]}

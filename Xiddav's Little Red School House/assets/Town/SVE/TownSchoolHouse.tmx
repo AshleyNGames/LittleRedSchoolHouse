@@ -1537,10 +1537,70 @@
     <property name="Passable" value="T²"/>
    </properties>
   </tile>
+  <tile id="477">
+   <animation>
+    <frame tileid="477" duration="250"/>
+    <frame tileid="537" duration="250"/>
+    <frame tileid="597" duration="250"/>
+    <frame tileid="657" duration="250"/>
+    <frame tileid="717" duration="250"/>
+    <frame tileid="777" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="478">
+   <animation>
+    <frame tileid="478" duration="250"/>
+    <frame tileid="538" duration="250"/>
+    <frame tileid="598" duration="250"/>
+    <frame tileid="658" duration="250"/>
+    <frame tileid="718" duration="250"/>
+    <frame tileid="778" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="479">
+   <animation>
+    <frame tileid="479" duration="250"/>
+    <frame tileid="539" duration="250"/>
+    <frame tileid="599" duration="250"/>
+    <frame tileid="659" duration="250"/>
+    <frame tileid="719" duration="250"/>
+    <frame tileid="779" duration="250"/>
+   </animation>
+  </tile>
   <tile id="480">
    <properties>
     <property name="zzXiddav" value=""/>
    </properties>
+  </tile>
+  <tile id="507">
+   <animation>
+    <frame tileid="507" duration="250"/>
+    <frame tileid="567" duration="250"/>
+    <frame tileid="627" duration="250"/>
+    <frame tileid="687" duration="250"/>
+    <frame tileid="747" duration="250"/>
+    <frame tileid="807" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="508">
+   <animation>
+    <frame tileid="508" duration="250"/>
+    <frame tileid="568" duration="250"/>
+    <frame tileid="628" duration="250"/>
+    <frame tileid="688" duration="250"/>
+    <frame tileid="748" duration="250"/>
+    <frame tileid="808" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="509">
+   <animation>
+    <frame tileid="509" duration="250"/>
+    <frame tileid="569" duration="250"/>
+    <frame tileid="629" duration="250"/>
+    <frame tileid="689" duration="250"/>
+    <frame tileid="749" duration="250"/>
+    <frame tileid="809" duration="250"/>
+   </animation>
   </tile>
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
@@ -1583,7 +1643,7 @@
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzt1jtOAlEYhuEf7WaGRtQC3QEghbICuYmwBG5BRAetoUfluhNdGeAeeAsJzTnkMDlM43zJ0zA582YCAUTU67sib67mIhtgqL980OZ0FntaQbZyRNb4dXav+TS+8YN3iz2Xe3mIW34G1VI00siE0HqkUUXtr+UfsbX9vNl8X/7bzpDAOS5waXju3hPJo4AiSijjARVPfSaFNDK4Qdaw1eF+T+jiGT284BW+ppVHAUWUUDZsjbjfBz7xhTEmmGKGuaJXRwNNtNA2bAWdze/RaNFsLoYTnIbQSuIK1wHO9jS/GUtH/T/gFnfIBWiNNa0NXR8ikQ==
+   eJzt1ktOwlAUgOGjzNo6AXWg7ACQAboCeQm4BF5BQauMYe4DFXeiGwAWAmwBZA/8JBgn92q9FgaGk3yTNvf+adO0FVHPjS1ya2tOMi209ad/NV06r9+0TGZqiXxgZn0dc2m84R3NZa8XFOljEDRv2ezlYOeHaxjSGGH8h1aERhQxn++XavI0CjhfttwVtj6ft+Yaruu/zuKxCmEXe9j3uO7UEUkihTQyyOIMOUe9JoIoYjhC3GOrxn4XuEQdDVzhGq6mlUQKaWSQ9di6Y797POARHTzhGS/oKnpFlFBGBVWPLdPx8z26mc34OVvYRmANrQMcImywtqH5Zkws9X9AAsc4MWh1NK05o+onsw==
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

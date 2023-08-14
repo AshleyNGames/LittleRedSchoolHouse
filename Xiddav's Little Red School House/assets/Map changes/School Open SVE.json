@@ -2,7 +2,7 @@
  //SVE
 {   "Action": "EditMap",
      "Target": "Maps/Town",
-	"When": { "HasFile:{{FromFile}}": true ,  "HasFile:{{FromFile}}": true},
+	"When": { "HasFile:{{FromFile}}": true },
      "FromFile": "assets/Town/SVE/TownSchoolHouse.tmx",
 	"PatchMode": "Replace",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},	 

@@ -6,4 +6,11 @@
 		 "Tue": "800 Custom_SchoolHouse 8 11 3 vincent_read_right/1130 Town 16 11 1 square_5_3/1250 Custom_SchoolHouse 8 11 3 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",     
 		 "winter_16": "800 Custom_SchoolHouse 8 11 3 vincent_read_right/1130 Town 16 11 1 square_5_3/1250 Custom_SchoolHouse 8 11 3 vincent_read_right/1540 Town 15 90 1/1630 Beach 19 24 2 \"Strings\\schedules\\Vincent:winter_16.000\"/2330 SamHouse 8 22 3 vincent_sleep",  	 },
             	 }, 
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Vincent",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain"},
+	 "Entries": {     
+		 "rain": "800 Custom_SchoolHouse 8 11 3 vincent_read_right/1130 Custom_SchoolHouse 3 15 square_2_3/1250 Custom_SchoolHouse 8 11 3 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",     
+		    	 }, },
   ]}

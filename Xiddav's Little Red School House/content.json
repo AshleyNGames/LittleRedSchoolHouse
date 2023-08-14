@@ -51,5 +51,12 @@
 
 	{"Action": "Include",
    		"FromFile": "assets/Scheduals/Scheduals.json",
-            	"When": {"HasSeenEvent": "9695002" },},  
+            	"When": {"HasSeenEvent": "9695002" },},   
+
+//playground
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+     "FromFile": "assets/Town/{{Playground Expansion}}.tmx",
+	"PatchMode": "Overlay",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
 ]}

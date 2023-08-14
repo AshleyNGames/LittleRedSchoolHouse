@@ -1,0 +1,44 @@
+{ "Format": "1.24",  
+	
+"DynamicTokens": [   
+	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
+ 	{  "Name": "SVE",  				"Value": "false",   "When":    {},},
+ 	{  "Name": "SVE",  				"Value": "true",   	"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},},
+ 	{  "Name": "R3",  				"Value": "false",   "When":    {},},
+ 	{  "Name": "R3",  				"Value": "true",   	"When":    {"HasMod": "DaisyNiko.SVR3"},},
+],
+
+"ConfigSchema": {  	"Playground Expansion": 	{  "Default": "basketball"},},
+	 
+ "CustomLocations": [  
+{    "Name": "Custom_SchoolHouse",
+  	  "FromMapFile": "assets/SchoolHouse.tmx",
+   	  "MigrateLegacyNames": [ "SchoolHouse" ]},], 
+  
+"Changes": [ 			
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open.json",
+            	"When": {"SVE": false, "R3": false}},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open SVE.json",
+            	"When": {"SVE": true}},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open R3.json",
+            	"When": { "R3": true}},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open Data.json",},
+
+	{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Scheduals.json",},   
+
+//playground
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+     "FromFile": "assets/Town/{{Playground Expansion}}.tmx",
+	"PatchMode": "Overlay",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+]}

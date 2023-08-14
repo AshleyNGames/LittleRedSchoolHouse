@@ -1,0 +1,18 @@
+{   "Changes": [  	  
+	  
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Jas",
+	 "Entries": {     
+		 "Tue": "720 Custom_SchoolHouse 20 8 3/730 Custom_SchoolHouse 19 8 3 jas_read/1130 Town 24 12 jas_jumprope/1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
+	 },},	
+
+
+
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Jas",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain"},
+	 "Entries": {     
+		 "rain": "720 Custom_SchoolHouse 20 8 3/730 Custom_SchoolHouse 19 8 3 jas_read/1130 16 16 square_3_3/1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
+	 },},	
+  ]}

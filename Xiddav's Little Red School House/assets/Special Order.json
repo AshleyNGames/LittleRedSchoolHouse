@@ -1,0 +1,74 @@
+{    "Changes": [  
+  {   "Action": "EditData",
+	 "Target": "Data/Mail",
+	 "Entries": { "SchoolRepaired": "{{i18n:SchoolRepaired}}"},},
+
+{   "Action": "EditData",
+	 "Target": "Data/Events/Farm",
+	 "Entries": {	 "9695001/F /t 1500 2600/w sunny/*n SchoolRepaired": "continue/-500 -500/farmer 6 24 0 Robin 7 18 2/skippable/pause 1000/speak Robin \"{{i18n:Event1}}\"/pause 300/end" },},
+
+{  "Action": "EditData",
+    "Target": "Data/Events/Town", 
+	"Entries": { "9695002/F /t 610 1450/w sunny/e 9695001": "sweet/12 12/farmer 9 15 0 Penny 10 15 0 Robin 11 16 0 Lewis 12 16 0 Jas 24 12 2 Vincent 16 11 1/skippable/animate Jas false true 100 16 17 18 19/animate Vincent false true 550 0 4 8 12/pause 1500/speak Penny \"{{i18n:Event2.1}}\"/pause 500/speak Penny \"{{i18n:Event2.2}}\"/pause 250/speak Lewis \"{{i18n:Event2.3}}\"/pause 250/speak Robin \"{{i18n:Event2.4}}\"/pause 500/speak Lewis \"{{i18n:Event2.5}}\"/end"} ,},
+
+{ "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+  "Lewis9695": {
+    "Name": "{{i18n:HigherEducation}}",
+    "Requester": "Lewis",
+    "Duration": "Month",
+    "Repeatable": "False",
+    "RequiredTags": "",
+    "OrderType": "",
+    "SpecialRule": "",
+    "Text": "{{i18n:Text1}}",
+    "ItemToRemoveOnEnd": null,
+    "MailToRemoveOnEnd": null,
+    "RandomizedElements": null,
+    "Objectives": [	   {
+        "Type": "Donate",
+        "Text": "{{i18n:Text2}}",
+        "RequiredCount": "50",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_hardwood"  }   }, 
+	{
+        "Type": "Donate",
+        "Text": "{{i18n:Text3}}",
+        "RequiredCount": "250",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_wood"  }   }, 
+	
+	{   "Type": "Donate",
+        "Text": "{{i18n:Text4}}",
+        "RequiredCount": "13",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_cloth"  }   },
+	
+	{   "Type": "Donate",
+        "Text": "{{i18n:Text5}}",
+        "RequiredCount": "2",
+        "Data": {
+          "DropBox": "Woodpile",
+          "DropBoxGameLocation": "Custom_RundownSchoolHouse",
+          "DropBoxIndicatorLocation": "4 6",
+          "AcceptedContextTags": "item_gold_bar"  }   },
+	],			
+    "Rewards": [
+      { "Type": "Mail",
+        "Data": {
+          "MailReceived": "SchoolRepaired",
+		  "Host": "true",
+          "NoLetter": "false"        }      },
+      { "Type": "Friendship",
+        "Data": {}      }    ]  }, },}, 
+  ]}

@@ -1,0 +1,69 @@
+{ "Format": "1.24",  
+	
+"DynamicTokens": [   
+	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
+ 	{  "Name": "School Built",  	"Value": "false",   "When":    {},},
+ 	{  "Name": "School Built",  	"Value": "true",   	"When":    {"HasSeenEvent": "9695001"},},
+ 	{  "Name": "SVE",  				"Value": "false",   "When":    {},},
+ 	{  "Name": "SVE",  				"Value": "true",   	"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"},},
+ 	{  "Name": "R3",  				"Value": "false",   "When":    {},},
+ 	{  "Name": "R3",  				"Value": "true",   	"When":    {"HasMod": "DaisyNiko.SVR3"},},
+ 	{  "Name": "AFT",  				"Value": "false",   "When":    {},},
+ 	{  "Name": "AFT",  				"Value": "true",   	"When":    {"HasMod": "Xiddav.AwayFromTown"},},
+],
+
+"ConfigSchema": {
+	  	"Playground Expansion": 	{  "Default": "basketball"},
+	   "FarmTypeAFT": 				{ "Default": "Wilderness"},},
+	 
+ "CustomLocations": [  
+{    "Name": "Custom_SchoolHouse",
+  	  "FromMapFile": "assets/RundownSchoolHouse.tmx",
+   	  "MigrateLegacyNames": [ "SchoolHouse" ]},], 
+  
+"Changes": [ 			
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed.json", 
+            	"When": {"School Built": "false" , "SVE": false, "R3": false}},	
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed SVE.json", 
+            	"When": {"School Built": "false" , "SVE": true, "R3": false  }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed R3.json", 
+            	"When": {"School Built": "false" , "R3": true, "SVE": false }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed AFT.json", 
+            	"When": {"School Built": "false" , "AFT": true, "FarmType": "{{FarmTypeAFT}}" }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open.json",
+            	"When": {"School Built": "true" , "SVE": false, "R3": false }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open SVE.json",
+            	"When": {"School Built": "true" , "SVE": true, "R3": false}},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open R3.json",
+            	"When": {"School Built": "true" , "R3": true, "SVE": false }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open AFT.json", 
+            	"When": {"School Built": "true" , "AFT": true, "FarmType": "{{FarmTypeAFT}}"}},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open Data.json",
+            	"When": {"School Built": "true" }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Special Order.json", },
+
+	{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Scheduals.json",
+            	"When": {"HasSeenEvent": "9695002" },},   
+
+
+]}

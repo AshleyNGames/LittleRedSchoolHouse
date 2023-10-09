@@ -1,0 +1,35 @@
+{   "Changes": [  	  
+	  
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Jas.json",},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Vincent.json",},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Penny.json",},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Leo.json",
+            	"When": {"HasFile:{{FromFile}}": true },},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Keahi.json",
+            	"When": {"HasMod": "Rafseazz.RSVCP" },},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Trinnie.json",
+            	"When": {"HasMod": "Rafseazz.RSVCP" },},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Yuuma.json",
+            	"When": {"HasMod": "Rafseazz.RSVCP" },},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/LittleNPC.json",
+            	"When": {"HasFile:{{FromFile}}": true, "HasMod": "Candidus42.LittleNPCs"},},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Custom.json",
+            	"When": {"HasFile:{{FromFile}}": true },},  
+  ]}

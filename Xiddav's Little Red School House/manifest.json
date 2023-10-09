@@ -1,0 +1,31 @@
+{
+  "Name": "Xiddav's Little Red School House",
+  "Author": "Xiddav",
+  "Version": "1.1.9",
+  "Description": "Adds a School to town that needs to be fixed up.",
+  "UniqueID": "Xiddav.LittleRedSchoolHouse",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:9695" ],
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [
+   {     	"UniqueID": "aedenthorn.ExtraMapLayers",
+      "IsRequired": false,   },
+   {     	"UniqueID": "Platonymous.Toolkit",
+      "IsRequired": false,   },
+   {    	"UniqueID": "Xiddav.tilesheet",
+      "IsRequired": true,   },
+   {    	"UniqueID": "Xiddav.AwayFromTown",
+      "IsRequired": false,   },
+   {    	"UniqueID": "DaisyNiko.SVR3",
+      "IsRequired": false,   },
+   {    	"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false,   },
+   {    	"UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false,   },
+   {     	"UniqueID": "spacechase0.CustomNPCFixes",
+      "IsRequired": true,   },
+   {    	"UniqueID": "LemurKat.CommunityCenter.CP",
+      "IsRequired": false,   },
+  ]
+
+}

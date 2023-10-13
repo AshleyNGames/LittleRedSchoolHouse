@@ -41,4 +41,4 @@
 	"When": {"HasFile:{{FromFile}}": true },
      "FromFile": "assets/Town/Vanilla/{{Playground Expansion}}.tmx",
 	"PatchMode": "Overlay",
-     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, ]}
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }} ]}

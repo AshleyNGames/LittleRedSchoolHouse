@@ -5,7 +5,6 @@
     "MapProperties": {"AmbientLight" : "75 75 75"}},
 	
 //SVE
-
 {   "Action": "EditMap",
      "Target": "Maps/Town",
      "FromFile": "assets/Town/SVE/TownRundownSchoolHouse.tmx",
@@ -53,5 +52,4 @@
 	"When": {"HasFile:{{FromFile}}": true },
      "FromFile": "assets/Town/SVE/{{Playground Expansion}}.tmx",
 	"PatchMode": "Overlay",
-     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
-  ]}
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }},   ]}

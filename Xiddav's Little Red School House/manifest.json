@@ -9,23 +9,20 @@
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher"},
   "Dependencies": [
    {     	"UniqueID": "aedenthorn.ExtraMapLayers",
-      "IsRequired": false,   },
+      "IsRequired": false},
    {     	"UniqueID": "Platonymous.Toolkit",
-      "IsRequired": false,   },
+      "IsRequired": false},
    {    	"UniqueID": "Xiddav.tilesheet",
-      "IsRequired": true,   },
+      "IsRequired": true},
    {    	"UniqueID": "Xiddav.AwayFromTown",
-      "IsRequired": false,   },
+      "IsRequired": false},
    {    	"UniqueID": "DaisyNiko.SVR3",
-      "IsRequired": false,   },
+      "IsRequired": false},
    {    	"UniqueID": "FlashShifter.StardewValleyExpandedCP",
-      "IsRequired": false,   },
+      "IsRequired": false},
    {    	"UniqueID": "Rafseazz.RSVCP",
-      "IsRequired": false,   },
+      "IsRequired": false},
    {     	"UniqueID": "spacechase0.CustomNPCFixes",
-      "IsRequired": true,   },
+      "IsRequired": true},
    {    	"UniqueID": "LemurKat.CommunityCenter.CP",
-      "IsRequired": false,   },
-  ]
-
-}
+      "IsRequired": false},  ]}

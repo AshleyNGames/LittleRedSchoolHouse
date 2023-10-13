@@ -31,7 +31,7 @@
 {   "Action": "EditMap",
      "Target": "Maps/Town-EggFestival",
      "FromFile": "assets/Town/AFT/TownSchoolHouseSTAR.tmx",
-	"When": {"DayEvent": "feast of the winter star",  "HasFile:{{FromFile}}": true, "Appears at STAR": "on", },
+	"When": {"DayEvent": "feast of the winter star",  "HasFile:{{FromFile}}": true, "Appears at STAR": "on" },
 	"PatchMode": "Replace",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
 

@@ -15,7 +15,7 @@
 {   "Action": "EditMap",
      "Target": "Maps/Town-Halloween",
      "FromFile": "assets/Town/SVE/TownRundownSchoolHouseSPIRITS.tmx",
-	"When": { "IsOddYear": "false", "DayEvent": "spirit's eve",  "HasFile:{{FromFile}}": true, "Appears at SPIRITS": "on", },
+	"When": { "IsOddYear": "false", "DayEvent": "spirit's eve",  "HasFile:{{FromFile}}": true, "Appears at SPIRITS": "on" },
 	"PatchMode": "Replace",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
  
@@ -24,7 +24,7 @@
      "FromFile": "assets/Town/SVE/TownRundownSchoolHouseSPIRITSSVEodd.tmx",
 	"When": { "IsOddYear":"true", "DayEvent": "spirit's eve",  "HasFile:{{FromFile}}": true , "Appears at SPIRITS": "on"},
 	"PatchMode": "Replace",
-     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },}, 
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
 
 {   "Action": "EditMap",
      "Target": "Maps/Town-Fair",

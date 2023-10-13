@@ -1,5 +1,4 @@
-{ "Format": "1.24",  
-	
+{ "Format": "1.24",  	
 "DynamicTokens": [   
 	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
  	{  "Name": "School Built",  	"Value": "false",   "When":    {},},
@@ -9,19 +8,20 @@
  	{  "Name": "R3",  				"Value": "false",   "When":    {},},
  	{  "Name": "R3",  				"Value": "true",   	"When":    {"HasMod": "DaisyNiko.SVR3"},},
  	{  "Name": "AFT",  				"Value": "false",   "When":    {},},
- 	{  "Name": "AFT",  				"Value": "true",   	"When":    {"HasMod": "Xiddav.AwayFromTown", "FarmType": "{{FarmTypeAFT}}"},},
-],
-
+ 	{  "Name": "AFT",  				"Value": "true",   	"When":    {"HasMod": "Xiddav.AwayFromTown", "FarmType": "{{FarmTypeAFT}}"},},],
 "ConfigSchema": {
 	  "Playground Expansion": 	{  "Default": "basketball"},
-	  "Appears at Festivals": 	{  "AllowValues": "on, off",  "Default": "on"},
-	  "FarmTypeAFT": 			{  "Default": "Wilderness"},},
-	 
+	  "Appears at EGGS": 		{  "AllowValues": "on, off",  "Default": "on"},
+	  "Appears at FAIR": 		{  "AllowValues": "on, off",  "Default": "on"},
+	  "Appears at SPIRITS": 	{  "AllowValues": "on, off",  "Default": "on"},
+	  "Appears at STAR": 		{  "AllowValues": "on, off",  "Default": "on"},
+	  "FarmTypeAFT": 		{  "Default": "Wilderness"},},
+	
  "CustomLocations": [  
 {    "Name": "Custom_SchoolHouse",
   	  "FromMapFile": "assets/RundownSchoolHouse.tmx",
-   	  "MigrateLegacyNames": [ "SchoolHouse" ]},], 
-  
+   	  "MigrateLegacyNames": [ "SchoolHouse" ]},],   
+	
 "Changes": [ 			
 	{"Action": "Include",
    		"FromFile": "assets/Map changes/School Closed.json", 

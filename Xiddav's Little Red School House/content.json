@@ -64,7 +64,5 @@
 
 	{"Action": "Include",
    		"FromFile": "assets/Scheduals/Scheduals.json",
-            	"When": {"HasSeenEvent": "9695002" },},   
-
-
+            	"When": {"HasSeenEvent": "9695002" }},   
 ]}

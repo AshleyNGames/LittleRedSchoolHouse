@@ -15,12 +15,12 @@
 	  "Appears at FAIR": 		{  "AllowValues": "on, off",  "Default": "on"},
 	  "Appears at SPIRITS": 	{  "AllowValues": "on, off",  "Default": "on"},
 	  "Appears at STAR": 		{  "AllowValues": "on, off",  "Default": "on"},
-	  "FarmTypeAFT": 		{  "Default": "Wilderness"},},
+	  "FarmTypeAFT": 		{  "Default": "Wilderness"}},
 	
  "CustomLocations": [  
 {    "Name": "Custom_SchoolHouse",
   	  "FromMapFile": "assets/RundownSchoolHouse.tmx",
-   	  "MigrateLegacyNames": [ "SchoolHouse" ]},],   
+   	  "MigrateLegacyNames": [ "SchoolHouse" ]}],   
 	
 "Changes": [ 			
 	{"Action": "Include",

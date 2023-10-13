@@ -3,7 +3,7 @@
 	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
  	{  "Name": "School Built",  	"Value": "false",   "When":    {}},
  	{  "Name": "School Built",  	"Value": "true",   	"When":    {"HasSeenEvent": "9695001"}},
- 	{  "Name": "SVE",  				"Value": "false",   "When":    {},},
+ 	{  "Name": "SVE",  				"Value": "false",   "When":    {}},
  	{  "Name": "SVE",  				"Value": "true",   	"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"}},
  	{  "Name": "R3",  				"Value": "false",   "When":    {}},
  	{  "Name": "R3",  				"Value": "true",   	"When":    {"HasMod": "DaisyNiko.SVR3"}},

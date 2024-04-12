@@ -1,0 +1,7 @@
+{   "Changes": [  	  
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 
+	  	 "Desk.6": "{{i18n:Desk.Eloise}}"}, },
+]}

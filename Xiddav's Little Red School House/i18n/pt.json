@@ -42,6 +42,11 @@
 	"Event2.4": "Eu não conseguiria sem a ajuda do @",
 	"Event2.5": "Você está certo.#$b#@, você não está no vale há tanto tempo quanto o resto de nós, mas você tem feito muito pela Cidade Pelicanos#$b#Obrigada @.",
 	
-	"Deskrsv.4": "Esta é a carteira da Keahi.",	  	 
-	"Deskrsv.12": "Esta é a carteira do Trinnie.",
+	"Deskrsv.4": "Esta é a carteira do Keahi.",	  	 
+	"Deskrsv.12": "Esta é a carteira da Trinnie.",
+	
+	"Desk.Eloise":  "Esta é a carteira da Eloise.",
+	
+	 "Deskpartone": "Esta é a carteira do",
+	 "Deskparttwo": ".",
 }

@@ -42,6 +42,11 @@
 	"Event2.4": "要是没有@的帮助，我一个人也没法做到。",
 	"Event2.5": "你说得没错。#$b#@，尽管你来山谷的时间不像我们其他人这么长，但你已经为鹈鹕镇做了这么多事。#$b#谢谢你，@。",
 	
-	"Deskrsv.4": "。",
-	"Deskrsv.12": "。",
+	"Deskrsv.4": "这是Keahi的座位。",	  	 
+	"Deskrsv.12": "这是Trinnie的座位。",	
+	
+	"Desk.Eloise": "这是Eloise的座位。",
+	
+	 "Deskpartone": "这是",
+	 "Deskparttwo": "的座位。",
 }

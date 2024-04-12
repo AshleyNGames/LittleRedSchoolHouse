@@ -1,16 +1,16 @@
 {
   "Name": "Xiddav's Little Red School House",
   "Author": "Xiddav",
-  "Version": "1.1.9",
+  "Version": "1.6.2",
   "Description": "Adds a School to town that needs to be fixed up.",
   "UniqueID": "Xiddav.LittleRedSchoolHouse",
   "MinimumApiVersion": "3.0",
-  "UpdateKeys": [ "Nexus:9695" ],
+  "UpdateKeys": [ "Nexus:9695@Regular" ],
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher"},
-  "Dependencies": [
-   {     	"UniqueID": "aedenthorn.ExtraMapLayers",
-      "IsRequired": false},
-   {     	"UniqueID": "Platonymous.Toolkit",
+  "Dependencies": [  
+	{"UniqueID": "Candidus42.LittleNPCs",
+	  "IsRequired": false },
+   {    	"UniqueID": "xiddav.NPCChildren",
       "IsRequired": false},
    {    	"UniqueID": "Xiddav.tilesheet",
       "IsRequired": true},
@@ -22,7 +22,5 @@
       "IsRequired": false},
    {    	"UniqueID": "Rafseazz.RSVCP",
       "IsRequired": false},
-   {     	"UniqueID": "spacechase0.CustomNPCFixes",
-      "IsRequired": true},
    {    	"UniqueID": "LemurKat.CommunityCenter.CP",
       "IsRequired": false} ]}

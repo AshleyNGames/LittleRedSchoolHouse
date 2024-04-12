@@ -1,35 +1,38 @@
-{   "Changes": [  	  
-	  
+{   "Changes": [  	  	  
 {"Action": "Include",
-   		"FromFile": "assets/Scheduals/Jas.json",},
-
+   		"FromFile": "assets/Scheduals/Jas.json"},
 {"Action": "Include",
-   		"FromFile": "assets/Scheduals/Vincent.json",},
-
+   		"FromFile": "assets/Scheduals/Vincent.json"},
 {"Action": "Include",
-   		"FromFile": "assets/Scheduals/Penny.json",},
-
+   		"FromFile": "assets/Scheduals/Penny.json"},
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Leo.json",
             	"When": {"HasFile:{{FromFile}}": true },},
-
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Keahi.json",
             	"When": {"HasMod": "Rafseazz.RSVCP" },},
-
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Trinnie.json",
             	"When": {"HasMod": "Rafseazz.RSVCP" },},
-
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Yuuma.json",
             	"When": {"HasMod": "Rafseazz.RSVCP" },},
-
 {"Action": "Include",
-   		"FromFile": "assets/Scheduals/LittleNPC.json",
-            	"When": {"HasFile:{{FromFile}}": true, "HasMod": "Candidus42.LittleNPCs"},},
-
+   		"FromFile": "assets/Scheduals/Flor.json",
+            	"When": {"HasFile:{{FromFile}}": true, "HasMod": "Rafseazz.RSVCP" },},
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Eloise.json",
+            	"When": {"HasMod": "Lemurkat.EastScarpNPCs.CP" },},
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Custom.json",
-            	"When": {"HasFile:{{FromFile}}": true },},  
-  ]}
+            	"When": {"HasFile:{{FromFile}}": true },}, 
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/LittleNPC.json",
+            	"When": {"HasMod":"Candidus42.LittleNPCs", "HasFile:{{FromFile}}": true  },},    
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/FarmersChildren1.json",
+            	"When": {"HasMod":"xiddav.NPCChildren", "HasMod":"Candidus42.LittleNPCs", "HasFile:{{FromFile}}": true  },},    
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/FarmersChildren2.json",
+            	"When": {"HasMod":"xiddav.NPCChildren", "HasMod":"Candidus42.LittleNPCs", "HasFile:{{FromFile}}": true  },},   
+]}

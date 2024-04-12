@@ -1,0 +1,29 @@
+{   "Changes": [  	  
+
+{
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { 
+	"rain": "900 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1200 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"",
+"Tue": "740 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Town 13 16 1 child_ball/1240 Custom_SchoolHouse 10 7 0/1300 Custom_SchoolHouse 11 6 1 child_read/1550 Town 19 93 0/1650 Town 22 63 0 child_ball",},
+"When": {"HasMod":"xiddav.NPCChildren", "HasMod":"Candidus42.LittleNPCs"},},
+
+{
+"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { 
+	"rain": "740 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1300 Custom_SchoolHouse 11 6 1 child_read/1550 Town 19 93 0/1650 Town 22 63 0 child_ball",},
+"When": {"HasMod":"xiddav.NPCChildren", "HasMod":"Candidus42.LittleNPCs", "dayofweek":"Tuesday, Wednesday, Friday",  "Weather": "Rain"},},
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+		"When": { "HasMod":"xiddav.NPCChildren", "HasMod":"Candidus42.LittleNPCs", "dayofweek":"Monday, Thursday", "Five days": true},  
+	 "Entries": {
+		"Mon": "GOTO Tue",
+		"Thu": "GOTO Tue",		  },}, 
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+		"When": { "HasMod":"xiddav.NPCChildren", "HasMod":"Candidus42.LittleNPCs"}, 
+     "Entries": { 	  	 "Desk.9": "{{i18n:Deskpartone}} {{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:Deskparttwo}}",},}, 
+]}

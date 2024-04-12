@@ -12,7 +12,7 @@
 	  	 "Desk.2": "Questo posto è libero.",
 	  	 "Desk.3": "Questo posto è libero.",
 	  	 "Desk.4": "Questo posto è libero.",
-	  	 "Desk.5": "Questo è il posto di Jas",
+	  	 "Desk.5": "Questo è il posto di Jas.",
 	  	 "Desk.6": "Questo posto è libero.",
 	  	 "Desk.7": "Questo posto odora di mango.",
 	  	 "Desk.8": "Questo posto è libero.",
@@ -44,4 +44,9 @@
 		
 	"Deskrsv.4": "Questo è il posto di Kheai",	  	 
 	"Deskrsv.12": "Questo è il posto di Trinnie",
+	
+	  	 "Desk.Eloise":  "Questo è il posto di Eloise.",
+	
+	 "Deskpartone": "Questo è il posto di",
+	 "Deskparttwo": ".",
 }

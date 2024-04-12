@@ -1,4 +1,5 @@
-{ "Format": "1.24",  	
+{ "Format": "2.0.0",  
+	
 "DynamicTokens": [   
 	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
  	{  "Name": "School Built",  	"Value": "false",   "When":    {}},
@@ -8,14 +9,18 @@
  	{  "Name": "R3",  				"Value": "false",   "When":    {}},
  	{  "Name": "R3",  				"Value": "true",   	"When":    {"HasMod": "DaisyNiko.SVR3"}},
  	{  "Name": "AFT",  				"Value": "false",   "When":    {}},
- 	{  "Name": "AFT",  				"Value": "true",   	"When":    {"HasMod": "Xiddav.AwayFromTown", "FarmType": "{{FarmTypeAFT}}"}}],
+ 	{  "Name": "AFT",  				"Value": "true",   	"When":    {"HasMod": "Xiddav.AwayFromTown", "FarmType": "{{FarmTypeAFT}}"}},
+	{  "Name": "noschoolday",  		"Value": "false",   "When":    {}},
+ 	{  "Name": "noschoolday",  		"Value": "true",   	"When":    {"day": "9, 23"}},],
+
 "ConfigSchema": {
-	  "Playground Expansion": 	{  "Default": "basketball"},
+	  "Playground Expansion": 	{  "Default": "sandbox"},
 	  "Appears at EGGS": 		{  "AllowValues": "on, off",  "Default": "on"},
 	  "Appears at FAIR": 		{  "AllowValues": "on, off",  "Default": "on"},
 	  "Appears at SPIRITS": 	{  "AllowValues": "on, off",  "Default": "on"},
 	  "Appears at STAR": 		{  "AllowValues": "on, off",  "Default": "on"},
-	  "FarmTypeAFT": 		{  "Default": "Wilderness"}},
+	  "Five days": 				{  "AllowValues": "true, false",  "Default": "false"},
+	  "FarmTypeAFT": 			{  "Default": "Wilderness"}},
 	
  "CustomLocations": [  
 {    "Name": "Custom_SchoolHouse",

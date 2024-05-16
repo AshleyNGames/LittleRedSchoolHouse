@@ -2,7 +2,7 @@
 	  
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Penny",
-		"When": { "noschoolday": false },  
+		"When": { "noschoolday": false, "weather": "Sunny, Wind, Snow", },  
 	 "Entries": {     
 		 "Tue": "620 Trailer 6 5 0/700 Town 10 13 2/a1000 Custom_SchoolHouse 15 7 2/1030 Custom_SchoolHouse 8 10 2/1100 Custom_SchoolHouse 15 7 2/1140 Town 12 13 1/a1300 Custom_SchoolHouse 15 7 2/1420 Custom_SchoolHouse 19 10 0/1500 Custom_SchoolHouse 15 7 2/1550 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
 		 "marriageJob": "700 Town 10 13 2/a1000 Custom_SchoolHouse 15 7 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1130 Town 12 13 1/a1300 Custom_SchoolHouse 15 7 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1550 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 bed",

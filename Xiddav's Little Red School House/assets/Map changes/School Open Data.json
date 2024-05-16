@@ -17,6 +17,9 @@
      "Target": "Strings/StringsFromMaps",
      "Entries": { 
 		 "LittleRedSchoolHouse": "{{i18n:LittleRedSchoolHouse}}",
+	"Waste": "{{i18n:Waste}}",
+	"Paper": "{{i18n:Paper}}",
+	"CansandBottles": "{{i18n:CansandBottles}}",
 		 "School.1":  "{{i18n:School.1}}",
 	  	 "School.2":  "{{i18n:School.2}}",
 	  	 "School.3":  "{{i18n:School.3}}",

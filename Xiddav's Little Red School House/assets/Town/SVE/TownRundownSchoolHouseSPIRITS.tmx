@@ -1249,8 +1249,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source=".paths.png" width="64" height="144"/>
+ <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
   <tile id="0">
    <properties>
     <property name="PathType" value="NE"/>
@@ -1282,7 +1282,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2012" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="2040" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source=".fall_town.png" width="512" height="1152"/>
   <tile id="159">
    <properties>
@@ -1505,7 +1505,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4316" name="zzzXiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
+ <tileset firstgid="4344" name="zzzXiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
   <image source=".fall_Xiddav.png" width="480" height="608"/>
   <tile id="339">
    <properties>
@@ -1552,10 +1552,10 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="5456" name="character" tilewidth="16" tileheight="16" tilecount="144" columns="8">
+ <tileset firstgid="5484" name="character" tilewidth="16" tileheight="16" tilecount="144" columns="8">
   <image source=".characterSheet.png" width="128" height="288"/>
  </tileset>
- <tileset firstgid="5600" name="Fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+ <tileset firstgid="5628" name="Fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source=".Festivals.png" width="512" height="512"/>
   <tile id="567">
    <animation>
@@ -1585,21 +1585,30 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="6624" name="zzzXiddav_FestivalExtras" tilewidth="16" tileheight="16" tilecount="800" columns="40">
+ <tileset firstgid="6652" name="zzzXiddav_FestivalExtras" tilewidth="16" tileheight="16" tilecount="800" columns="40">
   <image source=".Xiddav_FestivalExtras.png" width="640" height="320"/>
  </tileset>
- <tileset firstgid="7424" name="z_SVEbuildingShadow" tilewidth="16" tileheight="16" tilecount="600" columns="24">
+ <tileset firstgid="7452" name="z_SVEbuildingShadow" tilewidth="16" tileheight="16" tilecount="0" columns="24">
   <image source=".z_SVEbuildingShadow.png" width="384" height="400"/>
  </tileset>
- <tileset firstgid="8024" name="zspring_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
+ <tileset firstgid="7452" name="zspring_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
   <image source=".spring_beach.png" width="272" height="496"/>
  </tileset>
- <tileset firstgid="8551" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="6400" columns="25">
+ <tileset firstgid="7979" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="0" columns="25">
   <image source=".spring_z_extras.png" width="400" height="4096"/>
+ </tileset>
+ <tileset firstgid="7979" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+  <image source=".fall_Waterfalls.png" width="576" height="400"/>
+ </tileset>
+ <tileset firstgid="8879" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source=".fall_outdoorsTileSheet2.png" width="256" height="1120"/>
+ </tileset>
+ <tileset firstgid="9999" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source=".fall_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJylljtSAkEQhnsQEyGyUA6ghgZ4Bx5FeQcBH7GhIruWoSEo7CbewWuoNzD0EXoFy+7a7tqfFrBAqr6a3Xn0P/2YWZpFoiZQZzqOhuv3710mDkQ9ps8MmRFzxHSYtuJ1ZF3K/VHI25b2T7SvBfMmSsJ0maBawWn1wm+dCMYuHfdgO50xz3x6pIwLN+Z1UhiT+WZrK2Rrq8y2UtV5I9BIKNdK4VmoF/O9TtRn6Zf2S+My1Ge0lcyx50FtjNuhxmRLbVfBv3Ntv8PqRJpX0SH1A2MStL3V9vUfetcaN9t/32lEIUdyK1pYu8sQqy/mz1/zN+bM8WfyL60h1KVfuwjLufFA2Rn082KNYVfnYf3jT97PtFbfS0QfS/BZytbFYXpPovNAv7UGOrfGrJWJikuwzhzP0DLMByTRM7GK1gBsWpxNJ9HY+ruq/w+tWM9xk2npGZC+A8ijnfsn5plW0xqHvDawPnyfab0x7QLRDq/dXYK9chYfy7d9eyLwy/oqIdeqhOm7Vd6PYG+em838Gb9xdk/EzqeK6r3AcwXG5P6/1zVSbyfKqdMVu1eaq2GYrWU2zwvTWkZCud4gzK6vvrObgF810Bo526nzT8bvNJZjdz6sdhugZb6Z1j5oSf1J/D4pW9OEukVN/A6bBubUtHxtzMu1/X+QnHfDtPYiZB8/i/n94g==
+   eJyllTFSG0EQRacpIlsRJVBoOIADuIBNAFKpuAMI28SEWNYuMaFk0G6iO3AN4AYOqXLoKwDdtb9rv5oFLKGqV7Pq6ek/3dOz211NqUvsKUeB/WCP/wdKLikdK0NlrEyUQ+VI6YOoY+tKtWdSjz3Yp7D1yG8KCmWgCLQkaB3Lc52M5n4GLil22eDnOV2nirMwF3VKmjN/j7Uu1dqOsgE68JuQRpFqrZKejb3Veq9T5Gx2G/+hLmM8c6zihXgR1ua6HaAm64jdofxOMT7I8mQ4V9NJyINrIhgvMP55h9456ub7HwaNTGrsbE2Le3cRcuTi+bzl/+EFn3gn39IaU1/Gta/hZ+7MUnUHo1+OGg7gx/3PP/t/gl59/KiG1v8jrWpdLvN7Mp1Zeq41gu+28knXbi7AlvKtQcvxHJgCd2IZrRHF9Dq7ToHaxnfV8B1aOe5xV+nhDphth87R7/2NcpuW07qSuje4P6LNte6V/kpKX3Tt1wXYbVX18fP2b09GebmtLbVWW+bfrfbfvh2ztXp/DNv5G+fviTzk1IbeHT23ac7e/5dYY/32HfwIehb3F85qLM1aHvN0ZV7LKVKtN5Lm/hqGuAXltU1akxC7DPnZ/G/U8ircD+/dfdLy3FzrM2lZ/1n9/qZqTZf6ljX5O+wafKauFXuj6ZydPs5gIPPar2H7eALLy/tK
   </data>
  </layer>
  <layer id="11" name="Back 2" width="27" height="22">
@@ -1607,19 +1616,19 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DwAUdG+tkVRUe7iulo1ygYBaNgFIwC7OC9OPXMAgDwvAIY
+   eJxjYBgFo2DwAUdG+tkVRUe7iulo1ygYBaNgFIwC7IBbgnpmAQCtVwE1
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJytlbtKA1EQhk+CaBExkkIXgmghqI0a4wOoD6BgSJGItyrYKOSCdwWxi4WxibdYiI2aIp2giI1vIPoENoLGJxD9DzlDZk92kzU68DGz2bPzz5wz2fV6hGgFZOOIJ9i1tJj4nUVAVMWTLNcA4kF2vYh4yUK7BXhZXfsgA0JaXdLiIAGGXUK8we9o9xdsaiTtfo+5rktw5aRJC5Paeu19qOsBPINusAJWNdbAAciAAp7JipKXHLK4wLTkmVDtpDMGPkAR3Gq5sjb5dLI2WpIe5OxVOlOg0S1EE3hS/f2HSR15jiPIN6p0kqATOl3gHfHrH7XS2LM9T7mve+SLKp0Eyy37+1LX36xf6c9ZTeQb2H3y19DJe8p796I0EhY9tLlL3nCbc9+xtTS3HZq29NQP7d0nyPuFmPYJMQNmwRyY95XzJY36IK2I2jvqZx25N8Am2ALbSito1HdWQaYV1/btCLmPwQk4BbkqWkOG2dfSunBVvvd2/aX9lJ4/I82nfMAox/x3igNGpVYOWmfgpsZcBx30EGBrHpvNWvQelXG6hla4zvMKKy16j5IW1Z6wmaeUdp/Mbr0+h/zcSCvPzslrlH5f1vqqNpf6vRjzbpe5L13PykJ1avG+SCNvMYPc7PZXX0+zwb9bsi+7WmkunP6frbT4N5f6cvreSVXR5TMbspgNfl7FdtTgsIdadcgZ/QE1+pJJ
+   eJyllTtLA0EQxzdBFIyVB3IQRAvBR8TKQju1NMZ0SuIHELUIGgWfjaUpNFokKoqIjVZpND4Q2/SitYWN4OMTiP6X2yFzm7vkkgz8mLnc3fxndid7oYAQ/YBsHvECu5Y2K6qzGIireMoQYtqw4jDyTrDcO4hTDtp9IMTq2gNpkNDqkrYEkmDQJ8QydFYM+/05lxpJezxgr+sSXHlv1WbborT2XtT1BF5AF1gFaxrrYB+kQQ7vZITlJVkW55iW3BOqnXTGwBf4BvdaroxLPp2Mi5akGzl7lM4MaPQL0QSeVX/12BD2bdiwdD7ACPKNKp1l0AGdTvCJ+L1OLZpJ6usR+eJKJ8lyy/5+1fUf61f6c1YT+QZ2nzzNJK3dq9JIOvTQ5re86bfnfmDP0ty2a9rSUz+0dj+gEMSMtWLGwAbYBFutxXx7Zm2QVkytHfWTQe4sOARH4FhpRc3a9irKtJa0dbtG7huQB7fgrozWpGn3lbQufKXn3lnQWk/p+TvSBpSPmMWY/05xxCzVOoHWKchXmOuohx4i7Jm3FrsWnaMyTlXQWqxxvxaVFp2jpEW177rMU1q7T+b2vD6HfN9Iq8D2KWRavx9ofZWbS/3eLPN+n70vXc/JElVoDRtFLd4XaRQcZpCb2/rqz8tYnoX8uyX7cquV5sLr/1nXkmch/+ZSX17PnXQZXT6zCYfZ4PvVDB/22EOlOuSM/gOA5qJc
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="7" name="Front" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgMANicyC2YMAN3nExMLwH4g9ceBThAJlIbH8gDgDiQNKNIRtQ4vahAAy4GRi+CqCK/RTArpYa4KkgA8MzIH4OxC+A+KUg7exiFmJgYAFiViBmA2J2IdrZpQg0WwmIlYFYBYhV0exiYwLazwShFzEyMMgDaQUmBM2CJA+jcQF7oNkOQOwIxE5A7Ixkl4gEA0MIiVhUgnT/GpOhh1x9tLIrRhqVRtbzSRwhRgx7MPmLHnaFSKCyYVgYiYbJIacvYSxpD5lPCgCZFY6mxxSPGcJocmwk2IXPXGKAPIV2mRKZZ0FyoLqY2HoLl13EAlx1MbZyBpt4KIXhCgLvxQmrQQboaZDUdEeqXYQAAHxCNh0=
+   eJzNld8KgjAUxo9mBS0ChUDoIqsHsG6qm/7dB+Z1/17B6Kbn6Un7IqQp07ap4Qc/ztx2zreNqUREc7AAS8pWhxEx0GU5kyQUgAMIi5VRUllrr6v22JdtJ/v6tnhuGTIcIhM0gAWaTnVeQ9T2wAiMwaRCrxVqr8EGbMEu5dUyidrmJz4NrA3RM7/R4sbjmKUjap/AGVzAlfOaukSRIjNXfb+BRo5uXlVej0Ey8jk9LlemXad9/cMrcpPtGJ+L8Rh/v3zB3eOfVfSudU/lhDk1fM0z+FW3bIm8Qsl3Nj5D2f9WlldRib4zov5bCV5M496I1laFZO7cCwMRLCM=
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
@@ -1631,13 +1640,13 @@
  <objectgroup id="6" name="Paths"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzNljtOw0AURV8oQLJDQwCxAJooCVRhBfzEZwn82gASHZAdIGiggT1AQQkVYQsIWAFQkIQ1cEaJlYc1Jh4Hh1zp6Fn2zDtjj2VZxJ5dX2TPj7hIDuEo+rJTTvGc/eJKkron0oCm1zlXwXENN7D/hz6fXlkY7dJzOsMzg+MQVbiAc7hl3KW0quFKHRsKOIpQirF+3Suopl8ezzO8qHpvca/iWIP1tquiet+N/XTpXg+q9wE04UvVp5Db1OB9s+3La8j1xvh3+FA9a3ACw0MiI/CYadW6ctfadZCTm0o+1zymHIzDBEx2GT8Xw7WStc8rUItQghmYdVqpW+ZhARZhCZZTdG3AJmzBNuyk6DJx+Y7G2S+XecH5Xt65XtNPd/mfXUn3L4lrUKLvOa37j8qnZ/8PSCPfuQJHwQ==
+   eJzNlrlOw0AQhicUCShU5hAK0NEgjrwEVws9V0NBRcfxAEBKaOANoKSlwoGC1Ci0ASSgQVBQc30rE2lY2cZHLOWXPk0U784Xe6NJRPyzVxTZLwZcJJuwFXw5Vk7wnIa4ksR1RKpwCVeO994ujmuoQaWFvgb97+AeHpzgdSM5nhlsW+zAIRzAGeuOxKuGY/Xa8EH/T/iC7xCXyN9ezWr6jeKpw62q5z7uUo/IIAzBMKyr3nXLrXtdqN4b8Apvqt5YblPD8m65Hln/BM+qpwsVyHeIFKCa8+qLcru/tZ1THki+1zwmjkl6oQ/6/1m/EMG11u2/b4w6DhMwCeVYnzRepmAaZmAW5jJ0LcISLMMKrGboMokzR6OcV9A+exbqfmm+c36JMgubSeuOOgtN5lO69CxM4kp6fklc7RJ9z1ndf1Dy/MYXoBO6Wvz/ws4PpntV1g==
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
  <layer id="13" name="Set-Up" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBh+4JToQLtgFIyCUYAL7BrNn6NgFIyCYQQATjsBrw==
+   eJxjYBh+4JnoQLtgFIyCUYALXBvNn6NgFIyCYQQAwioB5w==
   </data>
  </layer>
 </map>

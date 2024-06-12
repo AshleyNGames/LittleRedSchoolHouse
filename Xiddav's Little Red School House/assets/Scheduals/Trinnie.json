@@ -8,5 +8,5 @@
 		"Target": "Characters/Schedules/Trinnie",
 		"When": { "noschoolday": false },  
 		"Entries": { 
-			"Tue": "0 Custom_Ridgeside_RidgesideVillage 120 52/610 Town 18 17 3/a950 Custom_SchoolHouse 11 13 1 trinnie_read/1140 Town 9 17 1 trinnie_jump/a1300 Custom_SchoolHouse 11 13 1 trinnie_read/1550 Custom_Ridgeside_BertHouse 13 5 3/2100 Custom_Ridgeside_BertHouse2ndFloor 18 5 0 trinnie_sleep"},},  
+			"Tue": "0 Custom_Ridgeside_RidgesideVillage 120 52/610 Town 18 18 3/a950 Custom_SchoolHouse 11 13 1 trinnie_read/1140 Town 9 17 1 trinnie_jump/a1300 Custom_SchoolHouse 11 13 1 trinnie_read/1550 Custom_Ridgeside_BertHouse 13 5 3/2100 Custom_Ridgeside_BertHouse2ndFloor 18 5 0 trinnie_sleep"},},  
 	    ]}

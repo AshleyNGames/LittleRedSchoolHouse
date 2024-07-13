@@ -3,38 +3,20 @@
 	"Target": "characters/schedules/Jas",
 		"When": { "noschoolday": false },   
 	 "Entries": {     
-		 "Tue": "710 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 Town 24 12 jas_jumprope/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
+		 "Tue": "a920 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 Town 24 12 jas_jumprope/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
 	 },},	
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Jas",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
 	 "Entries": {     
-		 "rain": "710 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 16 16 square_3_3/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
+		 "rain": "a920 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 16 16 square_3_3/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
 	 },},	
-
-
-
-{ "Action": "EditData",	 
-	"Target": "characters/schedules/Jas",
-		"When": { "HasMod":"xiddav.Parks",  "noschoolday": false },   
-	 "Entries": {     
-		 "Tue": "630 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 Town 24 12 jas_jumprope/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1740 AnimalShop 1 7 3 jas_sleep",     
-	 },},	
-
-{ "Action": "EditData",	 
-	"Target": "characters/schedules/Jas",
-	"When": {"HasMod":"xiddav.Parks", "dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-	 "Entries": {     
-		 "rain": "630 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 16 16 square_3_3/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1740 AnimalShop 1 7 3 jas_sleep",     
-	 },},	
-
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Jas",
 		"When": { "Five days": true},  
 	 "Entries": {
 		 "Mon": "GOTO Tue",
-		"Thu": "GOTO Tue",
- },}, 
+		"Thu": "GOTO Tue", },}, 
   ]}

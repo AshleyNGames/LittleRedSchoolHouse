@@ -1,94 +1,62 @@
-{ "Format": "2.0.0",	
+{ "Format": "2.0",  
 	
-	"ConfigSchema": 	{  	"Treehouse Layout": 	{  "Default": "Default"},},	 	
+"DynamicTokens": [   
+	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
+ 	{  "Name": "School Built",  	"Value": "false",   "When":    {}},
+ 	{  "Name": "School Built",  	"Value": "true",   	"When":    {"HasSeenEvent": "9695001"}},
+ 	{  "Name": "SVE",  				"Value": "false",   "When":    {}},
+ 	{  "Name": "SVE",  				"Value": "true",   	"When":    {"HasMod": "FlashShifter.StardewValleyExpandedCP"}},
+ 	{  "Name": "R3",  				"Value": "false",   "When":    {}},
+ 	{  "Name": "R3",  				"Value": "true",   	"When":    {"HasMod": "DaisyNiko.SVR3"}},
+	{  "Name": "noschoolday",  		"Value": "false",   "When":    {}},
+ 	{  "Name": "noschoolday",  		"Value": "true",   	"When":    {"day": "9, 23"}},],
+
+"ConfigSchema": {
+	  "Playground Expansion": 	{  "Default": "sandbox"},
+	  "Appears at EGGS": 		{  "AllowValues": "on, off",  "Default": "on"},
+	  "Appears at FAIR": 		{  "AllowValues": "on, off",  "Default": "on"},
+	  "Appears at SPIRITS": 	{  "AllowValues": "on, off",  "Default": "on"},
+	  "Appears at STAR": 		{  "AllowValues": "on, off",  "Default": "on"},
+	  "Five days": 				{  "AllowValues": "true, false",  "Default": "false"},},
 	
- "CustomLocations": [	 
-{ "Name": "Custom_KidsTreeHouse",	
-    "FromMapFile": "assets/kidsTreeHouse.tmx",
-   "MigrateLegacyNames": [ "KidsTreeHouse" ]}, ],  
- 
-  "Changes": [ 	 	  
-{   "Action": "EditMap",
-    "Target": "Maps/Custom_KidsTreeHouse",	  
-    "FromFile": "assets/kidsTreeHouse{{Treehouse Layout}}.tmx",	 
-	"PatchMode": "Replace",
-	"When": {"HasFile:{{FromFile}}": true}},  
-	  
-{   "Action": "EditMap",
-     "Target": "Maps/Town",	  
-     "FromFile": "assets/Town.tmx",	 
-	"PatchMode": "Overlay",
-     "ToArea": { "X": 47, "Y": 30, "Width": 2, "Height": 2 }},
+ "CustomLocations": [  
+{    "Name": "Custom_SchoolHouse",
+  	  "FromMapFile": "assets/RundownSchoolHouse.tmx",
+   	  "MigrateLegacyNames": [ "SchoolHouse" ]}],   
+	
+"Changes": [ 			
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed.json", 
+            	"When": {"School Built": "false" , "SVE": false, "R3": false}},	
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed SVE.json", 
+            	"When": {"School Built": "false" , "SVE": true, "R3": false  }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Closed R3.json", 
+            	"When": {"School Built": "false" , "R3": true, "SVE": false }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open.json",
+            	"When": {"School Built": "true" , "SVE": false, "R3": false }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open SVE.json",
+            	"When": {"School Built": "true" , "SVE": true, "R3": false}},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open R3.json",
+            	"When": {"School Built": "true" , "R3": true, "SVE": false }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Map changes/School Open Data.json",
+            	"When": {"School Built": "true" }},
+	
+	{"Action": "Include",
+   		"FromFile": "assets/Special Order.json" },
 
-{   "Action": "EditMap",
-     "Target": "Maps/Town",
-	 "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP"},	  
-     "FromFile": "assets/TownSVE.tmx",	 
-	"PatchMode": "Overlay",
-     "ToArea": { "X": 47, "Y": 30, "Width": 2, "Height": 2 }},
-
-{   "Action": "EditMap",
-     "Target": "Maps/Town",
-	 "When": { "HasMod": "DaisyNiko.SVR3"},	  
-     "FromFile": "assets/TownR3.tmx",	 
-	"PatchMode": "Overlay",
-     "ToArea": { "X": 47, "Y": 30, "Width": 2, "Height": 2 }},
-
-{  "Action": "EditMap",
-    "Target": "Maps/Town", 
-    "TextOperations": [     {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": "47 32 Custom_KidsTreeHouse 6 8",
-      "Delimiter": " "     }   ]}, 
-
-{	 "Action": "EditData",
-     "Target": "Strings/StringsFromMaps",
-     "Entries": { 
-		 "treehousemessage.1":  "{{i18n:treehousemessage.1}}",
-	  	 "treehousemessage.2":  "{{i18n:treehousemessage.2}}",
-	  	 "treehousemessage.3":  "{{i18n:treehousemessage.3}}",
-	  	 "treehousemessage.4":  "{{i18n:treehousemessage.4}}",
-	  	 "treehousemessage.5":  "{{i18n:treehousemessage.5}}",
-	  	 "treehousemessage.6":  "{{i18n:treehousemessage.6}}"	 }},
-
-{"LogName": "Vincent Schedual changes",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/Vincent.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "Jas Schedual changes",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/Jas.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "Eloise Schedual changes",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/Eloise.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "RSV",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/RSV.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "Fill the school ",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/FTS.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "LittleNPC",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/LittleNPC.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "Stardew Kids Expansion",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/SKE.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-
-{"LogName": "Custom",
-            "Action": "Include",
-            "FromFile": "assets/Schedual/Custom.json",
-	"When": { "HasFile:{{FromFile}}": true },}, 
-  ]}
+	{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Scheduals.json",
+            	"When": {"HasSeenEvent": "9695002" }},   
+]}

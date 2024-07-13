@@ -4,7 +4,7 @@
 	"Target": "characters/schedules/Vincent",
 		"When": { "noschoolday": false },  
 	 "Entries": {     
-		 "Tue": "750 Town 6 13 1/a950 Custom_SchoolHouse 8 11 vincent_read_right/1130 Town 16 11 square_3_3_2/a1250 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
+		 "Tue": "a920 Town 6 13 1/a950 Custom_SchoolHouse 8 11 vincent_read_right/1130 Town 16 11 square_3_3_2/a1250 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
 		 "winter_16": "800 Town 6 13 1/a950 Custom_SchoolHouse 8 11 vincent_read_right/1130 Town 16 11 square_3_3/a1250 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
 	 } }, 
 
@@ -12,7 +12,7 @@
 	"Target": "characters/schedules/Vincent",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false},
 	 "Entries": {     
-		 "rain": "750 Town 6 13 1/a950 Custom_SchoolHouse 8 11 vincent_read_right/1130 Custom_SchoolHouse 3 15 square_2_3_2/a1300 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
+		 "rain": "a920 Town 6 13 1/a950 Custom_SchoolHouse 8 11 vincent_read_right/1130 Custom_SchoolHouse 3 15 square_2_3_2/a1300 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
 		    	 }, },
 
 { "Action": "EditData",	 

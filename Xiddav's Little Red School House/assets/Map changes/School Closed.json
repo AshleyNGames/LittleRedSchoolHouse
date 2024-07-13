@@ -1,0 +1,49 @@
+{    "Changes": [  
+	
+  	{   "Action": "EditMap",
+    "Target": "Maps/Custom_SchoolHouse",
+    "MapProperties": {"AmbientLight" : "75 75 75"}},
+	
+//vanilla
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+     "FromFile": "assets/Town/Vanilla/TownRundownSchoolHouse.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }},	
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+	 "When": {  "DayEvent": "spirit's eve", "Appears at SPIRITS": "on"},
+     "FromFile": "assets/Town/Vanilla/TownRundownSchoolHouseSPIRITS.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }},
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Fair",
+     "FromFile": "assets/Town/Vanilla/TownRundownSchoolHouseFAIR.tmx",
+	"When": {"DayEvent": "stardew valley fair", "Appears at FAIR": "on"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "FromFile": "assets/Town/Vanilla/TownRundownSchoolHouseEGGS.tmx",
+	"When": {"DayEvent": "egg festival", "Appears at EGGS": "on"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "FromFile": "assets/Town/Vanilla/TownRundownSchoolHouseSTAR.tmx",
+	"When": {"DayEvent": "feast of the winter star",  "HasFile:{{FromFile}}": true , "Appears at STAR": "on"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+
+//playground
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+	"When": {"HasFile:{{FromFile}}": true },
+     "FromFile": "assets/Town/Vanilla/{{Playground Expansion}}.tmx",
+	"PatchMode": "Overlay",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+  ]}

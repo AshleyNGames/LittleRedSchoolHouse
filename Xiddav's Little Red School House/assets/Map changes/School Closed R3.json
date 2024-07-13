@@ -1,0 +1,50 @@
+{    "Changes": [  
+	
+  	{   "Action": "EditMap",
+    "Target": "Maps/Custom_SchoolHouse",
+    "MapProperties": {"AmbientLight" : "75 75 75"}},
+	
+//Stardew Valley Reimagined 3
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+	 "When": { "HasFile:{{FromFile}}": true },
+     "FromFile": "assets/Town/Reimagined 3/TownRundownSchoolHouse.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }},	
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Halloween",
+	 "When": {  "DayEvent": "spirit's eve", "HasFile:{{FromFile}}": true, "Appears at SPIRITS": "on"},
+     "FromFile": "assets/Town/Reimagined 3/TownRundownSchoolHouseSPIRITS.tmx",
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }},
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-Fair",
+     "FromFile": "assets/Town/Reimagined 3/TownRundownSchoolHouseFAIR.tmx",
+	"When": {"DayEvent": "stardew valley fair", "HasFile:{{FromFile}}": true, "Appears at FAIR": "on"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "FromFile": "assets/Town/Reimagined 3/TownRundownSchoolHouseEGGS.tmx",
+	"When": {"DayEvent": "egg festival", "HasFile:{{FromFile}}": true, "Appears at EGGS": "on"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town-EggFestival",
+     "FromFile": "assets/Town/Reimagined 3/TownRundownSchoolHouseSTAR.tmx",
+	"When": {"DayEvent": "feast of the winter star",  "HasFile:{{FromFile}}": true, "Appears at STAR": "on"},
+	"PatchMode": "Replace",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+
+//playground
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+	"When": {"HasFile:{{FromFile}}": true },
+     "FromFile": "assets/Town/Reimagined 3/{{Playground Expansion}}.tmx",
+	"PatchMode": "Overlay",
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 }}, 
+  ]}

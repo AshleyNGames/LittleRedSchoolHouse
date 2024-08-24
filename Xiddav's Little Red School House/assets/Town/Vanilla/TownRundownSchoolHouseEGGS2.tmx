@@ -3185,7 +3185,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DwAUdG+tkVRUe7iulo1ygYWKDAgx0r8tDXrhxp+tlFbeDAgx070sCuUTA4QR6V0y8tAACz2QfW
+   eJxjYBgFo2DwAUdG+tkVRUe7iulo1ygYWKDAgx0r8tDXrnxp+tmFC+SR6QYHHuzYkQZhOAoGJ8ilcvqlBQAAR0QIYQ==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -3194,16 +3194,10 @@
    eJy1lUsvA1EUx880QqRdddbCQuJRSxs2qB3WRH0AwYJoLbwSsaMbVl5hId2wpx4R7Vfw2hJv8foK/ie9J85Mp1JN5yS/nDu3d/7/c25v7kSCRC1AYhTjMfXMMUz5z8XA0W8TDdi5cS90+5T2MsZJD+9mEDF1sc4KWAXjwcL+HAn4TNnOWkfIO8S7J+isaw/sK81i++RYJGftHE0W0Tm4BvWW851i99HLi8dSu/hEwSf4AidWYQ1ee2Vqktowt/CXF9OAdY3GZwhUBoiqwKXRcGvy84SqSfKFaz1n7fUGOjHXZXwSoBY+deDDzLs1M2BJ1ZS1cvldrcuYLGdS+jrDXMz4xFUtrBUzmlmlzXlX1SS5Qv0uWc6k7N2Ny0NH3EOT86laL+e2xmOd9CN79w1awXSYaAbMgjkwH/b2/0+I16DZO+lpDdrrYANsgq0yek269u4A2ocgDY7AcQle0RBRdyjfK2Xl33vlDvHahtcOSBc4F+64Rb13puZ75AfwCJ7AM3gBr2qNeMk9yuNkkV6lBOvre9RvL03KZy/JAcvfvtrsXy+/++K7UH+3/OyL70L9zfX7/9L40Vd7NVEH+AGcnobd
   </data>
  </layer>
- <objectgroup id="4" name="Buildings">
-  <object id="1" name="TileData" x="128" y="176" width="16" height="16">
-   <properties>
-    <property name="Action" value="Warp 3 18 Custom_SchoolHouse 800 2000"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjILBA5zEBtoFo2AUjIJRQDwAAKchAFk=
+   eJztwTEBAAAAwqD1T20Hb6AAAHgMCUgAAQ==
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>

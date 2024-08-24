@@ -51,6 +51,16 @@
     <frame tileid="152" duration="1000"/>
    </animation>
   </tile>
+  <tile id="152">
+   <animation>
+    <frame tileid="152" duration="500"/>
+    <frame tileid="151" duration="500"/>
+    <frame tileid="151" duration="500"/>
+    <frame tileid="152" duration="500"/>
+    <frame tileid="152" duration="500"/>
+    <frame tileid="152" duration="500"/>
+   </animation>
+  </tile>
   <tile id="156">
    <properties>
     <property name="Spawnable" value="t"/>
@@ -1597,6 +1607,34 @@
     <frame tileid="421" duration="100"/>
    </animation>
   </tile>
+  <tile id="428">
+   <animation>
+    <frame tileid="428" duration="1000"/>
+    <frame tileid="429" duration="1000"/>
+    <frame tileid="429" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="430">
+   <animation>
+    <frame tileid="430" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="432">
+   <animation>
+    <frame tileid="432" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="460">
+   <animation>
+    <frame tileid="460" duration="1000"/>
+    <frame tileid="461" duration="1000"/>
+    <frame tileid="461" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="477">
    <animation>
     <frame tileid="477" duration="100"/>
@@ -1632,6 +1670,20 @@
     <property name="zzXiddav" value=""/>
    </properties>
   </tile>
+  <tile id="490">
+   <animation>
+    <frame tileid="490" duration="1000"/>
+    <frame tileid="491" duration="1000"/>
+    <frame tileid="491" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="492">
+   <animation>
+    <frame tileid="492" duration="1000"/>
+    <frame tileid="493" duration="1000"/>
+    <frame tileid="493" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="507">
    <animation>
     <frame tileid="507" duration="100"/>
@@ -1660,6 +1712,20 @@
     <frame tileid="689" duration="100"/>
     <frame tileid="749" duration="100"/>
     <frame tileid="809" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="520">
+   <animation>
+    <frame tileid="520" duration="1000"/>
+    <frame tileid="521" duration="1000"/>
+    <frame tileid="521" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="522">
+   <animation>
+    <frame tileid="522" duration="1000"/>
+    <frame tileid="523" duration="1000"/>
+    <frame tileid="523" duration="1000"/>
    </animation>
   </tile>
  </tileset>

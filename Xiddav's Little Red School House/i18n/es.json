@@ -50,8 +50,10 @@
 	
 	"Desk.Eloise":  "Este es el asiento de Eloise.",
 	
-	 "Deskpartone": "This is",
-	 "Deskparttwo": "'s seat.",
+	"Desk.Adrian": "Este es el asiento de Adrian.",
+	"Desk.James": "Este es el asiento de James.",
+	"Desk.Tina": "Este es el asiento de Tina.",
+	"Desk.Vanessa": "Este es el asiento de Vanessa.",
 	
 	 "Deskpartone": "Este es el asiento de",
 	 "Deskparttwo": ".",

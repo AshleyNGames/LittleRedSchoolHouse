@@ -1,0 +1,99 @@
+{   "Changes": [  	
+	
+	
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 
+	  	 "Desk.10": "{{i18n:Desk.Adrian}}",
+	  	 "Desk.17": "{{i18n:Desk.James}}",
+	  	 "Desk.1": "{{i18n:Desk.Tina}}",
+	  	 "Desk.2": "{{i18n:Desk.Vanessa}}"	 
+	 },}, 
+	
+//Adrian
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Adrian",
+	 "Entries": {   
+				"Tue": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1130 Town 15 13 2/a1300 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
+                "Wed": "GOTO Tue", "Fri": "GOTO Tue", 
+		 			 "9":"GOTO season", 
+		 			 "23":"GOTO season", },},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Adrian",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
+	 "Entries": {     
+		 "rain": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",     
+	 },},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Adrian",
+		"When": { "Five days": true},  
+	 "Entries": { "Mon": "GOTO Tue", "Thu": "GOTO Tue"},}, 
+
+//James  
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/James",
+	 "Entries": {  
+                 "Tue": "810 Custom_SchoolHouse 8 13 3 James_Read/1130 Town 12 11 1/a1300 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 68 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 0",
+               	 "Wed": "GOTO Tue", "Fri": "GOTO Tue", 
+		 			 "9":"GOTO season", 
+		 			 "23":"GOTO season", },},
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/James",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
+	 "Entries": {     
+		 "rain": "810 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 68 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 0",},},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/James",
+		"When": { "Five days": true},  
+	 "Entries": { "Mon": "GOTO Tue", "Thu": "GOTO Tue"},}, 
+
+//Tina
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Tina",
+	 "Entries": {     
+		 "Tue": "750 Custom_SchoolHouse 23 8 3/1000 Custom_SchoolHouse 22 8 Tina_Sit/1120 Town 17 13 2/a1250 Custom_SchoolHouse 23 8 3/1300 Custom_SchoolHouse 22 8 Tina_Sit/1550 Town 17 16 square_3_3/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",     
+                "Wed": "GOTO Tue", "Fri": "GOTO Tue",
+		 			 "9":"GOTO season", 
+		 			 "23":"GOTO season", },},
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Tina",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
+	 "Entries": {     
+		 "rain": "750 Custom_SchoolHouse 23 8 3/1000 Custom_SchoolHouse 22 8 Tina_Sit/1550 Town 17 16 square_3_3/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",  
+	 },},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Tina",
+		"When": { "Five days": true},  
+	 "Entries": {
+		 "Mon": "GOTO Tue",
+		"Thu": "GOTO Tue", },}, 
+
+  //Vanessa
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Vanessa",
+	 "Entries": {     
+		 "Tue": "800 Custom_SchoolHouse 23 11 3/1000 Custom_SchoolHouse 22 11 3 Vanessa_Read/1530 Town 20 93 0/1750 Saloon 35 18 0/2000 Saloon 35 17 2 Vanessa_Sleep",    
+	     "Wed": "GOTO Tue", "Fri": "GOTO Tue", 
+		 			 "9":"GOTO season", 
+		 			 "23":"GOTO season", },},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Vanessa",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
+	 "Entries": {     
+		 "rain": "800 Custom_SchoolHouse 23 11 3/1000 Custom_SchoolHouse 22 11 3 Vanessa_Read/1530 Town 20 93 0/1750 Saloon 35 18 0/2000 Saloon 35 17 2 Vanessa_Sleep",     
+	 },},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Vanessa",
+		"When": { "Five days": true},  
+	 "Entries": {
+		 "Mon": "GOTO Tue",
+		"Thu": "GOTO Tue", },}, 
+  ]}

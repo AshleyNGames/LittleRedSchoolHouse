@@ -1,0 +1,6 @@
+{   "Changes": [  	  
+	{	"Action": "EditData",
+		"Target": "Characters/Schedules/Yuuma",
+		"Entries": { 
+			"Fri": "a1000 Custom_SchoolHouse 4 4 2 yuuma_read/1130 Town 13 18 square_2_2_0/a1300 Custom_SchoolHouse 4 4 2 yuuma_read/1400 Hospital 13 17 1/1600 Custom_Ridgeside_ShiroHouse 3 5 0/2000 Custom_Ridgeside_ShiroHouse 14 5 0 yuuma_sleep",},},  	
+	    ]}

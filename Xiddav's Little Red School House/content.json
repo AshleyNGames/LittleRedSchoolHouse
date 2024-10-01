@@ -25,6 +25,13 @@
  
 	
 "Changes": [		
+
+{   "Action": "EditMap",
+     "Target": "Maps/Custom_SchoolHouse",
+      "When": {"Fixed": true },
+     "FromFile": "assets/SchoolHouse.tmx",
+	"PatchMode": "Replace"},	   
+
 {   "Action": "EditMap",
      "Target": "Maps/Town",
       "When": {"Fixed": false },
@@ -35,7 +42,7 @@
 {   "Action": "EditMap",
      "Target": "Maps/Town",
       "When": {"Fixed": true },
-     "FromFile": "assets/Town/{{World}}/TownHouse.tmx",
+     "FromFile": "assets/Town/{{World}}/TownSchoolHouse.tmx",
 	"PatchMode": "Replace",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},	  
 

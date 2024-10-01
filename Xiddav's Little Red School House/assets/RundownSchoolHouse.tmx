@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="11">
+ <properties>
+  <property name="Warp" value="3 19 Town 8 12"/>
+ </properties>
+ <tileset firstgid="1" name="Interior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="500"/>
+    <frame tileid="547" duration="500"/>
+    <frame tileid="548" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="550" duration="250"/>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="582" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1109">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1393">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source=".paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="Xiddav" tilewidth="16" tileheight="16" tilecount="324" columns="18">
+  <image source=".Xiddav_Indoor.png" width="288" height="288"/>
+  <tile id="1">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJy9lAtOAkEMhickjnsF8XkNX4B6DBVBb6EoHMTH3kN8XMTHPRTwazbjlnF2YOOGJl9Ktp1O/3YXYxZnvaXqWaQdJNXXHCoNh9TvQqNmTCtA85++DedJpmNkTfoGT3AH19Ahfga+X7Hh5zEvOsbUfIdnuIcbkPv7xAe13G/bzH8xi28YwRgmMhtiR0mer8+Ljgk1P+AFHqCvdEjfF8l0X6s8W4N12IBN2FL6dL7bh1k26Sd1XyGFgeD1s2Pzvnb5vQf70IAmtOxfve686Cg792NiJ3AKbcmDTkCv1iH3+d+O9KHn6/vQvny9WoczudfZFbk9G9al+63PeM9+9+GZ3H/L2Us73WfdFuvS3umXvRTt45HY0GY+9t7P0iNxvY95510099jenI6iuZb9rv18X4ee4zx9h/JiOsr8/5TxsX1U5UXHD/1is/A=
+  </data>
+ </layer>
+ <layer id="13" name="Back 2" width="25" height="19">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPqGbFFLNmhtCPmLHrsUYTx6Yujw3Bno3FDkIgEAtGB/OQzN1Nhh3ooBBKL2NCiO1DMvc2FjuQ/UkuuEcFt4+CoQtAebAGCf8nUf8GDsJqfIFYnhGC/YDsOTRIc7lAvAdorj0jhN4DtSOARLtO4fEPLA+KcJLlxFEwCjAAAAkyFTA=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJy1U00vBEEQ7TWmt2+44uIg3OwIicRJsnu3iYM4z48QEtv+BuLj5jcgSITEX+C8+yNw8CrdtdNa92RnrJe8TE/VdL2unnoNIcQEmPwDJ8EGuAAepmKIE2mem0kR66XDnOYY5XvOPncv4wj5RTy3wFOszyxvZLFmXhQ5HYrH9p6DHatxi/Wd5Zs0zwcn5uR0LMd7KddW5v3e0Xj3emZMNYWYBmea4fwzar7I3/FcGR0iazD6iA1U8b6C2i0wi2j0UX9gNVJ8I+13r8ro5AENwnEixoqQRhk+cOZP8CtwP2UaVxU0ZnEXc+B85O5iGuQR34NPFXRDQJ8a/Wr0rUmDPcieI1/pyJyNCvSp0a9G35r/h+tB8tUluPtHnQwztap+epBmmfyzAT6CLTADu57WvgpVjIM12naWCXz+7UD9OmCNvMLZ1jBT63au/Fl2fehr1MUos1ymsVPBZy6WcCfL9l72VOHBUI91ax94934tjAeJ3E/HiY2L3x+JV2Q=
+  </data>
+ </layer>
+ <layer id="19" name="Buildings 2" width="25" height="19">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFwwXc5RhoF4yCUTAKRsEowAYAD88A5g==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="10" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox Woodpile"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvUGBH5eexMTAYs2GXw6UPpgeXegc85pAqh089MngPdM8HIP7IRpx6YsBlDgaGKxyY4q9ZsavvYSLPniRm8vSNFLAIjb94QFxBPYCc5yxwpCVigSAwfQphSaPowABojyGFdg2k+aOAgYEdGM8cRMQ1LcwG5UFYvltCGyegAFcgZiRSLbHqABc7DzU=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="10" name="Paths" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGAS0BAAdsAAE=
+  </data>
+ </layer>
+ <objectgroup id="9" name="Paths"/>
+ <layer id="7" name="AlwaysFront" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEALLkPAoGAWjYGDBMirh5XR0MwA7WQ5G
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

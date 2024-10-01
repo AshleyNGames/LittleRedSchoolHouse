@@ -8,24 +8,18 @@
 	{  "Name": "World",  			"Value": "SVE", 		  "When":  {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true}},
 	{  "Name": "World",  			"Value": "Reimagined 3",  "When":  {"HasMod|contains=DaisyNiko.SVR3": true}},
 	{  "Name": "Fixed",       	"Value":"false", 		  "When":{}},
-	{  "Name": "Fixed",       	"Value":"true", 		  "When":{"HasSeenEvent": "9695002"}},
-	
-],
+	{  "Name": "Fixed",       	"Value":"true", 		  "When":{"HasSeenEvent": "9695002"}},],
+
 "ConfigSchema": {
 	  "Playground Expansion": 	{  "AllowValues": "basketball, sandbox, custom, none", "Default": "basketball"},
 	  "Five days": 				{  "AllowValues": "true, false",  "Default": "false"},},
 	
-
-
  "CustomLocations": [  
 {    "Name": "Custom_SchoolHouse",
   	  "FromMapFile": "assets/RundownSchoolHouse.tmx",
    	  "MigrateLegacyNames": [ "SchoolHouse" ]}],   
- 
- 
-	
+ 	
 "Changes": [		
-
 {   "Action": "EditMap",
      "Target": "Maps/Custom_SchoolHouse",
       "When": {"Fixed": true },
@@ -52,7 +46,6 @@
      "FromFile": "assets/Town/{{Playground Expansion}}.tmx",
 	"PatchMode": "Overlay",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
-
 
 //festivals
 {   "Action": "EditMap",

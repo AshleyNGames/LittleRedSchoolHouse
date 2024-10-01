@@ -1,583 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="27" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="24" nextobjectid="7">
- <editorsettings>
-  <export format="tmx"/>
- </editorsettings>
- <tileset firstgid="1" name="character" tilewidth="16" tileheight="16" tilecount="144" columns="8">
-  <image source=".characterSheet.png" width="128" height="288"/>
- </tileset>
- <tileset firstgid="145" name="Fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source=".Festivals.png" width="512" height="512"/>
-  <tile id="428">
-   <animation>
-    <frame tileid="428" duration="500"/>
-    <frame tileid="430" duration="500"/>
-    <frame tileid="432" duration="500"/>
-   </animation>
-  </tile>
-  <tile id="429">
-   <animation>
-    <frame tileid="429" duration="500"/>
-    <frame tileid="431" duration="500"/>
-    <frame tileid="433" duration="500"/>
-   </animation>
-  </tile>
-  <tile id="460">
-   <animation>
-    <frame tileid="460" duration="500"/>
-    <frame tileid="462" duration="500"/>
-    <frame tileid="464" duration="500"/>
-   </animation>
-  </tile>
-  <tile id="461">
-   <animation>
-    <frame tileid="461" duration="500"/>
-    <frame tileid="463" duration="500"/>
-    <frame tileid="465" duration="500"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="1169" name="zzzXiddav_FestivalExtras" tilewidth="16" tileheight="16" tilecount="800" columns="40">
-  <image source=".Xiddav_FestivalExtras.png" width="640" height="320"/>
- </tileset>
- <tileset firstgid="1969" name="z_SVEbuildingShadow" tilewidth="16" tileheight="16" tilecount="600" columns="24">
-  <image source="../../../../../FarmExtended/assets/.z_SVEbuildingShadow.png" width="384" height="400"/>
- </tileset>
- <tileset firstgid="2569" name="zspring_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
-  <image source=".fall_beach.png" width="272" height="496"/>
- </tileset>
- <tileset firstgid="3096" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="6400" columns="25">
-  <image source="../../../../../FarmExtended/assets/.fall_z_extras.png" width="400" height="4096"/>
- </tileset>
- <tileset firstgid="9496" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source=".paths.png" width="64" height="256"/>
-  <tile id="0">
-   <properties>
-    <property name="PathType" value="NE"/>
-   </properties>
-  </tile>
-  <tile id="1">
-   <properties>
-    <property name="PathType" value="SE"/>
-   </properties>
-  </tile>
-  <tile id="2">
-   <properties>
-    <property name="PathType" value="WS"/>
-   </properties>
-  </tile>
-  <tile id="3">
-   <properties>
-    <property name="PathType" value="WN"/>
-   </properties>
-  </tile>
-  <tile id="4">
-   <properties>
-    <property name="PathType" value="Crossroad"/>
-   </properties>
-  </tile>
-  <tile id="7">
-   <properties>
-    <property name="PathType" value="End"/>
-   </properties>
-  </tile>
- </tileset>
- <tileset firstgid="9560" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
-  <image source=".fall_town.png" width="512" height="1152"/>
-  <tile id="159">
-   <properties>
-    <property name="Passable" value="T"/>
-   </properties>
-  </tile>
-  <tile id="191">
-   <properties>
-    <property name="Passable" value="T"/>
-   </properties>
-  </tile>
-  <tile id="223">
-   <properties>
-    <property name="Passable" value="T"/>
-   </properties>
-  </tile>
-  <tile id="608">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="609">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="610">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="611">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="612">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="641">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="644">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="645">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="646">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="672">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="674">
-   <properties>
-    <property name="Type" value="Grass"/>
-   </properties>
-  </tile>
-  <tile id="676">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="736">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="737">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="768">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="769">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="770">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="905">
-   <properties>
-    <property name="Passable" value="F"/>
-   </properties>
-  </tile>
-  <tile id="909">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="916">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="917">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="918">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="919">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="931">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="932">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="950">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="963">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="964">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1007">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1008">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1031">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1032">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1033">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1063">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1064">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1065">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1095">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1096">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1097">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1249">
-   <properties>
-    <property name="Shadow" value="T"/>
-   </properties>
-  </tile>
-  <tile id="1958">
-   <properties>
-    <property name="Shadow" value="T"/>
-   </properties>
-  </tile>
- </tileset>
- <tileset firstgid="11864" name="zzzXiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
-  <image source=".fall_Xiddav.png" width="480" height="608"/>
-  <tile id="339">
-   <properties>
-    <property name="Passable" value="T²"/>
-   </properties>
-  </tile>
-  <tile id="340">
-   <properties>
-    <property name="Passable" value="T²"/>
-   </properties>
-  </tile>
-  <tile id="342">
-   <properties>
-    <property name="Passable" value="T²"/>
-   </properties>
-  </tile>
-  <tile id="351">
-   <properties>
-    <property name="Passable" value="T²"/>
-   </properties>
-  </tile>
-  <tile id="375">
-   <properties>
-    <property name="Passable" value="T²"/>
-   </properties>
-  </tile>
-  <tile id="376">
-   <properties>
-    <property name="Passable" value="T²"/>
-   </properties>
-  </tile>
-  <tile id="421">
-   <animation>
-    <frame tileid="422" duration="100"/>
-    <frame tileid="423" duration="100"/>
-    <frame tileid="424" duration="100"/>
-    <frame tileid="425" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-    <frame tileid="421" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="428">
-   <animation>
-    <frame tileid="428" duration="1000"/>
-    <frame tileid="429" duration="1000"/>
-    <frame tileid="429" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="429">
-   <animation>
-    <frame tileid="429" duration="1000"/>
-    <frame tileid="428" duration="1000"/>
-    <frame tileid="429" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="430">
-   <animation>
-    <frame tileid="430" duration="1000"/>
-    <frame tileid="431" duration="1000"/>
-    <frame tileid="431" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="431">
-   <animation>
-    <frame tileid="431" duration="1000"/>
-    <frame tileid="430" duration="1000"/>
-    <frame tileid="431" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="432">
-   <animation>
-    <frame tileid="432" duration="1000"/>
-    <frame tileid="433" duration="1000"/>
-    <frame tileid="433" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="433">
-   <animation>
-    <frame tileid="433" duration="1000"/>
-    <frame tileid="432" duration="1000"/>
-    <frame tileid="433" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="460">
-   <animation>
-    <frame tileid="460" duration="1000"/>
-    <frame tileid="461" duration="1000"/>
-    <frame tileid="461" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="461">
-   <animation>
-    <frame tileid="461" duration="1000"/>
-    <frame tileid="460" duration="1000"/>
-    <frame tileid="461" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="462">
-   <animation>
-    <frame tileid="462" duration="1000"/>
-    <frame tileid="463" duration="1000"/>
-    <frame tileid="463" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="463">
-   <animation>
-    <frame tileid="463" duration="1000"/>
-    <frame tileid="462" duration="1000"/>
-    <frame tileid="463" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="477">
-   <animation>
-    <frame tileid="477" duration="100"/>
-    <frame tileid="537" duration="100"/>
-    <frame tileid="597" duration="100"/>
-    <frame tileid="657" duration="100"/>
-    <frame tileid="717" duration="100"/>
-    <frame tileid="777" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="478">
-   <animation>
-    <frame tileid="478" duration="100"/>
-    <frame tileid="538" duration="100"/>
-    <frame tileid="598" duration="100"/>
-    <frame tileid="658" duration="100"/>
-    <frame tileid="718" duration="100"/>
-    <frame tileid="778" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="479">
-   <animation>
-    <frame tileid="479" duration="100"/>
-    <frame tileid="539" duration="100"/>
-    <frame tileid="599" duration="100"/>
-    <frame tileid="659" duration="100"/>
-    <frame tileid="719" duration="100"/>
-    <frame tileid="779" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="480">
-   <properties>
-    <property name="zzXiddav" value=""/>
-   </properties>
-  </tile>
-  <tile id="490">
-   <animation>
-    <frame tileid="490" duration="1000"/>
-    <frame tileid="491" duration="1000"/>
-    <frame tileid="491" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="491">
-   <animation>
-    <frame tileid="491" duration="1000"/>
-    <frame tileid="490" duration="1000"/>
-    <frame tileid="491" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="492">
-   <animation>
-    <frame tileid="492" duration="1000"/>
-    <frame tileid="493" duration="1000"/>
-    <frame tileid="493" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="493">
-   <animation>
-    <frame tileid="493" duration="1000"/>
-    <frame tileid="492" duration="1000"/>
-    <frame tileid="493" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="507">
-   <animation>
-    <frame tileid="507" duration="100"/>
-    <frame tileid="567" duration="100"/>
-    <frame tileid="627" duration="100"/>
-    <frame tileid="687" duration="100"/>
-    <frame tileid="747" duration="100"/>
-    <frame tileid="807" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="508">
-   <animation>
-    <frame tileid="508" duration="100"/>
-    <frame tileid="568" duration="100"/>
-    <frame tileid="628" duration="100"/>
-    <frame tileid="688" duration="100"/>
-    <frame tileid="748" duration="100"/>
-    <frame tileid="808" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="509">
-   <animation>
-    <frame tileid="509" duration="100"/>
-    <frame tileid="569" duration="100"/>
-    <frame tileid="629" duration="100"/>
-    <frame tileid="689" duration="100"/>
-    <frame tileid="749" duration="100"/>
-    <frame tileid="809" duration="100"/>
-   </animation>
-  </tile>
-  <tile id="520">
-   <animation>
-    <frame tileid="520" duration="1000"/>
-    <frame tileid="521" duration="1000"/>
-    <frame tileid="521" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="521">
-   <animation>
-    <frame tileid="521" duration="1000"/>
-    <frame tileid="520" duration="1000"/>
-    <frame tileid="521" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="522">
-   <animation>
-    <frame tileid="522" duration="1000"/>
-    <frame tileid="523" duration="1000"/>
-    <frame tileid="523" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="523">
-   <animation>
-    <frame tileid="523" duration="1000"/>
-    <frame tileid="522" duration="1000"/>
-    <frame tileid="523" duration="1000"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="13004" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="27" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="9">
+ <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source=".fall_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
@@ -1833,17 +1256,470 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="14979" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+ <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="PathType" value="NE"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="PathType" value="SE"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="PathType" value="WS"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="PathType" value="WN"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="PathType" value="Crossroad"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="PathType" value="End"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2040" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source=".fall_town.png" width="512" height="1152"/>
+  <tile id="159">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="608">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="609">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="610">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="611">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="612">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="641">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="644">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="645">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="646">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="672">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="674">
+   <properties>
+    <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="676">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="736">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="737">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="768">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="769">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="770">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="905">
+   <properties>
+    <property name="Passable" value="F"/>
+   </properties>
+  </tile>
+  <tile id="909">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="916">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="917">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="918">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="919">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="931">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="932">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="950">
+   <properties>
+    <property name="Water" value="T"/>
+   </properties>
+  </tile>
+  <tile id="963">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="964">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1007">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1008">
+   <properties>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </tile>
+  <tile id="1031">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1032">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1033">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1063">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1064">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1065">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1095">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1096">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1097">
+   <properties>
+    <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="1249">
+   <properties>
+    <property name="Shadow" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1958">
+   <properties>
+    <property name="Shadow" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4344" name="zzzXiddav" tilewidth="16" tileheight="16" tilecount="1140" columns="30">
+  <image source=".fall_Xiddav.png" width="480" height="608"/>
+  <tile id="339">
+   <properties>
+    <property name="Passable" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="340">
+   <properties>
+    <property name="Passable" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="342">
+   <properties>
+    <property name="Passable" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="Passable" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="375">
+   <properties>
+    <property name="Passable" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="376">
+   <properties>
+    <property name="Passable" value="T²"/>
+   </properties>
+  </tile>
+  <tile id="421">
+   <animation>
+    <frame tileid="422" duration="100"/>
+    <frame tileid="423" duration="100"/>
+    <frame tileid="424" duration="100"/>
+    <frame tileid="425" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+    <frame tileid="421" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="430">
+   <animation>
+    <frame tileid="430" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="432">
+   <animation>
+    <frame tileid="432" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="462">
+   <animation>
+    <frame tileid="462" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="477">
+   <animation>
+    <frame tileid="477" duration="100"/>
+    <frame tileid="537" duration="100"/>
+    <frame tileid="597" duration="100"/>
+    <frame tileid="657" duration="100"/>
+    <frame tileid="717" duration="100"/>
+    <frame tileid="777" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="478">
+   <animation>
+    <frame tileid="478" duration="100"/>
+    <frame tileid="538" duration="100"/>
+    <frame tileid="598" duration="100"/>
+    <frame tileid="658" duration="100"/>
+    <frame tileid="718" duration="100"/>
+    <frame tileid="778" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="479">
+   <animation>
+    <frame tileid="479" duration="100"/>
+    <frame tileid="539" duration="100"/>
+    <frame tileid="599" duration="100"/>
+    <frame tileid="659" duration="100"/>
+    <frame tileid="719" duration="100"/>
+    <frame tileid="779" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="zzXiddav" value=""/>
+   </properties>
+  </tile>
+  <tile id="490">
+   <animation>
+    <frame tileid="490" duration="1000"/>
+    <frame tileid="491" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="492">
+   <animation>
+    <frame tileid="492" duration="1000"/>
+    <frame tileid="493" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="507">
+   <animation>
+    <frame tileid="507" duration="100"/>
+    <frame tileid="567" duration="100"/>
+    <frame tileid="627" duration="100"/>
+    <frame tileid="687" duration="100"/>
+    <frame tileid="747" duration="100"/>
+    <frame tileid="807" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="508">
+   <animation>
+    <frame tileid="508" duration="100"/>
+    <frame tileid="568" duration="100"/>
+    <frame tileid="628" duration="100"/>
+    <frame tileid="688" duration="100"/>
+    <frame tileid="748" duration="100"/>
+    <frame tileid="808" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="509">
+   <animation>
+    <frame tileid="509" duration="100"/>
+    <frame tileid="569" duration="100"/>
+    <frame tileid="629" duration="100"/>
+    <frame tileid="689" duration="100"/>
+    <frame tileid="749" duration="100"/>
+    <frame tileid="809" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="520">
+   <animation>
+    <frame tileid="520" duration="1000"/>
+    <frame tileid="521" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="522">
+   <animation>
+    <frame tileid="522" duration="1000"/>
+    <frame tileid="523" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="5484" name="z_SVEbuildingShadow" tilewidth="16" tileheight="16" tilecount="600" columns="24">
+  <image source=".z_SVEbuildingShadow.png" width="384" height="400"/>
+ </tileset>
+ <tileset firstgid="6084" name="zspring_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
+  <image source=".fall_beach.png" width="272" height="496"/>
+ </tileset>
+ <tileset firstgid="6611" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="6400" columns="25">
+  <image source=".fall_z_extras.png" width="400" height="4096"/>
+ </tileset>
+ <tileset firstgid="13011" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
   <image source=".fall_Waterfalls.png" width="576" height="400"/>
  </tileset>
- <tileset firstgid="15879" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+ <tileset firstgid="13911" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
   <image source=".fall_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
- <tileset firstgid="16999" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+ <tileset firstgid="15031" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
   <image source=".fall_Shadows.png" width="304" height="400"/>
  </tileset>
- <tileset firstgid="17474" name="Fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../../../../FarmExtended/assets/.Festivals.png" width="512" height="512"/>
+ <tileset firstgid="15506" name="Fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source=".Festivals.png" width="512" height="512"/>
   <tile id="531">
    <animation>
     <frame tileid="531" duration="100"/>
@@ -1973,11 +1849,11 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="18498" name="characters" tilewidth="16" tileheight="16" tilecount="144" columns="8">
-  <image source="../../../../../FarmExtended/assets/.characterSheet.png" width="128" height="288"/>
+ <tileset firstgid="16530" name="characters" tilewidth="16" tileheight="16" tilecount="144" columns="8">
+  <image source=".characterSheet.png" width="128" height="288"/>
  </tileset>
- <tileset firstgid="18642" name="zLandscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="../../../../../FarmExtended/assets/.fall_outdoorsTileSheet.png" width="400" height="1264"/>
+ <tileset firstgid="16674" name="zLandscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source=".fall_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
     <property name="Spawnable" value="t"/>
@@ -3235,9 +3111,30 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="18649" name="zzzXiddav_Festival" tilewidth="16" tileheight="16" tilecount="800" columns="40">
+  <image source=".Xiddav_FestivalExtras.png" width="640" height="320"/>
+  <tile id="540">
+   <animation>
+    <frame tileid="540" duration="500"/>
+    <frame tileid="540" duration="500"/>
+    <frame tileid="540" duration="500"/>
+    <frame tileid="542" duration="500"/>
+    <frame tileid="540" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="541">
+   <animation>
+    <frame tileid="541" duration="500"/>
+    <frame tileid="541" duration="500"/>
+    <frame tileid="541" duration="500"/>
+    <frame tileid="543" duration="500"/>
+    <frame tileid="541" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer id="1" name="Back" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJytlU1OWzEQx30ECIp6AxB5oQFshBSWJeS9rpHYBAIJC45QGqkfdwC2bQ9Qqcv0CKj0DK9wChaJxIz8H3kySVET+qS/7OeP+dnj8biy61xFaYmUGS2bdvtfJxXBuQ1Si9QhHZNqpIxUhSyH5/WpPQ+pXEH7GdrkfyvENlaPVCfd+cjiUrM2wjQnV337Rl1lW+zrcbKngY96Y/osp6/6eLzY+qPmcv2e9ODjuGPF6PnE6qs6a2l3cq0Z5nA5hF86qGtbvb/Ys9Js7bdX8Amvm23LunncXnje5r8oh9+Z88vHfWif3GHc4X9gvYXfZP0tw8hDko7ZRVTgTGQ/i9qxd1La+ZvF6qi4tHOfk5y56MLHO5iBJeMK+LCOcTr+9cf/cne7686dzqGz9TivCJNrknxgWW2MHdGaP9LcT3PoM+n1DFYekl+Ptp27bDq3uh3zjeSJRVht5Rfxs2a9a0bW+2bKGa0XsArc4wrn1BDvwCzWOa3jinRN+kJzv86hb3xuIcWGjg9hlX6S953+qzvOfaDy1sd+eTtGyGtjn+xVUY6QVwtVbynWGG2WJRzJhSXejnEjMTLNbqR96DduoM5L+jl3Mof9d0P6YfJtifzfhX2Otwa0iTUz7wB2D3BWnTDNEru8p72dyCqNeorXRoxtIW6zkN4luwdhjZCHBzgT7b9zw+L+E5zbaZh+R+WNE5bsTViPiqX9t4yYlbjtK6Z+h4Wh1yUsGxvah7yn3yGyaogvPgOJ1XLGXnnecM25n0pP0VxIzg==
+   eJytlTtPAkEQx3cTKqUELdXG2FpQI5cgxFhBo5V3mBj9Bopyig96iBGiQb8C0YRHY2lv52fQUFvqjDubG9aFg8Alv9ze7O78Z+b2kYkIkWGkAddg07Cb3x7gSyEKQBGoAjVgD3CBLcLUwXkNsJdk8M6S/Y5s+vtAKhtSBzxAkpY0tAryv06J9Z0Y3DLf2j8fp3NqCcWx0WfqNFgfjte+4jKYi+0FYJHG1ZhGXQRaDdZG0pHBWF2ag+8+1QX9vKcUXePdSwV9Nrqszeu2TTWJk46OG7VH+RuXEtUddQTlwWsiZ6h1TnXT8RcNDYwF2XeEOExPh0+56Hz4HuCchWiVDcK0qnL4frb501wCj07AK9TryDLOpxp6VCu+/vnTY75+5sEQHR8ZVfN8GfwTBHXQbmrxuJdg7vIErAzRQrTP75gQH3NCvMVmo6XPNNRoikGtYUyT198ZDGSl2gNhWkmYuzEBKablGuvD5n8tqXiA9iessy+iD1yArczG3DiKCtmw74q01mVw94yqYWdK+B3XCvlfeYpfs5pUdCm3NvnU9hwbmyetU/pX1ZC8ri06tvh71F82YuN7uR6SV9vw9wTcW2hb9DtMS+c2Sgtj03VpklbCUXdY2D2WYFrjrI0c1bHCtLTOizPo+xm+d+Ac2GX8AvOtbaQ=
   </data>
  </layer>
  <layer id="11" name="Back 2" width="27" height="22">
@@ -3245,37 +3142,42 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxlwGFDXPDYqm4cM5ptQzyweAmbtoKJdqgTMukhFu+wImPWKinbhAnH6DAzx+rS3BwToZQ+tQagRhLbQgNCqRrS1rwhofhMQs9HYHnTATsPygZ4ghQk7RgZOVPIrPrtcqByexPhrONuVRCA8XUkIb3LrVmx1KABmThhZ
-  </data>
- </layer>
- <layer id="15" name="Back 3" width="27" height="22">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFgxk4GVDXvCQqmzcKRsEoGD5AfbR8GAWDGKgN0vQJAO0YAbI=
+   eJxjYBgFgxkcEyJP31tG7OKPyDQPH2BjgtBXcNhJDnDEYZY81C5c/iMHRBEwC+Y/aoBiAnbJU9EuXOCfIAPDf0Ha2wMC9LKH1uCrCCr/qAh2ddQCQqIMDEpAvIzG9uADGvYDZ/coGAW4AKgOe0LFegxXOmcSJr7+BQDE8w+v
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJy1lc9LG0EUxwdJtJqI/ReqiU1yMEuzUEFsJDHqxZt4sYIggj0UL+2pl9JqKSZ/QHNo7Y+behS1vdSzoiFi/wZDPAjqUW2/j51H3k52SdT64MPMvh3e9/tmh9l8TKkC4NjFfE88lzB/klKuoGeTg1h9jmLTUmrLcuZrWLOua9P6Kjjx0F4Gee2L6kyB5ynHi9T/a2gdQeePVVtHYRveOVh7NVbzRZ5eYf1rUdOrV68+KcZTbu/k74JytlJfwSnm+03WLhn7uW9o0Zy9U5BOJzS2wU+wZNfX5P2itSvaE3tD7q1fX+zlDJxrnV5QBofgi65R6XPXJI0B4YnHz+I9j5/w3YqWo7MBQsiFtU4aVMEJ2NL51qS7Zh5MCE8FPW4K7bwe+UzyfnxELqp1ntm1vss6H0k69bg2jS+FJx5L4j2PfCZ5774ZGjIon0m6a9L4Qaznc1ux69fxd+O9+2U7Pbah5gPQDjpACPTElZpJevvwikt82ytw3ed4YK2I3iPuKYqaveAxiIE4yMab1/EK1ho09i6L2sMgB0bA6A364fgObz+EP9ZasOvvvf8drDUPrRfgnc+5MCOdUGoo4cwzGLNgGOTACBgFY2INxSOrdo/SmZhsUus2kbbc9+hdtUrd/u+mLfedtaC1si3YE4Ncy918vNH/Mb6Pua9Zj7pzPlq/A0rtBBrnikJL9nUTrWPUrAQa5+gulP+t2/TVFVTqYbBxju5C+c/lvt6j7qLBko/WU9TsD/rnQtivsMc/9T7OPGv9AwUH3KA=
-  </data>
- </layer>
- <layer id="16" name="Buildings 2" width="27" height="22">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGAa3BQRYGhkMs9LHrJdCeV2h2nWZjYDjDRn27BFkZGIRYUcU+A+35QgO7BiMAAKL5Byo=
+   eJyVVTtMFFEUfbNRKbZjaqMFCIqlhTQzarlaSwSVkqiJGMXCX2LohAYrUINBlAJ75WOMu1Jr4a9nzcYYf5XWnpO5N3P3zRtYbnJy37y5e865b957O1B17jCgcRHjS+Z5HOMx1x5jAVyuFucYp2PnhuJsfBI1p4Sb9VPAdED7EDAgvsgzA9wXL1b/SNSuNQGd63Fex7jgwqHatWrui56W8e654Qz1GuqTMenavdPfQeAN8BnoASpRZ9zj3nra3+lv1TuDOieAX8BvYD0qcup6sfaTeFJvmLtb1pd66UNdv+iMAHsqznUBH4WDYTmpccV40vzBvNd8FN9tMM50vgPHMHdcdCaAfdDZD/yUeYblrAP3jKdGlOUfRrsuWfekrsdr5GHRuRblfZNrWJ4bhpt50XjSvMu816x7Utfui2iMdDt3FjgHnAdGu3Nty8n8CvPNxLmFJPe2t1Ks0++ma/cHWKo5dwPcN4FbwG3gDrAh+6ZlOMm/6T2XhWqdkbVT77PgngMeAA+BR8DXauZDtd5h/L5Wzm2DflTrqug0hOcFuF8CK8AqsAbUk/a+/kLnXy3cz6b3vGC0nsneWPJ8NgJr8m2LdfL5Gdq/as1D6zGwEuX+bagH5q603H8otH+eYb1Hue+no3B9p71sFezJ3qPU6k+LoNaTJPzOwq+xz/6dxe/W2uYbNXfY43KS96W5Imu4nZYG6w6kYexOi/WDca7VSV+9wtWXZnXca4vAU3nflLPdG9DnXWj/t9hXqAd/jnu1JbxvgQ1zfzTN2HrhXWj/c9lXqP+yXv1v558phnrx90bZPgxp2XOmmtqPnil7/v4Dk/XhhA==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
-  <object id="4" name="TileData" x="368" y="144" width="16" height="16">
+  <object id="1" name="TileData" x="128" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 3 18 Custom_SchoolHouse 800 2000"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="144" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LittleRedSchoolHouse&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="160" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LittleRedSchoolHouse&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="368" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Waste&quot;"/>
    </properties>
   </object>
-  <object id="5" name="TileData" x="384" y="144" width="16" height="16">
+  <object id="7" name="TileData" x="384" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Paper&quot;"/>
    </properties>
   </object>
-  <object id="6" name="TileData" x="400" y="144" width="16" height="16">
+  <object id="8" name="TileData" x="400" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;CansandBottles&quot;"/>
    </properties>
@@ -3283,38 +3185,30 @@
  </objectgroup>
  <layer id="5" name="Paths" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20Hb6AAAHgMCUgAAQ==
+   eJxjYBgFo2AUDBVwkX2gXTA43DAKKAcHsMQjNrFRMApoCShNh4MhzQIAo3wFlA==
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
  <layer id="7" name="Front" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzdlTtSwlAYRn8ENqHOiPggUqSAyi2JBYhuQHoQKGAR+GpcBAjUUoitoA1swMOYNIGbxw2BGc7Mmcxk/nzfzVtEJJYX2cM4qrgyRAp4bahnbLrM9BRz+3Qc4KFLl03R9J6Z0DM13Dv9rL26okuVaXfq0jGXs8NkdjiuROYNlvEW76zz6Zrh1+ukRuYD1rGBTR/3SZdHsp/wGV/wNcKuHtnv2McBDn12uT17Kr4X9wWn+IO/GL8IlvHJMWP8sp6nXeGe61AJeC22zVFWJIXH1vYET/EMzzGDRnbbq1wfb2nvGZ33Qpcw37hWQqSd8N4XFZfJf50E+efq8JETGeWiyXYyo2e+oa5NkorxzuMfrmZHZw==
+   eJxjYGBgMANicyC2YMANuLgZGLiBmIcbjyIoyAKqycahzh+IA4A4kLAxRIEuoD3d3PjtJMXtyACXmTA7KQHoZlNipg9Qn6AgqpgoEp8a7kUGjEIMDExAzAzELEDMKkQ9s9GBPNBsBSBWBGIlIFamoV22QLPtgNgeiB2A2JGGdkUDzY4B4lggjgPieCBeDI2jo3a0s3cUjAIYAKUzNnvy8TEc+mEAuYx7SuM0TU4Zh8//x6ngXpD5x6CYEMAWhuTWW0MN4IqHgXILMfEFAlKcDAzSnBA2ADyDKT8=
   </data>
  </layer>
  <layer id="17" name="Front 2" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGJpjJwsAwiwVVzJIVgukBrFgheBQMXQAAvGACNg==
+   eJxjYBgFo2AUjIJRMAoQ4JEdgr3QjrCaUTAKRjIAAMjxAyA=
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzt1EtOwlAUxvGDiDhTYQM+BrbFQQMBEgYosgR05mOmuAUfa1NB2QUvUZANiDjRvwESI95S4DYw8Et/k97cc9r09oj8nZYh8mooFsl+TCQbU6+Pk6ApsmzqqTXIui2ygU1s2b17Td5nmz4G2v13i7OWQNKevFeavbvYQ8ahTo61AxxO0euIvcc4wekUddzkkvpXuMYN4pq+t1PaDmduFmnM2fM4pRwVqaCKGupRd/tu+R/ucI8CinjAI0qK//KN2h28o4sPl72q1Kuhjic08IwXNBW9Vjh3q1hDCGGX5/Dzu54l4sMC/FhEAEsIWsN7DGqbsBDBjsdnXuccHZWfs9DrjJqFOuPFLEwFen5nMAv/Mz8ZmtE+Lpxx/xx5XGia437FjPoCLK48yw==
+   eJxjYMAO2rkZGDq4cUgCQTkQV+CWJgksB9qzAo9d5IADQgwMB4H4EBAfFoKItQHtOA7EJ4C4k4r23QOafx+IHwDxQyHqmYsN/AGa/xeI/wHxfxrbJSXMwCANxDJALAvEWVDxF3a49SzEIYdLHB1QM16w2U+sO2CgGc09pOqnJUB3Cyg5AKOJQQSIRYFYjAp2pPFgF9cGYh0g1gViPSDWp4JduIALELsCsRsQuwOxBw3tigXiOCCOB+IEIE6koV0gQM1yFF/aRC8LQQBbPsaXt4kF9CoLQYDSsvCRHfF5GrksJAWQWmY8olMZQ4+yjBi/UJoOX+FQywYsu9mBmAOIOalUryzGYQ4A6no2vg==
   </data>
  </layer>
- <layer id="14" name="AlwaysFront 2" width="27" height="22">
-  <properties>
-   <property name="Draw" value="AlwaysFront"/>
-  </properties>
+ <layer id="16" name="Set-Up" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAJMUK5EP7sm0NGuUTAKRsEooCYAAG4qAUw=
+   eJxjYBgFo2AUjIJRMApGwSggDkxxGGgXDC4AAOpIANU=
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
- <layer id="13" name="Set-up" width="27" height="22">
-  <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20Hb6AAAHgMCUgAAQ==
-  </data>
- </layer>
 </map>

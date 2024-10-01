@@ -3186,7 +3186,7 @@
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJytlUtOAkEQhrsIO1kZkaV6ABd6AXXBI8Q7CL7WLhWZce0SBGc23IHEU6i3MHHpFdSqTFXmp0AEdJI/Pf2qr6u6urteDKEOqrJaTjXX7uttVkwhnLI6rB6rzzphtVhNlefIvJTbI8rLhrY/apvVLylrEyWsNouURY51StOcCPpunAZg2+zjOPNpHDJduz7PSaFPxputMuVz5X+TVdFxfWAkIWel8C+qFifX2tI5Un5oXHr6j7aSH+x5IRvjdqwxKavtCvh3RfNtLqII4t5RPzAmpOX9P7DugCP1jmNElAtzdhXF6ov5s6odfyZ/Y/UgL/3cebI9N41Cdgb9uFhzr63jMP/xk7qd3a81bigtLipl82KaXJNwRmGa1dWxe6wtnru9hHZYZzNYuH4vy9dVWF2wa3GOlD9aD2GXy331xe6Pzh9YsZ7jOqtB2RmIldECjjCeeS0vYTXWkPLcwPzANuPIeXhjTrMQwgHPPVxCR6XMTuzWHoFfyJFzLawn1ifchRuUvx2zJHthfuAbN3b71YZ7SeL3ynp3946w5P4fqG3Jt3PVhYuZ2L3Vveq5GNpdYj5dFTKW2EclIed1IZcTtw9oNwG/9ij3y/bK4pc6nvQ/aCyHNP2OCqcGLPPNWLvAwvjVNGctb5GJ77AxcE+N5XPDfE01fgWNn8xpwn4ie5YasI5v75P6YQ==
+   eJytlTtOA0EMhscRFaRCPErgACnCBYAiCYo4AIiCJDxqSkiyS00ZXrtN7hCJUwC3QKLkCoCttbU/TgiwsNKn2Xn5H3s8M42ZEBpAjWk56q7d19tMTCF0mC4zYK6YA6bFNBWvI/NSbo8oL7e1/U7brH5CWZuQMG2GVIucVofGdSLoO3fcgG2zj+PMp1HIOHN9XieFPhlvthYpnyv/S8yyjrsCjSTkWin8C7WZz2tt6RwpXzUuA/1HW8kX9jyojXHb0Zgsqu1l8O+Uptv8CRHEvat+YExIy8t/0LoAHal3nUZEOZizRYjVF/OnqB1/Jr/TGkBe+rnTsD03hiE7g35crLnX1nGY//hJ3c7u+xw3lH8OlbN5MX1ek+gMw7hWX8dWmRWeu/oL1pjDCVq4fo/laxGtPti1OEeqP5wPocLluvpi90f3D1qxnuMGs03ZGYhVowU6ovHAa3kMxbRuKc8NzA9sMx05D8+s0yyFsMFzN3/BVjmzE7u1R+AX6si5Fq175g3uwgXK345JyF6YH/jGjdx+teFekvg9MS/u3hEtuf9v1Lbk25FyDJo9tdvTvRq4GNpdYj6dljItsY8kIdfrQy4nsA/nzm4CflUp98v2yuKXOj3pv9ZY3tL4Oyoxq4OW+WZaFdDC+NU1Zy1vURPfYdPAPTUtnxvma6rxK2n8ZE5zwn5OYnc2hH1mT8sPesH9ww==
   </data>
  </layer>
  <layer id="11" name="Back 2" width="27" height="22">
@@ -3234,7 +3234,7 @@
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzt1T9OwnAYxvF3AgmdWnUQOAEKK+4IXAILiA5eQDcE5N8pAAXqMRAHPAXKPVD5NizGtKQ2LSGBJ/ks/aXvk7TNWxHrtMIi7bDNIbnDvf3xv2LQ87Kmy03GqsgrJnhTV9eadEzxjo6HfTPmf+ATc9W7uVZZMP8L3/jxuetEE4kgihhufexKMf9c8/a97FrMz4FHKIc4wrHD+3RFpIAiSrhCGde4UazvieMUZ0gg6bCrwrwHVFFDHY9ooGnTlcYFMsgi57Cry7we+njCMwYYYgTDoi+PS+gooOiwy2283KPr8ncX+plN7UIzm9qFZn7vwn22PwH+JUEcIOTzf2UJ0iQwug==
+   eJzt1U1OwlAUhuEzQgiMys8AdAUoTHUOwiYQEGTgBnQm8u8qFFBhGSIDWYXgPhB8GyaE9JJCbgkJfskz6U3Pl7TNqYh1ml6RlldxSO5wrz7eKD16+mu6tsmHITLAJ4bG4lqDji+M8KSx75v5Y0zwY+iba5Up838xw9zhrrBfJIJjnODWwa5z5l/49b6XQ4v5OfAIJYAgQjbvy/pEcsjjGgUUcYOSz/qeKE5xhhjiNrsemFfGIyqoooY6GoquBJK4RAppm13PzHtBGx108Yo3vKNn0ZfBFbLIIW+za9vo3KPrsroLncyudqGZXe1CM8u78D/7k6rin+Hi+hHc8Gj6r3QVc/4AK6Ux9g==
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

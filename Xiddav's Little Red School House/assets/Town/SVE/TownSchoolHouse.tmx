@@ -1790,16 +1790,16 @@
  <tileset firstgid="6084" name="zspring_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
   <image source=".spring_beach.png" width="272" height="496"/>
  </tileset>
- <tileset firstgid="6611" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="0" columns="25">
+ <tileset firstgid="6611" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="6400" columns="25">
   <image source=".spring_z_extras.png" width="400" height="4096"/>
  </tileset>
- <tileset firstgid="6611" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+ <tileset firstgid="13011" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
   <image source=".spring_Waterfalls.png" width="576" height="400"/>
  </tileset>
- <tileset firstgid="7511" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+ <tileset firstgid="13911" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
   <image source=".spring_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
- <tileset firstgid="8631" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+ <tileset firstgid="15031" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
   <image source=".spring_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
@@ -1812,17 +1812,17 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4A64Aoj9cxyJGDWWyraFUXALDYm6tlVTMAueSrahQv8E2Rg+C9Ie3tAgF720Bp8FUHlHxXBro5aQEiUgUEJiJfR2J5RMAqGElghRD2zlpBp1jIs+gBm2AtP
+   eJxjYBgFo4A64Aoj9cxyJGDWWyraFUXALDYm6tlVTMAueSrahQv8E2Rg+C9Ie3tAgF720Bp8FUHlHxXBro5aQEiUgUEJiJfR2B50sFSIvvaNglFAClhBxfS5hEyzlmHRBwCz7AwG
   </data>
  </layer>
  <layer id="13" name="Back 3" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxk8ERpoF4yCUTAKRsEoIAccGS2/qQoIhedxEsKbmnUrACq0BHI=
+   eJxjYBgFgxk8ERpoF4yCUTAKRgo4PlreUBUcGQ1PqgJC4UlK+qVm3QoA5TgFSw==
   </data>
  </layer>
  <layer id="14" name="Back 4" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIwkwCQ+0C0bBKBgFo2DgwWhZSD5gHsFhhy3dAADsdABW
+   eJxjYBgFgxk8EqKueUzC1DVvFIyCUTB8wGMqlzeDGYyWheQD5hEcdtjSDQBNrQI/
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>

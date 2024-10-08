@@ -1,4 +1,4 @@
-{ "Format": "2.0",  
+{ "Format": "2.0.0",  
 	
 "DynamicTokens": [   
 	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
@@ -247,7 +247,10 @@
 	"PatchMode": "Replace",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
 
-//more
+//more	
+	{"Action": "Include",
+   		"FromFile": "assets/Special Order.json" },
+	
 {   "Action": "EditMap",
     "Target": "Maps/Custom_SchoolHouse",
             	"When": {"Fixed": true,},

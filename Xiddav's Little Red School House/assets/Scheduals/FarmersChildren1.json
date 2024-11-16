@@ -37,25 +37,6 @@
 
 //Spouse Alex
 {"Action": "EditData",
-	"When":{ "spouse":"Alex", "HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
-"Target": "Characters/schedules/Alex",
-"Entries": {	"marriage_Tue": "740 Town 14 16 0/1020 JoshHouse 6 18 2/1910 bed",
-				"9":"GOTO NO_SCHEDULE",	
-				"23":"GOTO NO_SCHEDULE",},},
-
-{"Action": "EditData",
-	"When":{ "spouse":"Alex", "Season":"Summer", "HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},
-"Target": "Characters/schedules/Alex",
-"Entries": { "marriage_Tue": "740 Town 14 16 0/1020 Beach 30 13 2 square_7_7/a1350 Town 88 91 2/1700 JoshHouse 6 18 2/1910 bed", },},
-
-{ "Action": "EditData",
-	"Target": "characters/schedules/Alex",
-		"When": {"spouse":"Alex", "dayofweek":"Monday, Thursday", "Five days": true, "HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "Candidus42.LittleNPCs/FirstLittleNPC: Name":"{{Candidus42.LittleNPCs/FirstLittleNPC: Name}}"},  
-	 "Entries": {
-		"Mon": "GOTO marriage_Tue",
-		"Thu": "GOTO marriage_Tue",},}, 
-
-{"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
 "Entries": { 
 	"rain": "740 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1130 Custom_SchoolHouse 19 4 1 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.002\"/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 JoshHouse 15 6 child_ball",

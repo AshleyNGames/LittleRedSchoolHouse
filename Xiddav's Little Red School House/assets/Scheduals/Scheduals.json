@@ -20,14 +20,11 @@
             	"When": {"HasMod": "Rafseazz.RSVCP" },},
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Flor.json",
-            	"When": {"HasFile:{{FromFile}}": true, "HasMod": "Rafseazz.RSVCP" },},
+            	"When": {"HasMod": "Rafseazz.RSVCP" },},
 
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Eloise.json",
             	"When": {"HasMod": "Lemurkat.EastScarpNPCs.CP" },},
-{"Action": "Include",
-   		"FromFile": "assets/Scheduals/Custom.json",
-            	"When": {"HasFile:{{FromFile}}": true },},
 
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/FarmersChildren1.json",
@@ -41,5 +38,9 @@
 
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/SKE.json",
-            	"When": {"HasFile:{{FromFile}}": true , "HasMod": "BURAKMESE.SKE",},},
+            	"When": {"HasFile:{{FromFile}}": true , "HasMod": "BURAKMESE.SKE",	},},
+			
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Custom.json",
+            	"When": {"HasFile:{{FromFile}}": true },},
 ]}

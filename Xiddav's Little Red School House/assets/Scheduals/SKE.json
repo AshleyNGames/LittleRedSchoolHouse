@@ -31,11 +31,20 @@
 		"When": { "Five days": true},  
 	 "Entries": { "Mon": "GOTO Tue", "Thu": "GOTO Tue"},}, 
 
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters"],
+  "Value": "Adrian 27 63 1",
+  "Delimiter": "/"  },      ]    },	
+
 //James  
 { "Action": "EditData",	 
 	"Target": "characters/schedules/James",
 	 "Entries": {  
-                 "Tue": "810 Custom_SchoolHouse 8 13 3 James_Read/1130 Town 12 11 1/a1300 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 68 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 0",
+                 "Tue": "810 Custom_SchoolHouse 8 13 3 James_Read/1130 Town 12 11 1/a1300 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 69 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 0",
                	 "Wed": "GOTO Tue", "Fri": "GOTO Tue", 
 		 			 "9":"GOTO season", 
 		 			 "23":"GOTO season", },},
@@ -50,6 +59,15 @@
 	"Target": "characters/schedules/James",
 		"When": { "Five days": true},  
 	 "Entries": { "Mon": "GOTO Tue", "Thu": "GOTO Tue"},}, 
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters"],
+  "Value": "James 36 65 3",
+  "Delimiter": "/"  },      ]    },	
 
 //Tina
 { "Action": "EditData",	 
@@ -74,6 +92,35 @@
 		 "Mon": "GOTO Tue",
 		"Thu": "GOTO Tue", },}, 
 
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "Tina 17 58 2",
+  "Delimiter": "/"  },      ]    },	
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters"],
+  "Value": "Tina 26 63 2",
+  "Delimiter": "/"  },      ]    },	
+
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/fall16",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "Set-Up_additionalCharacters"],
+  "Value": "Tina 30 79 1",
+  "Delimiter": "/"  },      ]    },	
+
   //Vanessa
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Vanessa",
@@ -95,5 +142,14 @@
 		"When": { "Five days": true},  
 	 "Entries": {
 		 "Mon": "GOTO Tue",
-		"Thu": "GOTO Tue", },}, 
+		"Thu": "GOTO Tue", },},  
+
+{ "Action": "EditData",
+  "Target": "Data/Festivals/spring13",
+  "TextOperations": [
+  {  
+  "Operation": "Append",
+  "Target": ["Entries", "MainEvent_additionalCharacters"],
+  "Value": "Vanessa 32 65 3",
+  "Delimiter": "/"  },      ]    },	
   ]}

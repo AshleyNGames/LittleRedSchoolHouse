@@ -136,7 +136,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgF+EAqG6aYBCP93TEcwXcOhgYY24BzAB1CRfADyU/IAOhXioA+ieFDqvrBCn6SEW7U8LsVgTyOHM/PKIxbSsBQiGdDTux5Ahn8QArDZzjy0FAHAOyfDG4=
+   eJxjYBgF+EAqG6aYBCP93TEcwXcOhgYY24BzAB1CRfADyU/IAOhXZDUkA30Sw4dU9fQCz4jwO3L4/KRDWGEDVgTyOHI8E+MnWoHBGs/IwJATe55ABshx/gxHHhrqAACDZQ9c
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -269,7 +269,7 @@
  <objectgroup id="6" name="Front"/>
  <layer id="10" name="Paths" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxV0ctBWPb0AsrvQ3YjNzcSKjQLKwWh8jAwwmgcHHgAA4HUJEQ==
+   eJxjYBg40MlBHz1DFZDq18EaNsjuQncjNjcTKzYKSAeEwn80PoYnGM2DAw8AmJsKxA==
   </data>
  </layer>
  <objectgroup id="9" name="Paths"/>

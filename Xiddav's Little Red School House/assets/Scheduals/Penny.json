@@ -1,9 +1,21 @@
 {   "Changes": [  	  
+	
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+	"Entries": {  
+ 		"Tue": "{{i18n:Penny_School_Tue}}",
+ 		"Tue4": "{{i18n:Penny_School_Tue4}}",
+ 		"Wed": "{{i18n:Penny_School_Wed}}",		
+	}},
 	  
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Penny",
 		"When": { "noschoolday": false, "weather": "Sun, Wind, Snow", },  
-	 "Entries": {     
+	 "Entries": {   
+		 "marriage_DesertFestival_3": "a940 BusStop 20 11 2/1030 Desert 38 42 2 \"Strings\\1_6_Strings:DesertFestival_Penny_marriage\"/1700 bed",
+         "DesertFestival_3": "620 Trailer 5 5 0/a940 BusStop 20 11 2/1030 Desert 38 42 2 \"Strings\\1_6_Strings:DesertFestival_Penny\"/1700 Trailer 1 8 0/2440 bed",  
+		 "marriage_DesertFestival_2": "GOTO marriageJob",
+         "DesertFestival_2": "GOTO Tue",       
 		 "Tue": "620 Trailer 6 5 0/700 Town 10 13 2/a1000 Custom_SchoolHouse 15 7 2/1030 Custom_SchoolHouse 8 10 2/1100 Custom_SchoolHouse 15 7 2/1140 Town 12 13 1/a1300 Custom_SchoolHouse 15 7 2/1420 Custom_SchoolHouse 19 10 0/1500 Custom_SchoolHouse 15 7 2/1550 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
 		 "marriageJob": "700 Town 10 13 2/a1000 Custom_SchoolHouse 15 7 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1130 Town 12 13 1/a1300 Custom_SchoolHouse 15 7 2 \"Strings\\schedules\\Penny:marriageJob.000\"/1550 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 bed",
 	 },}, 
@@ -25,22 +37,23 @@
 		"marriage_Mon": "GOTO marriageJob",
 	 },}, 
 
-
 //stop going to school on the 9th and 23rd already
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Penny",
-		"When": { "day": "9, 23" },  
+		"When": { "noschoolday": true },  
 	 "Entries": {     
+		 "9": "NOT friendship Sam 6/900 Trailer 1 8 0/1100 Town 78 93 2 penny_sit_down/1600 Trailer 12 6 0 penny_dishes/1840 Trailer 4 9 1 penny_sleep",
+		 "23": "NOT friendship Sam 6/900 Trailer 1 8 0/1100 Town 78 93 2 penny_sit_down/1600 Trailer 12 6 0 penny_dishes/1840 Trailer 4 9 1 penny_sleep",
 		 "Tue": "NOT friendship Sam 6/900 Trailer 1 8 0/1100 Town 78 93 2 penny_sit_down/1600 Trailer 12 6 0 penny_dishes/1840 Trailer 4 9 1 penny_sleep",
 		  "marriageJob": "810 Town 104 89 2/1200 ArchaeologyHouse 20 5 0/1830 bed",
      	  },}, 
 
-
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Penny",
-		"When": { "day": "9, 23", "weather": "rain"},  
-	 "Entries": {     
-		 "Tue": "810 Town 104 89 2 \"Strings\\schedules\\Penny:rain2.000\"/1200 ArchaeologyHouse 20 5 0/1600 Trailer 14 4 2 penny_sit_down/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
-     	  "marriageJob":"810 Town 104 89 2 \"Strings\\schedules\\Penny:rain2.000\"/1200 ArchaeologyHouse 20 5 0/1830 bed",
+		"When": { "noschoolday": true, "weather": "rain"},  
+	 "Entries": {  
+		 "rain": "810 Town 104 89 2 \"Strings\\schedules\\Penny:rain2.000\"/1200 ArchaeologyHouse 20 5 0/1600 Trailer 14 4 2 penny_sit_down/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+     	 "Tue": "810 Town 104 89 2 \"Strings\\schedules\\Penny:rain2.000\"/1200 ArchaeologyHouse 20 5 0/1600 Trailer 14 4 2 penny_sit_down/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+     	 "marriageJob":"810 Town 104 89 2 \"Strings\\schedules\\Penny:rain2.000\"/1200 ArchaeologyHouse 20 5 0/1830 bed",
      	   },}, 
   ]}

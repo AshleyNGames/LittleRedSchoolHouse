@@ -37,8 +37,20 @@
             	"When": {"HasMod|contains=siliconmodding.GVChildNPCs": true, "HasMod|contains=Candidus42.LittleNPCs": true, "HasFile:{{FromFile}}": true },},
 
 {"Action": "Include",
-   		"FromFile": "assets/Scheduals/SKE.json",
-            	"When": {"HasFile:{{FromFile}}": true , "HasMod": "BURAKMESE.SKE",	},},
+   		"FromFile": "assets/Scheduals/Adrian.json",
+            	"When": {"HasMod": "BURAKMESE.SKE",	},},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/James.json",
+            	"When": {"HasMod": "BURAKMESE.SKE",	},},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Tina.json",
+            	"When": {"HasMod": "BURAKMESE.SKE",	},},
+
+{"Action": "Include",
+   		"FromFile": "assets/Scheduals/Vanessa.json",
+            	"When": {"HasMod": "BURAKMESE.SKE",	},},
 			
 {"Action": "Include",
    		"FromFile": "assets/Scheduals/Custom.json",

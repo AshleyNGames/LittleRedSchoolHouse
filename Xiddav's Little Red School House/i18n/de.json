@@ -1,8 +1,8 @@
 { 		 	 
-	"LittleRedSchoolHouse": "Russel elementry. Home of the Soaring Pelicans.",
-	"Waste": "Waste",
-	"Paper": "Paper",
-	"CansandBottles": "Cans and Bottles",
+	"LittleRedSchoolHouse": "Russell-Grundschule. Heimat der schwebenden Pelikane.",
+	"Waste": "Abfall",
+	"Paper": "Papier",
+	"CansandBottles": "Dosen und Flaschen",	
 	
 		 "School.1": "Abgeschlossen.",
 	  	 "School.2": "Klassenpflanze. Nicht übergießen.",
@@ -56,10 +56,10 @@
 	"Desk.Vanessa": "Dies ist der Platz von Vanessa.",
 	
 	 "Deskpartone": "Dies ist der Platz von",
-	 "Deskparttwo": ".",
+	 "Deskparttwo": ".",		
 		
-	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
-	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
-    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
+	"Penny_School_Wed": "Die Schule verfügt nicht über ausreichende Mittel, aber ich gebe mein Bestes, um ihnen eine angemessene Ausbildung zu ermöglichen.#$e#Jedes Kind verdient eine Chance, erfolgreich zu sein..",
+	"Penny_School_Tue": "Ich unterrichte heute ... Es sind zwar nur wenige, aber es ist schön, im Leben eines Menschen etwas zu verändern.",
+    "Penny_School_Tue4": "$d bus#MVielleicht kann ich jetzt, da meine Mutter wieder als Busfahrerin arbeitet, mehr Geld sparen. Die Dinge sehen etwas besser aus.|Ich versuche, Geld zu sparen, aber es ist hart für das Gehalt eines Lehrers und da meine Mutter arbeitslos ist.$s",
   
 }

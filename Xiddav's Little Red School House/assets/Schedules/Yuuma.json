@@ -1,0 +1,10 @@
+{   "Changes": [  	  
+	{	"Action": "EditData",
+		"Target": "Characters/Schedules/Yuuma",
+		"Entries": { "Fri": "a950 Custom_SchoolHouse 4 4 2 yuuma_read/1130 Town 13 18 square_2_2_0/a1250 Custom_SchoolHouse 4 4 2 yuuma_read/1550 Custom_Ridgeside_ShiroHouse 3 5 0/2000 Custom_Ridgeside_ShiroHouse 14 5 0 yuuma_sleep",},},  	
+	
+	{	"Action": "EditData",
+		"Target": "Characters/Schedules/Yuuma",	
+		"When": {"HasSeenEvent": "75160249"},	
+		"Entries": { "Tue": "GOTO Fri",},},  				
+   ]}

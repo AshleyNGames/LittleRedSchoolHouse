@@ -1,4 +1,4 @@
-{ "Format": "2.0.0",  
+{ "Format": "2.5.0",
 	
 "DynamicTokens": [   
 	{  "Name": "IsOddYear",  		"Value": "{{Query: {{Year}} % 2 = 1}}"  },  
@@ -13,36 +13,36 @@
 "ConfigSchema": {
 	  "Playground Expansion": 	{  "AllowValues": "basketball, sandbox, custom, none", "Default": "basketball"},
 	  "Five days": 				{  "AllowValues": "true, false",  "Default": "false"},},
-	
+
  "CustomLocations": [  
 {    "Name": "Custom_SchoolHouse",
   	  "FromMapFile": "assets/RundownSchoolHouse.tmx",
    	  "MigrateLegacyNames": [ "SchoolHouse" ]}],   
- 	
+
 "Changes": [		
 {   "Action": "EditMap",
      "Target": "Maps/Custom_SchoolHouse",
-      "When": {"Fixed": true },
+      "When": {"HasSeenEvent": "9695001"},
      "FromFile": "assets/SchoolHouse.tmx",
 	"PatchMode": "Replace"},	   
 
 {   "Action": "EditMap",
      "Target": "Maps/Town",
-      "When": {"Fixed": false },
+      "When": { "Fixed": false },
      "FromFile": "assets/Town/{{World}}/TownRundownSchoolHouse.tmx",
 	"PatchMode": "Replace",
-     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},	  
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
 
 {   "Action": "EditMap",
      "Target": "Maps/Town",
-      "When": {"Fixed": true },
+      "When": {"HasSeenEvent": "9695001"},
      "FromFile": "assets/Town/{{World}}/TownSchoolHouse.tmx",
 	"PatchMode": "Replace",
-     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},	  
+     "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
 
 {   "Action": "EditMap",
      "Target": "Maps/Town",
-      "When": {"Fixed": true, "HasFile:{{FromFile}}": true },
+      "When": {"HasSeenEvent": "9695001", "HasFile:{{FromFile}}": true },
      "FromFile": "assets/Town/{{Playground Expansion}}.tmx",
 	"PatchMode": "Overlay",
      "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22 },},
@@ -293,6 +293,6 @@
 	  	 "Desk.18": "{{i18n:Desk.18}}"},},
 
 	{"Action": "Include",
-   		"FromFile": "assets/Scheduals/Scheduals.json",
+   		"FromFile": "assets/Schedules/Schedules.json",
             	"When": {"Fixed": true,}},   
 ]}

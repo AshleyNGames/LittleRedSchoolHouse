@@ -1,17 +1,12 @@
 {   "Changes": [  	
 	
-	//desk
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
-     "Entries": { 
-	  	 "Desk.17": "{{i18n:Desk.James}}", 
-	 },}, 
+     "Entries": {"Desk.17": "{{i18n:Desk.James}}", 	 },}, 
 	
-//schedule 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/James",
-	 "Entries": {  
-		 "DesertFestival_3": "a1000 BusStop 18 15 2/1030 Desert 29 33 square_2_2/1700 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 3",
+	 "Entries": {"DesertFestival_3": "a1000 BusStop 18 15 2/1030 Desert 29 33 square_2_2/1700 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 3",
                  "Tue": "810 Custom_SchoolHouse 8 13 3 James_Read/1130 Town 12 11 1/a1300 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 69 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 3",
                	 "Wed": "GOTO Tue", 
 		 		 "Fri": "GOTO Tue", 
@@ -21,41 +16,11 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/James",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-	 "Entries": {     
-		 "rain": "810 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 69 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 3",},},	
+	 "Entries": {"rain": "810 Custom_SchoolHouse 8 13 3 James_Read/1550 Town 50 69 1/1740 JoshHouse 7 19 2/2000 Custom_JamesRoom 7 5 3",},},	
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/James",
 		"When": { "Five days": true},  
-	 "Entries": { 
-		 "Mon": "GOTO Tue", 
-		 "Thu": "GOTO Tue"
-	 },}, 
-
-//festival
-{ "Action": "EditData",
-  "Target": "Data/Festivals/spring13",
-  "TextOperations": [
-  {  
-  "Operation": "Append",
-  "Target": ["Entries", "MainEvent_additionalCharacters"],
-  "Value": "James 36 65 3",
-  "Delimiter": "/"  },      ]    },	
-
-//Map
-{  "Action": "EditMap",
-    "Target": "Maps/Joshhouse", 
-    "TextOperations": [     {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": "16 15 Custom_JamesRoom 1 5",
-      "Delimiter": " "     } ,  ],}, 
-
-{  "Action": "EditMap",
-    "Target": "Maps/Custom_JamesRoom", 
-    "TextOperations": [     {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": "1 4 Joshhouse 16 16",
-      "Delimiter": " "     } ,  ],}, 
+	 "Entries": {"Mon": "GOTO Tue", 
+		 "Thu": "GOTO Tue"	 },}, 
   ]}

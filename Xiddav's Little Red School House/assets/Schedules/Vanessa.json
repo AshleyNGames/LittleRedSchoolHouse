@@ -1,13 +1,9 @@
 {   "Changes": [  	
 	
-	//desk
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
      "Entries": { 
-	  	 "Desk.2": "{{i18n:Desk.Vanessa}}"	 
-	 },}, 
-	
-  //schedule
+	  	 "Desk.2": "{{i18n:Desk.Vanessa}}"},}, 
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Vanessa",
@@ -20,9 +16,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Vanessa",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-	 "Entries": {     
-		 "rain": "800 Custom_SchoolHouse 23 11 3/a1000 Custom_SchoolHouse 22 11 3 Vanessa_Read/1530 Saloon 35 18 0/2000 Custom_VanessaRoom 2 5 3 Vanessa_Sleep",     
-	 },},	
+	 "Entries": {"rain": "800 Custom_SchoolHouse 23 11 3/a1000 Custom_SchoolHouse 22 11 3 Vanessa_Read/1530 Saloon 35 18 0/2000 Custom_VanessaRoom 2 5 3 Vanessa_Sleep",},},	
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Vanessa",
@@ -30,31 +24,4 @@
 	 "Entries": {
 		 "Mon": "GOTO Tue",
 		"Thu": "GOTO Tue", },},  
-
-//festival
-{ "Action": "EditData",
-  "Target": "Data/Festivals/spring13",
-  "TextOperations": [
-  {  
-  "Operation": "Append",
-  "Target": ["Entries", "MainEvent_additionalCharacters"],
-  "Value": "Vanessa 32 65 3",
-  "Delimiter": "/"  },      ]    },	
-
-//Map
-{  "Action": "EditMap",
-    "Target": "Maps/Saloon", 
-    "TextOperations": [     {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": "36 16 Custom_VanessaRoom 6 12",
-      "Delimiter": " "     } ,  ],}, 
-
-{  "Action": "EditMap",
-    "Target": "Maps/Custom_VanessaRoom", 
-    "TextOperations": [     {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": "6 13 Saloon 36 17",
-      "Delimiter": " "     } ,  ],}, 
-  ]}
+]}

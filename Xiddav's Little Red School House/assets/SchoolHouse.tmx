@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="36">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="40">
  <properties>
   <property name="Warp" value="3 19 Town 8 12"/>
  </properties>
@@ -114,7 +114,7 @@
  </tileset>
  <layer id="1" name="Back" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJzFk1sOwUAUhmeSBnVbAVaCfWAVHhGXjbhsRHnDHlz6yB7cPmkqzZimE9r6ky8nZ5Ke6dfOCJFOSlKIskIhBooy/T1yYAdqV3HtKujWi/Kz93OBs1JN19TasoRoQ8fy+neywnUzwl3DAiZga9x0a2rtMbsPA8vr/TyYeYIVzGEMUR5XuME9wsvPnZlHcGAGIwOPClShFuHl58bMAyxhCkMDjzrPN6ApzTxMv73J/wjzyGvO9rfnKsxDt0cSHsF7tQ95p188NrCFXaDG7RHnPf/nuXrt59CvYC2T8zjCCdyEPII+SeQJDGyzjQ==
+   eJzFk1sOwUAUhmeSxrWsACvBPrCKPiIuG3HZiLZvWAT6yB7cPpFKM0Y6kSl/8uXkTNJz8rVTIX6TihSiqlC2gCt/v6MAxUT1FFdPQXfuyvc+zgmOSjU9U2vHEaILPefZv5IXUZQTUQhLmEJR46Y7U2uf2QMYOs8+zo2ZBwhgARNI8zjDBa4pXnGuzNyDD3MYG3jUoA6NFK84F2buYAUzGBl4NHm+BW1p5mH67k2+xyePkuZuf3uvPnnodtj20MW2xxo2sE1U2x42//N/3qvHPp8+gFBm57GHA0QZeSR9ssgddHWyNQ==
   </data>
  </layer>
  <layer id="13" name="Back2" width="25" height="19">
@@ -122,13 +122,13 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBheIJAGGB8oJMONhVC8jImBYTkTGQaMglFABtAF4v9ArAel/9PADl8glmeEYD8om9ogF0rbMyLwKBgFgx0AAHjSDso=
+   eJxjYBheIJAGGB8oJMONhVC8jImBYTkTGQaMglFABtAF4v9omNrAF4jlGSHYjwGCqQ1yaWDmKBgFtAYA2QUPCQ==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJy1lEsvA1EUx++ManqTxnNh4RWqFrS6ai0RYeMR9Q3s2NGvIPZibSPRxAZfgE2lrUiw8CjCUoSP4BX/m7k3c+ZmxkwnnOSXjum553/P//QwGGMmaPgHIsAAfWCIBYtKjLGq5BRkUSQX8c5PgSSYAAsgL9/nJa2csTbQzu0zd6h7L3mIOevlNUQsgimpsQrWCDWQQO0BkOTWu0HTmeOGONePvATYiDJWIBqboNBoaavPLGrnwCiYhLnTZiA7WQV5VVCExhbREHX3MZwDcGjYOn4xjDopkAYjUed3ZXh5bDg1zvH3BbjUNErIvZHev5JnETOoOwvmwDzRuEVODTwRDeWRfv8r5F2DF/AOPuRzPSE0dsCuvMMyfFzRfKd3L2t90OjG3NLcfo5zW0PsiL6DJ/KcunsLt/v36iODnDEwDppAD+jllobbDm77WxA41DzUDiqOSA6deSmkV2oHxf6oXXqU59TMRe90/m5BvcpoXqkdfMbZT/AFvkkdOmf9t6v3ESd9cK0Pr6Bz9vvtNpO7iz46QRfp4yzg/4kwoTTeftEohdwP6pXYwQ4PDTrnevaDerXHrB0ULMncdfLur/gB74dx+g==
+   eJy1lDtLA0EQx/diDFkIPgsLX2iMhaipEksV0VI8v4GddpqvIDZWYu0TFARNovY2J5eIoBY+ooKliH4Ebfwvt8vNLbk8Dh34kb292fnvzNzEYIyFQMM/EAYG6ANDrDYrRBkrSq5ACkHSYX//YZAAk2AOmHLflLRyxtpAO3fPPCPui+Q16o1nagibB9NSYxmsEEogjtgDIMGdvcGQ16cc4lw//OJgLcJYhmhsgEyjo61+U4idBmNgCsWdCdVUTlaAXxEcQmOTaIi4WTQnB/KGq1PNtqG/A3bBHve+s1HLC8OrcYPnW3CnaVjwfZS1/yRrYXnEPQVn4JxoPMGnBN6IhqqRfv97+D2AD/ANfuS6HhMa++Ag4jwvoo5LWt3p3W0tD2rdyGOEu+sYdzXEjOgzeCnPqbu3cDd/vzyS8BkHE6AJ9IBe7mioGRwl/uu8fJwgpvohZnCWufOzRTRoz62AtVIzeIy9E5AFOfle9VzkTvtfzmitklqt1Az6mV3h29XziJE8uJbHu8852udq324zubvIoxN0kTyua/yfCGJK46uChhVwPmitxAx2+GjQPtczH7RWR8yZQcGC9F0le3/FL8XKcqc=
   </data>
  </layer>
  <layer id="20" name="Buildings 2" width="25" height="19">
@@ -136,7 +136,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgF+EAqG6aYBCP93TEcwXcOhgYY24BzAB1CRfADyU/IAOhXZDUkA30Sw4dU9fQCz4jwO3L4/KRDWGEDVgTyOHI8E+MnWoHBGs/IwJATe55ABshx/gxHHhrqAACDZQ9c
+   eJxjYBgF+EAqG6aYBCP93THYQA8T5Wa8ZGJogLF/cCDYhMBgC38DTsJqvnMg2D84cKvDBfSJsIMY9e1A8Q4g7iTRPFLATKDZs4B4NhY7kOP5GY5wQA6fn3QIK2zAioQ09hNH2gWmC7j4SyrkF2yAGn6lNTBECofvOMIKOc6fkVAWDCUAAGxIF0E=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -145,12 +145,12 @@
     <property name="Action" value="Message &quot;School.5&quot;"/>
    </properties>
   </object>
-  <object id="11" name="TileData" x="160" y="48" width="16" height="32">
+  <object id="11" name="TileData" x="160" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;School.4&quot;"/>
    </properties>
   </object>
-  <object id="12" name="TileData" x="352" y="48" width="16" height="32">
+  <object id="12" name="TileData" x="352" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;School.1&quot;"/>
    </properties>
@@ -190,12 +190,12 @@
     <property name="Action" value="Message &quot;Desk.3"/>
    </properties>
   </object>
-  <object id="22" name="TileData" x="336" y="256" width="16" height="32">
+  <object id="22" name="TileData" x="336" y="256" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.4&quot;"/>
    </properties>
   </object>
-  <object id="23" name="TileData" x="288" y="256" width="16" height="32">
+  <object id="23" name="TileData" x="288" y="256" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.8&quot;"/>
    </properties>
@@ -205,7 +205,7 @@
     <property name="Action" value="Message &quot;Desk.7&quot;"/>
    </properties>
   </object>
-  <object id="25" name="TileData" x="288" y="176" width="16" height="16">
+  <object id="25" name="TileData" x="288" y="176" width="16" height="32">
    <properties>
     <property name="Action" value="Message &quot;Desk.6&quot;"/>
    </properties>
@@ -230,7 +230,7 @@
     <property name="Action" value="Message &quot;Desk.12&quot;"/>
    </properties>
   </object>
-  <object id="30" name="TileData" x="192" y="256" width="16" height="32">
+  <object id="30" name="TileData" x="192" y="256" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.13&quot;"/>
    </properties>
@@ -255,27 +255,42 @@
     <property name="Action" value="Message &quot;Desk.14&quot;"/>
    </properties>
   </object>
-  <object id="35" name="TileData" x="144" y="256" width="16" height="32">
+  <object id="35" name="TileData" x="144" y="256" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.18&quot;"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="64" y="176" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;School.7&quot;"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="48" y="176" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;School.8&quot;"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="32" y="176" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;School.9&quot;"/>
    </properties>
   </object>
  </objectgroup>
  <layer id="5" name="Front" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYKAvYGREsG2Yccvh0oesB5d6RTzmECu3nYWwelLAa1YGhjdA/JaVOPUFTAwMhUBcxES8HdxsDAw8QMwLxHxsmPJz0fzSBTR7MRCvx+LHwxzY2SDgiMVNRzgwxXCBg0hqX5CgDxtoweJPZIDPHzDAzYmdDQOLoDQT0N9awPS3GMpHdjux/tdDMp8Xi120Buh5DhlQI6xwAeQ4P0ilsHoFNOc1EL9BM4+W/jhCRtpFdjsXEnsVCXmbXKCFJ75BgBph9R1HGXmQwvyBHFagPAjLd0uIM4piQGzRT6w6AOXaJJU=
+   eJxjYKAvYGREsG2Yccvh0oesB5d6RTzmECuXxcLAkM2CXz0p4DUraeoLmBgYCoG4iIk0fT2cDAy9QNzHiSk3F80vXUCzFwPxeix+PMyBnY0LHCFCDQwcRFL7ggR92EALG355YvzBzYmdDQOLoDQTMKy0gOlvMZSP7HZi/a+HZD4vFrsGElAjrHAB5Dg/SOOwoqU/jpCRdpHdzoXEXkVi3iYHaDHjl6dGWH3HUUYepDB/IIcVKA/C8t0S4oyiGBBb9BOrDgDOQiDx
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
  <layer id="10" name="Paths" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBg40MlBHz1DFZDq18EaNsjuQncjNjcTKzYKSAeEwn80PoYnGM2DAw8AmJsKxA==
+   eJxjYBg40MlBHz1DFQwXvyL7A91P2PxIrNgooByMxsfIAKN5cOABAG+ECaI=
   </data>
  </layer>
  <objectgroup id="9" name="Paths"/>
  <layer id="7" name="AlwaysFront" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxH0MjIw9AFxPyPxesRYaOeekQ6WIeFRMApGwcCCZVTCy3GYTQsAAMTAELM=
+   eJxjYBgFgxH0MjIw9AFxP+NAu2QUgMAyJDwKRsEoGFiwjEp4OQ6zaQEAMoQQmQ==
   </data>
  </layer>
  <objectgroup id="8" name="AlwaysFront"/>

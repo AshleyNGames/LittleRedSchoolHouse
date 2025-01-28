@@ -4,12 +4,28 @@
 	"Paper": "Paper",
 	"CansandBottles": "Cans and Bottles",
 	
-		 "School.1": "It's locked.",
+		 "School.1": "There's a file for every student in here.",
 	  	 "School.2": "Class Plant. Do not overwater.",
 	  	 "School.3": "The study buddy cubby.",
 	  	 "School.4": "*Tick Tock Tick Tock Tick Tock*",
 	  	 "School.5": "Russel the Class Hamster",
 	  	 "School.6": "There's a note saying 'For Studing Only'",
+	
+	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
+	  	 "School.9.spring": "No note today.",
+	
+	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
+	  	 "School.9.summer": "No note today.",
+	
+	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.fall": "No note today.",
+	  	 "School.9.fall": "No note today.",
+		
+	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
+	  	 "School.8.winter": "No note today.",
+	  	 "School.9.winter": "No note today.",
 	
            "Desk.1": "An empty seat.",
            "Desk.2": "This seat is available.",
@@ -30,8 +46,8 @@
            "Desk.17": "This seat is available.",
            "Desk.18": "Someday you might have a school age child sit here.",
 	
-    "HigherEducation" : "Higher Education",    
-    "SchoolRepaired": "Hey @.^^ I got the materials left in the school. I'll stop by later to let you know when I'm finished. ^^~Robin",    
+    "HigherEducation" : "Higher Education",
+    "SchoolRepaired": "Hey @.^^ I got the materials left in the school. I'll stop by later to let you know when I'm finished. ^^~Robin",
     "Text1": "The old school house has sat empty for many years. Robin needs more materials to put it back in working order. Leave it at the pile of wood in the school building.",
     "Text2": "Hardwood",
     "Text3": "Wood",
@@ -45,8 +61,8 @@
 	"Event2.4": "I couldn't have done it without @'s help",
 	"Event2.5": "You're right.#$b#@, you haven't been in the valley as long as the rest of us, but you have done so much for Pelican Town#$b#Thank you @.",
 	
-	"Deskrsv.4": "This is Keahi's seat",	  	 
-	"Deskrsv.12": "This is Trinnie's seat",	
+	"Deskrsv.4": "This is Keahi's seat",
+	"Deskrsv.12": "This is Trinnie's seat",
 	
 	"Desk.Eloise": "This is Eloise's seat.",
 	
@@ -55,8 +71,10 @@
 	"Desk.Tina": "This is Tina's seat.",
 	"Desk.Vanessa": "This is Vanessa's seat.",
 	
-	 "Deskpartone": "This is",
+	 "Deskpartone": "This is", //LittleNPC name goes here in code
 	 "Deskparttwo": "'s seat.",
+	
+	"Desk.Leo": "This is where Leo sits.",
 		
 	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
 	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",

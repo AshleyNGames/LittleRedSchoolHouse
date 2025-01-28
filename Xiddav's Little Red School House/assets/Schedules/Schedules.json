@@ -8,7 +8,6 @@
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Leo.json",
             	"When": {"HasFile:{{FromFile}}": true },},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Keahi.json",
             	"When": {"HasMod": "Rafseazz.RSVCP" },},
@@ -21,11 +20,9 @@
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Flor.json",
             	"When": {"HasMod": "Rafseazz.RSVCP" },},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Eloise.json",
             	"When": {"HasMod": "Lemurkat.EastScarpNPCs.CP" },},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/FarmersChildren1.json",
             	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },},
@@ -35,31 +32,24 @@
 {"Action": "Include",
    		"FromFile": "assets/Schedules/GrowingValley.json",
             	"When": {"HasMod|contains=siliconmodding.GVChildNPCs": true, "HasMod|contains=Candidus42.LittleNPCs": true, "HasFile:{{FromFile}}": true },},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Adrian.json",
             	"When": {"HasMod": "BURAKMESE.SKE",	},},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/James.json",
             	"When": {"HasMod": "BURAKMESE.SKE",	},},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Tina.json",
             	"When": {"HasMod": "BURAKMESE.SKE",	},},
-
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Vanessa.json",
             	"When": {"HasMod": "BURAKMESE.SKE",	},},
-			
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Custom.json",
             	"When": {"HasFile:{{FromFile}}": true },},
-			
 {"Action": "Include",
    		"FromFile": "assets/Schedules/fellowclown.json",
             	"When": {"HasFile:{{FromFile}}": true },},
-			
 {"Action": "Include",
    		"FromFile": "assets/Schedules/MineralTown.json",
             	"When": {"HasFile:{{FromFile}}": true },},

@@ -11,6 +11,22 @@
 	  	 "School.5": "Рассел - классный хомячок.",
 	  	 "School.6": "Здесь записка с надписью «Только для учебы».",
 	
+	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
+	  	 "School.9.spring": "No note today.",
+	
+	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
+	  	 "School.9.summer": "No note today.",
+	
+	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.fall": "No note today.",
+	  	 "School.9.fall": "No note today.",
+		
+	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
+	  	 "School.8.winter": "No note today.",
+	  	 "School.9.winter": "No note today.",
+	
 	  	 "Desk.1": "Это место свободно.",
 	  	 "Desk.2": "Это место свободно.",
 	  	 "Desk.3": "Это место свободно.",
@@ -57,6 +73,8 @@
 	
 	 "Deskpartone": "Это место",
 	 "Deskparttwo": ".",
+	
+	"Desk.Leo": "This is where Leo sits.",
 		
 	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
 	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",

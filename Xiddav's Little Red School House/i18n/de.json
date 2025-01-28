@@ -11,6 +11,22 @@
 	  	 "School.5": "Russel der Klassenhamster",
 	  	 "School.6": "Da ist ein Zettel mit der Aufschrift 'Nur zum Lernen'",
 	
+	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
+	  	 "School.9.spring": "No note today.",
+	
+	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
+	  	 "School.9.summer": "No note today.",
+	
+	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.fall": "No note today.",
+	  	 "School.9.fall": "No note today.",
+		
+	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
+	  	 "School.8.winter": "No note today.",
+	  	 "School.9.winter": "No note today.",
+		
 	  	 "Desk.1": "Dieser Platz ist frei.",
 	  	 "Desk2": "Dieser Platz ist frei.",
 	  	 "Desk.3": "Dieser Platz ist frei.",
@@ -57,6 +73,8 @@
 	
 	 "Deskpartone": "Dies ist der Platz von",
 	 "Deskparttwo": ".",		
+	
+	"Desk.Leo": "This is where Leo sits.",
 		
 	"Penny_School_Wed": "Die Schule verfügt nicht über ausreichende Mittel, aber ich gebe mein Bestes, um ihnen eine angemessene Ausbildung zu ermöglichen.#$e#Jedes Kind verdient eine Chance, erfolgreich zu sein..",
 	"Penny_School_Tue": "Ich unterrichte heute ... Es sind zwar nur wenige, aber es ist schön, im Leben eines Menschen etwas zu verändern.",

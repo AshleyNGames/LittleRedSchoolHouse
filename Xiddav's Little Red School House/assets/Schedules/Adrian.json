@@ -1,54 +1,26 @@
 {   "Changes": [  	 
-	//desk
+
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
-     "Entries": { 
-	  	 "Desk.10": "{{i18n:Desk.Adrian}}", 
-	 },}, 
-	//schedule
+     "Entries": {"Desk.10": "{{i18n:Desk.Adrian}}",  },}, 
+
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Adrian",
-	 "Entries": {   
-		 "DesertFestival_3": "a1000 BusStop 26 16 2/1030 Desert 45 38 3/1700 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
+	 "Entries": {"DesertFestival_3": "a1000 BusStop 26 16 2/1030 Desert 45 38 3/1700 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
 				"Tue": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1130 Town 15 13 2/a1300 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
                 "Wed": "GOTO Tue", 
 		 		"Fri": "GOTO Tue", 
-		 			 "9":"GOTO season", 
-		 			 "23":"GOTO season", },},	
+		 		"9":"GOTO season", 
+		 		"23":"GOTO season", },},	
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Adrian",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-	 "Entries": {     
-		 "rain": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",     
-	 },},	
+	 "Entries": {"rain": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",},},
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Adrian",
-		"When": { "Five days": true},  
-	 "Entries": { 
-		 "Mon": "GOTO Tue", 
-		 "Thu": "GOTO Tue"
-	 },}, 
-
-//festival
-{ "Action": "EditData",
-  "Target": "Data/Festivals/spring13",
-  "TextOperations": [
-  {  
-  "Operation": "Append",
-  "Target": ["Entries", "MainEvent_additionalCharacters"],
-  "Value": "Adrian 27 63 1",
-  "Delimiter": "/"  },      ]    },	
-
-
-//Map
-{  "Action": "EditMap",
-    "Target": "Maps/SeedShop", 
-    "TextOperations": [     {
-      "Operation": "Append",
-      "Target": [ "MapProperties", "Warp" ],
-      "Value": "24 12 Custom_AdrianRoom 5 9",
-      "Delimiter": " "     } ,  ],},  
-
+		"When": { "Five days": true},
+	 "Entries": {"Mon": "GOTO Tue", 
+		 "Thu": "GOTO Tue"},}, 
    ]}

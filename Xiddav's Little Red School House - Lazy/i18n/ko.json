@@ -1,0 +1,97 @@
+{ 		 
+	"LittleRedSchoolHouse": "러셀 elementry. Home of the Soaring Pelicans.",
+	"Waste": "Waste",
+	"Paper": "Paper",
+	"CansandBottles": "Cans and Bottles",
+	
+	"School.1": "잠겨있습니다.",
+	"School.2": "학급 식물. 물을 많이 주지 마세요!",
+	"School.3": "공부 친구 큐비.",
+	"School.4": "틱 톡 틱 톡",
+	"School.5": "학급 햄스터 러셀.",
+	"School.6": "쪽지에는 이렇게 적혀 있습니다. '공부 전용'",
+	
+	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
+	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
+	
+	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
+	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
+	
+	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
+	  	 "School.9.fall": "No note today.",
+		
+	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
+	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
+	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+		
+	"Desk.1": "이 좌석을 이용할 수 있습니다.",
+	"Desk.2": "이 좌석을 이용할 수 있습니다.",
+	"Desk.3": "이 좌석을 이용할 수 있습니다.",
+	"Desk.4": "이 좌석을 이용할 수 있습니다.",
+	"Desk.5": "여기는 재스 자리 입니다.",
+	"Desk.6": "이 좌석을 이용할 수 있습니다.",
+	"Desk.7": "이 좌석을 이용할 수 있습니다.",
+	"Desk.8": "이 좌석을 이용할 수 있습니다.",
+	"Desk.9": "이 좌석을 이용할 수 있습니다.",
+	"Desk.10": "이 좌석을 이용할 수 있습니다.",
+	"Desk.11": "이 좌석을 이용할 수 있습니다.",
+	"Desk.12": "이 좌석을 이용할 수 있습니다.",
+	"Desk.13": "이 좌석을 이용할 수 있습니다.",
+	"Desk.14": "이 좌석을 이용할 수 있습니다.",
+	"Desk.15": "이 좌석을 이용할 수 있습니다.",
+	"Desk.16": "여기는 빈센트 자리 입니다.",
+	"Desk.17": "이 좌석을 이용할 수 있습니다.",
+	"Desk.18": "이 좌석을 이용할 수 있습니다.",
+
+	"HigherEducation" : "고등 교육",
+	"SchoolRepaired": "안녕 @.^^ 학교에 남아 있는 자료들을 받아 왔어. 끝나면 나중에 들를게. ^^- 로빈",
+	"Text1": "오래된 학교를 수리할 때가 되었습니다. 하지만 로빈이 작업을 시작하려면 더 많은 재료가 필요합니다.",
+	"Text2": "단단한나무",
+	"Text3": "나무",
+	"Text4": "옷감",
+	"Text5": "금 주괴",
+
+	"Event1": "안녕 @.#$b#학교 수리가 끝났어.#$b#나중에 학교 오픈식에서 보자.",
+	"Event2.1": "이건... 정말 놀라워요.",
+	"Event2.2": "아이들이 진짜 학교를 갖게 되었어요.",
+	"Event2.3": "로빈 정말 훌륭해요.",
+	"Event2.4": "@의 도움 없이는 해낼 수 없었을 거예요.",
+	"Event2.5": "당신 말이 맞아요.#$b#@, 당신은 우리만큼 오랫동안 계곡에 있지 않았지만, 펠리컨 타운을 위해 많은 일을 했습니다.#$b#감사합니다. @.",
+	
+	"Deskrsv.4": "여기는 Keahi 자리 입니다.",
+	"Deskrsv.12": "여기는 Trinnie 자리 입니다.",
+	
+	  	 "Desk.Eloise": "여기는 Eloise 자리 입니다.",
+	
+	"Desk.Adrian": "여기는 Adrian 자리 입니다.",
+	"Desk.James": "여기는 James 자리 입니다.",
+	"Desk.Tina": "여기는 Tina 자리 입니다.",
+	"Desk.Vanessa": "여기는 Vanessa 자리 입니다.",
+	
+	 "Deskpartone": "여기는",
+	 "Deskparttwo": "자리 입니다.",
+	
+	 "Deskpartone.1": "여기는",
+	 "Deskparttwo.1": "자리 입니다.",
+	
+	 "Deskpartone.2": "여기는",
+	 "Deskparttwo.2": "자리 입니다.",
+	
+	"Desk.Leo": "여기는 Leo 자리 입니다.",
+		
+	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
+	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
+    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
+	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
+	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Jerry",
+	"SEAT11NAME": "Joe",
+	"SEAT8NAME":  "Page",
+	"SEAT3NAME":  "Jimmy",
+     }

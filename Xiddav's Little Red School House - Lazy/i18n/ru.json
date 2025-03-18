@@ -1,0 +1,97 @@
+{ 		 
+	"LittleRedSchoolHouse": "Рассел elementry. Home of the Soaring Pelicans.",
+	"Waste": "Waste",
+	"Paper": "Paper",
+	"CansandBottles": "Cans and Bottles",
+	
+		 "School.1": "Заперто.",
+	  	 "School.2": "Место для растений. Не переусердствуйте с поливом...",
+	  	 "School.3": "Место для отдыха на переменках.",
+	  	 "School.4": "Тик-так, тик-так",
+	  	 "School.5": "Рассел - классный хомячок.",
+	  	 "School.6": "Здесь записка с надписью «Только для учебы».",
+	
+	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
+	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
+	
+	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
+	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
+	
+	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
+	  	 "School.9.fall": "No note today.",
+		
+	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
+	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
+	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+	
+	  	 "Desk.1": "Это место свободно.",
+	  	 "Desk.2": "Это место свободно.",
+	  	 "Desk.3": "Это место свободно.",
+	  	 "Desk.4": "Это место свободно.",
+	  	 "Desk.5": "Это место Джас.",
+	  	 "Desk.6": "Это место свободно.",
+	  	 "Desk.7": "Это место свободно.",
+	  	 "Desk.8": "Это место свободно.",
+	  	 "Desk.9": "Это место свободно.",
+	  	 "Desk.10": "Это место свободно.",
+	  	 "Desk.11": "Это место свободно.",
+	  	 "Desk.12": "Это место свободно.",
+	  	 "Desk.13": "Это место свободно.",
+	  	 "Desk.14": "Это место свободно.",
+	  	 "Desk.15": "Это место свободно.",
+	  	 "Desk.16": "Это место Винсента.",
+	  	 "Desk.17": "Это место свободно.",
+	  	 "Desk.18": "Это место свободно.",
+	
+	"HigherEducation" : "Высшее образование",	
+	"SchoolRepaired": "Привет, @.^^ Теперь у меня есть все необходимые материалы для ремонта школы. Я загляну к тебе позже и сообщу, когда закончу. ^^~Робин",	
+	"Text1": "Пришло время отремонтировать школу! Но для завершения ремонта Робин необходимы дополнительные материалы.",
+	"Text2": "Твердая древесина",
+	"Text3": "Древесина",
+	"Text4": "Ткань",
+	"Text5": "Золотой слиток",	
+	
+	"Event1": "Привет, @.#$b#Школа полностью отремонтирована!#$b#Надеюсь, я увижу тебя на церемонии открытия.",
+	"Event2.1": "Это... потрясающе.",
+	"Event2.2": "У детей снова есть настоящая школа.",
+	"Event2.3": "Робин, ты проделала невероятную работу!",
+	"Event2.4": "Ну, я бы не справилась без посторонней помощи. @ тоже принимал участие.^Ну, я бы не справилась без посторонней помощи. @ тоже принимала участие.",
+	"Event2.5": "Твоя правда.#$b#@, ты не пробыл в долине столько, сколько все мы, но ты уже многое сделал для города Пеликан.^@, ты не пробыла в долине столько, сколько все мы, но ты уже многое сделала для города Пеликан.#$b#Выражаю тебе искреннюю благодарность, @.",
+		
+	  	 "Deskrsv.4": "Это место Keahi.",	
+	  	 "Desktsv.12": "Это место Trinnie",
+	
+	  	 "Desk.Eloise":  "Это место Eloise.",
+	
+	"Desk.Adrian": "Это место Adrian.",
+	"Desk.James": "Это место James.",
+	"Desk.Tina": "Это место Tina.",
+	"Desk.Vanessa": "Это место Vanessa.",
+	
+	 "Deskpartone": "Это место",
+	 "Deskparttwo": ".",
+	
+	 "Deskpartone.1": "Это место",
+	 "Deskparttwo.1": ".",
+	
+	 "Deskpartone.2": "Это место",
+	 "Deskparttwo.2": ".",
+	
+	"Desk.Leo": "Это место Leo.",
+		
+	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
+	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
+    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
+	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
+	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Jerry",
+	"SEAT11NAME": "Joe",
+	"SEAT8NAME":  "Page",
+	"SEAT3NAME":  "Jimmy",
+     }

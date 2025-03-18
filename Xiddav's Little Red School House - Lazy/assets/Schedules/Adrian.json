@@ -1,0 +1,25 @@
+{   "Changes": [
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": {"Desk.10": "{{i18n:Desk.Adrian}}"}},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/Adrian",
+	 "Entries": {"DesertFestival_3": "a1000 BusStop 26 16 2/1030 Desert 45 38 3/1700 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
+				"Tue": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1130 Town 15 13 2/a1300 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep",
+                "Wed": "GOTO Tue",
+		 		"Fri": "GOTO Tue",
+		 		"9":"GOTO season",
+		 		"23":"GOTO season"}},
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Adrian",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
+	 "Entries": {"rain": "800 Custom_SchoolHouse 11 8 1 Adrian_Read/1550 Town 24 13 2/1740 SeedShop 24 14 1 Adrian_PlayToys/2000 Custom_AdrianRoom 8 5 2 Adrian_Sleep"}},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/Adrian",
+		"When": { "Five days": true},
+	 "Entries": {"Mon": "GOTO Tue",
+		 "Thu": "GOTO Tue"}},
+   ]}

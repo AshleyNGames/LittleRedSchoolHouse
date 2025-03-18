@@ -1,0 +1,97 @@
+{ 		 
+	"LittleRedSchoolHouse": "Russel Elementary. Home of the Soaring Pelicans.",
+	"Waste": "Waste",
+	"Paper": "Paper",
+	"CansandBottles": "Cans and Bottles",
+	
+		 "School.1": "There's a file for every student in here.",
+	  	 "School.2": "Class Plant. Do not overwater.",
+	  	 "School.3": "The study buddy cubby.",
+	  	 "School.4": "*Tick Tock Tick Tock Tick Tock*",
+	  	 "School.5": "Russel the Class Hamster",
+	  	 "School.6": "There's a note saying 'For Studing Only'",
+	
+	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
+	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
+	
+	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
+	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
+	
+	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
+	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
+	  	 "School.9.fall": "No note today.",
+		
+	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
+	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
+	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+	
+           "Desk.1": "An empty seat.",
+           "Desk.2": "This seat is available.",
+           "Desk.3": "An empty seat.",
+           "Desk.4": "No one is using this desk.",
+           "Desk.5": "This is Jas's seat",
+           "Desk.6": "No one is using this desk.",
+           "Desk.7": "This seat smells like mangos.",
+           "Desk.8": "This seat is available.",
+           "Desk.9": "Someday you might have a school age child sit here.",
+           "Desk.10": "This seat is available.",
+           "Desk.11": "This seat is available.",
+           "Desk.12": "No one is using this desk.",
+           "Desk.13": "This seat is available.",
+           "Desk.14": "An empty seat.",
+           "Desk.15": "This seat is available.",
+           "Desk.16": "This is Vincent's seat",
+           "Desk.17": "This seat is available.",
+           "Desk.18": "Someday you might have a school age child sit here.",
+	
+    "HigherEducation" : "Higher Education",
+    "SchoolRepaired": "Hey @.^^ I got the materials left in the school. I'll stop by later to let you know when I'm finished. ^^~Robin",
+    "Text1": "The old school house has sat empty for many years. Robin needs more materials to put it back in working order. Leave it at the pile of wood in the school building.",
+    "Text2": "Hardwood",
+    "Text3": "Wood",
+    "Text4": "Cloth",
+    "Text5": "Gold Bar",
+		
+	"Event1": "Hey @.#$b#The school is all fixed up.#$b#I hope to see you at the grand opening later.",
+	"Event2.1": "This is... amazing.",
+	"Event2.2": "The kids have a real school again.",
+	"Event2.3": "You did a great job Robin",
+	"Event2.4": "I couldn't have done it without @'s help",
+	"Event2.5": "You're right.#$b#@, you haven't been in the valley as long as the rest of us, but you have done so much for Pelican Town#$b#Thank you @.",
+	
+	"Deskrsv.4": "This is Keahi's seat",
+	"Deskrsv.12": "This is Trinnie's seat",
+	
+	"Desk.Eloise": "This is Eloise's seat.",
+	
+	"Desk.Adrian": "This is Adrian's seat.",
+	"Desk.James": "This is James's seat.",
+	"Desk.Tina": "This is Tina's seat.",
+	"Desk.Vanessa": "This is Vanessa's seat.",
+	
+	 "Deskpartone": "This is", //name
+	 "Deskparttwo": "'s seat.",
+	
+	 "Deskpartone.1": "This is", //First LittleNPC name goes here in code
+	 "Deskparttwo.1": "'s seat. They drew a picture of a barn.",
+	
+	 "Deskpartone.2": "This is", //Second LittleNPC name goes here in code
+	 "Deskparttwo.2": "'s seat. It is the closest to the chalk board.",
+	
+	"Desk.Leo": "This is where Leo sits.",
+		
+	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
+	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
+    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
+	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
+	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Jerry",
+	"SEAT11NAME": "Joe",
+	"SEAT8NAME":  "Page",
+	"SEAT3NAME":  "Jimmy",
+     }

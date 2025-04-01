@@ -5,6 +5,7 @@
 {"Name": "noschoolday","Value": "true","When":{"day": "9, 23"}},
 {"Name": "World","Value":"Vanilla"},
 {"Name": "World","Value":"SVE","When":{"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true}},
+{"Name": "World","Value":"Overgrown","When":{"HasMod|contains=mushlune.overgrown": true}},
 {"Name": "Rundown","Value":"Rundown","When":{}},
 {"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695002"}},
 {"Name": "RSV","Value":""},

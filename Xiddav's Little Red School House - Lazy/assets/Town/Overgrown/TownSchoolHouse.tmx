@@ -1730,13 +1730,13 @@
   </tile>
  </tileset>
  <tileset firstgid="5484" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
-  <image source=".winter_outdoorsTileSheet2.png" width="256" height="1120"/>
+  <image source="../../../../Old Xiddav's Family Farm/assets/.spring_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
  <tileset firstgid="6604" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
-  <image source=".winter_Shadows.png" width="304" height="400"/>
+  <image source="../../../../Old Xiddav's Family Farm/assets/.spring_Shadows.png" width="304" height="400"/>
  </tileset>
  <tileset firstgid="7079" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
-  <image source=".winter_Waterfalls.png" width="576" height="400"/>
+  <image source="../../../../Old Xiddav's Family Farm/assets/.spring_Waterfalls.png" width="576" height="400"/>
  </tileset>
  <tileset firstgid="7979" name="z_spring_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
   <image source=".spring_daisyextras.png" width="480" height="960"/>

@@ -19,7 +19,7 @@
 					"LoveInterest": "null",
 					"HomeRegion": "Other",
 					"FriendsAndFamily": {},
-              		"UnlockConditions": "SEASON_DAY Summer 28",
+              		"UnlockConditions": "LOCATION_ACCESSIBLE Railroad",
 					"Home": [{"Id": "Default",
 							"Location": "Railroad",
 							"Tile": {"X":38 ,"Y":41  },

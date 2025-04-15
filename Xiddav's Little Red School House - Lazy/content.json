@@ -1,4 +1,4 @@
-{ "Format": "2.5.0",
+{ "Format": "2.6.0",
 "DynamicTokens": [
 {"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}"},
 {"Name": "noschoolday","Value": "false","When":{}},
@@ -116,8 +116,8 @@
 "Target": "Maps/Custom_SchoolHouse",
 "Priority": "Late",
 "MapProperties": {
-		"DayTiles": "Front 3 1 256 Front 10 1 256 Front 17 1 256 Front 22 1 256 Front 3 2 288 Front 10 2 288 Front 17 2 288 Front 22 2 288 Front 6 1 827 Front 19 1 827 Front 4 8 809 Buildings 26 12 809 Front 1 15 809 Front 27 1 256 Front 27 2 288",
-		"NightTiles": "Front 3 1 1253 Front 10 1 1253 Front 17 1 1253 Front 22 1 1253 Front 3 2 1285 Front 10 2 1285 Front 17 2 1285 Front 22 2 1285 Front 6 1 826 Front 19 1 826 Front 4 8 480 Buildings 26 12 480 Front 1 15 480 Front 27 1 1253 Front 27 2 1285" ,
+		"DayTiles": "Front 3 1 256 Front 10 1 256 Front 17 1 256 Front 22 1 256 Front 3 2 288 Front 10 2 288 Front 17 2 288 Front 22 2 288 Front 6 1 827 Front 19 1 827 Front 4 8 809 Front 1 15 809 Front 27 1 256 Front 27 2 288",
+		"NightTiles": "Front 3 1 1253 Front 10 1 1253 Front 17 1 1253 Front 22 1 1253 Front 3 2 1285 Front 10 2 1285 Front 17 2 1285 Front 22 2 1285 Front 6 1 826 Front 19 1 826 Front 4 8 480 Front 1 15 480 Front 27 1 1253 Front 27 2 1285" ,
 		"AmbientLight" : "95 95 95",
 		"WindowLight": "3 2 6 10 2 6 17 2 6 22 2 6 6 1 4 2 10 4 4 8 1 1 15 1 19 1 4"}},
 
@@ -192,4 +192,15 @@
 {"Action": "Include",
 "Priority": "Late",
 		"FromFile": "assets/Schedules/Schedules.json",},
+
+//Railstation Door for Antisocial students
+{"Action": "EditMap",
+"Target": "Maps/Railroad",
+"Priority": "Late",
+"MapProperties": {"DayTiles": "Buildings 44 39 167",
+	"NightTiles": "Buildings 44 39 167",}},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Railroad",
+      "AddNPCWarps": ["44 39 Custom_SchoolHouse_BellRoom 11 9"]}
 ]}

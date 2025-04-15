@@ -5,8 +5,7 @@
 "Entries": { 	
 	"DesertFestival_1": "GOTO Mon",
 	"DesertFestival_3": "a900 BusStop 19 22 2/1020 Desert 47 42 3/1730 BusStop 19 22 2",
-	"rain2": "900 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1200 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"",
-	"Tue": "740 Town 15 14 2/a1000 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Town 13 16 1 child_ball/a1250 Custom_SchoolHouse 10 7 0/1300 Custom_SchoolHouse 11 6 1 child_read/1600 Town 22 63 0 child_ball",
+	"Tue": "740 Town 14 14 2/a1000 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Town 13 16 1 child_ball/a1250 Custom_SchoolHouse 10 7 0/1300 Custom_SchoolHouse 11 6 1 child_read/1600 Town 22 63 0 child_ball",
 	"Wed": "GOTO Tue",
 	"Fri": "GOTO Tue",
 	"summer_Tue": "GOTO Tue",
@@ -17,7 +16,7 @@
     "fall_Fri": "GOTO Tue",
 	"winter_Tue": "GOTO Tue",
     "winter_Wed": "GOTO Tue",
-    "winter_Fri": "GOTO Tue",},
+    "winter_Fri": "GOTO Tue"},
 "When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },},
 
 {"Action": "EditData",

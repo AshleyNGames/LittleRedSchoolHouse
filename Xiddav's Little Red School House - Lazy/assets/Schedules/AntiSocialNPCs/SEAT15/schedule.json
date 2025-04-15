@@ -7,7 +7,7 @@
 	"Thu": "GOTO Sun",
 	"Sat": "GOTO Sun",
 	"Sun": "0 Custom_SchoolHouse_BellRoom 1 4 2",
-"Tue": "a930 Custom_SchoolHouse 7 8 1/1000 Custom_SchoolHouse 8 8 LittleRed_Read_1/1130 Town 24 18 3/a1300 Custom_SchoolHouse 8 8 LittleRed_Read_1/1600 Town 24 18 3/a2000 Railroad 44 41 2",
+"Tue": "a930 Custom_SchoolHouse 7 8 1/1000 Custom_SchoolHouse 8 8 LittleRed_Read_1/1130 Town 24 18 3/a1300 Custom_SchoolHouse 8 8 LittleRed_Read_1/1600 Town 24 18 3/a2000 Custom_SchoolHouse_BellRoom 1 4 2",
 "Wed": "GOTO Tue",
 "Fri": "GOTO Tue",
 	"spring_13": "GOTO Sun",

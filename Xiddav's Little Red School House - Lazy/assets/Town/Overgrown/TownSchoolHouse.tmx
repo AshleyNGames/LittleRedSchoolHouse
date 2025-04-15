@@ -1729,16 +1729,16 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="5484" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+ <tileset firstgid="5484" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="0" columns="16">
   <image source="../../../../Old Xiddav's Family Farm/assets/.spring_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
- <tileset firstgid="6604" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+ <tileset firstgid="5484" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="0" columns="19">
   <image source="../../../../Old Xiddav's Family Farm/assets/.spring_Shadows.png" width="304" height="400"/>
  </tileset>
- <tileset firstgid="7079" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+ <tileset firstgid="5484" name="v16_Waterfalls" tilewidth="16" tileheight="16" tilecount="0" columns="36">
   <image source="../../../../Old Xiddav's Family Farm/assets/.spring_Waterfalls.png" width="576" height="400"/>
  </tileset>
- <tileset firstgid="7979" name="z_spring_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+ <tileset firstgid="5484" name="z_spring_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
   <image source=".spring_daisyextras.png" width="480" height="960"/>
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
@@ -1757,7 +1757,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJy1lUsvA1EUx880wqIVj65FFxKPEhsbO4+NeO4IPoBgI1p7scOGvVqIhNY3IOKReG29dh5Rinh9Bf8T96RnplOmjf6TX87M7Z3zP+fO7Z2wn6gRiCZwPanuWWOUee8F1mCQaAjchIh6kLdX5V7A9aKLdwMIm7o4zxJYBreh7P6sKHxmgvZax8ld4t3tt9cVBwmV02ufrDmy186qt4j2wBWosezPeF1HNy++ltrFpwN8gE+wbWXPwXMvTU1SG8Zmf/NiajGvzviMgmIfUQm4MDmcOfl+StUk8dwxnyOL3y/7vII2jLUbnyiohk8IvJtxZ859MK9qOrB+4puat2+i7EnpaxdjI8YnYqX75lwjJueBys1xTdUksUj9LlH2pKzdtfHQPqKIS06OOy5zq1zmST+ydl+gBWxUEG2COEiALfBQkZnzN61gfgysgqHytNewWTvp5wi/H4MTcArO2KcyNy+nxGvasW5J5H4ETyAFnnPsidURIOoMZHqtu6z5XzoM2ONfEq9Yjl53yH9vPB4Qk+ARPIEUeAYvao54yTnaBb/FPPrzKvbS56h4leKsKvNnfy5fL428tyb4NBfAS6JPrSF7lf9zb63BtJfuqw8e/WDgH734LNTfrULuDT4L9Tc3n/+ZVzn3RiH7+gbrHpAP
+   eJy1lTlLA1EQx2eDaJGIR4pUHoXgjY2NncZGPDtF/QCiNuLRi53aaG8sRNDEb6CIRvBqvVoliRdeX8H/4Bsyu9noJpg//Jjdl7fzn3n78rbZT9QCRFO4nlb3rAnKvPcCazhINAKqQ0R9yNuvcq/getXFuwk0m7o4zxpYBzWh7P6sefgsBO21TpK7xLvXb68rCmIqp9c+WUtkr53VaBEdgVtQZ9mf8bqObl58LbWLTxh8gE+wb2XPwXNvTE1SG8YWf/Ni6jGvwfiMg2IfUQm4NjmcOfl+RtUk8coxnyOL3y/7vIJOjHUZn3lQA59a8G7GnTmPwbKqKW79xDc179hE2ZPS1yHGxozPnJXum3ONmZxxlZvjlqpJYpH6XaLsSVm7O+OhfURzLjk5HrjMrXKZJ/3I2n2BdrBTQbQLoiAG9kCiIjPnb9rA/AjYBCPlaa9Rs3bSzyl+PwPn4AJcsk9lbl5OidesY92SyJ0Cj+AJPOfYEyscIOoOZHptu6z5XzoJ2ONfEq9Ijl73yP9gPBKISZACj+AJPIMXNUe85Bztgd9qHv15FXvpc1S8SnFWlfmzP5evl0beWyt82grgJdGn1pC9yv+5t45g2kv3NQCPQTD0j158FurvViH3Bp+F+pubz//Mq5x7o5B9fQP+XI23
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">

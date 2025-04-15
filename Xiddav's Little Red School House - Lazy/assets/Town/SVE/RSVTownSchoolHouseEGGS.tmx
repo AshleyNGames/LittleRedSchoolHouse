@@ -1699,7 +1699,7 @@
  <tileset firstgid="11847" name="zrsvfestivals" tilewidth="16" tileheight="16" tilecount="950" columns="19">
   <image source=".zrsvfestivals.png" width="304" height="800"/>
  </tileset>
- <tileset firstgid="12797" name="zzzRafNPCSheet" tilewidth="16" tileheight="16" tilecount="144" columns="8">
+ <tileset firstgid="12797" name="zzzRafNPCSheet" tilewidth="16" tileheight="16" tilecount="0" columns="8">
   <image source=".RafNPCSheet.png" width="128" height="288"/>
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
@@ -1746,7 +1746,7 @@
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzd1j1OAkEYxvG3Eg0UuogF6An8aqUX5RK6gErhBbTzA0E9hSAKHEO00AModoJXUOwE/RtjsuIODLuLBU/ya2Z23ifZTSYrYp9jv8iJX7FJdrCr3u4rZXoqXbqc5MoQqeIaN8b3Wo6OW9zh1NI3PuGu64n5dTTwbNg/88B6DY+Kfd28c76FNj4Us15Zb+LNZVc4KBLBNGawbdm7dzm7M0vMjwZ/f5efvHjcNaz5ek28QplECFOa58yASAJJpLCBTWwhHbA/M4s5zGMBi5pde8zbxwEOkcERssgpupYRwwpWEdfsOmNeHgWco4gLXKKEsk3fGtZhIoGkZpfTeHmPdkvnXTjI9LoLvUyvu9BpqpG/a9a7cNCJ/kPHsCSj+HcYYd2HUYx59H9RVMz5BOt+OvM=
+   eJzt1TtSAkEUheEbiRYEOKiB4ApUSCH3tQkFBA3cAGS8BHUVPlBxGSIBbkDIRNagZj74KRPU6aGZGQwsTtWXdE/fUzVT1SNiniOvyLFXsUkyyKq3R0qNnhuLLju5NUTquEPD+Fqr0NHEPU4G+vyzzroemd/BE7qG+TMPrLfQVuzr5o3z7/jAp2LWM+sveHXYtRgQCSKEJRw4G2eZKPNjge/fZZLR0v/cvEKZwzwWNM/FfSIJJLGLFNLYw77P/MwyVrCKMCKaXTnm5VFAESUcooyKomsN69jAJrY0u06Zd4ZzXKCKS1zhGjWTvm3sII4EkppdduPmPWqVn3fhODPsLnQzw+5Cu6kHf68N3oXjTuwPOv5LSop/xhTrHkxjxqX/SlUxpwfT7zkJ
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

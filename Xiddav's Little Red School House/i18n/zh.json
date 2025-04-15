@@ -3,6 +3,7 @@
   "Waste": "垃圾",
   "Paper": "纸屑",
   "CansandBottles": "易拉罐与玻璃瓶",
+	
   "School.1": "锁上了。",
   "School.2": "课堂植物。不要浇太多水。",
   "School.3": "学习伙伴的房间。",
@@ -10,21 +11,21 @@
   "School.5": "班级仓鼠：拉塞尔。",
   "School.6": "有一张字条：“仅供学习使用。”",
 	
-	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "No note today.",
+	  	 "School.7.spring": "课程上午10:00开始。每周三和周五。每隔一个周二也有课。即使下雨也会上课，但如果有风暴则不上课。",
+  		 "School.8.spring": "学校内不允许带青蛙或蜗牛。",
+ 		 "School.9.spring": "座位安排是有原因的。学生不允许交换座位。",
 	
-	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "No note today.",
+	  	 "School.7.summer": "课程上午10:00开始。每周三和周五。每隔一个周二也有课。即使下雨也会上课，但如果有风暴则不上课。",
+		 "School.8.summer": "没有暑假。我们每周减少上课天数。",
+ 		 "School.9.summer": "孩子们要保持水分。多喝水。",
 	
-	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "No note today.",
-	  	 "School.9.fall": "No note today.",
-		
-	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "No note today.",
-	  	 "School.9.winter": "No note today.",
+	  	 "School.7.fall": "课程上午10:00开始。每周三和周五。每隔一个周二也有课。即使下雨也会上课，但如果有风暴则不上课。",
+  		 "School.8.fall": "欢迎大家加入操场俱乐部。我们每周六见面。",
+ 		 "School.9.fall": "今天没有字条。",
+
+	     "School.7.winter": "课程上午10:00开始。每周三和周五。每隔一个周二也有课。即使下雪也会上课。",
+ 		 "School.8.winter": "哈维医生的字条提醒孩子们经常洗手，打喷嚏时要捂住口鼻。",
+ 		 "School.9.winter": "由于法律原因，我们不允许在学校内放置节日装饰品。包括冬星树。",
 	
   "Desk.1": "这个座位空着。",
   "Desk.2": "这个座位空着。",
@@ -44,6 +45,7 @@
   "Desk.16": "这是文森特的座位。",
   "Desk.17": "这个座位空着。",
   "Desk.18": "这个座位空着。",
+	
   "HigherEducation": "更高层的教育",
   "SchoolRepaired": "嘿@：^^ 我收到了你留在学校的材料。等工作完成以后，我会来告诉你的。 ^^－罗宾",
   "Text1": "是时候让我们修理旧学校的建筑了。罗宾需要更多的材料来完成工作。",
@@ -51,28 +53,45 @@
   "Text3": "木头",
   "Text4": "布料",
   "Text5": "金锭",
+	
   "Event1": "嘿，@。#$b#学校都被修理好了。#$b#希望能在一会儿的开幕式上见到你。",
   "Event2.1": "这真是...不可思议。",
   "Event2.2": "孩子们又有真正意义上的学校了。",
   "Event2.3": "你做得很好，罗宾。",
   "Event2.4": "要是没有@的帮助，我一个人也没法做到。",
   "Event2.5": "你说得没错。#$b#@，尽管你来山谷的时间不像我们其他人这么长，但你已经为鹈鹕镇做了这么多事。#$b#谢谢你，@。",
+	
   "Deskrsv.4": "这是凯希的座位。",
   "Deskrsv.12": "这是崔妮的座位。",
+	
   "Desk.Eloise": "这是爱洛伊斯的座位。",
 	
-	"Desk.Adrian": "这是 Adrian 的座位。",
-	"Desk.James": "这是 James 的座位。",
-	"Desk.Tina": "这是 Tina 的座位。",
-	"Desk.Vanessa": "这是 Vanessa 的座位。",
+  "Desk.Adrian": "这是阿德里安的座位。",
+  "Desk.James": "这是詹姆斯的座位。",
+  "Desk.Tina": "这是蒂娜的座位。",
+  "Desk.Vanessa": "这是瓦妮莎的座位。",
 	
-  "Deskpartone": "这是",
-  "Deskparttwo": "的座位。",
+  "Deskpartone.1": "这是",
+  "Deskparttwo.1": "的座位。",
 	
-	"Desk.Leo": "This is where Leo sits.",
+  "Deskpartone.1": "这是",
+  "Deskparttwo.1": "的座位。",
+	
+  "Deskpartone.2": "这是",
+  "Deskparttwo.2": "的座位。",
+	
+  "Desk.Leo": "这是雷欧坐的地方。",
 		
-	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
-	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
-    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
-     
-}
+  "Penny_School_Wed": "学校没有足够的资金，但我在尽力给他们提供适当的教育。#$e#每个孩子都应该有机会成功。",
+  "Penny_School_Tue": "我今天在上课...他们有点难管，但能为别人的生活带来改变是件好事。",
+  "Penny_School_Tue4": "$d bus#也许现在我妈妈重新有了公交车司机的工作，我可以开始存更多的钱了。情况看起来有点好转了。|我在努力存钱，但教师的工资和我妈妈失业的情况下很难。$s",
+  "Penny_School_schedule.Jas": "你做得很好，贾斯。继续保持。",
+  "Penny_School_schedule.Vincent": "佩妮正在帮助文森特做作业。最好不要打扰。",
+	
+  "SEAT15NAME": "欣怡",
+  "SEAT14NAME": "欣妍",
+  "SEAT13NAME": "沐辰",
+  "SEAT11NAME": "浩宇",
+  "SEAT8NAME": "诺",
+  "SEAT3NAME": "宇轩"
+     }

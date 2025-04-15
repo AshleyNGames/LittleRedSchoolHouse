@@ -13,19 +13,19 @@
 	
 	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
 	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "No note today.",
+	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
 	
 	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
 	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "No note today.",
+	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
 	
 	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "No note today.",
+	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
 	  	 "School.9.fall": "No note today.",
 		
 	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "No note today.",
-	  	 "School.9.winter": "No note today.",
+	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
+	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
 		
 	"Desk.1": "이 좌석을 이용할 수 있습니다.",
 	"Desk.2": "이 좌석을 이용할 수 있습니다.",
@@ -74,10 +74,24 @@
 	 "Deskpartone": "여기는",
 	 "Deskparttwo": "자리 입니다.",
 	
-	"Desk.Leo": "This is where Leo sits.",
+	 "Deskpartone.1": "여기는",
+	 "Deskparttwo.1": "자리 입니다.",
+	
+	 "Deskpartone.2": "여기는",
+	 "Deskparttwo.2": "자리 입니다.",
+	
+	"Desk.Leo": "여기는 Leo 자리 입니다.",
 		
 	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
 	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
     "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
-    
-}
+	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
+	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Jerry",
+	"SEAT11NAME": "Joe",
+	"SEAT8NAME":  "Page",
+	"SEAT3NAME":  "Jimmy",
+     }

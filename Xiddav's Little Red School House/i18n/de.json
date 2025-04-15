@@ -11,21 +11,21 @@
 	  	 "School.5": "Russel der Klassenhamster",
 	  	 "School.6": "Da ist ein Zettel mit der Aufschrift 'Nur zum Lernen'",
 	
-	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "No note today.",
+	  	 "School.7.spring": "Unterrichtsbeginn ist um 10:00 Uhr. Jeden Mittwoch und Freitag. Außerdem jeden zweiten Dienstag. Auch bei Regen, aber nicht bei Sturm.",
+	  	 "School.8.spring": "Frösche und Schnecken sind im Schulhaus nicht erlaubt.",
+	  	 "School.9.spring": "Es gibt nicht ohne Grund feste Sitzplätze. Schüler dürfen die Tische nicht tauschen.",
 	
-	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "No note today.",
+	  	 "School.7.summer": "Unterrichtsbeginn ist um 10:00 Uhr. Jeden Mittwoch und Freitag. Außerdem jeden zweiten Dienstag. Auch bei Regen, aber nicht bei Sturm.",
+	  	 "School.8.summer": "Es gibt keine Sommerferien. Dafür haben wir weniger Unterrichtstage pro Woche.",
+	  	 "School.9.summer": "Kinder, sorgt für ausreichend Flüssigkeitszufuhr. Trinkt viel Wasser.",
 	
-	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "No note today.",
-	  	 "School.9.fall": "No note today.",
+	  	 "School.7.fall":  "Unterrichtsbeginn ist um 10:00 Uhr. Jeden Mittwoch und Freitag. Außerdem jeden zweiten Dienstag. Auch bei Regen, aber nicht bei Sturm.",
+	  	 "School.8.fall": "Jeder ist herzlich willkommen, dem Spielplatzclub beizutreten. Wir treffen uns jeden Samstag.",
+	  	 "School.9.fall": "Keine Notiz heute.",
 		
-	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "No note today.",
-	  	 "School.9.winter": "No note today.",
+	  	 "School.7.winter": "Unterrichtsbeginn ist um 10:00 Uhr. Jeden Mittwoch und Freitag. Und jeden zweiten Dienstag. Auch wenn es schneit.",
+	  	 "School.8.winter": "Eine Notiz von Dr. Harvey, der die Kinder daran erinnert, sich häufig die Hände zu waschen und beim Niesen Mund und Nase zu bedecken.",
+	  	 "School.9.winter": "Aus rechtlichen Gründen ist es uns nicht gestattet, in der Schule festliche Dekorationen anzubringen. Dazu gehören auch Wintersternbäume.",
 		
 	  	 "Desk.1": "Dieser Platz ist frei.",
 	  	 "Desk2": "Dieser Platz ist frei.",
@@ -71,13 +71,27 @@
 	"Desk.Tina": "Dies ist der Platz von Tina.",
 	"Desk.Vanessa": "Dies ist der Platz von Vanessa.",
 	
-	 "Deskpartone": "Dies ist der Platz von",
-	 "Deskparttwo": ".",		
+	 "Deskpartone": "Dies ist der Platz von", 
+	 "Deskparttwo": ".",
 	
-	"Desk.Leo": "This is where Leo sits.",
+	 "Deskpartone.1": "Dies ist der Platz von",
+	 "Deskparttwo.1": ".",	
+	
+	 "Deskpartone.2": "Dies ist der Platz von",
+	 "Deskparttwo.2": ".",		
+	
+	"Desk.Leo": "Dies ist der Platz von Leo.",
 		
 	"Penny_School_Wed": "Die Schule verfügt nicht über ausreichende Mittel, aber ich gebe mein Bestes, um ihnen eine angemessene Ausbildung zu ermöglichen.#$e#Jedes Kind verdient eine Chance, erfolgreich zu sein..",
 	"Penny_School_Tue": "Ich unterrichte heute ... Es sind zwar nur wenige, aber es ist schön, im Leben eines Menschen etwas zu verändern.",
     "Penny_School_Tue4": "$d bus#MVielleicht kann ich jetzt, da meine Mutter wieder als Busfahrerin arbeitet, mehr Geld sparen. Die Dinge sehen etwas besser aus.|Ich versuche, Geld zu sparen, aber es ist hart für das Gehalt eines Lehrers und da meine Mutter arbeitslos ist.$s",
-  
-}
+	 "Penny_School_schedule.Jas": "Du machst das großartig, Jas. Mach weiter so.",
+	 "Penny_School_schedule.Vincent": "Penny hilft Vincent bei seinen Hausaufgaben. Am besten unterbricht man ihn nicht.",
+	
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Oskar",
+	"SEAT11NAME": "Felix",
+	"SEAT8NAME":  "Nele",
+	"SEAT3NAME":  "Maxim",
+     }

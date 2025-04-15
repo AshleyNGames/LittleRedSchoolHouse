@@ -11,22 +11,22 @@
 	  	 "School.5": "Russel el hámster de la clase.",
 	  	 "School.6": "Hay una nota que dice 'Solo para estudiar'",
 	
-	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "No note today.",
+		 "School.7.spring": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso cuando llueve, pero no si hay tormenta.",
+         "School.8.spring": "No se permiten ranas ni caracoles en la escuela.",
+         "School.9.spring": "Hay asientos asignados por una razón. Los estudiantes no pueden intercambiar escritorios.",
+    
+         "School.7.summer": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso cuando llueve, pero no si hay tormenta.",
+         "School.8.summer": "No hay vacaciones de verano. Tenemos menos días de clase cada semana.",
+         "School.9.summer": "Niños, manténganse hidratados. Beban mucha agua.",
+    
+         "School.7.fall": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso cuando llueve, pero no si hay tormenta.",
+         "School.8.fall": "Todos son bienvenidos al club de juegos. Nos reunimos todos los sábados.",
+         "School.9.fall": "No hay nota hoy.",
+        
+         "School.7.winter": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso si nieva.",
+         "School.8.winter": "Una nota del Dr. Harvey recordando a los niños que se laven las manos con frecuencia y que se cubran la boca y la nariz cuando estornuden.",
+         "School.9.winter": "Por razones legales, no se permite tener decoraciones festivas dentro de la escuela. Esto incluye los árboles de navidad.",
 	
-	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "No note today.",
-	
-	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "No note today.",
-	  	 "School.9.fall": "No note today.",
-		
-	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "No note today.",
-	  	 "School.9.winter": "No note today.",
-		
 	  	 "Desk.1": "Este asiento está disponible.",
 	  	 "Desk.2": "Este asiento está disponible.",
 	  	 "Desk.3": "Este asiento está disponible.",
@@ -71,13 +71,24 @@
 	"Desk.Tina": "Este es el asiento de Tina.",
 	"Desk.Vanessa": "Este es el asiento de Vanessa.",
 	
-	 "Deskpartone": "Este es el asiento de",
-	 "Deskparttwo": ".",
+	 "Deskpartone.1": "Este es el asiento de",
+	 "Deskparttwo.1": ".",	
 	
-	"Desk.Leo": "This is where Leo sits.",
+	 "Deskpartone.2": "Este es el asiento de",
+	 "Deskparttwo.2": ".",
+	
+	"Desk.Leo": "Este es el asiento de Leo.",
 		
-	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
-	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
-    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
-
-}
+	"Penny_School_Wed": "La escuela no tiene fondos suficientes, pero estoy haciendo todo lo posible para darles una educación adecuada.#$e#Todo niño merece la oportunidad de tener educación.",
+    "Penny_School_Tue": "Hoy doy clase... Son muchos, pero es agradable marcar la diferencia en la vida de alguien.",
+    "Penny_School_Tue4": "$d bus#Quizás ahora que mi madre ha recuperado su trabajo de conductora de autobús, pueda empezar a ahorrar más dinero. La cosa pinta un poco mejor.|Estoy tratando de ahorrar dinero, pero es difícil con el sueldo de un profesor y con mi madre sin trabajo.$s",
+     "Penny_School_schedule.Jas": "‎Lo estás haciendo muy bien, Jas. ¡Sigue así!",
+     "Penny_School_schedule.Vincent": "Penny está ayudando a Vincent con sus tareas escolares. Mejor no interrumpir.",
+	
+	"SEAT15NAME": "Rosa",
+	"SEAT14NAME": "Violeta",
+	"SEAT13NAME": "Juan",
+	"SEAT11NAME": "Jose",
+	"SEAT8NAME":  "Palmira",
+	"SEAT3NAME":  "Jorge",
+     }

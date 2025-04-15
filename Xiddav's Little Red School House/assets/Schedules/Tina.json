@@ -7,7 +7,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Tina",
 	 "Entries": {"DesertFestival_3": "a1000 BusStop 16 15 1/1030 Desert 45 36 3/1700 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",
-			     "Tue": "750 Custom_SchoolHouse 23 8 3/1000 Custom_SchoolHouse 22 8 Tina_Sit/1120 Town 17 13 2/a1250 Custom_SchoolHouse 23 8 3/1300 Custom_SchoolHouse 22 8 Tina_Sit/1550 Town 17 16 square_3_3/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",     
+			     "Tue": "750 Custom_SchoolHouse 23 8 3/1000 Custom_SchoolHouse 22 8 Tina_Sit/1120 Town 17 13 2/a1250 Custom_SchoolHouse 23 8 3/1300 Custom_SchoolHouse 22 8 Tina_Sit/1540 Town 17 16 square_3_3/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",     
                 "Wed": "GOTO Tue", "Fri": "GOTO Tue",
 		 			 "9":"GOTO season", 
 		 			 "23":"GOTO season", },},
@@ -15,7 +15,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Tina",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-	 "Entries": {"rain": "750 Custom_SchoolHouse 23 8 3/1000 Custom_SchoolHouse 22 8 Tina_Sit/1550 Town 17 16 square_3_3/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",},},	
+	 "Entries": {"rain": "750 Custom_SchoolHouse 23 8 3/1000 Custom_SchoolHouse 22 8 Tina_Sit/1540 Town 17 16 square_3_3/1740 ScienceHouse 22 18 1/2000 ScienceHouse 8 6 2",},},	
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Tina",

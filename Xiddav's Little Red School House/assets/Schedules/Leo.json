@@ -1,0 +1,30 @@
+{   "Changes": [
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+            "When": {"HasSeenEvent": "6497428"},
+     "Entries": {"Desk.7": "{{i18n:Desk.Leo}}",},},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/LeoMainland",
+	 "Entries": {"DesertFestival_2":"GOTO Tue",
+		 "DesertFestival_3": "700 LeoTreeHouse 2 2 0/900 Desert 34 62 3 \"Strings\\1_6_Strings:DesertFestival_Leo\"/a2000 bed",
+				"Tue": "0 LeoTreeHouse 2 2 0/a950 Custom_SchoolHouse 20 13 3/1000 Custom_SchoolHouse 19 13 3 leo_sit_up/1130 Town 19 14 2 square_5_1/a1250 Custom_SchoolHouse 20 13 3/1300 Custom_SchoolHouse 19 13 3 leo_sit_up/1550 Mountain 30 9 3/a2000 LeoTreeHouse 5 4 1 leo_sleep",
+                "Wed": "GOTO Tue",
+		 		"Fri": "GOTO Tue",
+		 		"9":"GOTO season",
+		 		"23":"GOTO season",},},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/LeoMainland",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain", "noschoolday": false },
+	 "Entries": {"rain": "0 LeoTreeHouse 2 2 0/a950 Custom_SchoolHouse 20 13 3/1000 Custom_SchoolHouse 19 13 3 leo_sit_up/1140 Custom_SchoolHouse 29 6 3/a1250 Custom_SchoolHouse 20 12 3/1300 Custom_SchoolHouse 19 13 3 leo_sit_up/1550 Mountain 30 9 3/a2000 LeoTreeHouse 5 4 1 leo_sleep",
+	 			 "rain2": "0 LeoTreeHouse 2 2 0/a950 Custom_SchoolHouse 20 13 3/1000 Custom_SchoolHouse 19 13 3 leo_sit_up/1140 Custom_SchoolHouse 29 6 3/a1250 Custom_SchoolHouse 20 12 3/1300 Custom_SchoolHouse 19 13 3 leo_sit_up/1550 Mountain 30 9 3/a2000 LeoTreeHouse 5 4 1 leo_sleep",},},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/LeoMainland",
+		"When": { "Five days": true},
+	 "Entries": {
+		 "Mon": "GOTO Tue",
+		 "Thu": "GOTO Tue"},}, 
+]}

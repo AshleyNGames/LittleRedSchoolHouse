@@ -1,97 +1,95 @@
-{ 		 
-	"LittleRedSchoolHouse": "Russel elementry. Home of the Soaring Pelicans.",
-	"Waste": "Waste",
-	"Paper": "Paper",
-	"CansandBottles": "Cans and Bottles",
-	
-		 "School.1": "Está trancada.",
-	  	 "School.2": "Planta da Escola. Não a regue demais.",
-	  	 "School.3": "O amigo de estudo Cubby.",
-	  	 "School.4": "Tick Tock Tick Tock",
-	  	 "School.5": "Russel, o Hamster da Classe",
-	  	 "School.6": "Há uma nota dizendo 'Apenas para Estudantes'.",
-	
-	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
-	
-	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
-	
-	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
-	  	 "School.9.fall": "No note today.",
-		
-	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
-	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
-		
-	  	 "Desk.1": "Esta carteira está disponível.",
-	  	 "Desk.2": "Esta carteira está disponível.",
-	  	 "Desk.3": "Esta carteira está disponível.",
-	  	 "Desk.4": "Esta carteira está disponível.",
-	  	 "Desk.5": "Esta é a carteira da Jas.",
-	  	 "Desk.6": "Esta carteira está disponível.",
-	  	 "Desk.7": "Esta carteira está disponível.",
-	  	 "Desk.8": "Esta carteira está disponível.",
-	  	 "Desk.9": "Esta carteira está disponível.",
-	  	 "Desk.10": "Esta carteira está disponível.",
-	  	 "Desk.11": "Esta carteira está disponível.",
-	  	 "Desk.12": "Esta carteira está disponível.",
-	  	 "Desk.13": "Esta carteira está disponível.",
-	  	 "Desk.14": "Esta carteira está disponível.",
-	  	 "Desk.15": "Esta carteira está disponível.",
-	  	 "Desk.16": "Esta é a carteira do Vincent.",
-	  	 "Desk.17": "Esta carteira está disponível.",
-	  	 "Desk.18": "Esta carteira está disponível.",	
-	
-	"HigherEducation" : "Ensino Superior",	
-	"SchoolRepaired": "Ei @.^^ Eu tenho os materiais que faltam na escola. Passarei por lá para te avisar quando eu terminar. ^^~Robin",	
-	"Text1": "Já é hora de consertarmos a casa da velha escola. No entanto, a Robin precisa de mais materiais para completar o trabalho.",
+{ "LittleRedSchoolHouse": "Escola Russel. Lar dos Pelicanos Voadores.",
+	"Waste": "Lixo",
+	"Paper": "Papel",
+	"CansandBottles": "Latas e Garrafas",
+
+	"School.1": "Há um arquivo para cada aluno aqui.",
+	"School.2": "Planta da turma. Não regar em excesso.",
+	"School.3": "O cubículo do companheiro de estudos.",
+	"School.4": "*Tic Tac Tic Tac Tic Tac*",
+	"School.5": "Russel, o Hamster da Turma",
+	"School.6": "Há uma nota dizendo 'Apenas para Estudantes'.",
+
+	"School.7.spring": "As aulas começam às 10:00. Todas as quartas e sextas. E em terças alternadas. Mesmo com chuva, mas não durante tempestades.",
+	"School.8.spring": "Sapos e caramujos não são permitidos na escola.",
+	"School.9.spring": "Os assentos são designados por um motivo. Não é permitido trocá-los.",
+
+	"School.7.summer": "As aulas começam às 10:00. Todas as quartas e sextas. E em terças alternadas. Mesmo com chuva, mas não durante tempestades.",
+	"School.8.summer": "Não há férias de verão. Só temos menos dias de aula por semana.",
+	"School.9.summer": "Fiquem hidratados, crianças. Bebam bastante água.",
+
+	"School.7.fall": "As aulas começam às 10:00. Todas as quartas e sextas. E em terças alternadas. Mesmo com chuva, mas não durante tempestades.",
+	"School.8.fall": "Todos são bem-vindos no clube do parquinho. Nos reunimos todo sábado.",
+	"School.9.fall": "Sem recado hoje.",
+
+	"School.7.winter": "As aulas começam às 10:00. Todas as quartas e sextas. E em terças alternadas. Mesmo com neve.",
+	"School.8.winter": "Um recado do Dr. Harvey lembrando as crianças de lavarem as mãos com frequência e cobrirem a boca e o nariz ao espirrar.",
+	"School.9.winter": "Por motivos legais, não é permitido ter decorações festivas dentro da escola. Isso inclui árvores da Estrela Invernal.",
+
+	"Desk.1": "Um assento vazio.",
+	"Desk.2": "Este assento está disponível.",
+	"Desk.3": "Um assento vazio.",
+	"Desk.4": "Ninguém está usando esta carteira.",
+	"Desk.5": "Este é o assento da Jas",
+	"Desk.6": "Ninguém está usando esta carteira.",
+	"Desk.7": "Este assento tem cheiro de manga.",
+	"Desk.8": "Este assento está disponível.",
+	"Desk.9": "Talvez um dia seu filho estude aqui.",
+	"Desk.10": "Este assento está disponível.",
+	"Desk.11": "Este assento está disponível.",
+	"Desk.12": "Ninguém está usando esta carteira.",
+	"Desk.13": "Este assento está disponível.",
+	"Desk.14": "Um assento vazio.",
+	"Desk.15": "Este assento está disponível.",
+	"Desk.16": "Este é o assento do Vincent",
+	"Desk.17": "Este assento está disponível.",
+	"Desk.18": "Talvez um dia seu filho estude aqui.",
+
+	"HigherEducation": "Ensino Superior",
+	"SchoolRepaired": "Oi @.^^ Peguei os materiais deixados na escola. Passo aí mais tarde pra avisar quando terminar. ^^~Robin",
+	"Text1": "A antiga escola ficou vazia por muitos anos. Robin precisa de mais materiais para deixá-la em funcionamento de novo. Deixe os itens na pilha de madeira dentro da escola.",
 	"Text2": "Madeira de Lei",
 	"Text3": "Madeira",
 	"Text4": "Tecido",
-	"Text5": "Barra de Ouro",	
-	
-	"Event1": "Ei @.#$b#A escola está arrumada.#$b#Espero ver você na grande inauguração mais tarde.",
-	"Event2.1": "Isso é... incrível.",
-	"Event2.2": "As crianças têm uma escola de verdade outra vez.",
-	"Event2.3": "Você fez um grande trabalho, Robin",
-	"Event2.4": "Eu não conseguiria sem a ajuda do @",
-	"Event2.5": "Você está certo.#$b#@, você não está no vale há tanto tempo quanto o resto de nós, mas você tem feito muito pela Cidade Pelicanos#$b#Obrigada @.",
-	
-	"Deskrsv.4": "Esta é a carteira do Keahi.",	  	 
-	"Deskrsv.12": "Esta é a carteira da Trinnie.",
-	
-	"Desk.Eloise":  "Esta é a carteira da Eloise.",
-	
-	"Desk.Adrian": "Esta é a carteira do Adrian.",
-	"Desk.James": "Esta é a carteira do James.",
-	"Desk.Tina": "Esta é a carteira da Tina.",
-	"Desk.Vanessa": "Esta é a carteira da Vanessa.",
-	
-	 "Deskpartone": "Esta é a carteira do",
-	 "Deskparttwo": ".",
-	
-	 "Deskpartone.1": "Esta é a carteira do",
-	 "Deskparttwo.1": ".",
-	
-	 "Deskpartone.2": "Esta é a carteira do",
-	 "Deskparttwo.2": ".",
-	
-	"Desk.Leo": "Esta é a carteira da Leo.",
-		
-	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
-	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
-    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
-	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
-	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
-	
-	"SEAT15NAME": "Rose",
-	"SEAT14NAME": "Violet",
-	"SEAT13NAME": "Jerry",
-	"SEAT11NAME": "Joe",
-	"SEAT8NAME":  "Page",
-	"SEAT3NAME":  "Jimmy",
+	"Text5": "Barra de Ouro",
+
+	"Event1": "Ei @.#$b#A escola está toda reformada.#$b#Espero te ver na grande inauguração mais tarde.",
+	"Event2.1": "Isto é... incrível.",
+	"Event2.2": "As crianças têm uma escola de verdade novamente.",
+	"Event2.3": "Você fez um ótimo trabalho, Robin.",
+	"Event2.4": "Eu não teria conseguido sem a ajuda da @",
+	"Event2.5": "Você tem razão.#$b#@, você não está no vale há tanto tempo quanto nós, mas já fez tanto por Vila Pelicanos#$b#Obrigada, @.",
+
+	"Deskrsv.4": "Este é o assento da Keahi",
+	"Deskrsv.12": "Este é o assento da Trinnie",
+
+	"Desk.Eloise": "Este é o assento da Eloise.",
+	"Desk.Adrian": "Este é o assento do Adrian.",
+	"Desk.James": "Este é o assento do James.",
+	"Desk.Tina": "Este é o assento da Tina.",
+	"Desk.Vanessa": "Este é o assento da Vanessa.",
+
+	"Deskpartone": "Este é o(a)", // nome
+	"Deskparttwo": ", assento.",
+
+	"Deskpartone.1": "Este é o(a)", // Primeiro nome de LittleNPC vai aqui no código
+	"Deskparttwo.1": ", assento. Tem um desenho de um celeiro aqui.",
+
+	"Deskpartone.2": "Este é o(a)", // Segundo nome de LittleNPC vai aqui no código
+	"Deskparttwo.2": ", assento. É o mais próximo do quadro.",
+
+	"Desk.Leo": "É aqui que o Leo se senta.",
+
+	"Penny_School_Wed": "A escola não tem recursos suficientes, mas estou fazendo o meu melhor para dar uma educação decente a eles.#$e#Toda criança merece uma chance de ter sucesso.",
+	"Penny_School_Tue": "Hoje estou dando aula... Eles dão trabalho, mas é bom saber que estou fazendo diferença na vida de alguém.",
+	"Penny_School_Tue4": "$d bus#Talvez agora que minha mãe voltou a dirigir o ônibus, eu consiga começar a economizar. As coisas estão melhorando.|Estou tentando economizar, mas é difícil com o salário de professora e minha mãe desempregada.$s",
+	"Penny_School_schedule.Jas": "Você está indo muito bem, Jas. Continue assim.",
+	"Penny_School_schedule.Vincent": "Penny está ajudando o Vincent com os deveres. Melhor não interromper.",
+
+	"SEAT15NAME": "Rosa ",
+	"SEAT14NAME": "Violeta ",
+	"SEAT13NAME": "Heitor",
+	"SEAT11NAME": "Bernardo",
+	"SEAT8NAME":  "Isadora",
+	"SEAT3NAME":  "Joaquim",
      }

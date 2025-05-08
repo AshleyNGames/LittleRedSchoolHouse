@@ -25,7 +25,7 @@
 		
 	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
 	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
-	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+	  	 "School.9.winter": "Due to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
 	
 	  	 "Desk.1": "Это место свободно.",
 	  	 "Desk.2": "Это место свободно.",
@@ -88,10 +88,10 @@
 	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
 	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
 	
-	"SEAT15NAME": "Rose",
-	"SEAT14NAME": "Violet",
-	"SEAT13NAME": "Jerry",
-	"SEAT11NAME": "Joe",
-	"SEAT8NAME":  "Page",
-	"SEAT3NAME":  "Jimmy",
+	"SEAT15NAME": "Роза",
+	"SEAT14NAME": "Виолетта",
+	"SEAT13NAME": "Пётр",
+	"SEAT11NAME": "Евгений",
+	"SEAT8NAME":  "Злата",
+	"SEAT3NAME":  "Лев",
      }

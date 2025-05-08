@@ -1,4 +1,4 @@
-{   "Changes": [  
+{"Changes": [
 //the schedule in SKE is out of order so the kids are not following it correctly. this is to reload the schedule in the correct order also adds 9th and 23rd because no school those days
 {"Action": "EditData",
 	"Target": "characters/schedules/Vanessa",
@@ -15,7 +15,7 @@
    "Thu": "GOTO season",
    "Fri": "GOTO Tue",
    "Sat": "GOTO Mon",
-   "Sun": "GOTO Mon"},},
+   "Sun": "GOTO Mon"}},
 
 {"Action": "EditData",
 	"Target": "characters/schedules/James",
@@ -33,7 +33,7 @@
 	"Thu": "GOTO season",
   	"Fri": "GOTO Tue",
 	"Sat": "900 JoshHouse 1 20 1/1120 Town 50 69 1/1740 Town 12 11 1/2000 Custom_JamesRoom 7 5 2",
-	"Sun": "GOTO season"},},
+	"Sun": "GOTO season"}},
 
 {"Action": "EditData",
 	"Target": "characters/schedules/Tina",
@@ -50,7 +50,7 @@
 	"Thu": "GOTO Mon",
 	"Fri": "GOTO Tue",
 	"Sat": "630 ScienceHouse 22 21 1/1030 ScienceHouse 7 18 2/1500 Mountain 26 35 2/2100 Custom_TinaRoom 8 5 0",
-	"Sun": "630 ScienceHouse 22 21 1/720 Mountain 26 35 2/910 Town 15 13 2/1200 AnimalHouse 4 4 2/1900 ScienceHouse 29 11 2/2100 Custom_TinaRoom 8 5 0"},},
+	"Sun": "630 ScienceHouse 22 21 1/720 Mountain 26 35 2/910 Town 15 13 2/1200 AnimalShop 4 4 2/1900 ScienceHouse 29 11 2/2100 Custom_TinaRoom 8 5 0"}},
 
 {"Action": "EditData",
 	"Target": "characters/schedules/Adrian",
@@ -67,7 +67,7 @@
 	"Thu": "GOTO season",
 	"Fri": "GOTO Tue",
 	"Sat": "1010 Town 53 72 0/1200 Town 13 12 1/1700 Town 46 57 2/2000 Custom_AdrianRoom 8 5 2",
-	"Sun": "GOTO season"},},
+	"Sun": "GOTO season"}},
 
 {"Action": "EditData",
 		"Target": "Data/Festivals/spring13",

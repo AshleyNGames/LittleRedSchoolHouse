@@ -9,8 +9,7 @@
 {"Name": "Rundown","Value":"Rundown","When":{}},
 {"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695002"}},
 {"Name": "RSV","Value":""},
-{"Name": "RSV","Value":"RSV","When":{"HasMod|contains=Rafseazz.RSVCP": true}},
-],
+{"Name": "RSV","Value":"RSV","When":{"HasMod|contains=Rafseazz.RSVCP": true}},],
 
 "ConfigSchema": {
 "Playground Expansion":{"AllowValues": "basketball, sandbox, custom, none", "Default": "basketball"},
@@ -53,7 +52,7 @@
 "When": {"HasFile:{{FromFile}}": true },
   "FromFile": "assets/Town/{{Playground Expansion}}.tmx",
 	"PatchMode": "Overlay",
-  "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22},},
+  "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22}},
 
 //festivals
 {"Action": "EditMap",
@@ -152,7 +151,7 @@
 "Desk.15": "{{i18n:Desk.15}}",
 "Desk.16": "{{i18n:Desk.16}}",
 "Desk.17": "{{i18n:Desk.17}}",
-"Desk.18": "{{i18n:Desk.18}}"},},
+"Desk.18": "{{i18n:Desk.18}}"}},
 
 {"Action": "EditData",
 "Target": "Strings/StringsFromMaps",
@@ -160,28 +159,28 @@
  "Entries": {
 		 "School.7": "{{i18n:School.7.spring}}",
 		 "School.8": "{{i18n:School.8.spring}}",
-		 "School.9": "{{i18n:School.9.spring}}"},},
+		 "School.9": "{{i18n:School.9.spring}}"}},
 {"Action": "EditData",
  "Target": "Strings/StringsFromMaps",
 "When": {"Season": "summer"},
  "Entries": {
 		 "School.7": "{{i18n:School.7.summer}}",
 		 "School.8": "{{i18n:School.8.summer}}",
-		 "School.9": "{{i18n:School.9.summer}}"},},
+		 "School.9": "{{i18n:School.9.summer}}"}},
 {"Action": "EditData",
  "Target": "Strings/StringsFromMaps",
 "When": {"Season": "fall"},
  "Entries": {
 		 "School.7": "{{i18n:School.7.fall}}",
 		 "School.8": "{{i18n:School.8.fall}}",
-		 "School.9": "{{i18n:School.9.fall}}"},},
+		 "School.9": "{{i18n:School.9.fall}}"}},
 {"Action": "EditData",
  "Target": "Strings/StringsFromMaps",
 "When": {"Season": "winter"},
  "Entries": {
 		 "School.7": "{{i18n:School.7.winter}}",
 		 "School.8": "{{i18n:School.8.winter}}",
-		 "School.9": "{{i18n:School.9.winter}}"},},
+		 "School.9": "{{i18n:School.9.winter}}"}},
 
 //ske edits
 {"Action": "Include",
@@ -198,7 +197,7 @@
 "Target": "Maps/Railroad",
 "Priority": "Late",
 "MapProperties": {"DayTiles": "Buildings 44 39 167",
-	"NightTiles": "Buildings 44 39 167",}},
+	"NightTiles": "Buildings 44 39 167"}},
 
 {  "Action": "EditMap",
     "Target": "Maps/Railroad",

@@ -1,5 +1,4 @@
-{
-  "LittleRedSchoolHouse": "ラッセル小学校。未来へ羽ばたくペリカンたちの学び舎。",
+{ "LittleRedSchoolHouse": "ラッセル小学校。未来へ羽ばたくペリカンたちの学び舎。",
   "Waste": "もえないゴミ",
   "Paper": "もえるゴミ",
   "CansandBottles": "缶とボトル",
@@ -88,20 +87,10 @@
   "Penny_School_schedule.Jas": "ジャス、がんばってるわね。その調子よ。",
   "Penny_School_schedule.Vincent": "ペニーがヴィンセントの勉強を手伝っている。邪魔しないほうがよさそうだ。",
 
-  // Changed from original Japanese names (例: 姫菜, 菫) to katakana versions of English names (ローズ, バイオレット) 
-  // to match other NPCs, which use katakana in JP version.
-
-  // "SEAT15NAME": "姫菜",
-  // "SEAT14NAME": "菫",
-  // "SEAT13NAME": "蓮",
-  // "SEAT11NAME": "樹",
-  // "SEAT8NAME":  "結月",
-  // "SEAT3NAME":  "太一"
-
-  "SEAT15NAME": "ローズ",
-  "SEAT14NAME": "バイオレット",
-  "SEAT13NAME": "クインシー",
-  "SEAT11NAME": "ザンダー",
-  "SEAT8NAME": "ペイジ",
-  "SEAT3NAME": "ネイサン"
-}
+"SEAT15NAME": "姫菜", //ローズ
+"SEAT14NAME": "菫",   //バイオレット
+"SEAT13NAME": "蓮",   //クインシー
+"SEAT11NAME": "樹",   //ザンダー
+"SEAT8NAME":  "結月", //ペイジ
+"SEAT3NAME":  "太一"  //ネイサン
+     }

@@ -1,7 +1,0 @@
-{   "Changes": [
-{"Action": "EditMap",
-"Target": "Maps/Custom_SchoolHouse",
-"Priority": "Late",
-	"When":{"spouse":"Elliott"},
-"MapProperties": {"DayTiles": "Buildings2 9 16 60"}},
-]}

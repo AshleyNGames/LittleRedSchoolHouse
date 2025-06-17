@@ -1,0 +1,17 @@
+{ "Deskpartone": "ここは",
+  "Deskparttwo": "の席のようだ。",
+
+"SEAT15NAME": "姫菜", //ローズ
+"SEAT14NAME": "菫",   //バイオレット
+"SEAT13NAME": "蓮",   //クインシー
+"SEAT11NAME": "樹",   //ザンダー
+"SEAT8NAME":  "結月", //ペイジ
+"SEAT3NAME":  "太一" , //ネイサン
+	"SEAT1NAME":  "Not Tina",
+	"SEAT2NAME":  "Not Vanessa",
+	"SEAT4NAME":  "Not Keahi",
+	"SEAT10NAME":  "Not James",
+	"SEAT17NAME":  "Not Adrian",
+	"SEAT12NAME":  "Not Trinnie",	
+	"SEAT6NAME":  "Not Eloise",
+     }

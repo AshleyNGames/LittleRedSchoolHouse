@@ -1,0 +1,53 @@
+{   "Changes": [  	  
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": {  		
+	"DesertFestival_1": "GOTO Mon",
+	"DesertFestival_3": "a900 BusStop 20 16 1/1030 Desert 39 16 1/1720 BusStop 20 16 1",
+	"winter_16": "700 Town 15 14 2/a1000 Custom_SchoolHouse 8 16 1 child_read/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 2 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.001\"/1740 AnimalShop 6 5 0",
+"winter_17": "700 Town 15 14 2/a1000  Custom_SchoolHouse 8 16 1 child_read/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:samhouse.001\"", 	
+	"Tue": "700 Town 15 14 2/a1000 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:samhouse.001\"",
+"Wed": "700 Town 15 14 2/a1000 Custom_SchoolHouse 8 16 1 child_read/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 2 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.001\"/1740 AnimalShop 6 5 0",
+"Fri": "{{Random: GOTO Tue, GOTO Wed}}",
+	"summer_Tue": "700 Town 15 14 2/a1000 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.001\"/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:samhouse.001\"",
+"summer_Wed": "GOTO Wed",
+"summer_Fri": "{{Random:GOTO summer_Tue, GOTO Wed}}",
+	"fall_Tue": "700 Town 15 14 2/a1000 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.002\"/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:samhouse.001\"",
+"fall_Wed": "GOTO Wed",
+"fall_Fri": "{{Random:GOTO fall_Tue, GOTO Wed}}",
+	"winter_Tue": "700 Town 15 14 2/a1000 Custom_SchoolHouse 8 16 1 child_read/1130 Town 16 19 1 child_ball/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:samhouse.001\"",},
+"winter_Wed": "GOTO Wed",
+"winter_Fri": "{{Random:GOTO winter_Tue, GOTO Wed}}",
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },},
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": { 
+	"rain": "740 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1130 Custom_SchoolHouse 19 4 1 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.002\"/a1250 Custom_SchoolHouse 6 17 1/1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.000\"/1740 SamHouse 12 23 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:samhouse.001\"",
+	"rain2": "740 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1130 Custom_SchoolHouse 19 4 1 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.002\"/a1250 Custom_SchoolHouse 6 17 1/1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 Town 16 90 3 \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.001\"/1740 AnimalShop 6 5 0",},
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "dayofweek":"Tuesday, Wednesday, Friday", "Weather": "Rain"},},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+		"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "dayofweek":"Monday, Thursday", "Five days": true},
+	 "Entries": {"DesertFestival_1": "GOTO Wed",
+		"Mon": "GOTO Wed",
+		"Thu": "GOTO Tue",
+		"summer_Thu": "GOTO summer_Tue",
+		"fall_Thu": "GOTO fall_Tue",
+		"winter_Thu": "GOTO winter_Tue",}},
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": {"Desk.18": "{{i18n:Deskpartone.1}} {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:Deskparttwo.1}}"},
+            	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },},
+
+//Spouse Alex
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
+"Entries": { 
+	"rain": "740 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1130 Custom_SchoolHouse 19 4 1 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.002\"/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 JoshHouse 15 6 child_ball",
+	"rain2": "740 Custom_SchoolHouse 8 16 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.000\"/1130 Custom_SchoolHouse 19 4 1 child_twirl \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:afterschool.002\"/a1300 Custom_SchoolHouse 8 16 1 sit_down \"Strings\\schedules\\{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}:school.004\"/1550 JoshHouse 15 6 child_ball",},
+"When": {"spouse":"Alex", "HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "dayofweek":"Tuesday, Wednesday, Friday", "Weather": "Rain"},},
+]}

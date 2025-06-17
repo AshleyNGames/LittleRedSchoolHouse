@@ -1,0 +1,30 @@
+{"Changes": [
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Vincent",
+		"When": { "noschoolday": false },
+	 "Entries": {
+		 "Tue": "750 Town 6 13 1/a1000 Custom_SchoolHouse 8 11 vincent_read_right/1130 Town 16 10 square_3_3_2/a1250 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
+		 "winter_16": "750 Town 6 13 1/a1000 Custom_SchoolHouse 8 11 vincent_read_right/1130 Town 16 10 square_3_3/a1250 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
+	 	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+	"summer_Tue": "GOTO Tue",
+    "summer_Wed": "GOTO Tue",
+    "summer_Fri": "GOTO Tue",
+	"fall_Tue": "GOTO Tue",
+    "fall_Wed": "GOTO Tue",
+    "fall_Fri": "GOTO Tue",
+	"winter_Tue": "GOTO Tue",
+    "winter_Wed": "GOTO Tue",
+    "winter_Fri": "GOTO Tue"}},	
+
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Vincent",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false},
+	 "Entries": {"rain": "750 Custom_SchoolHouse 3 15 1/a1000 Custom_SchoolHouse 8 11 vincent_read_right/1130 Custom_SchoolHouse 3 15 square_2_3_2/a1300 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
+}},
+
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Vincent",
+		"When": { "Five days": true},  
+	 "Entries": {"Mon": "GOTO Tue", "Thu": "GOTO Tue"}},
+  ]}

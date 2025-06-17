@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="11">
+ <properties>
+  <property name="Warp" value="3 19 Town 8 12"/>
+ </properties>
+ <tileset firstgid="1" name="Interior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+  <tile id="546">
+   <animation>
+    <frame tileid="546" duration="500"/>
+    <frame tileid="547" duration="500"/>
+    <frame tileid="548" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="581">
+   <animation>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="550" duration="250"/>
+    <frame tileid="581" duration="250"/>
+    <frame tileid="582" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1109">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="1393">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source=".paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="Xiddav" tilewidth="16" tileheight="16" tilecount="648" columns="18">
+  <image source=".Xiddav_Indoor.png" width="288" height="576"/>
+  <tile id="1">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2889" name="Interior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source=".townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <layer id="1" name="Back" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJzNVG0OgjAMXZawcAW4Cf7wI97Dz1soiR6Em7ijeBhXoeE5trkpRJs0D7ay9r12CPF7q7NpHXP8g63y8c/UWRjZ9ib3XAqxdPhiItzINvfO4FbGY6HS4ktPPNnB8K5Uixc5xKvskeLsd46bmed13u/j9xRH+7gew5t4HvM0nhyPWFjrzBvr4fpcvFAHOw71COnEyHM+Vl9T9OE5p7rs/wDVh/2z+ZIeoX2XDnw+9xvvN9fjmgPUAfn55jiWN9nZnFGrHl11l551e65RjxLmHxFzNuB349r4TYXr/4Y/GeU6QS7d5Xbd79i++uJLuOfPf2yXE+vW6vN598VXasgb+0t98PXbxdN3r98h97tRrzxZ89S59aHNF3mz5lyX/T4Vkj0AXEbJzw==
+  </data>
+ </layer>
+ <layer id="13" name="Back2" width="31" height="19">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYUM2KKWbNDKEfMRNnBjZ1eWyE9c3GYjchEIgFkwN2k2E3OiiE0suYSNN3G4vdsPC6xQ2U56bIWQRBLy8DQx8Q5/MzMPQD6Qm8EPFfQHt/U9Hu/VjMWgu0ax0Q9wPtXg+kN/BSzz5C4CzQrnNAvB5o93kgfYGOdg8U6OVjSFgLxGeB+C0Q8/IzJNDLblDZUoOE/5Oo/wwH+Xb7ArE8IwT7AdlzqJDfiQW5QLwHaJ89I4TeA7U7gEQ3PCPD/+hlCxsj6WagA0ke8vRRw+6JwDw6CYgnA/EUEvIrNezeCLRvExBvBuItdLb7ItC+S0B8GYiv0NnuwQ4ARicwcg==
+  </data>
+ </layer>
+ <layer id="21" name="Back3" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/hAlUBAPAMCTQAAQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJy1VMsuBEEUrTbpnp7EF2BjxdIIicRqkrEnsZhYW/EDgnDX/AET9G8gSCZ8BImd+Yhh4dRUVfdNdfWbk5x0vW6dqtu3jieEmAFb/0NyEXrkgYtYc+KLGFeB+m62krFzP54jIdLjdizHqa8oY037DIQu9TB/jfZQ8z5I2oa3yRy5xvNih47YG7CntR/QftR8D9T3mY2xOcqaM7Fyrh+qvoQdK/nEtD/8dK7K4BVab44874f5cZ9M28DroO465bW/oDvW2n5biKCtx0Oln3cGW1simi2v3QQu7TxMcMdv8MeR5zraUYX1c8jpPLjQrqfH/0uk3njKW0b1to6BvBDyQxPtB6OS3iL9gmrWvQHyQsgPIU9TbexH3IeyvEX6xR04aKjfRY2v6jrHfsR9yPYW6QfSFzbAF3AF7II71hmOCt6uC7YfcW/ps7do7rvt0G0Kszf3liIf4lhDna7rWrXfHK9jgyXsvRym11Z93zaqvDm+duDwVI5dfb4D+NxhBa8z95TYK/BU6S2uXBlcQPeyhLbRPM7Q42eSMN7iqXNMsaX7f0xy9OkXKkeDTQ==
+  </data>
+ </layer>
+ <layer id="19" name="Buildings2" width="31" height="19">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBjeoJ574OyeP4B20wL85BhoF4yCUUAaoEf+FxHALk6P/G+Cw256gJABtHsUEAdM2BkYTNlHnt20BABQpwUk
+  </data>
+ </layer>
+ <layer id="20" name="Buildings3" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DwgN3cDAx7uAfaFaNgFIyCUTAKRgEmAABS7AGO
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="10" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox Woodpile"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcQIEdlZ/HxsBgzIZdDpc+mB6YGEw/ITMcqChHrNhgAO85GBg+cGCKv2bFrr6HCbdZLhwQTApo5CFN/SggDyxC4y8eEFcMHEAuSyxwpG1igSAwjQuRmM6RgQHQfkMK3TBY7KU0LEkF7MBw56Ag7KkNaOX/gfAnITtxyYPKFlh5soQWDiMSuAIxI5FqiVWHCwAAeaUOqg==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="10" name="Paths" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/hAlUBAPAMCTQAAQ==
+  </data>
+ </layer>
+ <objectgroup id="9" name="Paths"/>
+ <layer id="7" name="AlwaysFront" width="31" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHewDAlTGyxBM385DewYzOAR80C7YBSMgsEBltEYD4ayBQAhBBZM
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

@@ -1,0 +1,29 @@
+{   "Changes": [  
+	
+	//desk
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 
+	  	 "Desk.4": "{{i18n:Deskrsv.4}}"},}, 
+	  
+{	"Action": "EditData",
+	"Target": "Characters/Schedules/Keahi",
+		"When": { "noschoolday": false },
+	"Entries": { 
+		    "DesertFestival_3": "a1000 BusStop 27 11 1/1030 Desert 44 44 3 keahi_jump/1700 Custom_Ridgeside_PikaHouse 7 10 3/2200 Custom_Ridgeside_PikaHouse 26 5 keahi_sleep",
+			"Tue": "0 Custom_Ridgeside_RidgesideVillage 120 53/610 Town 17 18 1/a950 Custom_SchoolHouse 23 17 3/1000 Custom_SchoolHouse 22 16 keahi_read/1120 Town 19 14 keahi_dance/a1250 Custom_SchoolHouse 23 17 3/1300 Custom_SchoolHouse 22 16 keahi_read/1550 Custom_Ridgeside_RidgesideVillage 98 38 2/1800 Custom_Ridgeside_PikaHouse 7 10 3/2200 Custom_Ridgeside_PikaHouse 26 5 keahi_sleep"	},},  	
+		    
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Keahi",
+		"When": { "Five days": true},  
+	 "Entries": {
+		 "Mon": "GOTO Tue",
+		"Thu": "GOTO Tue", },}, 
+		  
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Keahi",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false},
+	 "Entries": {     
+		 "rain": "0 Custom_Ridgeside_RidgesideVillage 120 53/610 Custom_SchoolHouse 23 17 3/1000 Custom_SchoolHouse 22 16 keahi_read/1140 Custom_SchoolHouse 16 17 3 keahi_jump/1250 Custom_SchoolHouse 28 8 0/1540 Custom_Ridgeside_RidgesideVillage 98 38 2/1800 Custom_Ridgeside_PikaHouse 7 10 3/2200 Custom_Ridgeside_PikaHouse 26 5 keahi_sleep"	},},  	
+	     ]}

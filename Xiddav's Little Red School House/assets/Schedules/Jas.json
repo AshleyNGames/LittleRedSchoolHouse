@@ -1,0 +1,32 @@
+{   "Changes": [  	  	  
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Jas",
+		"When": { "noschoolday": false },   
+	 "Entries": {    
+		 "Tue": "710 Town 7 13 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1120 Town 24 12 jas_jumprope/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
+	 	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+	"summer_Tue": "GOTO Tue",
+    "summer_Wed": "GOTO Tue",
+    "summer_Fri": "GOTO Tue",
+	"fall_Tue": "GOTO Tue",
+    "fall_Wed": "GOTO Tue",
+    "fall_Fri": "GOTO Tue",
+	"winter_Tue": "GOTO Tue",
+    "winter_Wed": "GOTO Tue",
+    "winter_Fri": "GOTO Tue"}},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Jas",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
+	 "Entries": {     
+		 "rain": "650 Custom_SchoolHouse 16 14 3/a950 Custom_SchoolHouse 20 8 3/1000 Custom_SchoolHouse 19 8 3 jas_read/1130 15 14 square_3_3/a1250 Custom_SchoolHouse 20 8 3/1300 Custom_SchoolHouse 19 8 3 jas_read/1550 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",     
+}},	
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/Jas",
+		"When": { "Five days": true},
+	 "Entries": {
+		 "Mon": "GOTO Tue",
+		"Thu": "GOTO Tue"}}, 
+  ]}

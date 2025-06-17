@@ -1,0 +1,42 @@
+{   "Changes": [  	  
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { 	
+	"DesertFestival_1": "GOTO Mon",
+	"DesertFestival_3": "a900 BusStop 19 22 2/1020 Desert 47 42 3/1730 BusStop 19 22 2",
+	"Tue": "740 Town 14 14 2/a1000 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Town 13 16 1 child_ball/a1250 Custom_SchoolHouse 10 7 0/1300 Custom_SchoolHouse 11 6 1 child_read/1600 Town 22 63 0 child_ball",
+	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+	"summer_Tue": "GOTO Tue",
+    "summer_Wed": "GOTO Tue",
+    "summer_Fri": "GOTO Tue",
+	"fall_Tue": "GOTO Tue",
+    "fall_Wed": "GOTO Tue",
+    "fall_Fri": "GOTO Tue",
+	"winter_Tue": "GOTO Tue",
+    "winter_Wed": "GOTO Tue",
+    "winter_Fri": "GOTO Tue"},
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },},
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+"Entries": { 
+	 "rain": "740 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1600 Town 22 63 0 child_ball",
+	"rain2": "740 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1600 Town 22 63 0 child_ball",},
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true ,"dayofweek":"Tuesday, Wednesday, Friday",  "Weather": "Rain"},},
+
+{"Action": "EditData",
+	"Target": "characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
+		"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true , "dayofweek":"Thursday", "Five days": true},  
+	 "Entries": { "DesertFestival_1": "GOTO Wed",
+		"Thu": "GOTO Tue",
+		"summer_Thu": "GOTO Tue",
+		"fall_Thu": "GOTO Tue",
+		"winter_Thu": "GOTO Tue",},},
+
+{"Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { "Desk.9": "{{i18n:Deskpartone.2}} {{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:Deskparttwo.2}}",},
+            	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },}, 
+]}

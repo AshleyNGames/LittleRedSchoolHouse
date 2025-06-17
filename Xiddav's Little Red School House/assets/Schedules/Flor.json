@@ -1,0 +1,36 @@
+{   "Changes": [  
+		  
+{	"Action": "EditData",
+	"Target": "Characters/Schedules/Flor",
+		"When": { "noschoolday": false },
+	"Entries": { 	"DesertFestival_3": "a1000 BusStop 21 20 1/1030 Desert 40 49 0/1640 Custom_Ridgeside_LogCabinHotel2ndFloor 2 9 1/2200 Custom_Ridgeside_LogCabinHotel2ndFloor 3 5 0 flor_sleep",	
+					"marriage_DesertFestival_3": "a1000 BusStop 21 20 1/1030 Desert 43 48 3/1600 bed",
+				"Tue": "0 Custom_Ridgeside_RidgesideVillage 114 25 2/610 Town 8 16 1/a1000 Custom_SchoolHouse 11 4 2/1040 Custom_SchoolHouse 21 15 2/1120 Town 26 14 3/a1250 Custom_SchoolHouse 1 5 1 flor_read/1600 Custom_Ridgeside_LogCabinHotel2ndFloor 2 9 1/2200 Custom_Ridgeside_LogCabinHotel2ndFloor 3 5 0 flor_sleep",	
+				"marriageJob": "a830 Town 8 16 1/a1000 Custom_SchoolHouse 11 4 2/1120 Town 26 14 3/a1250 Custom_SchoolHouse 1 5 1 flor_read/1630 bed", 
+	"Wed": "GOTO Tue",
+	"Fri": "GOTO Tue",
+	"summer_Tue": "GOTO Tue",
+    "summer_Wed": "GOTO Tue",
+    "summer_Fri": "GOTO Tue",
+	"fall_Tue": "GOTO Tue",
+    "fall_Wed": "GOTO Tue",
+    "fall_Fri": "GOTO Tue",
+	"winter_Tue": "GOTO Tue",
+    "winter_Wed": "GOTO Tue",
+    "winter_Fri": "GOTO Tue"}},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/Flor",
+		"When": { "dayofweek":"Monday, Thursday", "Five days": true},
+	 "Entries": {
+		"Mon": "GOTO Tue",
+		"Thu": "GOTO Tue",
+		"marriage_Mon": "GOTO marriageJob",
+	 },}, 
+	   
+{	"Action": "EditData",
+	"Target": "Characters/Schedules/Flor",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain", "noschoolday": false },
+	"Entries": { 	
+				"rain": "0 Custom_Ridgeside_RidgesideVillage 114 25 2/610 Custom_SchoolHouse 3 14 2/a1000 Custom_SchoolHouse 11 4 2/a1210 Custom_SchoolHouse 1 5 1 flor_read/1610 Custom_Ridgeside_LogCabinHotel2ndFloor 2 9 1/2200 Custom_Ridgeside_LogCabinHotel2ndFloor 3 5 0 flor_sleep",	},},  	
+]}

@@ -1,0 +1,86 @@
+{ 	"LittleRedSchoolHouse": "Escuela Russel. Hogar de los Altísimos Pelicanos.",
+"Waste": "Basura",
+"Paper": "Papel",
+"CansandBottles": "Botellas y Latas",
+	
+		 "School.1": "Está cerrada.",
+	  	 "School.2": "Planta de la clase. No regar en exceso.",
+	  	 "School.3": "El cubículo de amigos de estudio.",
+	  	 "School.4": "Tic Tac Tic Tac",
+	  	 "School.5": "Russel el hámster de la clase.",
+	  	 "School.6": "Hay una nota que dice 'Solo para estudiar'",
+	
+		 "School.7.spring": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso cuando llueve, pero no si hay tormenta.",
+         "School.8.spring": "No se permiten ranas ni caracoles en la escuela.",
+         "School.9.spring": "Hay asientos asignados por una razón. Los estudiantes no pueden intercambiar escritorios.",
+    
+         "School.7.summer": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso cuando llueve, pero no si hay tormenta.",
+         "School.8.summer": "No hay vacaciones de verano. Tenemos menos días de clase cada semana.",
+         "School.9.summer": "Niños, manténganse hidratados. Beban mucha agua.",
+    
+         "School.7.fall": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso cuando llueve, pero no si hay tormenta.",
+         "School.8.fall": "Todos son bienvenidos al club de juegos. Nos reunimos todos los sábados.",
+         "School.9.fall": "No hay nota hoy.",
+        
+         "School.7.winter": "Las clases empiezan a las 10:00 a. m. Todos los miércoles y viernes. Además, cada dos martes. Incluso si nieva.",
+         "School.8.winter": "Una nota del Dr. Harvey recordando a los niños que se laven las manos con frecuencia y que se cubran la boca y la nariz cuando estornuden.",
+         "School.9.winter": "Por razones legales, no se permite tener decoraciones festivas dentro de la escuela. Esto incluye los árboles de navidad.",
+	
+	  	 "Desk.1": "Este asiento está disponible.",
+	  	 "Desk.2": "Este asiento está disponible.",
+	  	 "Desk.3": "Este asiento está disponible.",
+	  	 "Desk.4": "Este asiento está disponible.",
+	  	 "Desk.5": "Este es el asiento de Jas.",
+	  	 "Desk.6": "Este asiento está disponible.",
+	  	 "Desk.7": "Este asiento está disponible.",
+	  	 "Desk.8": "Este asiento está disponible.",
+	  	 "Desk.9": "Este asiento está disponible.",
+	  	 "Desk.10": "Este asiento está disponible.",
+	  	 "Desk.11": "Este asiento está disponible.",
+	  	 "Desk.12": "Este asiento está disponible.",
+	  	 "Desk.13": "Este asiento está disponible.",
+	  	 "Desk.14": "Este asiento está disponible.",
+	  	 "Desk.15": "Este asiento está disponible.",
+	  	 "Desk.16": "Este es el asiento de Vincent.",
+	  	 "Desk.17": "Este asiento está disponible.",
+	  	 "Desk.18": "Este asiento está disponible.",
+	
+	"school.HigherEducation" : "Educación Superior",	
+	"school.SchoolRepaired": "Ey @.^^ Dejé los materiales en la escuela. Me pasaré más tarde para avisarte cuando haya terminado. ^^~Robin",	
+	"school.Text1": "Ya es hora de que arreglemos la antigua casa de la escuela. Sin embargo, Robin necesita más materiales para completar el trabajo.",
+	"school.Text2": "Madera noble",
+	"school.Text3": "Madera",
+	"school.Text4": "Tela",
+	"school.Text5": "Lingote de oro",
+	
+	"Event1": "Ey @.#$b#La escuela está toda arreglada.#$b#Espero verte en la gran inauguración más tarde.",
+	"Event2.1": "Esto es... ¡increíble!",
+	"Event2.2": "Los niños tienen una escuela real de nuevo.",
+	"Event2.3": "Hiciste un gran trabajo Robin.",
+	"Event2.4": "no podría haberlo hecho sin la ayuda de @.",
+	"Event2.5": "¡Tienes razón!#$b#@, no ha estado en el valle tanto tiempo como el resto de nosotros, pero ha hecho mucho por la Ciudad Pelícano. #$b#Gracias @.",
+	
+	"Deskrsv.4": "Este es el asiento de Keahi.",	  
+	"Deskrsv.12": "Este es el asiento de Trinnie.",
+	
+	"Desk.Eloise":  "Este es el asiento de Eloise.",
+	
+	"Desk.Adrian": "Este es el asiento de Adrian.",
+	"Desk.James": "Este es el asiento de James.",
+	"Desk.Tina": "Este es el asiento de Tina.",
+	"Desk.Vanessa": "Este es el asiento de Vanessa.",
+		
+	 "Deskpartone.1": "Este es el asiento de",
+	 "Deskparttwo.1": ".",
+	
+	 "Deskpartone.2": "Este es el asiento de",
+	 "Deskparttwo.2": ".",
+	
+	"Desk.Leo": "Este es el asiento de Leo.",
+		
+	"Penny_School_Wed": "La escuela no tiene fondos suficientes, pero estoy haciendo todo lo posible para darles una educación adecuada.#$e#Todo niño merece la oportunidad de tener educación.",
+    "Penny_School_Tue": "Hoy doy clase... Son muchos, pero es agradable marcar la diferencia en la vida de alguien.",
+    "Penny_School_Tue4": "$d bus#Quizás ahora que mi madre ha recuperado su trabajo de conductora de autobús, pueda empezar a ahorrar más dinero. La cosa pinta un poco mejor.|Estoy tratando de ahorrar dinero, pero es difícil con el sueldo de un profesor y con mi madre sin trabajo.$s",
+     "Penny_School_schedule.Jas": "‎Lo estás haciendo muy bien, Jas. ¡Sigue así!",
+     "Penny_School_schedule.Vincent": "Penny está ayudando a Vincent con sus tareas escolares. Mejor no interrumpir.",
+     }

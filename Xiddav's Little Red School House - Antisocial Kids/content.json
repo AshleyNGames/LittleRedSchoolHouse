@@ -2,8 +2,7 @@
 	"DynamicTokens": [
 {"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}"},
 {"Name": "noschoolday","Value": "false","When":{}},
-{"Name": "noschoolday","Value": "true","When":{"day": "9, 23"}},
-],
+{"Name": "noschoolday","Value": "true","When":{"day": "9, 23"}},],
 	
 "ConfigSchema": {
 "Five days":{"AllowValues": "true, false", "Default": "false"},
@@ -13,28 +12,22 @@
 "Seat 13 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 14 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 15 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-
 "Seat 6 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-
 "Seat 1 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 2 Antisocial":{"AllowValues": "true, false", "Default": "false"},
 "Seat 10 Antisocial":{"AllowValues": "true, false", "Default": "false"},
 "Seat 17 Antisocial":{"AllowValues": "true, false", "Default": "false"},
-
 "Seat 4 Antisocial":{"AllowValues": "true, false", "Default": "false"},
-"Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "false"},
-},
+"Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "false"},},
 
 "Changes": [
 {"Action": "Include",
 		"FromFile": "assets/Schedules.json",
 "When": {"HasMod|contains=Xiddav.LittleRedSchoolHouseLazy": true}},
-
 {"Action": "Include",
 		"FromFile": "assets/Schedules.json",
 "When": {"HasMod|contains=Xiddav.LittleRedSchoolHouse": true, "HasSeenEvent": "9695002"}},
 
-//Railstation Door for Antisocial students
 {"Action": "EditMap",
 "Target": "Maps/Railroad",
 "Priority": "Late",

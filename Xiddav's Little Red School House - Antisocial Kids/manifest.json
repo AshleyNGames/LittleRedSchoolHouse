@@ -5,7 +5,7 @@
   "Description": "Adds a KIDS to THE SCHOOL.",
   "UniqueID": "Xiddav.LittleRedSchoolHouseANTISOCIALKIDS",
   "MinimumApiVersion": "3.0",
-  "UpdateKeys": [ "Nexus:9695@Regular" ],
+  "UpdateKeys": [ "Nexus:9695@ANTISOCIAL" ],
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",
    "MinimumVersion": "2.7.0"},
   "Dependencies": [  

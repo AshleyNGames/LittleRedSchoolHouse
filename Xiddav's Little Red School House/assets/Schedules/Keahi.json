@@ -1,6 +1,5 @@
 {   "Changes": [  
 	
-	//desk
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
      "Entries": { 

@@ -10,5 +10,13 @@
             "Target": "Data/Locations",
 			"When": {"HasSeenEvent": "9695002"},
             "Fields": {"Custom_SchoolHouse": {
+				"MusicContext":"SubLocation",
                     "MusicDefault": "CloudCountry"}}}, 
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+			"When": {"HasSeenEvent": "9695002"},
+            "Fields": {"Custom_SchoolHouse": {
+				"MusicContext":"SubLocation",
+                    "MusicDefault": "tickTock"}}}, 
 ]}

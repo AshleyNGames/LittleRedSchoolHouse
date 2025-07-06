@@ -7,10 +7,13 @@
 	"SEAT11NAME": "Felix",
 	"SEAT8NAME":  "Nele",
 	"SEAT3NAME":  "Maxim",
-	"SEAT1NAME":  "1",
-	"SEAT2NAME":  "2",
+	
+	"SEAT1NAME":  "Lukas",
+	"SEAT2NAME":  "Johanna",
+	"SEAT10NAME":  "Emma",
+	"SEAT17NAME":  "Ida",
+	
 	"SEAT4NAME":  "4",
-	"SEAT10NAME":  "1",
-	"SEAT17NAME":  "Isabella",
 	"SEAT12NAME":  "12",
-	"SEAT6NAME":  "6",}
+	"SEAT6NAME":  "6",
+}

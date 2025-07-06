@@ -7,10 +7,13 @@
 	"SEAT11NAME": "예준",
 	"SEAT8NAME":  "하린",
 	"SEAT3NAME":  "시우",
-	"SEAT1NAME":  "1",
-	"SEAT2NAME":  "2",
+	
+	"SEAT1NAME":  "도윤",
+	"SEAT2NAME":  "채원",
+	"SEAT10NAME":  "예지",
+	"SEAT17NAME":  "다희",
+	
 	"SEAT4NAME":  "4",
-	"SEAT10NAME":  "1",
-	"SEAT17NAME":  "Isabella",
 	"SEAT12NAME":  "12",
-	"SEAT6NAME":  "6",}
+	"SEAT6NAME":  "6",
+}

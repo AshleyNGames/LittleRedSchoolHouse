@@ -83,4 +83,23 @@
     "Penny_School_Tue4": "$d bus#Quizás ahora que mi madre ha recuperado su trabajo de conductora de autobús, pueda empezar a ahorrar más dinero. La cosa pinta un poco mejor.|Estoy tratando de ahorrar dinero, pero es difícil con el sueldo de un profesor y con mi madre sin trabajo.$s",
      "Penny_School_schedule.Jas": "‎Lo estás haciendo muy bien, Jas. ¡Sigue así!",
      "Penny_School_schedule.Vincent": "Penny está ayudando a Vincent con sus tareas escolares. Mejor no interrumpir.",
+	
+	"Deskpartone": "Este es el asiento de",
+	 "Deskparttwo": ".",
+		
+	"SEAT15NAME": "Rosa",
+	"SEAT14NAME": "Violeta",
+	"SEAT13NAME": "Ikal",
+	"SEAT11NAME": "Raul",
+	"SEAT8NAME":  "Palmira",
+	"SEAT3NAME":  "Javier",
+	
+	"SEAT1NAME":  "Criz",
+	"SEAT2NAME":  "Julia",
+	"SEAT10NAME":  "Alma",
+	"SEAT17NAME":  "Isabel",
+	
+	"SEAT4NAME":  "4",
+	"SEAT12NAME":  "12",
+	"SEAT6NAME":  "6",
      }

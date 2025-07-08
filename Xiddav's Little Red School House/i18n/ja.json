@@ -83,4 +83,23 @@
   "Penny_School_Tue4": "$d bus#母さんがバスの運転手に戻れたから、少しずつ貯金ができるようになったわ。状況が良くなってきたの。|お金を貯めようとしてるけど、先生の給料は高くないし、母さんも失業中だからなかなか貯金ができないの。$s",
   "Penny_School_schedule.Jas": "ジャス、がんばってるわね。その調子よ。",
   "Penny_School_schedule.Vincent": "ペニーがヴィンセントの勉強を手伝っている。邪魔しないほうがよさそうだ。",
+	
+	 "Deskpartone": "ここは",
+  "Deskparttwo": "の席のようだ。",
+
+"SEAT15NAME": "姫菜", //ローズ
+"SEAT14NAME": "菫",   //バイオレット
+"SEAT13NAME": "蓮",   //クインシー
+"SEAT11NAME": "樹",   //ザンダー
+"SEAT8NAME":  "結月", //ペイジ
+"SEAT3NAME":  "太一" , //ネイサン
+	
+	"SEAT1NAME":  "明",
+	"SEAT2NAME":  "千代子",
+	"SEAT10NAME":  "恵美子",
+	"SEAT17NAME":  "瞳",
+	
+	"SEAT4NAME":  "4",
+	"SEAT12NAME":  "12",
+	"SEAT6NAME":  "6",
      }

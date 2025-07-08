@@ -83,4 +83,23 @@
     "Penny_School_Tue4": "$d bus#MVielleicht kann ich jetzt, da meine Mutter wieder als Busfahrerin arbeitet, mehr Geld sparen. Die Dinge sehen etwas besser aus.|Ich versuche, Geld zu sparen, aber es ist hart für das Gehalt eines Lehrers und da meine Mutter arbeitslos ist.$s",
 	 "Penny_School_schedule.Jas": "Du machst das großartig, Jas. Mach weiter so.",
 	 "Penny_School_schedule.Vincent": "Penny hilft Vincent bei seinen Hausaufgaben. Am besten unterbricht man ihn nicht.",
+	
+	 "Deskpartone": "Dies ist der Platz von", 
+	 "Deskparttwo": ".",
+	
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Oskar",
+	"SEAT11NAME": "Felix",
+	"SEAT8NAME":  "Nele",
+	"SEAT3NAME":  "Maxim",
+	
+	"SEAT1NAME":  "Lukas",
+	"SEAT2NAME":  "Johanna",
+	"SEAT10NAME":  "Emma",
+	"SEAT17NAME":  "Ida",
+	
+	"SEAT4NAME":  "4",
+	"SEAT12NAME":  "12",
+	"SEAT6NAME":  "6",
      }

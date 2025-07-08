@@ -83,4 +83,23 @@
     "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
 	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
 	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+	"Deskpartone": "C'est le siège de",
+	 "Deskparttwo": ".",
+		
+	"SEAT15NAME": "Rosalie",
+	"SEAT14NAME": "Violette",
+	"SEAT13NAME": "Théo",
+	"SEAT11NAME": "Lyam",
+	"SEAT8NAME":  "Colette",
+	"SEAT3NAME":  "Raphaël",
+	
+	"SEAT1NAME":  "Claude",
+	"SEAT2NAME":  "Jacqueline",
+	"SEAT10NAME":  "Emmanuelle",
+	"SEAT17NAME":  "Isabelle",
+	
+	"SEAT4NAME":  "4",
+	"SEAT12NAME":  "12",
+	"SEAT6NAME":  "6",
      }

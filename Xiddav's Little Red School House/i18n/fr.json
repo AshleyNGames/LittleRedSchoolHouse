@@ -59,47 +59,4 @@
   	"Event2.3": "Tu as fait un excellent travail Robine !",
   	"Event2.4": "Je n'aurais pas pu le faire sans l'aide précieuse de @.",
  	"Event2.5": "Tu as raison.#$b#@, tu n'es pas dans la vallée depuis aussi longtemps que nous mais tu as tellement fait pour Pélican Ville.#$b#Merci @.",
- 		
-	"Deskrsv.4": "C'est le siège de Keahi.",
-	"Deskrsv.12": "C'est le siège de Trinnie.",
-	
-  "Desk.Eloise": "C'est le siège d’Eloise.",
-	
-	"Desk.Adrian": "C'est le siège d’Adrian.",
-	"Desk.James": "C'est le siège de James.",
-	"Desk.Tina": "C'est le siège de Tina.",
-	"Desk.Vanessa": "C'est le siège de Vanessa.",
-	
-	 "Deskpartone.1": "C'est le siège de",
-	 "Deskparttwo.1": ".",
-	
-	 "Deskpartone.2": "C'est le siège de",
-	 "Deskparttwo.2": ".",
-	
-	"Desk.Leo": "C'est le siège de Leo.",
-		
-	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
-	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
-    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
-	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
-	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
-	
-	"Deskpartone": "C'est le siège de",
-	 "Deskparttwo": ".",
-		
-	"SEAT15NAME": "Rosalie",
-	"SEAT14NAME": "Violette",
-	"SEAT13NAME": "Théo",
-	"SEAT11NAME": "Lyam",
-	"SEAT8NAME":  "Colette",
-	"SEAT3NAME":  "Raphaël",
-	
-	"SEAT1NAME":  "Claude",
-	"SEAT2NAME":  "Jacqueline",
-	"SEAT10NAME":  "Emmanuelle",
-	"SEAT17NAME":  "Isabelle",
-	
-	"SEAT4NAME":  "Jack",
-	"SEAT12NAME":  "12",
-	"SEAT6NAME":  "6",
      }

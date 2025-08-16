@@ -1,11 +1,11 @@
-{ "Format": "2.6.0",
+{ "Format": "2.7.0",
 "DynamicTokens": [
-{"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}"},
 {"Name": "noschoolday","Value": "false","When":{}},
 {"Name": "noschoolday","Value": "true","When":{"day": "9, 23"}},
 {"Name": "World","Value":"Vanilla"},
+{"Name": "World","Value":"Parks","When":{"HasMod|contains=Xiddav.Parks": true}},
 {"Name": "World","Value":"SVE","When":{"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true}},
-{"Name": "World","Value":"Overgrown","When":{"HasMod|contains=mushlune.overgrown": true}},
+{"Name": "World","Value":"Overgrown","When":{"HasMod|contains=lune.overgrown": true}},
 {"Name": "Rundown","Value":"Rundown","When":{}},
 {"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695002"}},
 {"Name": "RSV","Value":""},
@@ -13,41 +13,22 @@
 ],
 
 "ConfigSchema": {
-"Playground Expansion":{"AllowValues": "basketball, sandbox, custom, none", "Default": "basketball"},
-"Five days":{"AllowValues": "true, false", "Default": "false"},
-
-"Seat 3 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 8 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 11 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 13 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 14 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 15 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-
-"Seat 1 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 2 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 10 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 17 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-
-"Seat 6 Antisocial":{"AllowValues": "true, false", "Default": "false"},
-"Seat 4 Antisocial":{"AllowValues": "true, false", "Default": "false"},
-"Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "false"},},
+"Playground Expansion":{"AllowValues": "basketball, sandbox, custom, none", "Default": "basketball"},},
 
 "CustomLocations": [
 {"Name": "Custom_SchoolHouse",
 "FromMapFile": "assets/RundownSchoolHouse.tmx",
-"MigrateLegacyNames": ["SchoolHouse"]},
-{"Name": "Custom_SchoolHouse_BellRoom",
-"FromMapFile": "assets/BellRoom.tmx"}],
+"MigrateLegacyNames": ["SchoolHouse"]}],
 
 "Changes": [
 {"Action": "Include",
-"FromFile": "assets/Special Order.json" },
-	
+"FromFile": "assets/Special Order.json"},
+
 {"Action": "EditMap",
   "Target": "Maps/Custom_SchoolHouse",
 "When": {"HasSeenEvent": "9695001"},
   "FromFile": "assets/SchoolHouse.tmx",
-	"PatchMode": "Replace"},	
+	"PatchMode": "Replace"},
 
 {"Action": "EditMap",
   "Target": "Maps/Town",
@@ -69,7 +50,6 @@
 	"PatchMode": "Overlay",
   "ToArea": { "X": 0, "Y": 0, "Width": 27, "Height": 22}},
 
-//festivals
 {"Action": "EditMap",
   "Target": "Maps/Town-Halloween",
   "FromFile": "assets/Town/{{World}}/Town{{Rundown}}SchoolHouseSPIRITS.tmx",
@@ -128,7 +108,6 @@
 
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-"Priority": "Late",
 "When": {"HasSeenEvent": "9695001"},
 "MapProperties": {
 		"DayTiles": "Front 3 1 256 Front 10 1 256 Front 17 1 256 Front 22 1 256 Front 3 2 288 Front 10 2 288 Front 17 2 288 Front 22 2 288 Front 6 1 827 Front 19 1 827 Front 4 8 809 Front 1 15 809 Front 27 1 256 Front 27 2 288",
@@ -136,7 +115,6 @@
 		"AmbientLight" : "95 95 95",
 		"WindowLight": "3 2 6 10 2 6 17 2 6 22 2 6 6 1 4 2 10 4 4 8 1 1 15 1 19 1 4"}},
 
-//map string
 {"Action": "EditData",
  "Target": "Strings/StringsFromMaps",
  "Entries": {
@@ -198,16 +176,6 @@
 		 "School.8": "{{i18n:School.8.winter}}",
 		 "School.9": "{{i18n:School.9.winter}}"}},
 
-//schedules
-{"Action": "Include",
-		"FromFile": "assets/Schedules/Schedules.json",
-"When": {"HasSeenEvent": "9695002"}},
-
-{"Action": "Include",
-		"FromFile": "assets/Antisocial Kids/Schedules.json",
-"When": {"HasSeenEvent": "9695002"}},
-
-//music
 {"Action": "EditData",
             "Target": "Data/Locations",
 			"When": {"Rundown":"Rundown"},
@@ -225,26 +193,4 @@
             "Fields": {"Custom_SchoolHouse": {
 				"MusicContext":"SubLocation",
                     "MusicDefault": "tickTock"}}},
-
-//antisocial
-{"Action": "EditData",
-	"Target": "Data/animationdescriptions",
-    "Entries":{
-		"LittleRed_Read_1": "4/23/4",
-		"LittleRed_Read_3": "12/22/12",
-		"LittleRed_RightReach": "8/16 16 16 16 17 16 16 16 16 17 16 16 16 16 16 16/10",
-		"LittleRed_LeftReach":  "8/19 19 19 18 19 19 19 19 19 18 19 19 19 19 19 19/10",
-		"LittleRed_Yippi": "0/20 20 20 20 21 21 21 21/2",
-		"LittleRed_Sit_2": "0/24/0"}},
-
-//Railstation Door for Antisocial students
-{"Action": "EditMap",
-"Target": "Maps/Railroad",
-"Priority": "Late",
-"MapProperties": {"DayTiles": "Buildings 44 39 167",
-	"NightTiles": "Buildings 44 39 167"}},
-
-{  "Action": "EditMap",
-    "Target": "Maps/Railroad",
-      "AddNPCWarps": ["44 39 Custom_SchoolHouse_BellRoom 11 9"]},
 ]}

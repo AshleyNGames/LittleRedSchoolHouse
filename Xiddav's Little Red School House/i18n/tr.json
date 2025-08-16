@@ -59,47 +59,4 @@
 	"Event2.3": "Harika bir iş çıkardın Robin",
 	"Event2.4": "@ yardım etmese yapamazdım",
 	"Event2.5": "Haklısın.#$b#@, Geri kalanımız kadar uzun süredir vadide değilsin ama Pelikan Kasabası için çok şey yaptın.#$b#Teşekkür ederim @.",
-	
-	"Deskrsv.4": "Bu sıra Keahi'e ait",
-	"Deskrsv.12": "Bu sıra Trinnie'e ait",
-	
-	"Desk.Eloise": "Bu sıra Eloise'e ait",
-	
-	"Desk.Adrian": "Bu sıra Adrian'e ait",
-	"Desk.James": "Bu sıra James'e ait",
-	"Desk.Tina": "Bu sıra Tina'e ait",
-	"Desk.Vanessa": "Bu sıra Vanessa'e ait",
-	
-	 "Deskpartone.1": "Bu sıra",
-	 "Deskparttwo.1": "'e ait",
-	
-	 "Deskpartone.2": "Bu sıra",
-	 "Deskparttwo.2": "'e ait",
-	
-	"Desk.Leo": "Bu sıra Leo'e ait",
-		
-	"Penny_School_Wed": "Okulun yeterli fonu yok ama onlara düzgün bir eğitim vermek için elimden gelenin en iyisini yapıyorum.#$e#Her çocuk başarılı olma şansını hak eder.",
-	"Penny_School_Tue": "Bugün ders veriyorum... Onlar bir avuç, ama birinin hayatında bir fark yaratmak güzel.",
-    "Penny_School_Tue4": "$d bus#Belki şimdi annem otobüs şoförlüğü işini geri aldığına göre, daha fazla para biriktirmeye başlayabilirim. İşler biraz daha parlak görünüyor.|Para biriktirmeye çalışıyorum ama bir öğretmenin maaşı ve annem işsiz olduğu için bu çok zor.$s",
-	 "Penny_School_schedule.Jas": "Harika gidiyorsun Jas. İyi çalışmaya devam et.",
-	 "Penny_School_schedule.Vincent": "Penny, Vincent'a okul ödevlerinde yardım ediyor. Araya girmemek en iyisi.",
-	
-	 	 "Deskpartone": "Bu sıra",
-	 "Deskparttwo": "'e ait",
-
-	"SEAT15NAME": "Nasrin",
-	"SEAT14NAME": "Menekşe",
-	"SEAT13NAME": "Umut",
-	"SEAT11NAME": "Orhan",
-	"SEAT8NAME":  "Beren",
-	"SEAT3NAME":  "Kadir",
-	
-	"SEAT1NAME":  "Poyraz",
-	"SEAT2NAME":  "Gökçe",
-	"SEAT10NAME":  "Eylül",
-	"SEAT17NAME":  "Doğa",
-	
-	"SEAT4NAME":  "Jack",
-	"SEAT12NAME":  "12",
-	"SEAT6NAME":  "6",
      }

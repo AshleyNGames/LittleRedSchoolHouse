@@ -59,47 +59,4 @@
 	"Event2.3": "Робин, ты проделала невероятную работу!",
 	"Event2.4": "Ну, я бы не справилась без посторонней помощи. @ тоже принимал участие.^Ну, я бы не справилась без посторонней помощи. @ тоже принимала участие.",
 	"Event2.5": "Твоя правда.#$b#@, ты не пробыл в долине столько, сколько все мы, но ты уже многое сделал для города Пеликан.^@, ты не пробыла в долине столько, сколько все мы, но ты уже многое сделала для города Пеликан.#$b#Выражаю тебе искреннюю благодарность, @.",
-		
-	  	 "Deskrsv.4": "Это место Keahi.",	
-	  	 "Desktsv.12": "Это место Trinnie",
-	
-	  	 "Desk.Eloise":  "Это место Eloise.",
-	
-	"Desk.Adrian": "Это место Adrian.",
-	"Desk.James": "Это место James.",
-	"Desk.Tina": "Это место Tina.",
-	"Desk.Vanessa": "Это место Vanessa.",
-		
-	 "Deskpartone.1": "Это место",
-	 "Deskparttwo.1": ".",
-	
-	 "Deskpartone.2": "Это место",
-	 "Deskparttwo.2": ".",
-	
-	"Desk.Leo": "Это место Leo.",
-		
-	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
-	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
-    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
-	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
-	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
-	
-	  "Deskpartone": "Это место",
-	 "Deskparttwo": ".",
-	
-	"SEAT15NAME": "Роза",
-	"SEAT14NAME": "Виолетта",
-	"SEAT13NAME": "Пётр",
-	"SEAT11NAME": "Евгений",
-	"SEAT8NAME":  "Злата",
-	"SEAT3NAME":  "Лев",
-	
-	"SEAT1NAME":  "Богдан",
-	"SEAT2NAME":  "Лилия",
-	"SEAT10NAME":  "Э́мма",
-	"SEAT17NAME":  "Есения",
-	
-	"SEAT4NAME":  "Jack",
-	"SEAT12NAME":  "12",
-	"SEAT6NAME":  "6",
      }

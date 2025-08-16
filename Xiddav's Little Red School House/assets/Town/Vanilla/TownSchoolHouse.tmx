@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="27" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="9">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="27" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="9">
  <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source=".spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
@@ -53,12 +53,9 @@
   </tile>
   <tile id="152">
    <animation>
-    <frame tileid="152" duration="500"/>
-    <frame tileid="151" duration="500"/>
-    <frame tileid="151" duration="500"/>
-    <frame tileid="152" duration="500"/>
-    <frame tileid="152" duration="500"/>
-    <frame tileid="152" duration="500"/>
+    <frame tileid="152" duration="1000"/>
+    <frame tileid="151" duration="1000"/>
+    <frame tileid="152" duration="1000"/>
    </animation>
   </tile>
   <tile id="156">
@@ -1614,10 +1611,24 @@
     <frame tileid="429" duration="1000"/>
    </animation>
   </tile>
+  <tile id="429">
+   <animation>
+    <frame tileid="429" duration="1000"/>
+    <frame tileid="428" duration="1000"/>
+    <frame tileid="429" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="430">
    <animation>
     <frame tileid="430" duration="1000"/>
     <frame tileid="431" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="431">
+   <animation>
+    <frame tileid="431" duration="1000"/>
+    <frame tileid="430" duration="1000"/>
     <frame tileid="431" duration="1000"/>
    </animation>
   </tile>
@@ -1628,11 +1639,39 @@
     <frame tileid="433" duration="1000"/>
    </animation>
   </tile>
+  <tile id="433">
+   <animation>
+    <frame tileid="433" duration="1000"/>
+    <frame tileid="432" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="460">
    <animation>
     <frame tileid="460" duration="1000"/>
     <frame tileid="461" duration="1000"/>
     <frame tileid="461" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="461">
+   <animation>
+    <frame tileid="461" duration="1000"/>
+    <frame tileid="460" duration="1000"/>
+    <frame tileid="461" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="462">
+   <animation>
+    <frame tileid="462" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="463">
+   <animation>
+    <frame tileid="463" duration="1000"/>
+    <frame tileid="462" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
    </animation>
   </tile>
   <tile id="477">
@@ -1677,10 +1716,24 @@
     <frame tileid="491" duration="1000"/>
    </animation>
   </tile>
+  <tile id="491">
+   <animation>
+    <frame tileid="491" duration="1000"/>
+    <frame tileid="490" duration="1000"/>
+    <frame tileid="491" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="492">
    <animation>
     <frame tileid="492" duration="1000"/>
     <frame tileid="493" duration="1000"/>
+    <frame tileid="493" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="493">
+   <animation>
+    <frame tileid="493" duration="1000"/>
+    <frame tileid="492" duration="1000"/>
     <frame tileid="493" duration="1000"/>
    </animation>
   </tile>
@@ -1721,10 +1774,24 @@
     <frame tileid="521" duration="1000"/>
    </animation>
   </tile>
+  <tile id="521">
+   <animation>
+    <frame tileid="521" duration="1000"/>
+    <frame tileid="520" duration="1000"/>
+    <frame tileid="521" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="522">
    <animation>
     <frame tileid="522" duration="1000"/>
     <frame tileid="523" duration="1000"/>
+    <frame tileid="523" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="523">
+   <animation>
+    <frame tileid="523" duration="1000"/>
+    <frame tileid="522" duration="1000"/>
     <frame tileid="523" duration="1000"/>
    </animation>
   </tile>
@@ -1740,15 +1807,25 @@
  </tileset>
  <layer id="1" name="Back" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJytlTtOA0EMhscREgWpUIASOAAFXAAoSCLEHUjCo6aEwC41ZXjtNhyBh0TJCYBbIFFyBcBmbc0fZ3kFVvq1Oy9/Y4892xgJoQFaYbWc6q7ft9uslELosLqsHuuYtc5qsVZVniPrcu5PKL6b2n+ufdbepqJPlLHaLFIWOVaHBjkJjO05nYJts4/zzKebUGjXjXlODmMy32xNUFwr35OsKZ13DIwsRFYO36KVkf69tnSNvF80Lj39RlvZJ/a8kI1xW9OYTKjtKfBvh762+RMlEPeu+oExIX0f/QPrEDjS7jpGQlGYs8MoVV/MHxxDzt03LF+T1i9PGasHeYnrPnKlxB7WMu7rIhQ12FKWzUs199o6D/MfH2lb7b6NcUf156JqsS6l/j3hfYDPtubQPGua1878QrOsjRJWQvFuK7s3OkOyDiAuFmdjSUwvR0O4Yl2Pxjun+wdWqnXcYDWpqIHPWPeshzAc64xibmB+GEvsI++J26uVEBZ57dIvtFwtYp/qeVs9G2tB+zzrlvUKd2GN4r+jTBfj0Q/8x93Aedm43J3Ckfg9sp7dvSOsXc0bWSP5tqnacjETu/t6Vj0aZNV0D+LTTqVg1ahfWYi8A4q1mKkd88X7YKx5ODO5uzB+uePJ+InG8owG/6PCqQPLfDPWHLAwfnXNWctbZOJ/2Bh4psbyuWG+5hq/isZvXWtEzrxN/ewyNWEf7/Qx/fM=
+   eJytlTtOA0EMhscRUgpSRQFK4AAUcAGgIIkQdyAJEnXKsLBLTZnwCgUVNQ+JkhMgboFEyRUAm7U1f8zyCqz0a3ZmZ/yNPR5vYyKEBmiN1XKqu3Hfb7MyCqHDSlh91oC1yWqx1lWeI+uGPJ5SbJs6fqJj1t+mfEx0ymqzSFnkWB36yEnh247TEdg2+zjPfLoJuXrum+cM4ZvMN1tTFNfK+zRrRucNgHEaIusM3kVrE6N7bekaaZ81Ln19R1vWDp09L2Rj3DY0JlNqewb869LXNn+iFOKeqB8YE9L24B9Y+8CRfuIYKUVhzo6jTH0xf/Abcu6+Yfk7aePyFLH6kJe47j1XCuzhXcZ9nYf8DraUZfMyzb22zsP8x0f6dndfJ3mg8nNRJV+X0eiesB7gs605tMia5bVzv9A8a6uAlVKsbUV1ozMmaw/iYnE2lsT0shzCFeu6HGtO8gdWpve4wWpSfgc+Y92ztqrjsY4p5gbmh7HEPvIeub9eCmGZ1678QquVPPaZnrfdZ2Mt6Zhn3bJeoBbWKP47inRejbbxH3cD52V+Su0UjsTvgfXk6o6wepo3ZtvzxI7sS+zu6ln16SOrpnsQn7qlnFWjKKvl+K/ySnSu98FYi3BmUrswfkPHk//UIUU//V6krQPLfDPWArAkfhfV3Ke65qzlbZF949do9EyN5XMD4yw+lTR+m3pH5FzaNMouUpPimb4BUuD7yg==
   </data>
  </layer>
- <layer id="11" name="Back 2" width="27" height="22">
+ <layer id="11" name="Back2" width="27" height="22">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DwAUdG+tkVRUe7iulo10CDf4IMDP8FB9oV1AFfRRgYvgOxONA/x4D0URHa2ickysBgCrRrGQ57HvAwMDwE4kc8tHXHKBgFo4AwAABARQsO
+   eJxjYBgFgxksFRpoFwwMcGSkn11RdLSrmI52DTT4J8jA8F9woF1BHfBVhIHhOxCLA/1zDEgfFaGdXbrAPC8kysBgCrRrGdAePSxlwAMeBoaHQPyIh3buGO5g2QgtW6kBlgzSsFsxQO4CAEsDDmw=
+  </data>
+ </layer>
+ <layer id="13" name="Back3" width="27" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwkcExpoF4yCUTAKRsEowAWejJbRZIOBqt8ARAICpw==
+  </data>
+ </layer>
+ <layer id="14" name="Back4" width="27" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgxkwCw+0C0bBKBgFo2AYgsFatg5Wd+EBA11PPRYaWPsBjekBSA==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>

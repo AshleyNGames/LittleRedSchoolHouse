@@ -1,0 +1,43 @@
+{ "Deskrsv.4": "这是凯希的座位。",
+  "Deskrsv.12": "这是崔妮的座位。",
+	
+  "Desk.Eloise": "这是爱洛伊斯的座位。",
+	
+  "Desk.Adrian": "这是阿德里安的座位。",
+  "Desk.James": "这是詹姆斯的座位。",
+  "Desk.Tina": "这是蒂娜的座位。",
+  "Desk.Vanessa": "这是瓦妮莎的座位。",
+	
+  "Deskpartone.1": "这是",
+  "Deskparttwo.1": "的座位。",
+
+  "Deskpartone.2": "这是",
+  "Deskparttwo.2": "的座位。",
+	
+  "Desk.Leo": "这是雷欧坐的地方。",
+		
+  "Penny_School_Wed": "学校没有足够的资金，但我在尽力给他们提供适当的教育。#$e#每个孩子都应该有机会成功。",
+  "Penny_School_Tue": "我今天在上课...他们有点难管，但能为别人的生活带来改变是件好事。",
+  "Penny_School_Tue4": "$d bus#也许现在我妈妈重新有了公交车司机的工作，我可以开始存更多的钱了。情况看起来有点好转了。|我在努力存钱，但教师的工资和我妈妈失业的情况下很难。$s",
+  "Penny_School_schedule.Jas": "你做得很好，贾斯。继续保持。",
+  "Penny_School_schedule.Vincent": "佩妮正在帮助文森特做作业。最好不要打扰。",
+	
+	  "Deskpartone": "这是",
+  "Deskparttwo": "的座位。",
+	
+  "SEAT15NAME": "欣怡",
+  "SEAT14NAME": "欣妍",
+  "SEAT13NAME": "沐辰",
+  "SEAT11NAME": "浩宇",
+  "SEAT8NAME": "诺",
+  "SEAT3NAME": "宇轩",
+	"SEAT1NAME":  "鑫",
+	"SEAT2NAME":  "佳慧",
+	"SEAT10NAME":  "梦瑶",
+	"SEAT17NAME":  "婵娟",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

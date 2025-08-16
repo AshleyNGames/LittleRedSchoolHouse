@@ -1,0 +1,43 @@
+{ 	"Deskrsv.4": "Este é o assento da Keahi",
+	"Deskrsv.12": "Este é o assento da Trinnie",
+
+	"Desk.Eloise": "Este é o assento da Eloise.",
+	
+	"Desk.Adrian": "Este é o assento do Adrian.",
+	"Desk.James": "Este é o assento do James.",
+	"Desk.Tina": "Este é o assento da Tina.",
+	"Desk.Vanessa": "Este é o assento da Vanessa.",
+
+	"Deskpartone.1": "Este é o(a)", // Primeiro nome de LittleNPC vai aqui no código
+	"Deskparttwo.1": ", assento. Tem um desenho de um celeiro aqui.",
+
+	"Deskpartone.2": "Este é o(a)", // Segundo nome de LittleNPC vai aqui no código
+	"Deskparttwo.2": ", assento. É o mais próximo do quadro.",
+
+	"Desk.Leo": "É aqui que o Leo se senta.",
+
+	"Penny_School_Wed": "A escola não tem recursos suficientes, mas estou fazendo o meu melhor para dar uma educação decente a eles.#$e#Toda criança merece uma chance de ter sucesso.",
+	"Penny_School_Tue": "Hoje estou dando aula... Eles dão trabalho, mas é bom saber que estou fazendo diferença na vida de alguém.",
+	"Penny_School_Tue4": "$d bus#Talvez agora que minha mãe voltou a dirigir o ônibus, eu consiga começar a economizar. As coisas estão melhorando.|Estou tentando economizar, mas é difícil com o salário de professora e minha mãe desempregada.$s",
+	"Penny_School_schedule.Jas": "Você está indo muito bem, Jas. Continue assim.",
+	"Penny_School_schedule.Vincent": "Penny está ajudando o Vincent com os deveres. Melhor não interromper.",
+	
+	 	"Deskpartone": "Este é o(a)", // name
+	"Deskparttwo": ", assento.",
+
+	"SEAT15NAME": "Rosa ",
+	"SEAT14NAME": "Violeta ",
+	"SEAT13NAME": "Heitor",
+	"SEAT11NAME": "Bernardo",
+	"SEAT8NAME":  "Isadora",
+	"SEAT3NAME":  "Joaquim",
+	"SEAT1NAME":  "Tereza",
+	"SEAT2NAME":  "Jacqueline",
+	"SEAT10NAME":  "Alessandra",
+	"SEAT17NAME":  "Isabella",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

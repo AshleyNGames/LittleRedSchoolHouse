@@ -1,0 +1,43 @@
+{   "Deskrsv.4": "여기는 케아히의 자리 입니다.",
+    "Deskrsv.12": "여기는 트리니의 자리 입니다.",
+    
+           "Desk.Eloise": "여기는 엘로이스의 자리 입니다.",
+    
+    "Desk.Adrian": "여기는 아드리앙의 자리 입니다.",
+    "Desk.James": "여기는 제임스의 자리 입니다.",
+    "Desk.Tina": "여기는 티나의 자리 입니다.",
+    "Desk.Vanessa": "여기는 바네사의 자리 입니다.",
+        
+     "Deskpartone.1": "여기는", //First LittleNPC name goes here in code
+     "Deskparttwo.1": "의 자리 입니다. 외양간을 그렸습니다.",
+    
+     "Deskpartone.2": "여기는", //Second LittleNPC name goes here in code
+     "Deskparttwo.2": "의 자리 입니다. 칠판에서 제일 가깝습니다.",
+    
+    "Desk.Leo": "여기는 레오의 자리 입니다.",
+        
+    "Penny_School_Wed": "학교에 예산이 넉넉하진 않지만, 아이들에게 제대로 된 교육을 해주기 위해 최선을 다하고 있어요.#$e#모든 아이는 성공할 수 있는 기회를 가질 자격이 있으니까요. ",
+    "Penny_School_Tue": "오늘은 수업을 하는 날이에요... 장난꾸러기들이지만 타인의 삶에 긍정적인 영향을 준다는 것은 좋은 일인 것 같아요.",
+    "Penny_School_Tue4": "$d bus#엄마가 이제 버스 기사 일을 다시 하기 시작했으니 적금을 조금 더 들 수 있을 것 같아요. 상황이 나아지고 있네요.|적금을 하고 싶었는데 선생님 월급이 높지도 않고 엄마도 일을 안 하셔서 힘들었어요.$s",
+     "Penny_School_schedule.Jas": "재스, 잘 하고 있어. 이대로만 하면 돼.",
+     "Penny_School_schedule.Vincent": "페니가 빈센트의 공부를 도와주고 있습니다. 방해하지 않는 게 좋겠어요.",
+	
+	    "Deskpartone": "여기는", //name
+     "Deskparttwo": "의 자리 입니다.",
+   
+	"SEAT15NAME": "장미",
+	"SEAT14NAME": "보라",
+	"SEAT13NAME": "주원",
+	"SEAT11NAME": "예준",
+	"SEAT8NAME":  "하린",
+	"SEAT3NAME":  "시우",
+	"SEAT1NAME":  "도윤",
+	"SEAT2NAME":  "채원",
+	"SEAT10NAME":  "예지",
+	"SEAT17NAME":  "다희",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

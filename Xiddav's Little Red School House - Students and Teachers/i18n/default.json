@@ -1,0 +1,43 @@
+{ 	"Deskrsv.4": "Keahi sits here",
+	"Deskrsv.12": "This is Trinnie's seat",
+
+	"Desk.Eloise": "This is Eloise's seat.",
+
+	"Desk.Adrian": "This is Adrian's seat.",
+	"Desk.James": "James sits here.",
+	"Desk.Tina": "This is Tina's seat.",
+	"Desk.Vanessa": "This is where Vanessa sits.",
+
+	 "Deskpartone.1": "This is", //First LittleNPC name goes here in code
+	 "Deskparttwo.1": "'s seat. They drew a picture of a barn.",
+
+	 "Deskpartone.2": "This is", //Second LittleNPC name goes here in code
+	 "Deskparttwo.2": "'s seat. It is the closest to the chalk board.",
+
+	"Desk.Leo": "This is where Leo sits.",
+
+	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
+	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
+    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
+	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
+	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+		"Deskpartone": "This is", //Antisocial kids name is here in code
+	"Deskparttwo": "'s seat.",
+
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Quincy",
+	"SEAT11NAME": "Xander",
+	"SEAT8NAME":  "Paige",
+	"SEAT3NAME":  "Nathan",
+	"SEAT1NAME":  "Zachary",
+	"SEAT2NAME":  "Jacqueline",
+	"SEAT10NAME":  "Emma",
+	"SEAT17NAME":  "Isabella",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+	
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

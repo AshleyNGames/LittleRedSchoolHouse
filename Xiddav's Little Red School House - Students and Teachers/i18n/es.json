@@ -1,0 +1,40 @@
+{ 	"Deskrsv.4": "Este es el asiento de Keahi.",	  
+	"Deskrsv.12": "Este es el asiento de Trinnie.",
+	"Desk.Eloise":  "Este es el asiento de Eloise.",
+	"Desk.Adrian": "Este es el asiento de Adrian.",
+	"Desk.James": "Este es el asiento de James.",
+	"Desk.Tina": "Este es el asiento de Tina.",
+	"Desk.Vanessa": "Este es el asiento de Vanessa.",
+		
+	 "Deskpartone.1": "Este es el asiento de",
+	 "Deskparttwo.1": ".",
+	 "Deskpartone.2": "Este es el asiento de",
+	 "Deskparttwo.2": ".",
+	
+	"Desk.Leo": "Este es el asiento de Leo.",
+		
+	"Penny_School_Wed": "La escuela no tiene fondos suficientes, pero estoy haciendo todo lo posible para darles una educación adecuada.#$e#Todo niño merece la oportunidad de tener educación.",
+    "Penny_School_Tue": "Hoy doy clase... Son muchos, pero es agradable marcar la diferencia en la vida de alguien.",
+    "Penny_School_Tue4": "$d bus#Quizás ahora que mi madre ha recuperado su trabajo de conductora de autobús, pueda empezar a ahorrar más dinero. La cosa pinta un poco mejor.|Estoy tratando de ahorrar dinero, pero es difícil con el sueldo de un profesor y con mi madre sin trabajo.$s",
+     "Penny_School_schedule.Jas": "‎Lo estás haciendo muy bien, Jas. ¡Sigue así!",
+     "Penny_School_schedule.Vincent": "Penny está ayudando a Vincent con sus tareas escolares. Mejor no interrumpir.",
+	
+	"Deskpartone": "Este es el asiento de",
+	 "Deskparttwo": ".",
+		
+	"SEAT15NAME": "Rosa",
+	"SEAT14NAME": "Violeta",
+	"SEAT13NAME": "Ikal",
+	"SEAT11NAME": "Raul",
+	"SEAT8NAME":  "Palmira",
+	"SEAT3NAME":  "Javier",
+	"SEAT1NAME":  "Criz",
+	"SEAT2NAME":  "Julia",
+	"SEAT10NAME":  "Alma",
+	"SEAT17NAME":  "Isabel",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

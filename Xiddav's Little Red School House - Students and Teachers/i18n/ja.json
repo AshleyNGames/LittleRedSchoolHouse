@@ -1,0 +1,43 @@
+{   "Deskrsv.4": "ここはケアヒの席のようだ。",
+  "Deskrsv.12": "ここはトリニーの席のようだ。",
+
+  "Desk.Eloise": "ここはエロイーズの席のようだ。",
+  
+  "Desk.Adrian": "ここはアドリアンの席のようだ。",
+  "Desk.James": "ここはジェームズの席のようだ。",
+  "Desk.Tina": "ここはティナの席のようだ。",
+  "Desk.Vanessa": "ここはヴァネッサの席のようだ。",
+
+  "Deskpartone.1": "ここは",
+  "Deskparttwo.1": "の席のようだ。動物小屋の絵が描かれている。",
+
+  "Deskpartone.2": "ここは",
+  "Deskparttwo.2": "の席のようだ。黒板に近い。",
+
+  "Desk.Leo": "ここはレオの席のようだ。",
+    
+  "Penny_School_Wed": "学校は予算が不足してるけど、子どもたちに適切な教育を提供するために最善を尽くしているわ。#$e#子どもはみんな、将来成功するチャンスを与えられるべきだから。",
+  "Penny_School_Tue": "今日も授業中…。手のかかる子たちだけど、誰かの人生を変えられるのは嬉しいわ。",
+  "Penny_School_Tue4": "$d bus#母さんがバスの運転手に戻れたから、少しずつ貯金ができるようになったわ。状況が良くなってきたの。|お金を貯めようとしてるけど、先生の給料は高くないし、母さんも失業中だからなかなか貯金ができないの。$s",
+  "Penny_School_schedule.Jas": "ジャス、がんばってるわね。その調子よ。",
+  "Penny_School_schedule.Vincent": "ペニーがヴィンセントの勉強を手伝っている。邪魔しないほうがよさそうだ。",
+	
+	 "Deskpartone": "ここは",
+  "Deskparttwo": "の席のようだ。",
+
+"SEAT15NAME": "姫菜", //ローズ
+"SEAT14NAME": "菫",   //バイオレット
+"SEAT13NAME": "蓮",   //クインシー
+"SEAT11NAME": "樹",   //ザンダー
+"SEAT8NAME":  "結月", //ペイジ
+"SEAT3NAME":  "太一" , //ネイサン
+	"SEAT1NAME":  "明",
+	"SEAT2NAME":  "千代子",
+	"SEAT10NAME":  "恵美子",
+	"SEAT17NAME":  "瞳",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

@@ -1,0 +1,42 @@
+{ 	"Deskrsv.4": "Questo è il posto di Kheai",	  	 
+	"Deskrsv.12": "Questo è il posto di Trinnie",
+	 "Desk.Eloise":  "Questo è il posto di Eloise.",
+	
+	"Desk.Adrian": "Questo è il posto di Adrian.",
+	"Desk.James": "Questo è il posto di James.",
+	"Desk.Tina": "Questo è il posto di Tina.",
+	"Desk.Vanessa": "Questo è il posto di Vanessa.",
+	
+	 "Deskpartone.1": "Questo è il posto di",
+	 "Deskparttwo.1": ".",
+	
+	 "Deskpartone.2": "Questo è il posto di",
+	 "Deskparttwo.2": ".",
+	
+	"Desk.Leo": "Questo è il posto di Leo.",
+		
+	"Penny_School_Wed": "The school doesn't have enough funding, but I'm doing my best to give them a proper education.#$e#Every child deserves a chance to be successful.",
+	"Penny_School_Tue": "I'm teaching class today... They're a handful, but it's nice to make a difference in someone's life.",
+    "Penny_School_Tue4": "$d bus#Maybe now that my mother has her bus driving job back, I can start saving more money. Things are looking a little brighter.|I'm trying to save money, but it's hard on a teacher's salary and with my mother being out of work.$s",
+	 "Penny_School_schedule.Jas": "You're doing great Jas. Keep up the good work.",
+	 "Penny_School_schedule.Vincent": "Penny is helping Vincent with his schoolwork. Best not to interupt.",
+	
+	  "Deskpartone": "Questo è il posto di",
+	 "Deskparttwo": ".",
+		
+	"SEAT15NAME": "Rose",
+	"SEAT14NAME": "Violet",
+	"SEAT13NAME": "Alessio",
+	"SEAT11NAME": "Mattia",
+	"SEAT8NAME":  "Azzurra",
+	"SEAT3NAME":  "Nicolo",
+	"SEAT1NAME":  "Leone",
+	"SEAT2NAME":  "Brunella",
+	"SEAT10NAME":  "Emma",
+	"SEAT17NAME":  "Isabella",
+	"SEAT4NAME":  "Jack",
+	"SEAT12NAME":  "Harper",
+	"SEAT6NAME":  "Liam",
+
+	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+}

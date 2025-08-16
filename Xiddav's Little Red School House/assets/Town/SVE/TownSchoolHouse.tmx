@@ -1812,7 +1812,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxksExpoFxAPrjBSzyxHAma9paJdUQTMYmOinl3FBOySp6JduMA/QQaG/4K0twcE6GUPrcFXEQaG70D8DIi7gPioCG3tExJlYFAC4mU0tmcUIMASGpS1Q6n8HgpgBRXDcyWRZqHbiS2dAADGERDV
+   eJxjYBgFgxksExpoFxAPrjBSzyxHAma9paJdUQTMYmOinl3FBOySp6JduMA/QQaG/4K0twcE6GUPrcFXEQaG70D8DIi7gPioCO3s0gXmeSFRBgYlIF4GtEdvCJUBQxksoUE4D6XyeyiAFVQMz5VEmoVuJ7Z0AgCYVxFU
   </data>
  </layer>
  <layer id="13" name="Back3" width="27" height="22">

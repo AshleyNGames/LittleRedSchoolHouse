@@ -1,6 +1,8 @@
 { 	"Deskrsv.4": "Este es el asiento de Keahi.",	  
 	"Deskrsv.12": "Este es el asiento de Trinnie.",
+	
 	"Desk.Eloise":  "Este es el asiento de Eloise.",
+	
 	"Desk.Adrian": "Este es el asiento de Adrian.",
 	"Desk.James": "Este es el asiento de James.",
 	"Desk.Tina": "Este es el asiento de Tina.",
@@ -8,6 +10,7 @@
 		
 	 "Deskpartone.1": "Este es el asiento de",
 	 "Deskparttwo.1": ".",
+	
 	 "Deskpartone.2": "Este es el asiento de",
 	 "Deskparttwo.2": ".",
 	
@@ -37,4 +40,9 @@
 	"SEAT6NAME":  "Liam",
 
 	"AntisocialKid_Tue":"Hola., ¡Hola!$1",
+
+"15_Wed_spring": "All these flowers are making my nose runny.$2",
+"15_Wed_summer": "I wish we had summer vacation.#$e#It's to hot to walk all the way to school from the train.",
+"15_Wed_fall": "Fall is my favorite time of year.#$e#Not to hot, not to cold, and no flowers to plug my nose.",
+"15_Wed_winter": "There was a lot of snow this morning.#$e#I almost missed the train because how much there was.",
 }

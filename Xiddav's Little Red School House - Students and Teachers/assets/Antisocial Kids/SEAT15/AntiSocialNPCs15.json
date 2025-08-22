@@ -65,7 +65,10 @@
 "Target": "Characters/Dialogue/SEAT15",
 	"Entries": {    
   "Tue": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-  "Wed": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
+  "spring_Wed": "{{i18n:15_Wed_spring}}",
+  "summer_Wed": "{{i18n:15_Wed_summer}}",
+  "fall_Wed": "{{i18n:15_Wed_fall}}",
+  "winter_Wed": "{{i18n:15_Wed_winter}}",
   "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
 	}},
 ]}

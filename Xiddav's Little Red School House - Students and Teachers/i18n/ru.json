@@ -35,9 +35,9 @@
 	"SEAT2NAME":  "Лилия",
 	"SEAT10NAME":  "Э́мма",
 	"SEAT17NAME":  "Есения",
-	"SEAT4NAME":  "Jack",
-	"SEAT12NAME":  "Harper",
-	"SEAT6NAME":  "Liam",
+	"SEAT4NAME":  "Михаил",
+	"SEAT12NAME":  "Вера",
+	"SEAT6NAME":  "Никита",
 
-	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+	"AntisocialKid_Tue":"Здравствуйте., Привет!$1",
 }

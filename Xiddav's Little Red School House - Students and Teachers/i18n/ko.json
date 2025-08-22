@@ -35,9 +35,9 @@
 	"SEAT2NAME":  "채원",
 	"SEAT10NAME":  "예지",
 	"SEAT17NAME":  "다희",
-	"SEAT4NAME":  "Jack",
-	"SEAT12NAME":  "Harper",
-	"SEAT6NAME":  "Liam",
+	"SEAT4NAME":  "범석",
+	"SEAT12NAME":  "영숙",
+	"SEAT6NAME":  "건우",
 
-	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+	"AntisocialKid_Tue":"안녕하세요., 안녕!$1",
 }

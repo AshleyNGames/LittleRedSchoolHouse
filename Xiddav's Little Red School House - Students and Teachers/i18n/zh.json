@@ -35,9 +35,9 @@
 	"SEAT2NAME":  "佳慧",
 	"SEAT10NAME":  "梦瑶",
 	"SEAT17NAME":  "婵娟",
-	"SEAT4NAME":  "Jack",
-	"SEAT12NAME":  "Harper",
-	"SEAT6NAME":  "Liam",
+	"SEAT4NAME":  "军",
+	"SEAT12NAME":  "秀",
+	"SEAT6NAME":  "勇",
 
-	"AntisocialKid_Tue":"Hi!$1, ...Hi?$3, Who are you?$3, I shouldn't talk to strangers., ...Hi?$3, My village doesn't have a school., I have to wake up really early to catch the train just to come to school., ...Hi?$3, Mom put cookies in my lunch today.$1, I forgot my lunch at home.$2, ...Hi?$3, Hello.",
+	"AntisocialKid_Tue":"你好。, 嗨！$1",
 }

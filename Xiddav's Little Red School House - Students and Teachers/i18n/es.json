@@ -39,10 +39,10 @@
 	"SEAT12NAME":  "Zoe",
 	"SEAT6NAME":  "Liam",
 
-	"AntisocialKid_Tue":"Hola., ¡Hola!$1",
+	"AntisocialKid_Tue":"Hola., Hola., Hola., ¡Hola!$1, ¿Quién eres?, No debería hablar con extraños., No debería hablar con extraños., Mi pueblo no tiene una escuela., Tengo que despertarme muy temprano para alcanzar el tren solo para ir a la escuela.$3, Mamá puso galletas en mi almuerzo hoy.$1, Olvidé mi almuerzo en casa.$2",
 
-"15_Wed_spring": "All these flowers are making my nose runny.$2",
-"15_Wed_summer": "I wish we had summer vacation.#$e#It's to hot to walk all the way to school from the train.",
-"15_Wed_fall": "Fall is my favorite time of year.#$e#Not to hot, not to cold, and no flowers to plug my nose.",
-"15_Wed_winter": "There was a lot of snow this morning.#$e#I almost missed the train because how much there was.",
+"15_Wed_spring": "Todas estas flores me están haciendo la nariz moquear.$2",
+"15_Wed_summer": "Desearía que tuviéramos vacaciones de verano.#$e#Hace demasiado calor para caminar todo el camino hasta la escuela desde el tren.",
+"15_Wed_fall": "El otoño es mi época favorita del año.#$e#No demasiado caliente, no demasiado frío, y sin flores que me tapen la nariz.",
+"15_Wed_winter": "Hubo mucha nieve esta mañana.#$e#Casi pierdo el tren debido a cuánto había.",
 }

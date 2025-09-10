@@ -1,7 +1,7 @@
 {
   "Name": "Xiddav's Little Red School House",
   "Author": "Xiddav",
-  "Version": "2.1.1",
+  "Version": "2.1.2",
   "Description": "Adds a School to town.",
   "UniqueID": "Xiddav.LittleRedSchoolHouse",
   "MinimumApiVersion": "3.0",
@@ -17,7 +17,7 @@
    "MinimumVersion": "5.0.0"},
    {    	"UniqueID": "Xiddav.tilesheet",
       "IsRequired": true,
-   "MinimumVersion": "1.6.7"},
+   "MinimumVersion": "1.6.8"},
    {    	"UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false},
    {    	"UniqueID": "Rafseazz.RSVCP",

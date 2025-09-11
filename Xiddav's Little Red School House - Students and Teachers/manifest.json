@@ -1,11 +1,11 @@
 {
   "Name": "Xiddav's Little Red School House - Students and Teachers",
   "Author": "Xiddav",
-  "Version": "2.1.1-SNT",
+  "Version": "2.1.2-SNT",
   "Description": "Adds students for the Little Red School House.",
   "UniqueID": "Xiddav.LRSHStudentsandTeachers",
   "MinimumApiVersion": "3.0",
-  "UpdateKeys": [ "Nexus:9695@Students" ],
+  "UpdateKeys": [ "Nexus:9695@Students", "GitHub:AshleyNGames/LittleRedSchoolHouse" ],
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",
    "MinimumVersion": "2.7.0"},
   "Dependencies": [  

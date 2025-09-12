@@ -12,8 +12,8 @@
 	"Entries": {	"SEAT11": {
 					"CanSocialize" : "FALSE",
 					"Manner": "Neutral",
-					"SocialAnxiety": "Shy",
-					"Optimism": "Neutral",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
 					"Gender": "Male",
 					"CanBeRomanced": false,
 					"LoveInterest": "null",

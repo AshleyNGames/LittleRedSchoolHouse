@@ -11,8 +11,8 @@
 	"Target": "Data/Characters",
 	"Entries": {	"SEAT13": {
 					"CanSocialize" : "FALSE",
-					"Manner": "Neutral",
-					"SocialAnxiety": "Shy",
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
 					"Optimism": "Neutral",
 					"Gender": "Male",
 					"CanBeRomanced": false,

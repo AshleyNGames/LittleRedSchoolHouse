@@ -45,4 +45,8 @@
 "15_Wed_summer": "Vorrei che avessimo le vacanze estive.#$e#Fa troppo caldo per camminare fino a scuola dalla stazione.",
 "15_Wed_fall": "L'autunno è il mio periodo dell'anno preferito.#$e#Né troppo caldo, né troppo freddo, e nessun fiore che mi ostruisca il naso.",
 "15_Wed_winter": "C'era molta neve questa mattina.#$e#Ho quasi perso il treno a causa di quanto c'era.",
+	"15_FishDerby": "Mom and her sister are really close.",
+	
+	"14_FishDerby":"My mom and aunt love to fishing together.",
+	"14_if_15_true":"Rose is my cousin.#$e#Our moms are twins.",
 }

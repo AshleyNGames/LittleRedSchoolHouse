@@ -70,5 +70,13 @@
   "Tue": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
   "Wed": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
   "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-	}},
+"summer_20":"{{i18n:14_FishDerby}}",
+"summer_21":"{{i18n:14_FishDerby}}",
+"winter_13":"{{i18n:14_FishDerby}}"}},
+
+{"Action": "EditData",
+	"When":{"Seat 15 Antisocial": true},
+"Target": "Characters/Dialogue/SEAT14",
+	"Entries": {
+  "Tue": "{{i18n:14_if_15_true}}"}}
 ]}

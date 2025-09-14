@@ -47,10 +47,12 @@
 {"Action": "Load",
 "Target": "characters/schedules/SEAT15",
 "FromFile": "assets/Antisocial Kids/SEAT15/schedule.json"},
+
 {"Action": "EditData",
 "Target": "characters/schedules/SEAT15",
 "When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain", "noschoolday": false},
 "Entries":{"rain":"700 Custom_SchoolHouse 7 8 1/1000 Custom_SchoolHouse 8 8 LittleRed_Read_1/1550 Custom_SchoolHouse_BellRoom 1 4 2"}},
+
 {"Action": "EditData",
 "Target": "characters/schedules/SEAT15",
 "When": {"Five days": true},
@@ -70,5 +72,8 @@
   "fall_Wed": "{{i18n:15_Wed_fall}}",
   "winter_Wed": "{{i18n:15_Wed_winter}}",
   "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
+"summer_20":"{{i18n:15_FishDerby}}",
+"summer_21":"{{i18n:15_FishDerby}}",
+"winter_13":"{{i18n:15_FishDerby}}",
 	}},
 ]}

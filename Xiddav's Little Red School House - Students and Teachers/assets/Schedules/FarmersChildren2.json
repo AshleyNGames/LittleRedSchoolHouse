@@ -24,7 +24,7 @@
 "Entries": { 
 	 "rain": "a1000 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1600 Town 22 63 0 child_ball",
 	"rain2": "a1000 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1600 Town 22 63 0 child_ball",},
-"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true ,"dayofweek":"Tuesday, Wednesday, Friday",  "Weather": "Rain"},},
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true ,"dayofweek":"Tuesday, Wednesday, Friday",  "Weather": "Rain"}},
 
 {"Action": "EditData",
 	"Target": "characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
@@ -33,10 +33,10 @@
 		"Thu": "GOTO Tue",
 		"summer_Thu": "GOTO Tue",
 		"fall_Thu": "GOTO Tue",
-		"winter_Thu": "GOTO Tue",},},
+		"winter_Thu": "GOTO Tue"}},
 
 {"Action": "EditData",
      "Target": "Strings/StringsFromMaps",
      "Entries": { "Desk.9": "{{i18n:Deskpartone.2}} {{Candidus42.LittleNPCs/SecondLittleNPC:DisplayName}}{{i18n:Deskparttwo.2}}",},
-            	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true },}, 
+            	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true }}, 
 ]}

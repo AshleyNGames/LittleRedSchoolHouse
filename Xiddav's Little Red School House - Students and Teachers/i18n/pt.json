@@ -25,7 +25,7 @@
 	 	"Deskpartone": "Este é o(a)", // name
 	"Deskparttwo": ", assento.",
 
-	"SEAT15NAME": "Rosa ",
+	"SEAT15NAME": "Rosa",
 	"SEAT14NAME": "Violeta ",
 	"SEAT13NAME": "Heitor",
 	"SEAT11NAME": "Bernardo",
@@ -45,8 +45,8 @@
 "15_Wed_summer": "Eu gostaria que tivéssemos férias de verão.#$e#Está muito quente para caminhar até a escola a partir do trem.",
 "15_Wed_fall": "O outono é a minha época favorita do ano.#$e#Nem muito quente, nem muito frio, e sem flores para entopir meu nariz.",
 "15_Wed_winter": "Houve muita neve esta manhã.#$e#Eu quase perdi o trem por conta de quanto havia.",
-	"15_FishDerby": "Mom and her sister are really close.",
+	"15_FishDerby": "A mãe e a irmã dela são muito próximas.",
 	
-	"14_FishDerby":"My mom and aunt love to fishing together.",
-	"14_if_15_true":"Rose is my cousin.#$e#Our moms are twins.",
+	"14_FishDerby":"Minha mãe e minha tia adoram pescar juntas.",
+	"14_if_15_true":"Rosa é minha prima.#$e#Nossas mães são gêmeas.",
 }

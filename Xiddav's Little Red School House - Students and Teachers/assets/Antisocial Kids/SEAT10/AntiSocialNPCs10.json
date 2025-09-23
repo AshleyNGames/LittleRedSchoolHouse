@@ -51,7 +51,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT10",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-		 "Entries":{"rain":"a930 Custom_SchoolHouse 10 8 1/1000 Custom_SchoolHouse 11 8 LittleRed_Read_1/1600 Custom_SchoolHouse_BellRoom 5 4 2"}}, 
+		 "Entries":{"rain":"a930 Custom_SchoolHouse 10 8 1/1000 Custom_SchoolHouse 11 8 LittleRed_Read_1/1300 Custom_SchoolHouse 16 9 LittleRed_Paint_0/1600 Custom_SchoolHouse_BellRoom 5 4 2"}}, 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT10",
 		"When": { "Five days": true},

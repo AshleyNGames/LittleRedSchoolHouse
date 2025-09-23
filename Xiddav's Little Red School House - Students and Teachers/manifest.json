@@ -16,7 +16,7 @@
       "IsRequired": false,
    "MinimumVersion": "5.0.0"},
    {    	"UniqueID": "Xiddav.LittleRedSchoolHouse",
-      "IsRequired": true,
+      "IsRequired": false,
    "MinimumVersion": "2.1.0"},
    {    	"UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false},

@@ -51,8 +51,9 @@
 		"LittleRed_Read_3": "12/22/12",
 		"LittleRed_RightReach": "8/16 16 16 16 17 16 16 16 16 17 16 16 16 16 16 16/10",
 		"LittleRed_LeftReach":  "8/19 19 19 18 19 19 19 19 19 18 19 19 19 19 19 19/10",
-		"LittleRed_Yippi": "0/20 20 20 20 21 21 21 21/2",
-		"LittleRed_Sit_2": "0/24/0"}},
+		"LittleRed_Yippi": "2/20 20 20 20 21 21 21 21/2",
+		"LittleRed_Sit_2": "2/24/2",
+		"LittleRed_Paint_0": "0/25 25 25 26 26 26 27 27 27 26 26 26/0"}},
 
 {"Action": "EditMap",
 "Target": "Maps/Railroad",

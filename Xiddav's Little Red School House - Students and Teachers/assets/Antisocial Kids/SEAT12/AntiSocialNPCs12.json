@@ -51,10 +51,10 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT12",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-		 "Entries":{"rain":"a950 Custom_SchoolHouse 11 13 LittleRed_Read_1/1600 Custom_SchoolHouse_BellRoom 5 5 2"}},
+		 "Entries":{"rain":"a950 Custom_SchoolHouse 11 13 LittleRed_Read_1/1140 Custom_SchoolHouse 16 17 3/1250 Custom_SchoolHouse 28 8 0/1600 Custom_SchoolHouse_BellRoom 5 5 2"}},
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT12",
-		"When": { "Five days": true, },
+		"When": { "Five days": true},
 	 "Entries": {"Mon":  "GOTO Tue",
 		 		 "Thu":  "GOTO Tue"}}, 
 
@@ -67,6 +67,6 @@
 	"Entries": {    
   "Tue": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
   "Wed": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-  "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
+  "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}"
 	}},
   ]}

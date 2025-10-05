@@ -1,7 +1,7 @@
 { 	"LittleRedSchoolHouse": "Рассел elementry. Home of the Soaring Pelicans.",
-	"Waste": "Waste",
-	"Paper": "Paper",
-	"CansandBottles": "Cans and Bottles",
+	"Waste": "Мусор",
+	"Paper": "Бумага",
+	"CansandBottles": "Банки и бутылки",
 	
 		 "School.1": "Заперто.",
 	  	 "School.2": "Место для растений. Не переусердствуйте с поливом...",
@@ -10,21 +10,21 @@
 	  	 "School.5": "Рассел - классный хомячок.",
 	  	 "School.6": "Здесь записка с надписью «Только для учебы».",
 	
-	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
+	  	 "School.7.spring": "Занятие начинается в 10:00 утра. Каждый среду и пятницу. А также каждый второй вторник. Даже когда идёт дождь, но не в случае шторма.",
+	  	 "School.8.spring": "Запрещено приносить лягушек или улиток в школу.",
+	  	 "School.9.spring": "Места назначены не просто так. Студентам не разрешается менять парты местами.",
 	
-	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
+	  	 "School.7.summer": "Занятие начинается в 10:00 утра. Каждый среду и пятницу. А также каждый второй вторник. Даже когда идёт дождь, но не в случае шторма.",
+	  	 "School.8.summer": "Летних каникул нет. Вместо этого у нас меньше учебных дней каждую неделю.",
+	  	 "School.9.summer": "Дети, не забывайте пить воду. Пейте побольше воды.",
 	
-	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
-	  	 "School.9.fall": "No note today.",
+	  	 "School.7.fall": "Занятие начинается в 10:00 утра. Каждый среду и пятницу. А также каждый второй вторник. Даже когда идёт дождь, но не в случае шторма.",
+	  	 "School.8.fall": "Каждого приглашают присоединиться к клубу площадки. Мы собираемся каждую субботу.",
+	  	 "School.9.fall": "Сегодня нет заметки.",
 		
-	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
-	  	 "School.9.winter": "Due to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+	  	 "School.7.winter": "Занятие начинается в 10:00 утра. Каждую среду и пятницу. Плюс каждый второй вторник. Даже если идет снег.",
+	  	 "School.8.winter": "Записка от доктора Харви с напоминанием детям часто мыть руки и закрывать как рот, так и нос, когда чихают.",
+	  	 "School.9.winter": "По юридическим причинам нам не разрешается размещать праздничные украшения внутри школы. Это включает ёлки «Зимняя звезда».",
 	
 	  	 "Desk.1": "Это место свободно.",
 	  	 "Desk.2": "Это место свободно.",
@@ -59,4 +59,4 @@
 	"Event2.3": "Робин, ты проделала невероятную работу!",
 	"Event2.4": "Ну, я бы не справилась без посторонней помощи. @ тоже принимал участие.^Ну, я бы не справилась без посторонней помощи. @ тоже принимала участие.",
 	"Event2.5": "Твоя правда.#$b#@, ты не пробыл в долине столько, сколько все мы, но ты уже многое сделал для города Пеликан.^@, ты не пробыла в долине столько, сколько все мы, но ты уже многое сделала для города Пеликан.#$b#Выражаю тебе искреннюю благодарность, @.",
-     }
+}

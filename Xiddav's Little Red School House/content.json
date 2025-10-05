@@ -13,7 +13,7 @@
 ],
 
 "ConfigSchema": {
-"Playground Expansion":{"AllowValues": "basketball, sandbox, custom, none", "Default": "basketball"},},
+"Playground Expansion":{"AllowValues": "basketball, sandbox, custom, none", "Default": "basketball", "Description": "basketball adds a blacktop and ball. sandbox makes the sandbox bigger. custom does nothing if you don't make a tmx called custom yourself. none adds nothing.",}},
 
 "CustomLocations": [
 {"Name": "Custom_SchoolHouse",

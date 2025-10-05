@@ -1,7 +1,7 @@
-{ 	"LittleRedSchoolHouse": "Russel elementry. Home of the Soaring Pelicans.",
-	"Waste": "Waste",
-	"Paper": "Paper",
-	"CansandBottles": "Cans and Bottles",
+{ 	"LittleRedSchoolHouse": "Russel Elementary. La casa dei Pellicani Volanti.",
+	"Waste": "Rifiuti",
+	"Paper": "Carta",
+	"CansandBottles": "Lattine e bottiglie",
 	
 		 "School.1": "Non si apre",
 	  	 "School.2": "Impianto di classe. Non esagerare con l'acqua.",
@@ -10,21 +10,21 @@
 	  	 "School.5": "Russel, il Criceto della classe",
 	  	 "School.6": "C'è una nota che dice 'Solo per studiare'",
 	
-	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
-	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
+	  	 "School.7.spring": "La lezione inizia alle 10:00. Ogni mercoledì e venerdì. E anche ogni altro martedì. Anche se piove, ma non se c'è una tempesta.",
+	  	 "School.8.spring": "Niente rane o lumache nella scuola.",
+	  	 "School.9.spring": "Ci sono posti assegnati per un motivo. Gli studenti non possono scambiarsi i banchi.",
 	
-	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
-	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
+	  	 "School.7.summer": "La lezione inizia alle 10:00. Ogni mercoledì e venerdì. E anche ogni altro martedì. Anche se piove, ma non se c'è una tempesta.",
+	  	 "School.8.summer": "Non ci sono vacanze estive. Invece abbiamo meno giorni di lezione ogni settimana.",
+	  	 "School.9.summer": "Ragazzi, idratatevi! Bevete tanta acqua.",
 	
-	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
-	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
-	  	 "School.9.fall": "No note today.",
+	  	 "School.7.fall": "La lezione inizia alle 10:00. Ogni mercoledì e venerdì. E anche ogni altro martedì. Anche se piove, ma non se c'è una tempesta.",
+	  	 "School.8.fall": "Tutti sono invitati a unirsi al club del parco giochi. Ci incontriamo ogni sabato.",
+	  	 "School.9.fall": "Nessuna nota oggi.",
 		
-	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
-	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
-	  	 "School.9.winter": "Do to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+	  	 "School.7.winter": "Le lezioni iniziano alle 10:00. Ogni mercoledì e venerdì. Inoltre ogni due martedì. Anche se nevica.",
+	  	 "School.8.winter": "Un appunto del dottor Harvey per ricordare ai ragazzi di lavarsi spesso le mani e di coprirsi sia la bocca che il naso quando starnutiscono.",
+	  	 "School.9.winter": "Per motivi legali, non possiamo avere decorazioni per il festival dentro la scuola. Questo include gli alberi di Winter Star.",
 		
 	  	 "Desk.1": "Questo posto è libero.",
 	  	 "Desk.2": "Questo posto è libero.",
@@ -59,4 +59,4 @@
 	"Event2.3": "Hai fatto un ottimo lavoro, Robin!",
 	"Event2.4": "Non avrei potuto senza l'aiuto di @",
 	"Event2.5": "Hai ragione.#$b#@, non sei qui da molto tempo, ma hai fatto così tanto per la nostra cittadina#$b#Grazie, @.",
-     }
+}

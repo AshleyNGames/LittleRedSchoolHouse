@@ -11,7 +11,7 @@
 	"Target": "Data/Characters",
 	"Entries": {	"SEAT14": {
 					"CanSocialize" : "FALSE",
-					"Manner": "Neutral",
+					"Manner": "Polite",
 					"SocialAnxiety": "Shy",
 					"Optimism": "Neutral",
 					"Gender": "Female",
@@ -25,7 +25,7 @@
 							"Tile": {"X":2 ,"Y":4  },
 							"Direction": "Down"}],
 					"DisplayName": "{{i18n:SEAT14NAME}}",
-					"Age": "Child"}}},
+					"Age": "2"}}},
 
 {"Action": "Load",
       "Target": "Characters/SEAT14",

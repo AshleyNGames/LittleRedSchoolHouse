@@ -12,8 +12,8 @@
 	"Entries": {	"SEAT3": {
 					"CanSocialize" : "FALSE",
 					"Manner": "Neutral",
-					"SocialAnxiety": "Neutral",
-					"Optimism": "Negative",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
 					"Gender": "Male",
 					"CanBeRomanced": false,
 					"LoveInterest": "null",
@@ -25,7 +25,7 @@
 							"Tile": {"X":3 ,"Y":4},
 							"Direction": "Down"}],
 					"DisplayName": "{{i18n:SEAT3NAME}}",
-					"Age": "Child"}}},
+					"Age": "2"}}},
 
 {"Action": "Load",
       "Target": "Characters/SEAT3",
@@ -52,7 +52,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT3",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-		 "Entries":{"rain":"700 Custom_SchoolHouse 23 13 3/a1000 Custom_SchoolHouse 22 13 LittleRed_Read_3/1130 Custom_SchoolHouse 15 9 2/a1300 Custom_SchoolHouse 25 7 LittleRed_Read_1/1600 Custom_SchoolHouse_BellRoom 3 4 2"}}, 
+		 "Entries":{"rain":"700 Custom_SchoolHouse 23 13 3/a1000 Custom_SchoolHouse 22 13 LittleRed_Read_3/1130 Custom_SchoolHouse 15 9 2/a1300 Custom_SchoolHouse 15 17 LittleRed_Paint_0/1600 Custom_SchoolHouse_BellRoom 3 4 2"}}, 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT3",
 		"When": { "Five days": true},

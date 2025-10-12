@@ -11,9 +11,9 @@
 "Target": "Data/Characters",
 "Entries": {	"SEAT17": {
 					"CanSocialize" : "FALSE",
-					"Manner": "Neutral",
-					"SocialAnxiety": "Shy",
-					"Optimism": "Neutral",
+					"Manner": "Rude",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
 					"Gender": "Female",
 					"CanBeRomanced": false,
 					"LoveInterest": "null",

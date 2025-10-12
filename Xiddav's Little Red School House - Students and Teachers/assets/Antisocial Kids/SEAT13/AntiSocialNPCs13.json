@@ -25,7 +25,7 @@
 							"Tile": {"X":6 ,"Y":4  },
 							"Direction": "Down"}],
 					"DisplayName": "{{i18n:SEAT13NAME}}",
-					"Age": "Child"}}},
+					"Age": "2"}}},
 
 {"Action": "Load",
       "Target": "Characters/SEAT13",
@@ -51,7 +51,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT13",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-		 "Entries":{"rain":"a930 Custom_SchoolHouse 10 17 1/1000 Custom_SchoolHouse 11 16 LittleRed_Read_1/1130 Custom_SchoolHouse 14 10 1/a1300 Custom_SchoolHouse 25 6 LittleRed_Read_1/1600 Custom_SchoolHouse_BellRoom 6 4 2"}}, 
+		 "Entries":{"rain":"a930 Custom_SchoolHouse 10 17 1/1000 Custom_SchoolHouse 11 16 LittleRed_Read_1/1130 Custom_SchoolHouse 14 10 1/a1300 Custom_SchoolHouse 17 17 LittleRed_Paint_0/1600 Custom_SchoolHouse_BellRoom 6 4 2"}}, 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT13",
 		"When": { "Five days": true },

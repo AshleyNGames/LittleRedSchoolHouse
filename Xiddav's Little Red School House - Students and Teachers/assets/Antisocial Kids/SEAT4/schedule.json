@@ -8,7 +8,7 @@
 	"Thu": "GOTO Sun",
 	"Sat": "GOTO Sun",
 	"Sun": "0 Custom_SchoolHouse_BellRoom 3 4 2",
-"Tue": "a950 Custom_SchoolHouse 23 17 3/a1000 Custom_SchoolHouse 22 16 LittleRed_Read_3/1110 Town 8 16 square_1_2_3/a1320 Custom_SchoolHouse 23 17 3/1330 Custom_SchoolHouse 22 16 LittleRed_Read_3/1540 Town 8 16 square_1_2_3/a2000 Custom_SchoolHouse_BellRoom 4 4 2",
+"Tue": "a950 Custom_SchoolHouse 23 17 3/a1000 Custom_SchoolHouse 22 16 LittleRed_Read_3/1120 Town 8 16 square_1_2_3/a1320 Custom_SchoolHouse 23 17 3/1330 Custom_SchoolHouse 22 16 LittleRed_Read_3/1540 Town 8 16 square_1_2_3/a2000 Custom_SchoolHouse_BellRoom 4 4 2",
 "Wed": "GOTO Tue",
 "Fri": "GOTO Tue",
 	"spring_13": "GOTO Sun",

@@ -11,7 +11,7 @@
 	"Target": "Data/Characters",
 	"Entries": {	"SEAT6": {
 					"CanSocialize" : "FALSE",
-					"Manner": "Neutral",
+					"Manner": "Polite",
 					"SocialAnxiety": "Shy",
 					"Optimism": "Neutral",
 					"Gender": "Male",
@@ -25,7 +25,7 @@
 							"Tile": {"X":6 ,"Y":6  },
 							"Direction": "Down"}],
 					"DisplayName": "{{i18n:SEAT6NAME}}",
-					"Age": "Child"}}},
+					"Age": "2"}}},
 
 {"Action": "Load",
       "Target": "Characters/SEAT6",

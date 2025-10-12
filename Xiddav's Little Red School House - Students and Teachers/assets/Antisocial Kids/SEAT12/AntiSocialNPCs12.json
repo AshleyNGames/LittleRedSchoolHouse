@@ -12,8 +12,8 @@
 	"Entries": {	"SEAT12": {
 					"CanSocialize" : "FALSE",
 					"Manner": "Neutral",
-					"SocialAnxiety": "Shy",
-					"Optimism": "Neutral",
+					"SocialAnxiety": "Neutral",
+					"Optimism": "Negative",
 					"Gender": "Female",
 					"CanBeRomanced": false,
 					"LoveInterest": "null",
@@ -25,7 +25,7 @@
 							"Tile": {"X":5 ,"Y":5  },
 							"Direction": "Down"}],
 					"DisplayName": "{{i18n:SEAT12NAME}}",
-					"Age": "Child"}}},
+					"Age": "2"}}},
 
 {"Action": "Load",
       "Target": "Characters/SEAT12",

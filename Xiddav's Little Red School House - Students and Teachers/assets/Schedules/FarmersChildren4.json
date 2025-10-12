@@ -1,0 +1,20 @@
+{   "Changes": [
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+"Entries": {	"Tue": "a1000 Custom_SchoolHouse 28 14 child_read/1100 Town 27 18 3/a1330 Custom_SchoolHouse 28 14 child_read/1540 Town 27 18 3",
+"Wed": "GOTO Tue",
+"Fri": "GOTO Tue"},
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true }},
+
+{"Action": "EditData",
+"Target": "Characters/schedules/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+"Entries": { 
+	"rain": "a1000 Custom_SchoolHouse 28 14 child_read",
+	"rain2": "a1000 Custom_SchoolHouse 28 14 child_read"},
+"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "dayofweek":"Tuesday, Wednesday, Friday", "Weather": "Rain"}},
+
+{ "Action": "EditData",
+	"Target": "characters/schedules/{{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+		"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "dayofweek":"Monday, Thursday", "Five days": true},
+	 "Entries": {"Mon": "GOTO Wed","Thu": "GOTO Tue"}},
+]}

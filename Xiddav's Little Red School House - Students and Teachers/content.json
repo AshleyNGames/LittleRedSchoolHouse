@@ -1,10 +1,10 @@
-{ "Format": "2.8.0",
+{ "Format": "2.7.0",
 "DynamicTokens": [
 {"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}"},
 {"Name": "noschoolday","Value": "false","When":{}},
 {"Name": "noschoolday","Value": "true","When":{"day": "9, 23"}},
 {"Name": "Rundown","Value":"Rundown","When":{}},
-{"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695002"}},
+{"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695001"}},
 {"Name": "RSV","Value":""},
 {"Name": "RSV","Value":"RSV","When":{"HasMod|contains=Rafseazz.RSVCP": true}},
 ],
@@ -23,7 +23,9 @@
 "Seat 17 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 6 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 4 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "true"}},
+"Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "true"},
+"LittleNPC BETA":{"AllowValues": "true, false", "Default": "false"},
+},
 
 "CustomLocations": [
 {"Name": "Custom_SchoolHouse_BellRoom",

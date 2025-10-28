@@ -3,6 +3,15 @@
      "Target": "Strings/StringsFromMaps",
      "Entries": { "Desk.4": "{{i18n:Deskpartone}} {{i18n:SEAT4NAME}}{{i18n:Deskparttwo}}"}}, 
 
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+"MapTiles": [{
+	"Layer": "Buildings2",	
+		"Position": { "X": 21, "Y": 16 },
+		"SetTilesheet": "Xiddav",
+		"SetIndex": "42"}]},
+
 { "Action": "EditData",
   "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
   "Entries": {  "SEAT4": {"MarkerCropOffset": 7}}},	

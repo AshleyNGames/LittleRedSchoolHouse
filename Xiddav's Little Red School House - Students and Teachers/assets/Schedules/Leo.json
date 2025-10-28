@@ -1,8 +1,17 @@
 {   "Changes": [
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
-            "When": {"HasSeenEvent": "6497428"},
      "Entries": {"Desk.7": "{{i18n:Desk.Leo}}"}},
+
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+"MapTiles": [{
+	"Layer": "Buildings2",
+		"Position": { "X": 18, "Y": 13 },
+		"SetTilesheet": "Xiddav",
+		"SetIndex": "55"}
+]},
 
 { "Action": "EditData",
 	"Target": "characters/schedules/LeoMainland",

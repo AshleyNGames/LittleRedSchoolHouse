@@ -6,6 +6,7 @@
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Penny.json"},
 {"Action": "Include",
+            "When": {"HasSeenEvent": "6497428"},
    		"FromFile": "assets/Schedules/Leo.json"},
 {"Action": "Include",
    		"FromFile": "assets/Schedules/Keahi.json",

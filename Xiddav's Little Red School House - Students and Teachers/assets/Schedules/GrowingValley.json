@@ -1,7 +1,10 @@
 {   "Changes": [
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-"Priority": "Late",
 	"When":{"spouse":"Elliott"},
-"MapProperties": {"DayTiles": "Buildings2 9 16 60"}},
+"MapTiles": [{
+	"Layer": "Buildings2",
+	"Position": { "X": 9, "Y": 16 },
+		"SetTilesheet": "Xiddav",
+	"SetIndex": "60"}]}
 ]}

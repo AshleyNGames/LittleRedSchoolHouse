@@ -1,5 +1,4 @@
-{   "Changes": [  	  
-
+{   "Changes": [
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",
 "Entries": { 	
@@ -25,6 +24,16 @@
 	 "rain": "a950 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1600 Town 22 63 0 child_ball",
 	"rain2": "a950 Custom_SchoolHouse 11 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.000\"/1130 Custom_SchoolHouse 7 5 0 \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.001\"/1210 Custom_SchoolHouse 1 6 1 child_read \"Strings\\schedules\\{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}:2school.002\"/1600 Town 22 63 0 child_ball",},
 "When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true ,"dayofweek":"Tuesday, Wednesday, Friday",  "Weather": "Rain"}},
+
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+"MapTiles": [{
+	"Layer": "Buildings2",	
+		"Position": { "X": 12, "Y": 6 },
+		"SetTilesheet": "Xiddav",	
+		"SetIndex": "59"}
+]},
 
 {"Action": "EditData",
 	"Target": "characters/schedules/{{Candidus42.LittleNPCs/SecondLittleNPC:Name}}",

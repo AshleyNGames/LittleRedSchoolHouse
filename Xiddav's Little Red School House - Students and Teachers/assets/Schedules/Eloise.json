@@ -1,11 +1,19 @@
-{   "Changes": [  	    
-//desk
+{   "Changes": [
 {"Action": "EditData",
      "Target": "Strings/StringsFromMaps",
      "Entries": { 
-	  	 "Desk.6": "{{i18n:Desk.Eloise}}"}, },
+	  	 "Desk.6": "{{i18n:Desk.Eloise}}"}},
 
-//schoolhouse schedule - I copied this right from East Scarp and deleted the when because it wasn't working with Lazy version. sorry if this is an issue. I just want it to work.
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+"MapTiles": [{
+	"Layer": "Buildings2",	
+		"Position": { "X": 18, "Y": 11 },
+		"SetTilesheet": "Xiddav",
+		"SetIndex": "56"}
+]},
+
 {"Action": "EditData",
             "Target": "Characters/schedules/Eloise",
 		"When": { "noschoolday": false },
@@ -25,7 +33,6 @@
     "winter_Wed": "GOTO Wed",
     "winter_Fri": "GOTO Wed"}},
 
-//Jacob schedules
 {"Action": "EditData",
             "Target": "Characters/schedules/Jacob",
 		"When": { "noschoolday": false }, 

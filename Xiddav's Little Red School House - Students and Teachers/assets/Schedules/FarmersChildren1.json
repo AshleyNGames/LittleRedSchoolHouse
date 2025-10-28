@@ -1,5 +1,4 @@
-{   "Changes": [  	  
-
+{   "Changes": [
 {"Action": "EditData",
 "Target": "Characters/schedules/{{Candidus42.LittleNPCs/FirstLittleNPC:Name}}",
 "Entries": {  		
@@ -42,6 +41,16 @@
      "Target": "Strings/StringsFromMaps",
      "Entries": {"Desk.18": "{{i18n:Deskpartone.1}} {{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}{{i18n:Deskparttwo.1}}"},
             	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true }},
+
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+"MapTiles": [{
+	"Layer": "Buildings2",	
+		"Position": { "X": 9, "Y": 16 },
+		"SetTilesheet": "Xiddav",
+		"SetIndex": "112"}
+]},
 
 //Spouse Alex
 {"Action": "EditData",

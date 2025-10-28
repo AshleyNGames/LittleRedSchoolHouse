@@ -25,6 +25,7 @@
 "Seat 4 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "LittleNPC BETA":{"AllowValues": "true, false", "Default": "false"},
+"Hide antisocial kids NPCMap": {"AllowValues": "true, false", "Default": "true"},
 },
 
 "CustomLocations": [
@@ -59,11 +60,35 @@
 
 {"Action": "EditMap",
 "Target": "Maps/Railroad",
-"Priority": "Late",
-"MapProperties": {"DayTiles": "Buildings 44 39 167",
-				  "NightTiles": "Buildings 44 39 167"}},
+"MapTiles": [{
+	"Layer": "Buildings",	
+		"Position": { "X": 44, "Y": 39 },	
+		"SetIndex": "167"}
+]},
 
 {  "Action": "EditMap",
     "Target": "Maps/Railroad",
       "AddNPCWarps": ["44 39 Custom_SchoolHouse_BellRoom 11 9"]},
+
+{"Action": "EditData",
+    "Target": "Mods/Bouhm.NPCMapLocations/Locations",
+    "Entries": {"Custom_SchoolHouse_BellRoom": {"Exclude": true}}},
+
+{"Action": "EditData",
+	"When": {"Hide antisocial kids NPCMap":"true"},
+    "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+    "Entries": {
+        "Seat 3": {"Exclude": true},
+        "Seat 8": {"Exclude": true},
+        "Seat 11": {"Exclude": true},
+        "Seat 13": {"Exclude": true},
+        "Seat 14": {"Exclude": true},
+        "Seat 15": {"Exclude": true},
+        "Seat 1": {"Exclude": true},
+        "Seat 2": {"Exclude": true},
+        "Seat 10": {"Exclude": true},
+        "Seat 17": {"Exclude": true},
+        "Seat 6": {"Exclude": true},
+        "Seat 4": {"Exclude": true},
+        "Seat 12": {"Exclude": true}}}
 ]}

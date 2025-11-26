@@ -1,2 +1,2 @@
-{    "9695003/t 610 2000/u 1/y 2/!SawEvent 9695001": "communityCenter/14 10/farmer 3 17 0/skippable/move farmer 0 -3 2 false/move farmer 7 0 0 false/proceedPosition farmer/pause 500/emote farmer 8/pause 500/addSpecialOrder Lewis9695/end"
+{    "9695003/t 610 2000/u 1/y 2/!*n SchoolRepaired": "communityCenter/14 10/farmer 3 17 0/skippable/move farmer 0 -3 2 false/move farmer 7 0 0 false/proceedPosition farmer/pause 500/emote farmer 8/pause 500/addSpecialOrder Lewis9695/end"
 }

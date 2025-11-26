@@ -1,9 +1,8 @@
-{
-  "Name": "Xiddav's Little Red School House",
+{  "Name": "Xiddav's Little Red School House",
   "Author": "Xiddav",
-  "Version": "2.1.3-Lazy",
-  "Description": "Adds a School to town.",
-  "UniqueID": "Xiddav.LittleRedSchoolHouseLazy",
+  "Version": "2.2.0",
+  "Description": "Adds a School to town that can be repaired.",
+  "UniqueID": "Xiddav.LittleRedSchoolHouse",
   "MinimumApiVersion": "3.0",
   "UpdateKeys": [ "Nexus:9695@Lazy" ],
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",

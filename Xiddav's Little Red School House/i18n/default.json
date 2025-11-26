@@ -9,22 +9,22 @@
 	  	 "School.4": "*Tick Tock Tick Tock Tick Tock*",
 	  	 "School.5": "Russel the Class Hamster",
 	  	 "School.6": "There's a note saying 'For Studing Only'",
-
 	  	 "School.7.spring": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
 	  	 "School.8.spring": "No frogs or snails allowed in the schoolhouse.",
 	  	 "School.9.spring": "There are assigned seats for a reason. Students are not allowed to swap desks.",
-
 	  	 "School.7.summer": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
 	  	 "School.8.summer": "There is no summer vacation. We have fewer class days each week instead.",
 	  	 "School.9.summer": "Stay hydrated kids. Drink plenty of water.",
-
 	  	 "School.7.fall": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even when it's raining, but not if there is a storm.",
 	  	 "School.8.fall": "Everyone is welcomed to join the playground club. We meet every Saturday.",
 	  	 "School.9.fall": "No note today.",
-
 	  	 "School.7.winter": "Class starts at 10:00am. Every Wednesday and Friday. Plus everyother Tuesday. Even if it's snowing.",
 	  	 "School.8.winter": "A note from Dr. Harvey reminding the kids to wash their hands often and too cover both their mouth and nose when they sneeze.",
 	  	 "School.9.winter": "Due to legal reasons, we are not allowed to have festival decorations inside the school. That includes Winter Star trees.",
+	  	 "School.10": "These Joja Cola's are all expired.",
+	  	 "School.11": "There's festival decorations in these boxes.",
+	  	 "School.12": "Someone hidden drinking spot.",
+	  	 "School.13": "A letter from Lewis to Robin about how the town doesn't have the funds to repair the school.",
 
            "Desk.1": "An empty seat.",
            "Desk.2": "This seat is available.",
@@ -47,7 +47,7 @@
 
     "school.HigherEducation" : "Higher Education",
     "school.SchoolRepaired": "Hey @.^^ I got the materials left in the school. I'll stop by later to let you know when I'm finished. ^^~Robin",
-    "school.Text1": "The old school house has sat empty for many years. Robin needs more materials to put it back in working order. Leave it at the pile of wood in the school building.",
+    "school.Text1": "The old school house has sat empty for many years. Robin needs more materials to put it back in working order. Put them in the toolbox in the schoolhouse.",
     "school.Text2": "Hardwood",
     "school.Text3": "Wood",
     "school.Text4": "Cloth",

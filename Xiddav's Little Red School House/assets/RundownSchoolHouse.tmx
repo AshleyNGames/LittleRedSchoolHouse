@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="11">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="29">
  <properties>
   <property name="Warp" value="3 19 Town 8 12"/>
  </properties>
@@ -100,6 +100,9 @@
  <tileset firstgid="2889" name="Interior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
   <image source=".townInterior_2.png" width="512" height="656"/>
  </tileset>
+ <tileset firstgid="4201" name="Xiddav_Festival" tilewidth="16" tileheight="16" tilecount="800" columns="40">
+  <image source=".Xiddav_FestivalExtras.png" width="640" height="320"/>
+ </tileset>
  <layer id="1" name="Back" width="31" height="19">
   <data encoding="base64" compression="zlib">
    eJzNVG0OgjAMXZawcAW4Cf7wI97Dz1soiR6Em7ijeBhXoeE5trkpRJs0D7ay9r12CPF7q7NpHXP8g63y8c/UWRjZ9ib3XAqxdPhiItzINvfO4FbGY6HS4ktPPNnB8K5Uixc5xKvskeLsd46bmed13u/j9xRH+7gew5t4HvM0nhyPWFjrzBvr4fpcvFAHOw71COnEyHM+Vl9T9OE5p7rs/wDVh/2z+ZIeoX2XDnw+9xvvN9fjmgPUAfn55jiWN9nZnFGrHl11l551e65RjxLmHxFzNuB349r4TYXr/4Y/GeU6QS7d5Xbd79i++uJLuOfPf2yXE+vW6vN598VXasgb+0t98PXbxdN3r98h97tRrzxZ89S59aHNF3mz5lyX/T4Vkj0AXEbJzw==
@@ -110,7 +113,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBhYUM2KKWbNDKEfMRNnBjZ1eWyE9c3GYjchEIgFkwN2k2E3OiiE0suYSNN3G4vdsPC6xQ2U56bIWQRBLy8DQx8Q5/MzMPQD6Qm8EPFfQHt/U9Hu/VjMWgu0ax0Q9wPtXg+kN/BSzz5C4CzQrnNAvB5o93kgfYGOdg8U6OVjSFgLxGeB+C0Q8/IzJNDLblDZUoOE/5Oo/wwH+Xb7ArE8IwT7AdlzqJDfiQW5QLwHaJ89I4TeA7U7gEQ3PCPD/+hlCxsj6WagA0ke8vRRw+6JwDw6CYgnA/EUEvIrNezeCLRvExBvBuItdLb7ItC+S0B8GYiv0NnuwQ4ARicwcg==
+   eJxjYBhYUM2KKWbNDKEfMRNnBjZ1eWyE9c3GYjchEIgFkwN2k2E3OiiE0suYSNN3mwp2UwJ6eRkY+oA4n5+BoR9IT+CljT37uTHF1gLtWgfE/UC71wPpDTSyGxs4C7TrHBCvB9p9HkhfoKPdAwV6+RgS1gLxWSB+C8S8/AwJ9LIbVLbUIOH/9LIYCHyBWJ4Rgv2A7Dl0zHO5QLwHaJ89I4TeA7U7gA5uQC9b2BgpN1OSh4FBiod0fdSweyIwj04C4slAPIWE/EoNuzcC7dsExJuBeAud7b4ItO8SEF8G4it0tLtogOsmYgAADhsrAw==
   </data>
  </layer>
  <layer id="21" name="Back3" width="31" height="19">
@@ -121,7 +124,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="31" height="19">
   <data encoding="base64" compression="zlib">
-   eJy1VMsuBEEUrTbpnp7EF2BjxdIIicRqkrEnsZhYW/EDgnDX/AET9G8gSCZ8BImd+Yhh4dRUVfdNdfWbk5x0vW6dqtu3jieEmAFb/0NyEXrkgYtYc+KLGFeB+m62krFzP54jIdLjdizHqa8oY037DIQu9TB/jfZQ8z5I2oa3yRy5xvNih47YG7CntR/QftR8D9T3mY2xOcqaM7Fyrh+qvoQdK/nEtD/8dK7K4BVab44874f5cZ9M28DroO465bW/oDvW2n5biKCtx0Oln3cGW1simi2v3QQu7TxMcMdv8MeR5zraUYX1c8jpPLjQrqfH/0uk3njKW0b1to6BvBDyQxPtB6OS3iL9gmrWvQHyQsgPIU9TbexH3IeyvEX6xR04aKjfRY2v6jrHfsR9yPYW6QfSFzbAF3AF7II71hmOCt6uC7YfcW/ps7do7rvt0G0Kszf3liIf4lhDna7rWrXfHK9jgyXsvRym11Z93zaqvDm+duDwVI5dfb4D+NxhBa8z95TYK/BU6S2uXBlcQPeyhLbRPM7Q42eSMN7iqXNMsaX7f0xy9OkXKkeDTQ==
+   eJy1VM0uBEEQrrHp2R3ZwywPIE4cLReJ0ybrTuKwD8CFN0DoMyeObLCPYQmSDQ9BIiHhOVTpru3S0zNjZX3Jl+q/6q+7pueLAGACWfkf6hBRT0fIWVyzp2CIs9jElYobO1TDOQ2QHfdzJfaVIeVy+wCJurqF8+fY7lr2Y9dmXro5HRovyu0Gci+QLat9g+1by+fYxHsxJuZ03hzn0ly7ZvoEP5d4J7RfsL2GXFfZmhE2a64t1z2i1lOgznI9YWbKjFEkvArtTo5m2Z4fqPtptVUVIK7a8ZpZ66+XYG2JKMF3n/zuLH8FnUlqF50xhK3p0dZzvbn+pN2D7LeW9SvTPkkBTlMXCf49uC/37Zl/POMtg8B58rSvUa+fuij1+B0NSryFfYH8Qqvyb8Dab6j3nroYysP9tPQh31vYF8gvrlT522ftpAEw2XCR7ywj7qelD/newr6wjHxALiCbJXX3kVcr34+kt7TFv8j35e896vsvAu8tvWWc+/v1nsM4H9g/5C2jajDK/guJjirW3rDvfrsOsFPP3ifvDPKeTYyLyKWce5O3FHnJEeoe13/6s3wL3GbNXU+H9f3as7dE5hzfWLX9MVMH+voL9hePIw==
   </data>
  </layer>
  <layer id="19" name="Buildings2" width="31" height="19">
@@ -129,7 +132,7 @@
    <property name="Draw" value="Buildings"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBjeoJ574OyeP4B20wL85BhoF4yCUUAaoEf+FxHALk6P/G+Cw256gJABtHsUEAdM2BkYTNlHnt20BABQpwUk
+   eJxjYBjeoJ574OyeP4B20wL85BhoF4yCkQR0hSg3g9z8H0qC3SIC2PM6PfK/iQDt7cAFQgbQ7lFAHDBhZ2AwZR95dtMSAAC0JwZ0
   </data>
  </layer>
  <layer id="20" name="Buildings3" width="31" height="19">
@@ -143,10 +146,55 @@
     <property name="Action" value="DropBox Woodpile"/>
    </properties>
   </object>
+  <object id="13" name="TileData" x="160" y="272" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.11&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="160" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.11&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="304" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.11&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="320" y="272" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.12&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="416" y="272" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.10&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="384" y="224" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.10&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="464" y="96" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;School.11&quot;"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="96" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.11&quot;"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="240" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.13&quot;"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="5" name="Front" width="31" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgcQIEdlZ/HxsBgzIZdDpc+mB6YGEw/ITMcqChHrNhgAO85GBg+cGCKv2bFrr6HCbdZLhwQTApo5CFN/SggDyxC4y8eEFcMHEAuSyxwpG1igSAwjQuRmM6RgQHQfkMK3TBY7KU0LEkF7MBw56Ag7KkNaOX/gfAnITtxyYPKFlh5soQWDiMSuAIxI5FqiVWHCwAAeaUOqg==
+   eJzNlDsOwjAMQA1SP2NLL8ARQCwsSAxwGBg4Caeg3I4BNtbGAotg6sZOOvCkyElsx59EAfgP5sX3+pQDrPJ+neRHPrRH/qEztiPqtHvIIgNYZv26Xamzk3jWrzNQctaBs27Zbw7IeSr7oC23D3F39g+jjxWekzXHTWOzp35T/4mYO6TYhwrgWH0kYqnrwtatIp9Q3Rgv9I6GfIeQYlvvjvD/klDOQ3VT/Ng8EOs7iI3F/ShuSu6c2PvXwvtdOFmO/F9IfdJgrV96P3zt11k7OXOjSazb/5/9t0BzqbcUX9Lj39K+59e0FJPYuzFR2mrtJDoLtyDU
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
@@ -158,7 +206,7 @@
  <objectgroup id="9" name="Paths"/>
  <layer id="7" name="AlwaysFront" width="31" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDHewDAlTGyxBM385DewYzOAR80C7YBSMgsEBltEYD4ayBQAhBBZM
+   eJxjYBgFo2AUDHewDAlTGyxBM385DewYzOAR80C7YBSMgsEBltEYo5ctiVDxZhr6CR0AAMzcF9Y=
   </data>
  </layer>
  <objectgroup id="8" name="AlwaysFront"/>

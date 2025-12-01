@@ -1597,6 +1597,76 @@
     <frame tileid="421" duration="100"/>
    </animation>
   </tile>
+  <tile id="428">
+   <animation>
+    <frame tileid="428" duration="1000"/>
+    <frame tileid="429" duration="1000"/>
+    <frame tileid="429" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="429">
+   <animation>
+    <frame tileid="429" duration="1000"/>
+    <frame tileid="428" duration="1000"/>
+    <frame tileid="429" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="430">
+   <animation>
+    <frame tileid="430" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="431">
+   <animation>
+    <frame tileid="431" duration="1000"/>
+    <frame tileid="430" duration="1000"/>
+    <frame tileid="431" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="432">
+   <animation>
+    <frame tileid="432" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="433">
+   <animation>
+    <frame tileid="433" duration="1000"/>
+    <frame tileid="432" duration="1000"/>
+    <frame tileid="433" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="460">
+   <animation>
+    <frame tileid="460" duration="1000"/>
+    <frame tileid="461" duration="1000"/>
+    <frame tileid="461" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="461">
+   <animation>
+    <frame tileid="461" duration="1000"/>
+    <frame tileid="460" duration="1000"/>
+    <frame tileid="461" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="462">
+   <animation>
+    <frame tileid="462" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="463">
+   <animation>
+    <frame tileid="463" duration="1000"/>
+    <frame tileid="462" duration="1000"/>
+    <frame tileid="463" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="477">
    <animation>
     <frame tileid="477" duration="100"/>
@@ -1632,6 +1702,20 @@
     <property name="zzXiddav" value=""/>
    </properties>
   </tile>
+  <tile id="490">
+   <animation>
+    <frame tileid="490" duration="1000"/>
+    <frame tileid="491" duration="1000"/>
+    <frame tileid="491" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="492">
+   <animation>
+    <frame tileid="492" duration="1000"/>
+    <frame tileid="493" duration="1000"/>
+    <frame tileid="493" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="507">
    <animation>
     <frame tileid="507" duration="100"/>
@@ -1660,6 +1744,20 @@
     <frame tileid="689" duration="100"/>
     <frame tileid="749" duration="100"/>
     <frame tileid="809" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="520">
+   <animation>
+    <frame tileid="520" duration="1000"/>
+    <frame tileid="521" duration="1000"/>
+    <frame tileid="521" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="522">
+   <animation>
+    <frame tileid="522" duration="1000"/>
+    <frame tileid="523" duration="1000"/>
+    <frame tileid="523" duration="1000"/>
    </animation>
   </tile>
  </tileset>
@@ -1691,7 +1789,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxksFRpoFwwMcGSkn11RdLSrmAK7cqSp5w56gH+CDAz/BQfaFdQBX0UYGL4DsTjQP8eA9FER2tmlC8zza9kZGNYB8Xog1sNSBjzgYWB4CMSPeCi3D9kuegB62ofPrmU0KFvpFYbIIH8AyoUlg7ReWkGCu0hRiw3kIoU7ADVAGMo=
+   eJxjYBgFgxksFRpoFwwMcGSkn11RdLSrmAK7cqSp5w56gH+CDAz/BSHsFCCtR6e0nCJIfTO/ijAwfAdicaDZx4D0URHa2aULDKe17AwM64B4PTsi3JDtesDDwPAQiB/xUG4fsl0wQAt/4bKPHLv4iUxL6HaBwhZoXwKpmFh3IYchvUD+AJQLSwZpvbSCBHeRohYbyEUKdwBEtiZB
   </data>
  </layer>
  <layer id="15" name="Back3" width="27" height="22">
@@ -1716,7 +1814,7 @@
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBVwkX2gXUA/4CQ20C5ABY6DzD2jYBSMgsEBAMJiAYg=
+   eJxjYBgFo2AUDBVwkX2gXTAKRsEoGAWjABkAAMG9ANk=
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>

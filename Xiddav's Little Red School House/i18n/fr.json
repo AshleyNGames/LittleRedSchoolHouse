@@ -10,22 +10,22 @@
     "School.4": "Tick Tock Tick Tock",
     "School.5": "Russel, le hamster de la classe",
     "School.6": "Il y a une note disant 'Pour les étudiants seulement'.",
-	
 "School.7.spring": "Le cours commence à 10h. Chaque mercredi et vendredi. De plus, un mardi sur deux. Même s'il pleut, mais pas en cas d'orage.",
 "School.8.spring": "Pas de grenouilles ni d'escargots autorisés dans l'école.",
 "School.9.spring": "Il y a des places assignées pour une raison. Les élèves n'ont pas le droit d'échanger leurs places.",
-
 "School.7.summer": "Le cours commence à 10h. Chaque mercredi et vendredi. De plus, un mardi sur deux. Même s'il pleut, mais pas en cas d'orage.",
 "School.8.summer": "Il n'y a pas de vacances d'été. On juste moins de jours de cours à la place.",
 "School.9.summer": "Restez hydraté, les enfants. Buvez suffisament d'eau.",
-
 "School.7.fall": "Le cours commence à 10h. Chaque mercredi et vendredi. De plus, un mardi sur deux. Même s'il pleut, mais pas en cas d'orage.",
 "School.8.fall": "Tout le monde est invité à rejoindre le club de la plaine de jeu. On se rejoint chaque samedi.",
 "School.9.fall": "Aucun rappel aujourd'hui.",
-
 "School.7.winter": "Le cours commence à 10h. Chaque mercredi et vendredi. De plus, un mardi sur deux. Même s'il pleut, mais pas en cas d'orage.",
 "School.8.winter": "Un rappel du docteur Harvey, rappelant les enfants de se laver leurs mains souvent et de couvrir leur bouche et leur nez quand ils éternuent.",
 "School.9.winter": "Pour des raisons légales, nous ne sommes pas autorisés à avoir des décorations festives dans l'école. Ceci inclut les sapins d'étoile polaire.",
+	  	 "School.10": "These Joja Cola's are all expired.",
+	  	 "School.11": "There's festival decorations in these boxes.",
+	  	 "School.12": "Someone hidden drinking spot.",
+	  	 "School.13": "A letter from Lewis to Robin about how the town doesn't have the funds to repair the school.",
 
     "Desk.1": "Un siège vide.",
   "Desk.2": "Ce siège est disponible.",

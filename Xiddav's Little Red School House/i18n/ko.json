@@ -9,22 +9,22 @@
     "School.4": "틱 톡 틱 톡",
     "School.5": "학급 햄스터 러셀.",
     "School.6": "쪽지에는 이렇게 적혀 있습니다. '공부 전용'",
-    
            "School.7.spring": "학교는 매주 수요일과 금요일, 격주로 화요일에 열립니다. 비가 와도 정상 등교이지만 태풍이 온다면 휴교합니다. 등교는 아침 10시까지 하시길 바랍니다.",
            "School.8.spring": "학교 건물 내에 개구리 혹은 달팽이 반입 금지.",
            "School.9.spring": "지정석이 있는 데에는 다 이유가 있습니다. 학생들은 자리를 바꾸면 안 됩니다.",
-    
            "School.7.summer": "학교는 매주 수요일과 금요일, 격주로 화요일에 열립니다. 비가 와도 정상 등교이지만 태풍이 온다면 휴교합니다. 등교는 아침 10시까지 하시길 바랍니다.",
            "School.8.summer": "여름 방학은 없습니다. 대신 각 주에 수업을 하는 날이 적습니다.",
            "School.9.summer": "수분 보충! 물 많이 마시는 거 잊지 말기!",
-    
            "School.7.fall": "학교는 매주 수요일과 금요일, 격주로 화요일에 열립니다. 비가 와도 정상 등교이지만 태풍이 온다면 휴교합니다. 등교는 아침 10시까지 하시길 바랍니다.",
            "School.8.fall": "놀이터 동아리는 모두에게 열려있습니다. 매주 토요일에 모인답니다.",
            "School.9.fall": "오늘은 알림장이 없습니다.",
-        
            "School.7.winter": "학교는 매주 수요일과 금요일, 격주로 화요일에 열립니다. 눈이 와도 정상 등교합니다.",
            "School.8.winter": "하비 의사선생님이 써 준 노트: 손을 자주 씻고 기침을 할 때는 입과 코를 가리라고 적혀있습니다.",
            "School.9.winter": "법적 문제로 인해 교내에는 축제 장식을 걸 수 없습니다. 이것은 겨울 별의 나무도 포함입니다.",
+	  	 "School.10": "These Joja Cola's are all expired.",
+	  	 "School.11": "There's festival decorations in these boxes.",
+	  	 "School.12": "Someone hidden drinking spot.",
+	  	 "School.13": "A letter from Lewis to Robin about how the town doesn't have the funds to repair the school.",
         
     "Desk.1": "이 좌석을 이용할 수 있습니다.",
     "Desk.2": "이 좌석을 이용할 수 있습니다.",

@@ -1593,26 +1593,10 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjAL8YI4gA8NcIJ4nONAuGQVDFfByMzDwc9PHLl2gPfpk2rUJmMY3A/EWIN5KRHoH2SVAJ7/5Au3wA2J/AnaVAd1dPoTyqjEPA4MJEJvy0N6uYKAdIUAcSkW7ALM+Cig=
+   eJxjYBgFo2AUjIJRMApoC3i5GRj4ueljly7QHn0y7dokyMCwGYi3APFWQeLsEqCT33yBdvgBsT8Bu8qA7i4nwu2jgDoAAGEUBj4=
   </data>
  </layer>
- <objectgroup id="4" name="Buildings">
-  <object id="5" name="TileData" x="368" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;Waste&quot;"/>
-   </properties>
-  </object>
-  <object id="6" name="TileData" x="384" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;Paper&quot;"/>
-   </properties>
-  </object>
-  <object id="7" name="TileData" x="400" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;CansandBottles&quot;"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="27" height="22">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20Hb6AAAHgMCUgAAQ==
@@ -1621,7 +1605,7 @@
  <objectgroup id="6" name="Paths"/>
  <layer id="7" name="Front" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDEVQJ8jAUA/EDYID7ZJRMAoIg3xuBgYmRvL0TgGm8alAPA2IpxOR3vOAdpmQaRepIJcbgsn122AFwjwMDCJALMoz0C4Z/AAAhzkGyQ==
+   eJxjYBgFo2AUjIJRMApoC/K5GRiYGMnTO0WQgWEqEE8D4umChNXnAe0yIdMuUkEuNwST67dRMPQBAMKKBLk=
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>

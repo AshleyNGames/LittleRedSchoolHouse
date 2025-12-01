@@ -7,7 +7,7 @@
 {"Name": "World","Value":"SVE","When":{"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "HasFile:assets/Town/SVE/TownSchoolHouse.tmx": true}},
 {"Name": "World","Value":"Overgrown","When":{"HasMod|contains=lune.overgrown": true, "HasFile:assets/Town/Overgrown/TownSchoolHouse.tmx": true}},
 {"Name": "Rundown","Value":"Rundown","When":{}},
-{"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695002"}},
+{"Name": "Rundown","Value":"","When":{"HasSeenEvent": "9695001"}},
 {"Name": "RSV","Value":""},
 {"Name": "RSV","Value":"RSV","When":{"HasMod|contains=Rafseazz.RSVCP": true}}
 ],

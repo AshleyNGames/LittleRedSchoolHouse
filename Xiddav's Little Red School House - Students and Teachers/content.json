@@ -29,8 +29,8 @@
 },
 
 "CustomLocations": [
-{"Name": "Custom_SchoolHouse_BellRoom",
-"FromMapFile": "assets/BellRoom.tmx"}],
+{"Name": "Custom_SchoolHouse_NPCTrainRoom",
+"FromMapFile": "assets/NPCTrainRoom.tmx"}],
 
 "Changes": [
 {"Action": "Include",
@@ -68,11 +68,11 @@
 
 {  "Action": "EditMap",
     "Target": "Maps/Railroad",
-      "AddNPCWarps": ["44 39 Custom_SchoolHouse_BellRoom 11 9"]},
+      "AddNPCWarps": ["44 39 Custom_SchoolHouse_NPCTrainRoom 11 9"]},
 
 {"Action": "EditData",
     "Target": "Mods/Bouhm.NPCMapLocations/Locations",
-    "Entries": {"Custom_SchoolHouse_BellRoom": {"Exclude": true}}},
+    "Entries": {"Custom_SchoolHouse_NPCTrainRoom": {"Exclude": true}}},
 
 {"Action": "EditData",
 	"When": {"Hide antisocial kids NPCMap":"true"},

@@ -36,7 +36,7 @@
 					"FriendsAndFamily": {},
               		"UnlockConditions": "LOCATION_ACCESSIBLE Railroad",
 					"Home": [{"Id": "Default",
-							"Location": "Custom_SchoolHouse_BellRoom",
+							"Location": "Custom_SchoolHouse_NPCTrainRoom",
 							"Tile": {"X":2 ,"Y":4  },
 							"Direction": "Down"}],
 					"DisplayName": "{{i18n:SEAT14NAME}}",
@@ -67,7 +67,7 @@
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT14",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
-		 "Entries":{"rain":"700 Custom_SchoolHouse 7 6 1/1000 Custom_SchoolHouse 8 6 LittleRed_Read_1/1130 Custom_SchoolHouse 24 5 LittleRed_RightReach/a1300 Custom_SchoolHouse 5 6 LittleRed_Read_3/1600 Custom_SchoolHouse_BellRoom 2 4 2"}},
+		 "Entries":{"rain":"700 Custom_SchoolHouse 7 6 1/1000 Custom_SchoolHouse 8 6 LittleRed_Read_1/1130 Custom_SchoolHouse 24 5 LittleRed_RightReach/a1300 Custom_SchoolHouse 5 6 LittleRed_Read_3/1600 Custom_SchoolHouse_NPCTrainRoom 2 4 2"}},
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT14",

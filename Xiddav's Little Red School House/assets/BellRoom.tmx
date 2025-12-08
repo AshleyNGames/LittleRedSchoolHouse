@@ -2,7 +2,7 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="15" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="31">
  <properties>
   <property name="AmbiantLight" value="75 75 75"/>
-  <property name="Warp" value="11 10 Railroad 44 40"/>
+  <property name="Warp" value="11 10 Custom_SchoolHouse 27 13"/>
  </properties>
  <tileset firstgid="1" name="Interior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source=".townInterior.png" width="512" height="1088"/>
@@ -37,39 +37,15 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source=".paths.png" width="64" height="256"/>
- </tileset>
- <tileset firstgid="2241" name="Xiddav_Indoor" tilewidth="16" tileheight="16" tilecount="648" columns="18">
-  <image source=".Xiddav_Indoor.png" width="288" height="576"/>
-  <tile id="184">
-   <animation>
-    <frame tileid="184" duration="500"/>
-    <frame tileid="185" duration="500"/>
-    <frame tileid="186" duration="500"/>
-   </animation>
-  </tile>
-  <tile id="185">
-   <animation>
-    <frame tileid="185" duration="500"/>
-    <frame tileid="186" duration="500"/>
-    <frame tileid="184" duration="500"/>
-   </animation>
-  </tile>
-  <tile id="186">
-   <animation>
-    <frame tileid="186" duration="500"/>
-    <frame tileid="184" duration="500"/>
-    <frame tileid="185" duration="500"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="2889" name="Interior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+ <tileset firstgid="2177" name="Interior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
   <image source=".townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3489" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source=".walls_and_floors.png" width="256" height="688"/>
  </tileset>
  <layer id="1" name="Back" width="15" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMKJOBYcCZDEwNcAKIT5JIw8ALIH5JIg0DHIwMDJyMpNEj0V4Akak0OA==
+   eJxjYKAMKJOBYeAiPwPDJX7SaRB4CKQf8ZNOj9pLP3s5GBkYOBkJ0yE8CD4IAADatmhS
   </data>
  </layer>
  <layer id="13" name="Back2" width="15" height="11">
@@ -77,13 +53,13 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYCAMvjMyOBChbBSMAqoAAPpxATk=
+   eJxjYCAMvjMyOBChbBSMArIAGyNDAjIfAP/AAaA=
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="15" height="11">
   <data encoding="base64" compression="zlib">
-   eJzjYmBgYCYD8wCxIwN5wJUKepPJwNSwdyTpTSRTbzMQMxKJQe7TYoXYBxMDAL20Cxo=
+   eJzjYmBgYCYD8wCxIxAv4CMdu0L1buAjHcP0HuAjHcP0kgNGot5EMvU2AzEjkRhkhw8vqh4AaJUjjQ==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
@@ -101,7 +77,7 @@
  <objectgroup id="9" name="Paths"/>
  <layer id="7" name="AlwaysFront" width="15" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowA3WEYEXgzEXKwMDEugfEoBANvhB9M=
+   eJxjYBgFowA3WEYEXgxVuwTKJ8cOZAAA4dIIag==
   </data>
  </layer>
  <objectgroup id="8" name="AlwaysFront"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="29">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="31">
  <properties>
   <property name="Warp" value="3 19 Town 8 12"/>
  </properties>
@@ -191,10 +191,15 @@
     <property name="Action" value="Message &quot;School.13&quot;"/>
    </properties>
   </object>
+  <object id="29" name="TileData" x="352" y="80" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;School.11&quot;"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="5" name="Front" width="31" height="19">
   <data encoding="base64" compression="zlib">
-   eJzNlDsOwjAMQA1SP2NLL8ARQCwsSAxwGBg4Caeg3I4BNtbGAotg6sZOOvCkyElsx59EAfgP5sX3+pQDrPJ+neRHPrRH/qEztiPqtHvIIgNYZv26Xamzk3jWrzNQctaBs27Zbw7IeSr7oC23D3F39g+jjxWekzXHTWOzp35T/4mYO6TYhwrgWH0kYqnrwtatIp9Q3Rgv9I6GfIeQYlvvjvD/klDOQ3VT/Ng8EOs7iI3F/ShuSu6c2PvXwvtdOFmO/F9IfdJgrV96P3zt11k7OXOjSazb/5/9t0BzqbcUX9Lj39K+59e0FJPYuzFR2mrtJDoLtyDU
+   eJzNlDsOwjAMQM3Qz9jSC3AEEAsLEgMcBgYORbkdA2ysxCoWwdSJnXTgSZGT2I4/iQLwHyyq7/W5BFiX4zrJj3xoj/xjZ+wm1Gn3kGUBsCrGdftaZyfxbIczUHI2kbNuxW8OMdDWYo/cnf3D6GOF52TNcdvZ7Knf1H8i5Q4p9rEBODUfiVjqurB1r8gnVjfGi72jkG8IKbb17gj/L4nlHKqb4qfmgVjfQWos7kdxc3LnpN6/Ft7vysl64v9C6pMGa/3S++Frv87WybkbXWbd/v/svwWaS72l+JIe/5b+Pb/mpZjFwY2Z0lZrJ/ECJQ0gRg==
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>

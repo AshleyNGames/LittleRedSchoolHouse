@@ -16,7 +16,7 @@
    "MinimumVersion": "5.0.0"},
    {    	"UniqueID": "Xiddav.tilesheet",
       "IsRequired": true,
-   "MinimumVersion": "1.6.8"},
+   "MinimumVersion": "1.7.1"},
    {    	"UniqueID": "FlashShifter.StardewValleyExpandedCP",
       "IsRequired": false},
    {    	"UniqueID": "Rafseazz.RSVCP",

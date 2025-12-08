@@ -18,7 +18,10 @@
 "CustomLocations": [
 {"Name": "Custom_SchoolHouse",
 "FromMapFile": "assets/RundownSchoolHouse.tmx",
-"MigrateLegacyNames": ["SchoolHouse"]}],
+"MigrateLegacyNames": ["SchoolHouse"]},
+
+{"Name": "Custom_SchoolHouse_BellRoom",
+"FromMapFile": "assets/BellRoom.tmx"}],
 
 "Changes": [
 {"Action": "Include",

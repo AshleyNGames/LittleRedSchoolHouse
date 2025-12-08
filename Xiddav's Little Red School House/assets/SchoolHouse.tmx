@@ -125,7 +125,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzFlDtOw0AURYcUNMge0sMWYAOwCHqQ7g4QYgNUUAWHTYQqcaihprMdVsAK+GQHHIMi4iF4HHkMTzp6ie2ZO+8zz5j/tUtrzJXDeRyOOhuhdQtH5ssvfreliT3a6v+zhutcK9eNepy913zNgLxcQwJDuPHkqc72iGPfrn73sGXkPhujNYEUpnDXQnuVEYvYU/doz/F9+32GDK0cCpjBU2BtciliEnvrHbaXtF/QeoU34J2Ze7QHETWCU3Kb4IdR/ffUUuRUxCY0ZJe0I/aIgWeGM5n+L/Va2BitCSR8l+KnHm16SdRU5FbEqNj+rHtTy9DKIUW7wM882vSy6ClRW5FjRS2017UdW2XXk9eQdmCrHDraz3GVkHZsP+fORelLThxtelX0jKidNjfCavtmF3dF9KyKDrR9s4u7Ku6M6N3g2r7ZxawQd1Z5B3H7ZhezSswMZR1orzu7/sI+ANheeHY=
+   eJzFlDtOw0AURYcUNMge0sMWYANhEfQg3R0gxAaooApONpFUiUMNNZ3tsAJWwCc74BgUEZvEYytjeNLRS2zP3Hmfecb8r91YY25LXIX+qLIRWmM4Nd9++bsJZsMzlz3Z4v/LmuvKlq8bdTh7p/6aPnm5gwgGMHTkqcqOiOPYrn/3uGdUfjZBawoxzOB+C+11RixiTz2gvcB37c8ZErRSyGAOz561yaWISeytD9hf0X5F6w3egXdm4dDuB9QILshthB8E1d9TS5FTEZvQkF3RDtgjBJ4ZzmS6G+q1tAlaU4j4LsbPHNr0kqipyK2IUaH9Xfe6lqCVQox2hp87tOll0VOitiLHCrbQbmoHtsihI68+rWeLnJS0X8IiPu3Mfs2d69znnJe06VXRM6J22t3xq+2aXdwV0bPKWtB2zS7uqrgzone9a7tmF7NC3FmlLcTtml3MKjEzlLSg3XR2/YV9AlQMeCU=
   </data>
  </layer>
  <layer id="22" name="Back3" width="31" height="19">
@@ -173,7 +173,7 @@
     <property name="Action" value="Message &quot;School.6&quot;"/>
    </properties>
   </object>
-  <object id="16" name="TileData" x="288" y="128" width="16" height="32">
+  <object id="16" name="TileData" x="288" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.5&quot;"/>
    </properties>
@@ -188,87 +188,87 @@
     <property name="Action" value="Message &quot;School.2&quot;"/>
    </properties>
   </object>
-  <object id="19" name="TileData" x="336" y="128" width="16" height="32">
+  <object id="19" name="TileData" x="336" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.1&quot;"/>
    </properties>
   </object>
-  <object id="20" name="TileData" x="336" y="176" width="16" height="32">
+  <object id="20" name="TileData" x="336" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.2&quot;"/>
    </properties>
   </object>
-  <object id="21" name="TileData" x="336" y="208" width="16" height="32">
+  <object id="21" name="TileData" x="336" y="224" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.3"/>
    </properties>
   </object>
-  <object id="22" name="TileData" x="336" y="256" width="16" height="32">
+  <object id="22" name="TileData" x="336" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.4&quot;"/>
    </properties>
   </object>
-  <object id="23" name="TileData" x="288" y="256" width="16" height="32">
+  <object id="23" name="TileData" x="288" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.8&quot;"/>
    </properties>
   </object>
-  <object id="24" name="TileData" x="288" y="208" width="16" height="32">
+  <object id="24" name="TileData" x="288" y="224" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.7&quot;"/>
    </properties>
   </object>
-  <object id="25" name="TileData" x="288" y="176" width="16" height="32">
+  <object id="25" name="TileData" x="288" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.6&quot;"/>
    </properties>
   </object>
-  <object id="26" name="TileData" x="192" y="96" width="16" height="32">
+  <object id="26" name="TileData" x="192" y="112" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.9&quot;"/>
    </properties>
   </object>
-  <object id="27" name="TileData" x="192" y="128" width="16" height="32">
+  <object id="27" name="TileData" x="192" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.10&quot;"/>
    </properties>
   </object>
-  <object id="28" name="TileData" x="192" y="176" width="16" height="32">
+  <object id="28" name="TileData" x="192" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.11&quot;"/>
    </properties>
   </object>
-  <object id="29" name="TileData" x="192" y="208" width="16" height="32">
+  <object id="29" name="TileData" x="192" y="224" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.12&quot;"/>
    </properties>
   </object>
-  <object id="30" name="TileData" x="192" y="256" width="16" height="32">
+  <object id="30" name="TileData" x="192" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.13&quot;"/>
    </properties>
   </object>
-  <object id="31" name="TileData" x="144" y="208" width="16" height="32">
+  <object id="31" name="TileData" x="144" y="224" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.17&quot;"/>
    </properties>
   </object>
-  <object id="32" name="TileData" x="144" y="176" width="16" height="32">
+  <object id="32" name="TileData" x="144" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.16&quot;"/>
    </properties>
   </object>
-  <object id="33" name="TileData" x="144" y="128" width="16" height="32">
+  <object id="33" name="TileData" x="144" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.15&quot;"/>
    </properties>
   </object>
-  <object id="34" name="TileData" x="144" y="96" width="16" height="32">
+  <object id="34" name="TileData" x="144" y="112" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.14&quot;"/>
    </properties>
   </object>
-  <object id="35" name="TileData" x="144" y="256" width="16" height="32">
+  <object id="35" name="TileData" x="144" y="272" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Desk.18&quot;"/>
    </properties>
@@ -295,7 +295,7 @@
   </object>
   <object id="41" name="TileData" x="432" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="playSound crystal"/>
+    <property name="Action" value="Warp 11 9 Custom_SchoolHouse_BellRoom"/>
    </properties>
   </object>
  </objectgroup>

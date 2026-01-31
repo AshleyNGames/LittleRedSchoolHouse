@@ -1,11 +1,12 @@
 {   "Changes": [  	
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
+	"When": {"HasVisitedLocation": "Railroad"},
      "Entries": { "Desk.10": "{{i18n:Deskpartone}} {{i18n:SEAT10NAME}}{{i18n:Deskparttwo}}"}}, 
 
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "HasVisitedLocation": "Railroad"},
 "MapTiles": [{
 	"Layer": "Buildings2",
 		"Position": { "X": 12, "Y": 8 },

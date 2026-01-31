@@ -1,10 +1,10 @@
 {  "Name": "Xiddav's Little Red School House",
   "Author": "Xiddav",
-  "Version": "2.2.0",
+  "Version": "2.2.1",
   "Description": "Adds a School to town that can be repaired.",
   "UniqueID": "Xiddav.LittleRedSchoolHouse",
   "MinimumApiVersion": "3.0",
-  "UpdateKeys": [ "Nexus:9695@Lazy" ],
+  "UpdateKeys": [ "Nexus:9695@Regular" ],
   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",
    "MinimumVersion": "2.7.0"},
   "Dependencies": [  

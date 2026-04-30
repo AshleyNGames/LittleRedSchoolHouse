@@ -11,7 +11,8 @@
 	"Entries": {
  		"Tue": "{{i18n:Penny_School_Tue}}",
  		"Tue4": "{{i18n:Penny_School_Tue4}}",
- 		"Wed": "{{i18n:Penny_School_Wed}}"}},
+ 		"Wed": "{{i18n:Penny_School_Wed}}",
+	"Custom_SchoolHouse":"{{i18n:Penny_Class}}"}},
 	  
 { "Action": "EditData",	 
 	"Target": "characters/schedules/Penny",

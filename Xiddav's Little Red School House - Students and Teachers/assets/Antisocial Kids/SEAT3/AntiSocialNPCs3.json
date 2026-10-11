@@ -2,11 +2,12 @@
 {	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
 	"When": {"HasVisitedLocation": "Railroad"},
-     "Entries": { "Desk.3": "{{i18n:Deskpartone}} {{i18n:SEAT3NAME}}{{i18n:Deskparttwo}}"}}, 
+     "Entries": { "Desk.3": "{{i18n:Deskpartone}} {{i18n:SEAT3NAME}}{{i18n:Deskparttwo}}"	 }},
+
 
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "HasVisitedLocation": "Railroad"},
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "HasVisitedLocation": "Railroad", "weather": "Sun, Wind, Snow"},
 "MapTiles": [{
 	"Layer": "Buildings2",	
 		"Position": { "X": 21, "Y": 13 },
@@ -59,15 +60,25 @@
 	"Target": "characters/schedules/SEAT3",
       "FromFile": "assets/Antisocial Kids/SEAT3/schedule.json"},
 
+{ "Action": "Load",	
+	"Target": "Strings/schedules/SEAT3",
+      "FromFile": "assets/Antisocial Kids/Schedule_Dialogue.json"},
+
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT3",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false },
 		 "Entries":{"rain":"700 Custom_SchoolHouse 23 13 3/a1000 Custom_SchoolHouse 22 13 LittleRed_Read_3/1130 Custom_SchoolHouse 15 9 2/a1300 Custom_SchoolHouse 15 17 LittleRed_Paint_0/1600 Custom_SchoolHouse_NPCTrainRoom 3 4 2"}}, 
+
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT3",
 		"When": { "Five days": true},
 	 "Entries": {"Mon":  "GOTO Tue",
 		 		 "Thu":  "GOTO Tue"}}, 
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/SEAT3",
+		"When": {"Seat 13 Antisocial":true, "Seat 11 Antisocial":true},
+	 "Entries": {"Tue": "a940 Custom_SchoolHouse 23 13 3/1000 Custom_SchoolHouse 22 13 LittleRed_Read_3/1120 Town 18 20 3 \"Strings\\schedules\\SEAT3:3_11_13_monstercards\"/a1320 Custom_SchoolHouse 23 13 3/1330 Custom_SchoolHouse 22 13 LittleRed_Read_3/1540 Town 18 20 3/2000 Custom_SchoolHouse_NPCTrainRoom 3 4 2",}},
 
 {"Action": "Load",
       "Target": "Characters/Dialogue/SEAT3",
@@ -78,6 +89,11 @@
 	"Entries": {    
   "Tue": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
   "Wed": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-  "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-	}},
+  "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}"	}},
+
+{"Action": "EditData",
+"Target": "Strings/schedules/SEAT3",
+"Entries": {
+"3_11_13_monstercards":"{{i18n:3_11_13_monstercards}}"}},
+
   ]}

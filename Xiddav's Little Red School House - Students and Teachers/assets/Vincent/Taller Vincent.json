@@ -1,0 +1,72 @@
+{   "Changes": [
+{"Action": "EditImage",
+      "Target": "Characters/Vincent",
+      "FromFile": "assets/Vincent/Vincent1/Characters.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Characters/Vincent_Winter, Characters/Vincent",
+      "FromFile": "assets/Vincent/Vincent1/Characters_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent",
+				"Condition": "PLAYER_HAS_CHILDREN Any 2",
+      "FromFile": "assets/Vincent/Vincent2/Characters.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Characters/Vincent_Winter, Characters/Vincent",
+				"Condition": "PLAYER_HAS_CHILDREN Any 2",
+      "FromFile": "assets/Vincent/Vincent2/Characters_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Vincent",
+            "When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true},
+"Condition": "PLAYER_HAS_MET Any {{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+      "FromFile": "assets/Vincent/Vincent3/Characters.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter", "HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true},
+      "Target": "Characters/Vincent_Winter, Characters/Vincent",
+				"Condition": "PLAYER_HAS_MET Any {{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+      "FromFile": "assets/Vincent/Vincent3/Characters_Winter.png"},
+
+{  "Action": "EditData",
+    "Target": "Data/Characters",
+            "When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true},
+"Condition": "PLAYER_HAS_MET Any {{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+    "Fields": {"Vincent": 
+		{	"Gender":"Male",
+			"Age": "Teen"}}},
+
+{"Action": "EditImage",
+      "Target": "Portraits/Vincent",
+      "FromFile": "assets/Vincent/Vincent1/Portraits.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Portraits/Vincent_Winter, Portraits/Vincent",
+      "FromFile": "assets/Vincent/Vincent1/Portraits_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Portraits/Vincent",
+				"Condition": "PLAYER_HAS_CHILDREN Any 2",
+      "FromFile": "assets/Vincent/Vincent2/Portraits.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Portraits/Vincent_Winter, Portraits/Vincent",
+				"Condition": "PLAYER_HAS_CHILDREN Any 2",
+      "FromFile": "assets/Vincent/Vincent2/Portraits_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Portraits/Vincent",
+"Condition": "PLAYER_HAS_MET Any {{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+      "FromFile": "assets/Vincent/Vincent3/Portraits.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Portraits/Vincent_Winter, Portraits/Vincent",
+"Condition": "PLAYER_HAS_MET Any {{Candidus42.LittleNPCs/FourthLittleNPC:Name}}",
+      "FromFile": "assets/Vincent/Vincent3/Portraits_Winter.png"},
+ ]}

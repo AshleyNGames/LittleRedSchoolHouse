@@ -6,7 +6,7 @@
 
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "HasVisitedLocation": "Railroad", "HasVisitedLocation": "Railroad"},
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "HasVisitedLocation": "Railroad", "HasVisitedLocation": "Railroad", "weather": "Sun, Wind, Snow"},
 "MapTiles": [{
 	"Layer": "Buildings2",
 		"Position": { "X": 12, "Y": 11 },
@@ -78,6 +78,10 @@
 	"Entries": {    
   "Tue": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
   "Wed": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-  "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}",
-	}},
+  "Fri": "{{Random:{{i18n:AntisocialKid_Tue}}}}"	}},
+
+{ "Action": "EditData",	 
+	"Target": "characters/schedules/SEAT11",
+		"When": {"Seat 13 Antisocial":true, "Seat 3 Antisocial":true},
+	 "Entries": {"Tue": "a1000 Custom_SchoolHouse 11 11 LittleRed_Read_1/1130 Town 16 20 1 \"Strings\\schedules\\SEAT3:3_11_13_monstercards\"/a1330 Custom_SchoolHouse 11 11 LittleRed_Read_1/1600 Town 16 20 1/2000 Custom_SchoolHouse_NPCTrainRoom 5 4 2"}},
   ]}

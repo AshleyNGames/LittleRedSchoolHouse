@@ -1,12 +1,8 @@
 {   "Deskrsv.4": "여기는 케아히의 자리 입니다.",
     "Deskrsv.12": "여기는 트리니의 자리 입니다.",
-    
            "Desk.Eloise": "여기는 엘로이스의 자리 입니다.",
-    
-    "Desk.Adrian": "여기는 아드리앙의 자리 입니다.",
-    "Desk.James": "여기는 제임스의 자리 입니다.",
-    "Desk.Tina": "여기는 티나의 자리 입니다.",
-    "Desk.Vanessa": "여기는 바네사의 자리 입니다.",
+    "Desk.Quincy": "여기는 Quincy 자리 입니다.",
+    "Desk.Bella": "여기는 Bella 자리 입니다.",
         
      "Deskpartone.1": "여기는", //First LittleNPC name goes here in code
      "Deskparttwo.1": "의 자리 입니다. 외양간을 그렸습니다.",
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"우리 엄마와 이모는 함께 낚시하는 것을 좋아합니다.",
 	"14_if_15_true":"장미는 제 사촌입니다.#$e#우리 엄마는 쌍둥이입니다.",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

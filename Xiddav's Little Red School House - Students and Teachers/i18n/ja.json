@@ -1,12 +1,8 @@
 {   "Deskrsv.4": "ここはケアヒの席のようだ。",
   "Deskrsv.12": "ここはトリニーの席のようだ。",
-
   "Desk.Eloise": "ここはエロイーズの席のようだ。",
-  
-  "Desk.Adrian": "ここはアドリアンの席のようだ。",
-  "Desk.James": "ここはジェームズの席のようだ。",
-  "Desk.Tina": "ここはティナの席のようだ。",
-  "Desk.Vanessa": "ここはヴァネッサの席のようだ。",
+  "Desk.Quincy": "ここはクインシーの席のようだ。",
+  "Desk.Isabella": "ここはBellaの席のようだ。",
 
   "Deskpartone.1": "ここは",
   "Deskparttwo.1": "の席のようだ。動物小屋の絵が描かれている。",
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"私の母とおばは一緒に釣りをするのが大好きです。",
 	"14_if_15_true":"姫菜は私のいとこです。#$e#私たちのお母さんは双子です。",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

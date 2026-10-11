@@ -1,12 +1,8 @@
 { 	"Deskrsv.4": "Keahi sits here",
 	"Deskrsv.12": "This is Trinnie's seat",
-
 	"Desk.Eloise": "This is Eloise's seat.",
-
-	"Desk.Adrian": "This is Adrian's seat.",
-	"Desk.James": "James sits here.",
-	"Desk.Tina": "This is Tina's seat.",
-	"Desk.Vanessa": "This is where Vanessa sits.",
+	"Desk.Quincy": "This is where Quincy sits.",
+	"Desk.Isabella": "Bella sits here.",
 
 	 "Deskpartone.1": "This is", //First LittleNPC name goes here in code
 	 "Deskparttwo.1": "'s seat. They drew a picture of a barn.",
@@ -50,5 +46,11 @@
 	"14_FishDerby":"My mom and aunt love fishing together.",
 	"14_if_15_true":"Rose is my cousin.#$e#Our moms are twins.",
 	
-	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now."
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

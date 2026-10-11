@@ -1,12 +1,8 @@
 { 	"Deskrsv.4": "Bu sıra Keahi'e ait",
 	"Deskrsv.12": "Bu sıra Trinnie'e ait",
-	
 	"Desk.Eloise": "Bu sıra Eloise'e ait",
-	
-	"Desk.Adrian": "Bu sıra Adrian'e ait",
-	"Desk.James": "Bu sıra James'e ait",
-	"Desk.Tina": "Bu sıra Tina'e ait",
-	"Desk.Vanessa": "Bu sıra Vanessa'e ait",
+	"Desk.Quincy": "Bu sıra Quincy'e ait",
+	"Desk.Isabella": "Bu sıra Bella'e ait",
 	
 	 "Deskpartone.1": "Bu sıra",
 	 "Deskparttwo.1": "'e ait",
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"Annem ve teyzem birlikte balık tutmayı sever.",
 	"14_if_15_true":"Nasrin benim kuzenim.#$e#Annelerimiz ikiz.",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

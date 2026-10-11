@@ -1,7 +1,7 @@
 {
   "Name": "Xiddav's Little Red School House - Students and Teachers",
   "Author": "Xiddav",
-  "Version": "2.2.1-SNT",
+  "Version": "2.3.1-SNT",
   "Description": "Adds students for the Little Red School House.",
   "UniqueID": "Xiddav.LRSHStudentsandTeachers",
   "MinimumApiVersion": "3.0",
@@ -11,7 +11,7 @@
   "Dependencies": [  
    {		"UniqueID": "Candidus42.LittleNPCs",
 	  "IsRequired": false,
-   "MinimumVersion": "2.1.0"},
+   "MinimumVersion": "2.2.0"},
    {    	"UniqueID": "xiddav.NPCChildren",
       "IsRequired": false,
    "MinimumVersion": "5.0.0"},
@@ -27,8 +27,6 @@
       "IsRequired": false},
    {    	"UniqueID": "LemurKat.CommunityCenter.CP",
       "IsRequired": false},
-   {    	"UniqueID": "BURAKMESE.SKE",
-      "IsRequired": false},
-   {    	"UniqueID": "Xiddav.Parks",
+   {    	"UniqueID": "Xiddav.NPCsParks",
       "IsRequired": false},
   ]}

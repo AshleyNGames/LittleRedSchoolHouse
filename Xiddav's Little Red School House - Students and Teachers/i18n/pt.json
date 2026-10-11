@@ -1,12 +1,8 @@
 { 	"Deskrsv.4": "Este é o assento da Keahi",
 	"Deskrsv.12": "Este é o assento da Trinnie",
-
 	"Desk.Eloise": "Este é o assento da Eloise.",
-	
-	"Desk.Adrian": "Este é o assento do Adrian.",
-	"Desk.James": "Este é o assento do James.",
-	"Desk.Tina": "Este é o assento da Tina.",
-	"Desk.Vanessa": "Este é o assento da Vanessa.",
+	"Desk.Quincy": "Este é o assento do Quincy.",
+	"Desk.Isabella": "Este é o assento da Bella.",
 
 	"Deskpartone.1": "Este é o(a)", // Primeiro nome de LittleNPC vai aqui no código
 	"Deskparttwo.1": ", assento. Tem um desenho de um celeiro aqui.",
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"Minha mãe e minha tia adoram pescar juntas.",
 	"14_if_15_true":"Rosa é minha prima.#$e#Nossas mães são gêmeas.",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

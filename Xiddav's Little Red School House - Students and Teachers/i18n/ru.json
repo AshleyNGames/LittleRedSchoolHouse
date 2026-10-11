@@ -1,12 +1,8 @@
 { 	 "Deskrsv.4": "Это место Keahi.",	
 	  	 "Desktsv.12": "Это место Trinnie",
-	
 	  	 "Desk.Eloise":  "Это место Eloise.",
-	
-	"Desk.Adrian": "Это место Adrian.",
-	"Desk.James": "Это место James.",
-	"Desk.Tina": "Это место Tina.",
-	"Desk.Vanessa": "Это место Vanessa.",
+	"Desk.Quincy": "Это место Quincy.",
+	"Desk.Isabella": "Это место Bella.",
 		
 	 "Deskpartone.1": "Это место",
 	 "Deskparttwo.1": ".",
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"Моя мама и тётя любят рыбачить вместе.",
 	"14_if_15_true":"Роза моя двоюродная сестра.#$e#Наши мамы близнецы.",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

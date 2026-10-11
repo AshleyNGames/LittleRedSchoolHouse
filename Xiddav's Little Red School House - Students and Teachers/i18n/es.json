@@ -1,12 +1,8 @@
 { 	"Deskrsv.4": "Este es el asiento de Keahi.",	  
 	"Deskrsv.12": "Este es el asiento de Trinnie.",
-	
 	"Desk.Eloise":  "Este es el asiento de Eloise.",
-	
-	"Desk.Adrian": "Este es el asiento de Adrian.",
-	"Desk.James": "Este es el asiento de James.",
-	"Desk.Tina": "Este es el asiento de Tina.",
-	"Desk.Vanessa": "Este es el asiento de Vanessa.",
+	"Desk.Quincy": "Este es el asiento de Quincy.",
+	"Desk.Isabella": "Este es el asiento de Bella.",
 		
 	 "Deskpartone.1": "Este es el asiento de",
 	 "Deskparttwo.1": ".",
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"A mi mamá y a mi tía les encanta pescar juntas.",
 	"14_if_15_true":"Rosa es mi prima.#$e#Nuestras mamás son gemelas.",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

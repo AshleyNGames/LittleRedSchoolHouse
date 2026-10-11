@@ -1,4 +1,4 @@
-{ "Format": "2.7.0",
+{ "Format": "2.9.0",
 "DynamicTokens": [
 {"Name": "IsOddYear","Value": "{{Query: {{Year}} % 2 = 1}}"},
 {"Name": "noschoolday","Value": "false","When":{}},
@@ -11,6 +11,7 @@
 
 "ConfigSchema": {
 "Five days":{"AllowValues": "true, false", "Default": "false"},
+"Growing Up":{"AllowValues": "true, false", "Default": "true"},
 "Seat 3 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 8 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 11 Antisocial":{"AllowValues": "true, false", "Default": "true"},
@@ -33,6 +34,13 @@
 "FromMapFile": "assets/NPCTrainRoom.tmx"}],
 
 "Changes": [
+{"Action": "Include",
+"When": {"Growing Up":true},
+		"FromFile": "assets/Jas/Taller Jas.json"},
+{"Action": "Include",
+"When": {"Growing Up":true},
+		"FromFile": "assets/Vincent/Taller Vincent.json"},
+
 {"Action": "Include",
 		"FromFile": "assets/Schedules/Schedules.json",
 "When": {"HasSeenEvent": "9695001", "HasMod|contains=Xiddav.LittleRedSchoolHouse":true}},

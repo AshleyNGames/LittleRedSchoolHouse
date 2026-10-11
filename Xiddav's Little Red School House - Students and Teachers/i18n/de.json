@@ -1,12 +1,8 @@
 { 	"Deskrsv.4": "Dies ist der Platz von Keahi.",
 	"Deskrsv.12": "Dies ist der Platz von Trinnie.",
-	
 	 "Desk.Eloise": "Dies ist der Platz von Eloise",
-	
-	"Desk.Adrian": "Dies ist der Platz von Adrian.",
-	"Desk.James": "Dies ist der Platz von James.",
-	"Desk.Tina": "Dies ist der Platz von Tina.",
-	"Desk.Vanessa": "Dies ist der Platz von Vanessa.",
+	"Desk.Quincy": "Dies ist der Platz von Quincy.",
+	"Desk.Isabella": "Dies ist der Platz von Bella.",
 	
 	 "Deskpartone.1": "Dies ist der Platz von",
 	 "Deskparttwo.1": ".",	
@@ -49,4 +45,12 @@
 	
 	"14_FishDerby":"Meine Mom und Tante angeln gerne zusammen.",
 	"14_if_15_true":"Rose ist meine Cousine.#$e#Unsere Mütter sind Zwillinge.",
+	
+	"Penny_Class":"%Penny is in the middle of a lesson and can't talk right now.",
+	"Leah_Class":"%Leah is teaching the kids color theory.",
+	"Demetrius_Class":"%Demetrius is giving the kids a special science lecture.",
+	
+	"3_11_13_monstercards": "%The three boys are trading monster cards.",
+	
+	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

@@ -1,0 +1,15 @@
+{   "Changes": [
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Leah",
+	"Entries": {
+	"Custom_SchoolHouse":"{{i18n:Leah_Class}}"}},
+
+{ "Action": "EditData",	 
+		"When": { "noschoolday": false, "weather": "Sun, Wind, Snow"},
+	"Target": "characters/schedules/Leah",
+	 "Entries": {"19": "630 LeahHouse 3 7 3 leah_sculpt/a1000 Custom_SchoolHouse 15 7 2/1150 Town 18 8 leah_draw/a1330 Custom_SchoolHouse 15 7 2/1600 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+	 "marriage_spring_19":"a1000 Custom_SchoolHouse 15 7 2/1150 Town 18 8 leah_draw/a1330 Custom_SchoolHouse 15 7 2/1600 Saloon 2 20 1/1930 bed",
+		 "marriage_summer_19":"GOTO marriage_spring_19",
+		 "marriage_fall_19":"GOTO marriage_spring_19",
+		 "marriage_winter_19":"GOTO marriage_spring_19"}}
+  ]}

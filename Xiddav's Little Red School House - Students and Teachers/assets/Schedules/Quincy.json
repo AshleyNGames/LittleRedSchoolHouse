@@ -1,0 +1,32 @@
+{"Changes": [
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Quincy",
+		"When": { "noschoolday": false },
+	 "Entries": {
+		 "Tue": "a940 Custom_SchoolHouse 10 17 1/1000 Custom_SchoolHouse 11 16 LittleRed_Read_1/1130 Town 17 19 2/a1320 Custom_SchoolHouse 10 17 1/1330 Custom_SchoolHouse 11 16 LittleRed_Read_1/1600 Town 17 19 2/2000 Custom_Xiddav_YellowHouse 10 5 1"
+}},
+
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Quincy",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false},
+	 "Entries": {"rain": "a930 Custom_SchoolHouse 10 17 1/1000 Custom_SchoolHouse 11 16 LittleRed_Read_1/1130 Custom_SchoolHouse 14 10 1/a1300 Custom_SchoolHouse 17 17 LittleRed_Paint_0/1600 Custom_Xiddav_YellowHouse 10 5 1"
+}},
+
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Quincy",
+		"When": { "Five days": true},  
+	 "Entries": {"Mon": "GOTO Tue", "Thu": "GOTO Tue"}},
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { "Desk.13": "{{i18n:Desk.Quincy}}"}},
+
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "weather": "Sun, Wind, Snow"},
+"MapTiles": [{
+	"Layer": "Buildings2",
+		"Position": { "X": 12, "Y": 16 },
+		"SetTilesheet": "Xiddav",
+		"SetIndex": "41"}]},
+  ]}

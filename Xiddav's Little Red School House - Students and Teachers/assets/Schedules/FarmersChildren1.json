@@ -43,8 +43,9 @@
             	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true }},
 
 {"Action": "EditMap",
+		"When": { "noschoolday": false},
 "Target": "Maps/Custom_SchoolHouse",
-	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "Candidus42.LittleNPCs/FirstLittleNPC:DisplayName": "{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}"},
+	"When": {"HasMod|contains=xiddav.NPCChildren": true, "HasMod|contains=Candidus42.LittleNPCs": true, "Candidus42.LittleNPCs/FirstLittleNPC:DisplayName": "{{Candidus42.LittleNPCs/FirstLittleNPC:DisplayName}}"},
 "MapTiles": [{
 	"Layer": "Buildings2",	
 		"Position": { "X": 9, "Y": 16 },

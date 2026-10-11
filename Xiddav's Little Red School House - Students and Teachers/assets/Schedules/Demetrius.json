@@ -1,0 +1,11 @@
+{   "Changes": [
+{"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+	"Entries": {
+	"Custom_SchoolHouse":"{{i18n:Demetrius_Class}}"}},
+
+{ "Action": "EditData",	 
+		"When": { "noschoolday": false, "weather": "Sun, Wind, Snow"},
+	"Target": "characters/schedules/Demetrius",
+	 "Entries": {"3": "650 ScienceHouse 29 9 0/a1000 Custom_SchoolHouse 15 7 2/1150 Town 31 23 1 square_3_9/a1330 Custom_SchoolHouse 15 7 2/1600 ScienceHouse 27 9 0/2040 ScienceHouse 28 9 0/2100 ScienceHouse 15 4 0/2230 ScienceHouse 19 4 11 demetrius_sleep"}}
+  ]}

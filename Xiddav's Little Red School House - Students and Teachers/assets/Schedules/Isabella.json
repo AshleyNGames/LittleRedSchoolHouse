@@ -1,0 +1,32 @@
+{"Changes": [
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Isabella",
+		"When": { "noschoolday": false },
+	 "Entries": {
+		 "Tue": "a1000 Custom_SchoolHouse 8 13 LittleRed_Read_1/1130 Town 24 15 LittleRed_Sit_2/a1330 Custom_SchoolHouse 8 13 LittleRed_Read_1/1600 Town 24 15 LittleRed_Sit_2/a1930 SeedShop 39 16 1"
+}},
+
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Isabella",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false},
+	 "Entries": {"rain": "a1000 Custom_SchoolHouse 8 13 LittleRed_Read_1/1300 Custom_SchoolHouse 13 9 LittleRed_Paint_0/1550 SeedShop 39 16 1"
+}},
+
+{"Action": "EditData",	 
+	"Target": "characters/schedules/Isabella",
+		"When": { "Five days": true}, 
+	 "Entries": {"Mon": "GOTO Tue", "Thu": "GOTO Tue"}},
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { "Desk.17": "{{i18n:Desk.Isabella}}"}},
+
+{"Action": "EditMap",
+"Target": "Maps/Custom_SchoolHouse",
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "weather": "Sun, Wind, Snow"},
+"MapTiles": [{
+	"Layer": "Buildings2",
+		"Position": { "X": 9, "Y": 13 },
+		"SetTilesheet": "Xiddav",
+		"SetIndex": "55"}]}
+  ]}

@@ -5,7 +5,7 @@
 
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "weather": "Sun, Wind, Snow"},
 "MapTiles": [{
 	"Layer": "Buildings2",
 		"Position": { "X": 18, "Y": 13 },

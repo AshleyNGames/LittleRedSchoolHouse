@@ -1,18 +1,17 @@
 {   "Changes": [
-{"Action": "EditData",
+{	 "Action": "EditData",
      "Target": "Strings/StringsFromMaps",
-     "Entries": { 
-	  	 "Desk.6": "{{i18n:Desk.Eloise}}"}},
+     "Entries": { "Desk.6": "{{i18n:Desk.Eloise}}"}},
 
 {"Action": "EditMap",
 "Target": "Maps/Custom_SchoolHouse",
-	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false},
+		"When": { "noschoolday": false, "weather": "Sun, Wind, Snow"},
+	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "noschoolday": false, "HasVisitedLocation": "Railroad"},
 "MapTiles": [{
-	"Layer": "Buildings2",	
+	"Layer": "Buildings2",
 		"Position": { "X": 18, "Y": 11 },
 		"SetTilesheet": "Xiddav",
-		"SetIndex": "56"}
-]},
+		"SetIndex": "56"}]},
 
 {"Action": "EditData",
             "Target": "Characters/schedules/Eloise",

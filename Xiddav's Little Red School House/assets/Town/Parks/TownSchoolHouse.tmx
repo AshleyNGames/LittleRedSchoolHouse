@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="27" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="9">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="27" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="9">
  <tileset firstgid="1" name="v16_landscape2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
   <image source=".spring_outdoorsTileSheet2.png" width="256" height="1120"/>
  </tileset>
@@ -2933,6 +2933,36 @@
     <frame tileid="462" duration="1000"/>
    </animation>
   </tile>
+  <tile id="477">
+   <animation>
+    <frame tileid="477" duration="100"/>
+    <frame tileid="537" duration="100"/>
+    <frame tileid="597" duration="100"/>
+    <frame tileid="657" duration="100"/>
+    <frame tileid="717" duration="100"/>
+    <frame tileid="777" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="478">
+   <animation>
+    <frame tileid="478" duration="100"/>
+    <frame tileid="538" duration="100"/>
+    <frame tileid="598" duration="100"/>
+    <frame tileid="658" duration="100"/>
+    <frame tileid="718" duration="100"/>
+    <frame tileid="778" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="479">
+   <animation>
+    <frame tileid="479" duration="100"/>
+    <frame tileid="539" duration="100"/>
+    <frame tileid="599" duration="100"/>
+    <frame tileid="659" duration="100"/>
+    <frame tileid="719" duration="100"/>
+    <frame tileid="779" duration="100"/>
+   </animation>
+  </tile>
   <tile id="480">
    <properties>
     <property name="zzXiddav" value=""/>
@@ -2960,6 +2990,36 @@
    <animation>
     <frame tileid="493" duration="1000"/>
     <frame tileid="492" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="507">
+   <animation>
+    <frame tileid="507" duration="100"/>
+    <frame tileid="567" duration="100"/>
+    <frame tileid="627" duration="100"/>
+    <frame tileid="687" duration="100"/>
+    <frame tileid="747" duration="100"/>
+    <frame tileid="807" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="508">
+   <animation>
+    <frame tileid="508" duration="100"/>
+    <frame tileid="568" duration="100"/>
+    <frame tileid="628" duration="100"/>
+    <frame tileid="688" duration="100"/>
+    <frame tileid="748" duration="100"/>
+    <frame tileid="808" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="509">
+   <animation>
+    <frame tileid="509" duration="100"/>
+    <frame tileid="569" duration="100"/>
+    <frame tileid="629" duration="100"/>
+    <frame tileid="689" duration="100"/>
+    <frame tileid="749" duration="100"/>
+    <frame tileid="809" duration="100"/>
    </animation>
   </tile>
   <tile id="520">
@@ -6217,9 +6277,18 @@
  <tileset firstgid="9004" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
   <image source=".spring_Shadows.png" width="304" height="400"/>
  </tileset>
+ <tileset firstgid="9479" name="zdaisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source=".spring_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <tileset firstgid="11279" name="zCLOutdoors" tilewidth="16" tileheight="16" tilecount="4000" columns="40">
+  <image source=".spring_zCLOutdoors.png" width="640" height="1600"/>
+ </tileset>
+ <tileset firstgid="15279" name="Xiddav_Cliffs" tilewidth="16" tileheight="16" tilecount="800" columns="25">
+  <image source=".spring_Xiddav_Cliffs.png" width="400" height="512"/>
+ </tileset>
  <layer id="1" name="Back" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJytlc9OwkAQxvcOGk/G0DVGzuqNdwB5Cg/4DlJifAMPtJh49qhI69nESwlSLr6B/47qwSdwJjuTjiMF2tjkl3a3u/Mx384Uf8cYX3ACBIqumtfjEIitMQNgCCTAGOgDAXBKaB3cN4P5yGb3Hs1PaY7Hl9bNISkQAg3Saiitgf2rE4l3N4qJiM3x5TrO6d1zXKt30gfOhd/heo7VstlefD4E2rRuLDRSL9OaiWdkqn5rQHvwvrvtfEnoWcZKc+Jp5LpAeHpGnrQodlvkd2UXx1wF1uIaCpUnDbrf/4OWPDscD5VGZDNkzZYhplw4n7JxdE8u00psfj8vgmuYefJcD+p1MZ1XSOtkn8kLx9y7HxVjPgvwVXH7IgV/D7TWiHq3A1SrxqwVYB24mKOFsK8PNWOeN405r7k+npAHZbRGwhf2WWq91I15Bd7qribx+3a8VV7LF/SAuxytmZflVkbr0Wa1IeuDtZpzckO9Pdi7X4CDquvhmM6bvxushdd4jlbTLibNWYO+yP+4d++3Fu+Vek3qeR1HjvV7BuPe0lklIi+e0z5+byzPLQ/Zy6nIq0NzmKv2UuexipddocV5sNaR0NIeavI8k/72hZauDc51prTw9/kF4HPA+v0B9UOGVA==
+   eJy9lU9OwlAQxt9a0Lg04RnjXtlxB5BzoGcQ0HiHFkxcu1SheAaIUI7hUl14AmfSmbwvYwstMTb55f2f7810ph2cODcAronY0DfzdjwiZt65MfFCzIkFERExcStYHT63pvnEh3Yo8yuZ0/GDz+aYlBgRLdFqGa2x/62TwNqz4Q1sq33cpz69NzKezBrGQX3RNd6vtjo+nOX+BdGVfQvQSBtBaw19ZmXuGssZbk+Ps7jMpY+20gJ7FtSOIaZ3EpOO2O6Cf49+s80yqJbm0AhignmzibJa+O54rC3asjVg66HsnWbii/pTtM++V8z/svqopXHLq+fEh3grS6hBJE8/Fq1YtBLRGottfHh8eeTcFbUfNec+K/BVy+Jg74Q1jc9U7sRa9bpz+xU4IO45bnvV2UVr+s9aA2BIvPqQL0V1sovW0ofcwPzYpnVGZ88r0KxnNcx2e/DdKKO1K/iP47HVSv9YayLvap7jVxv8+z4Mc+0CvzfdDWs5zfErj/UWvTz6kBvq2zatvslb1MQ1Xdd7RaBlc2MCe1Erklzi79XE2L6BnO6BDdbif/oPBQSnUg==
   </data>
  </layer>
  <layer id="11" name="Back2" width="27" height="22">
@@ -6227,23 +6296,23 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxmclqCueWupbB6tQKkM/ezqo6Ndy+loF72BgzIDwxtl+tgVTEe7HIH27JNCFeuTwq6WWuA20Px/YgwM+TS2ZxTQF+QOkfKXEOgdpP4gpX4rpKIfAFshDYw=
+   eJxjYBgFgxmclqCueWupbB6tQKkM/ezqo6Ndy+loF72BgzIDwxtl6pt7SIx0TG2QqoyKnWjgT1qCf2Kk41EwCnCB3kFaj5BSvxVS0Q8AdyAijQ==
   </data>
  </layer>
  <layer id="13" name="Back3" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRgA+kKqNiHeWBdtEoGAWjYLAAAAFfAnA=
+   eJxjYBgFo2AUjIKhBYKVGRjeKNPHLkc62TMKRsEoGJoAAJH7Aeo=
   </data>
  </layer>
  <layer id="14" name="Back4" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoYGE5KDLQLhjc4PRq+wxIAAIAUAcU=
+   eJztwTEBAAAAwqD1T20Hb6AAAHgMCUgAAQ==
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJy9lUsvQ0EUxycWHm337dV704cPwIpqS/ANBCFRS4+lRz2WPkGLrdhJauG1shMbdsRbbPgIRNRGSPxP7kx67vS2aepykl/OzPTM+Z8zmc4N+YUwgLJRjMfYnGwzXD6vBbKIIUTUsMcJ5O1muZcxXnHRDoKQrIvynIIzkPFX1ifrgU6v4ax1S6td1+7yO+t6Qvwzy1lrn2RHYWftZBOmEO+gxUJvpnNPrefopkVjVbvSWQIx6MTBi1k5B8U2W3ZNqjasrVbTIsYRm5E6eZDEvhRokrn0nDTfZjUp36jFk1f3hHQs7MmCRamzA4YQMwyilr2u5yxi7ZjV9GHaPsLiinKfuieqrzes56ROwSz1TbloXeVSuck/sJqUT1jlcbxH8j7LqcGt4JKT/KtL/KBLnH4mbWAGe2eDQsyBebAAskF3/Wo2iT1TYDpYOhvea9qy13P4PQ/WwDrYqENLN/1MRqTWLnLvgX1wAA7r0GoPCNER+H2N/2nnqPdC1nwJfwWuwQ24BXfgnsWQ8XeUxicV7qAXRvn5O6q0Pn1CfPm81+I8Sq1WvIumv/reerSU7zRLfZHWt8e9NRglLd5XElopkPawN3p3+XfrL+8Gvbv8m6v6iuKuxkDcw/+ifjdUX33Q6AcDHmr9AFJWneM=
+   eJy9lTtLA0EUhQcLUZM+WZIxPiCtViY+xt+gmBjB2NuoUeMDtLASbZJoKxZaCT4rCy1stBAU32Cjv0ERe89ldtjZNRs2xPXCx72zDPecu7OPcIAxA6jIoB7R1hRbkd9rL1DEDMZaDFkn0bdb672AerGMdgiETV/U5xJcgWzAXZ9CQKffsHvddnh3aicCdl9v2P+u9fQ6J8VpxO6dYizK2Bdo4Iw1cllTdq6xb6WSRiIOn3H7GSjvSmcetHJJm0tuBvUgJRhLi8r6zvMexd6sqVMEPVyyjj7fWPei3kG9K+T1BIi56K8K+31QzwnpcPTKgzlTZw8McUlKy2focS7kegAkwZqQPshPOX3K6jlRc31ib8HU8RqDDj9Kn+Ym/WH4yAhrPnW/m1B/VKHjRX8KfXNgAkwKa852MA6tXIixaTADZkE+VLu+mlPlPi6vF9C7CEpgA2yC/Rr1nOeeNrUO0PcQHIFjcAKuq9TqCDLWGazN33/HDfzemp7vkO/BA3gET+AZvGh7KJaiFsvg4g+eQbegd0r/jvqtpfPqs5bKXT7fwzrD0vJ7Lvru6v8tP+ei767+z/X7vHT8nOsH8/GPDA==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -6262,21 +6331,6 @@
     <property name="Action" value="Message &quot;LittleRedSchoolHouse&quot;"/>
    </properties>
   </object>
-  <object id="6" name="TileData" x="368" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;Waste&quot;"/>
-   </properties>
-  </object>
-  <object id="7" name="TileData" x="384" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;Paper&quot;"/>
-   </properties>
-  </object>
-  <object id="8" name="TileData" x="400" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;CansandBottles&quot;"/>
-   </properties>
-  </object>
  </objectgroup>
  <layer id="5" name="Paths" width="27" height="22">
   <data encoding="base64" compression="zlib">
@@ -6286,13 +6340,18 @@
  <objectgroup id="6" name="Paths"/>
  <layer id="7" name="Front" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzVlUtOAkEURZ8MgQRG3SAsA+SzAXTKR42wAmQOCcyE3QBBPjuQDTAEdRvyG3BMIERCNxTpssNJTnpQXe++qnRXiYiUIyKvWEErfrwic1x4rd/Z8eQTefYdH3sjo4ktmywVquTULLJ2qPT+X9jtkSop6kwNkRl+4hd+G/vxc/ZIhTm1F7jEFa6N03MuxTBFTAxhGG9NfVkxasfxDhOY1JiVpXYO81jAxwuyMsy5xweNfbpBwC8S9LvdhRpt+u1gd/vs4Tv2cYBDHB2saRL9q07q1P/gzB1jQ3OWHSUHz6Ff0g7dI+eQs8gqbtf04vDaXL+3+F5v0HNl/6IbbADS4jBY
+   eJzt1TFSwkAYxfFXIYbMQJeA1rkDHIOIcAa0EGQGeqDkJsCo6A2gUbTgFIr2Sue/IAWMkYlmg4Vv5jcpNrNvvxQbSaofSWc4R1jeLekDKyv8nSDVjFTLfL3WpaOH/jddUdKmpxPSFSTK2aMk70kFL949f5Lijvnjzr0jPWCORzw55rqe2fsFS7zizWBXypUOkMYhLNdcV5k5fJygglODc12wdwNNXKKFgcG+3yZrSzl736eIliHnHWG8fl7hGjeY4BZ3WzMtjjeZzpQ7dxbTvftXUkpwHj/hb2fqv/Wf+PMJNt4sVw==
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="27" height="22">
   <data encoding="base64" compression="zlib">
-   eJzt1DtOAlEUxvGDWAELGAPrESE+EBegYMvTUYKPDYgjCgytrfIodQkK+xBpLBVr/yYkGHJHR+FOxZf8mrkz5yvu5IiocxgUOQo6HJJOWKQbdj5X5dwQqeACljF5btPT/KHrP7ll/h1aaI+7TDru8YDSHPsemf+EHvrG7+/PkmfmD/CCoeYu34rIEvxYxs0f73sRb7PK/USxhhjiLu9rPSSygU1sIYFtJLETUn+zy+w9pJDGvsuuDPOyyCGPAoo4gOnQVWb2MU5wijOXXRbzLlHFFa5RQx0N2Iq+GrPraMBGU/M//32Pvkb09aj2rq5M712d8WrvfsWrvbvIfPIWEHnHCB8BvV2fUtQ7lQ==
+   eJzt1DlOAmEYxvHXpQJaYRBvAS4ncIsbegBRWxUVNW4XUFEZGFpbUSnxCC5XcG1cGkv3pfBfkEjMN2Rw+BILn+TXMPA8xYRXRJ1Zr8ic1+Yh2Q+J5EP2z1VZNUTWsI6k8f25xU62zNZvskN/DrvYK24l2CjgAPNV3Duk/wjHODHKf/fU727rmv4b3OKuZOuM3nNc4BJXeHG5VRMUqUUd6rFdfN+v9L7hHR/4REPA3ZZd/PQGYCCIRoQ1bUXobUYLWtGGqKYtVeIut9p5Px3oRBe6Hf4/e3wivehDPwYQxSCGfOrfDNMdwwhGMeZwa5y+CUwijilMYwYJm60FuhexhGWsONxK0reBTWwhBRNpZGAp9ky608jAQrbCG1dpSu/ofZO+HdXd1ZWfd1dnnN7dakR1d//zd/PgEXnEE549ere+ADcSS2s=
+  </data>
+ </layer>
+ <layer id="16" name="AlwaysFront2" width="27" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFww3Mk2BgmA/ECyRob9ceoB17gXgfHewaBaNgFIyCUTAKBhsAAIDDBKU=
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

@@ -1,14 +1,4 @@
-{  
-"Changes": [
-{"Action": "EditImage",
-      "Target": "Characters/Jas",
-      "FromFile": "assets/Jas/Jas1/Characters.png"},
-
-{"Action": "EditImage",
-	"When": {"SEASON":"Winter"},
-      "Target": "Characters/Jas_Winter, Characters/Jas",
-      "FromFile": "assets/Jas/Jas1/Characters_Winter.png"},
-
+{ "Changes": [
 {"Action": "EditImage",
       "Target": "Characters/Jas",
 				"Condition": "PLAYER_HAS_CHILDREN Any 2",
@@ -40,15 +30,6 @@
 		{"Age": "Teen",
 			"BreathChestRect": {"X": 5,    "Y": 20,    "Width": 6,    "Height": 4},
 			"BreathChestPosition":{"X": 32,"Y": 11}}}},
-
-{"Action": "EditImage",
-      "Target": "Portraits/Jas",
-      "FromFile": "assets/Jas/Jas1/Portraits.png"},
-
-{"Action": "EditImage",	
-	"When": {"SEASON":"Winter"},
-      "Target": "Portraits/Jas_Winter, Portraits/Jas",
-      "FromFile": "assets/Jas/Jas1/Portraits_Winter.png"},
 
 {"Action": "EditImage",
       "Target": "Portraits/Jas",

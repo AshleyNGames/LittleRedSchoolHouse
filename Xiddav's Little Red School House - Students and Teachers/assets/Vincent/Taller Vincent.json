@@ -1,15 +1,6 @@
 {   "Changes": [
 {"Action": "EditImage",
       "Target": "Characters/Vincent",
-      "FromFile": "assets/Vincent/Vincent1/Characters.png"},
-
-{"Action": "EditImage",
-	"When": {"SEASON":"Winter"},
-      "Target": "Characters/Vincent_Winter, Characters/Vincent",
-      "FromFile": "assets/Vincent/Vincent1/Characters_Winter.png"},
-
-{"Action": "EditImage",
-      "Target": "Characters/Vincent",
 				"Condition": "PLAYER_HAS_CHILDREN Any 2",
       "FromFile": "assets/Vincent/Vincent2/Characters.png"},
 
@@ -38,15 +29,6 @@
     "Fields": {"Vincent": 
 		{	"Gender":"Male",
 			"Age": "Teen"}}},
-
-{"Action": "EditImage",
-      "Target": "Portraits/Vincent",
-      "FromFile": "assets/Vincent/Vincent1/Portraits.png"},
-
-{"Action": "EditImage",
-	"When": {"SEASON":"Winter"},
-      "Target": "Portraits/Vincent_Winter, Portraits/Vincent",
-      "FromFile": "assets/Vincent/Vincent1/Portraits_Winter.png"},
 
 {"Action": "EditImage",
       "Target": "Portraits/Vincent",

@@ -20,7 +20,7 @@
 {"Action": "EditData",	 
 	"Target": "characters/schedules/Vincent",
 	"When": {"dayofweek":"Tuesday, Wednesday, Friday", "weather": "rain","noschoolday": false},
-	 "Entries": {"rain": "a950 Custom_SchoolHouse 3 15 1/a1000 Custom_SchoolHouse 8 11 vincent_read_right/1130 Custom_SchoolHouse 3 15 square_2_3_2/a1330 Custom_SchoolHouse 8 11 vincent_read_right/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
+	 "Entries": {"rain": "a950 Custom_SchoolHouse 3 15 1/a1000 Custom_SchoolHouse 8 11 vincent_read_right/1130 Custom_SchoolHouse 3 15 square_2_3_2/a1300 Custom_SchoolHouse 16 14 0 Vincent_paint/1550 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 vincent_sleep",     
 }},
 
 {"Action": "EditData",	 

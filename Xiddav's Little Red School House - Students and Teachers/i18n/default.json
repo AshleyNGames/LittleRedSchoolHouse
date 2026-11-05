@@ -23,9 +23,9 @@
 
 	"SEAT15NAME": "Rose",
 	"SEAT14NAME": "Violet",
-	"SEAT13NAME": "Quincy",
+	"SEAT8NAME": "Quincy",
 	"SEAT11NAME": "Xander",
-	"SEAT8NAME":  "Paige",
+	"SEAT13NAME":  "Paige",
 	"SEAT3NAME":  "Nathan",
 	"SEAT1NAME":  "Zachary",
 	"SEAT2NAME":  "Jacqueline",
@@ -52,5 +52,5 @@
 	
 	"3_11_13_monstercards": "%The three boys are trading monster cards.",
 	
-	"8_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
+	"13_bigbrother": "My brother hasn't come home yet.#$e#He's fighting the Gotoro Empire, but I miss him.",
 }

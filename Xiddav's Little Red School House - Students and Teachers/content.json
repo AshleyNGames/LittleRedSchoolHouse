@@ -25,7 +25,6 @@
 "Seat 6 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 4 Antisocial":{"AllowValues": "true, false", "Default": "true"},
 "Seat 12 Antisocial":{"AllowValues": "true, false", "Default": "true"},
-"LittleNPC BETA":{"AllowValues": "true, false", "Default": "false"},
 "Hide antisocial kids NPCMap": {"AllowValues": "true, false", "Default": "true"},
 },
 
@@ -40,6 +39,42 @@
 {"Action": "Include",
 "When": {"Growing Up":true},
 		"FromFile": "assets/Vincent/Taller Vincent.json"},
+
+{"Action": "EditImage",
+      "Target": "Characters/Jas",
+      "FromFile": "assets/Jas/Jas1/Characters.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Characters/Jas_Winter, Characters/Jas",
+      "FromFile": "assets/Jas/Jas1/Characters_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Portraits/Jas",
+      "FromFile": "assets/Jas/Jas1/Portraits.png"},
+
+{"Action": "EditImage",	
+	"When": {"SEASON":"Winter"},
+      "Target": "Portraits/Jas_Winter, Portraits/Jas",
+      "FromFile": "assets/Jas/Jas1/Portraits_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Characters/vincent",
+      "FromFile": "assets/vincent/vincent1/Characters.png"},
+
+{"Action": "EditImage",
+	"When": {"SEASON":"Winter"},
+      "Target": "Characters/vincent_Winter, Characters/vincent",
+      "FromFile": "assets/vincent/vincent1/Characters_Winter.png"},
+
+{"Action": "EditImage",
+      "Target": "Portraits/vincent",
+      "FromFile": "assets/vincent/vincent1/Portraits.png"},
+
+{"Action": "EditImage",	
+	"When": {"SEASON":"Winter"},
+      "Target": "Portraits/vincent_Winter, Portraits/vincent",
+      "FromFile": "assets/vincent/vincent1/Portraits_Winter.png"},
 
 {"Action": "Include",
 		"FromFile": "assets/Schedules/Schedules.json",
@@ -64,7 +99,12 @@
 		"LittleRed_LeftReach":  "8/19 19 19 18 19 19 19 19 19 18 19 19 19 19 19 19/10",
 		"LittleRed_Yippi": "2/20 20 20 20 21 21 21 21/2",
 		"LittleRed_Sit_2": "2/24/2",
-		"LittleRed_Paint_0": "0/25 25 26 26 27 27 26 26/0"}},
+		"LittleRed_Paint_0": "0/25 25 26 26 27 27 26 26/0",
+	"Vincent_phone":"4/25 25 25 26 26 26 25 26 26 25 26/4",
+	"Vincent_report":"0/27/0",
+	"Vincent_paint": "8/33 33 32 32 32 33/10",
+		"Jas_paint": "8/26 26 26 26 27 27 27 27/10"
+	}},
 
 {"Action": "EditMap",
 "Target": "Maps/Railroad",

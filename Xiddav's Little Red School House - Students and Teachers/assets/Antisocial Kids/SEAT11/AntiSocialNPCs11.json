@@ -82,6 +82,6 @@
 
 { "Action": "EditData",	 
 	"Target": "characters/schedules/SEAT11",
-		"When": {"Seat 13 Antisocial":true, "Seat 3 Antisocial":true},
+		"When": {"Seat 8 Antisocial":true, "Seat 3 Antisocial":true},
 	 "Entries": {"Tue": "a1000 Custom_SchoolHouse 11 11 LittleRed_Read_1/1130 Town 16 20 1 \"Strings\\schedules\\SEAT3:3_11_13_monstercards\"/a1330 Custom_SchoolHouse 11 11 LittleRed_Read_1/1600 Town 16 20 1/2000 Custom_SchoolHouse_NPCTrainRoom 5 4 2"}},
   ]}
